@@ -7,10 +7,19 @@
   html {
     @apply scroll-smooth;
   }
-  
   body {
-    @apply bg-gray-50 text-gray-900;
+    @apply bg-kaleici-bg text-kaleici-brown font-serif;
   }
+}
+
+/* Page transition animation */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s ease;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
 }
 
 /* Custom component styles */
@@ -18,12 +27,25 @@
   .nav-link {
     @apply px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200;
   }
-  
   .nav-link-active {
     @apply bg-blue-600 text-white;
   }
-  
   .nav-link-inactive {
     @apply text-gray-700 hover:bg-gray-100 hover:text-gray-900;
   }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

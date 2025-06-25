@@ -1,152 +1,140 @@
 <template>
-  <header class="bg-white shadow-sm border-b border-gray-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-16">
-        <!-- Logo/Brand -->
-        <div class="flex-shrink-0">
-          <NuxtLink :to="localePath('/')" class="text-xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
-            {{ $t('site.title') }}
-          </NuxtLink>
-        </div>
-        
-        <!-- Navigation Links -->
-        <nav class="hidden md:flex space-x-1">
-          <NuxtLink 
-            :to="localePath('/')" 
-            class="nav-link"
-            :class="$route.name === 'index___' + $i18n.locale || $route.name === 'index' ? 'nav-link-active' : 'nav-link-inactive'"
+  <header
+    ref="header"
+    class="fixed top-0 left-0 right-0 h-16 transition-all duration-300 z-50 flex items-center"
+    :class="[
+      isHeaderVisible ? 'translate-y-0' : '-translate-y-full'
+    ]"
+    @mouseenter="isHeaderHovered = true"
+    @mouseleave="isHeaderHovered = false"
+  >
+    <div class="container mx-auto px-4 flex items-center justify-between relative">
+      <!-- Logo / Home -->
+      <NuxtLink
+        :to="localePath('/')"
+        class="text-2xl font-serif font-semibold tracking-tight italic transition-all duration-300 relative z-10 px-4 py-1.5 rounded-full bg-[#f5ede1]/95 text-[#3e2b1c] hover:text-amber-800"
+      >
+        Kaleiçi
+      </NuxtLink>
+
+      <!-- Navigation (center) -->
+      <div class="absolute left-1/2 -translate-x-1/2 transition-all duration-300">
+        <nav class="hidden md:flex bg-[#f5ede1]/95 rounded-full px-6 py-1.5">
+          <NuxtLink
+            v-for="item in navigation"
+            :key="item.name"
+            :to="localePath(item.path)"
+            class="px-3 py-1 text-[#3e2b1c] hover:text-amber-800 transition-colors duration-300 font-medium"
+            :class="isActive(item.path) ? 'font-bold underline' : ''"
           >
-            {{ $t('navigation.home') }}
-          </NuxtLink>
-          <NuxtLink 
-            :to="localePath('/attractions')" 
-            class="nav-link"
-            :class="$route.name === 'attractions___' + $i18n.locale || $route.name === 'attractions' ? 'nav-link-active' : 'nav-link-inactive'"
-          >
-            {{ $t('navigation.attractions') }}
+            {{ $t(`navigation.${item.name}`) }}
           </NuxtLink>
         </nav>
-
-        <!-- Language Switcher & Mobile Menu Button -->
-        <div class="flex items-center space-x-4">
-          <!-- Language Switcher -->
-          <div class="relative">
-            <button 
-              @click="toggleLanguageMenu"
-              class="flex items-center space-x-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition-colors"
-            >
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
-              </svg>
-              <span>{{ getCurrentLanguageName() }}</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-              </svg>
-            </button>
-            
-            <!-- Language Dropdown -->
-            <div v-if="showLanguageMenu" class="absolute right-0 mt-2 w-32 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 z-50">
-              <div class="py-1">
-                <button
-                  v-for="locale in availableLocales"
-                  :key="locale.code"
-                  @click="switchLanguage(locale.code)"
-                  class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors"
-                  :class="{ 'bg-blue-50 text-blue-600': $i18n.locale === locale.code }"
-                >
-                  {{ locale.name }}
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Mobile Menu Button -->
-          <div class="md:hidden">
-            <button 
-              @click="toggleMobileMenu"
-              class="text-gray-700 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition-colors"
-            >
-              <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-              </svg>
-            </button>
-          </div>
-        </div>
       </div>
-      
-      <!-- Mobile Navigation Menu -->
-      <div v-if="showMobileMenu" class="md:hidden border-t border-gray-200 pt-2 pb-3">
-        <NuxtLink 
-          :to="localePath('/')" 
-          class="block px-3 py-2 text-base font-medium transition-colors"
-          :class="$route.name === 'index___' + $i18n.locale || $route.name === 'index' ? 'text-blue-600 bg-blue-50' : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'"
-          @click="closeMobileMenu"
+
+      <!-- Language switcher and mobile menu -->
+      <div class="flex items-center relative z-10">
+        <div class="hidden md:block">
+          <LanguageSwitcher :is-header-visible="isHeaderVisible" :is-at-top="isAtTop" />
+        </div>
+        <button
+          @click="isMobileMenuOpen = !isMobileMenuOpen"
+          class="md:hidden ml-4 focus:outline-none transition-colors duration-300 text-[#3e2b1c]"
         >
-          {{ $t('navigation.home') }}
-        </NuxtLink>
-        <NuxtLink 
-          :to="localePath('/attractions')" 
-          class="block px-3 py-2 text-base font-medium transition-colors"
-          :class="$route.name === 'attractions___' + $i18n.locale || $route.name === 'attractions' ? 'text-blue-600 bg-blue-50' : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'"
-          @click="closeMobileMenu"
-        >
-          {{ $t('navigation.attractions') }}
-        </NuxtLink>
+          <span class="sr-only">Open menu</span>
+          <div class="w-6 h-5 flex flex-col justify-between">
+            <span :class="['w-full h-0.5 bg-current transform transition-transform', isMobileMenuOpen ? 'rotate-45 translate-y-2' : '']"></span>
+            <span :class="['w-full h-0.5 bg-current transition-opacity', isMobileMenuOpen ? 'opacity-0' : '']"></span>
+            <span :class="['w-full h-0.5 bg-current transform transition-transform', isMobileMenuOpen ? '-rotate-45 -translate-y-2' : '']"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div
+      v-show="isMobileMenuOpen"
+      class="md:hidden absolute top-full left-0 right-0 bg-[#f5ede1]/95 shadow-lg transition-all duration-300"
+    >
+      <div class="container mx-auto px-4 py-4">
+        <nav class="flex flex-col space-y-4">
+          <NuxtLink
+            v-for="item in navigation"
+            :key="item.name"
+            :to="localePath(item.path)"
+            class="text-[#3e2b1c] hover:text-amber-800 transition-colors py-2"
+            @click="isMobileMenuOpen = false"
+            :class="isActive(item.path) ? 'font-bold underline' : ''"
+          >
+            {{ $t(`navigation.${item.name}`) }}
+          </NuxtLink>
+          <div class="pt-2 border-t border-[#3e2b1c]/10">
+            <LanguageSwitcher :is-header-visible="true" :is-at-top="false" />
+          </div>
+        </nav>
       </div>
     </div>
   </header>
 </template>
 
 <script setup>
-// Mobile menu state management
-const showMobileMenu = ref(false)
-const showLanguageMenu = ref(false)
+import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { useWindowScroll } from '@vueuse/core'
+import { useRoute } from 'vue-router'
+import { useLocalePath } from '#imports'
+import LanguageSwitcher from '~/components/LanguageSwitcher.vue'
 
-// Get i18n instance
-const { locale, locales } = useI18n()
-const switchLocalePath = useSwitchLocalePath()
+// Три страницы по твоему пожеланию
+const navigation = [
+  { name: 'home', path: '/' },
+  { name: 'attractions', path: '/attractions' },
+  { name: 'tours', path: '/tours' }
+]
+
 const localePath = useLocalePath()
-
-// Get available locales
-const availableLocales = computed(() => locales.value)
-
-const toggleMobileMenu = () => {
-  showMobileMenu.value = !showMobileMenu.value
-  // Close language menu when opening mobile menu
-  showLanguageMenu.value = false
-}
-
-const closeMobileMenu = () => {
-  showMobileMenu.value = false
-}
-
-const toggleLanguageMenu = () => {
-  showLanguageMenu.value = !showLanguageMenu.value
-}
-
-const switchLanguage = async (newLocale) => {
-  await navigateTo(switchLocalePath(newLocale))
-  showLanguageMenu.value = false
-}
-
-const getCurrentLanguageName = () => {
-  const currentLocale = availableLocales.value.find(l => l.code === locale.value)
-  return currentLocale ? currentLocale.name : 'Language'
-}
-
-// Close mobile menu when route changes
 const route = useRoute()
-watch(() => route.path, () => {
-  showMobileMenu.value = false
-  showLanguageMenu.value = false
-})
 
-// Close dropdowns when clicking outside
-onMounted(() => {
-  document.addEventListener('click', (event) => {
-    if (!event.target.closest('.relative')) {
-      showLanguageMenu.value = false
+// Scroll/visibility logic (анимация появления/скрытия)
+const isHeaderVisible = ref(true)
+const isHeaderHovered = ref(false)
+const isMobileMenuOpen = ref(false)
+const { y: scrollY } = useWindowScroll()
+let lastScrollY = 0
+let mouseAtTop = false
+
+const isAtTop = computed(() => scrollY.value < 50)
+
+const isActive = (path) => {
+  // Простая проверка на активность (можешь заменить на более сложную, если нужны вложенные роуты)
+  return route.path === localePath(path)
+}
+
+const handleScroll = () => {
+  const currentScrollY = scrollY.value
+  if (!mouseAtTop) {
+    if (currentScrollY > lastScrollY && currentScrollY > 100) {
+      isHeaderVisible.value = false
+      isMobileMenuOpen.value = false
+    } else {
+      isHeaderVisible.value = true
     }
-  })
+  }
+  lastScrollY = currentScrollY
+}
+
+const handleMouseMove = (e) => {
+  mouseAtTop = e.clientY <= 60
+  if (mouseAtTop) {
+    isHeaderVisible.value = true
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('mousemove', handleMouseMove)
+  window.addEventListener('scroll', handleScroll, { passive: true })
+})
+onUnmounted(() => {
+  window.removeEventListener('mousemove', handleMouseMove)
+  window.removeEventListener('scroll', handleScroll)
 })
 </script>

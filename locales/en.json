@@ -40,6 +40,8 @@
       "button": "View All Attractions"
     }
   },
+
+
   "attractions": {
     "header": {
       "title": "World Attractions",
