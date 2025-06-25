@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "Attractions Hub",
+    "description": "Discover amazing attractions around the world"
+  },
+  "navigation": {
+    "home": "Home",
+    "attractions": "Attractions"
+  },
+  "language": {
+    "switch": "Language",
+    "english": "English",
+    "russian": "Русский"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to Attractions Hub",
+      "subtitle": "Discover the world's most incredible attractions, from natural wonders to architectural marvels.",
+      "cta": "Explore Attractions"
+    },
+    "features": {
+      "title": "Why Choose Attractions Hub?",
+      "subtitle": "We provide comprehensive information about the world's best attractions to help you plan your perfect adventure.",
+      "discover": {
+        "title": "Discover Locations",
+        "description": "Find amazing attractions near you or in destinations you're planning to visit."
+      },
+      "information": {
+        "title": "Detailed Information",
+        "description": "Get comprehensive details about each attraction including hours, prices, and tips."
+      },
+      "favorites": {
+        "title": "Personal Favorites",
+        "description": "Save your favorite attractions and create personalized travel itineraries."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Exploring?",
+      "subtitle": "Browse through our curated list of world-class attractions and start planning your next adventure today.",
+      "button": "View All Attractions"
+    }
+  },
+  "attractions": {
+    "header": {
+      "title": "World Attractions",
+      "subtitle": "Explore our curated collection of the world's most amazing attractions, from natural wonders to iconic landmarks."
+    },
+    "cards": {
+      "nature": {
+        "title": "Natural Wonder Parks",
+        "description": "Discover breathtaking national parks featuring stunning landscapes, diverse wildlife, and pristine natural beauty.",
+        "category": "Nature"
+      },
+      "historic": {
+        "title": "Historic Landmarks",
+        "description": "Explore iconic historical sites and architectural marvels that tell the story of human civilization.",
+        "category": "History"
+      },
+      "entertainment": {
+        "title": "Entertainment Districts",
+        "description": "Experience vibrant entertainment areas with theme parks, museums, theaters, and cultural attractions.",
+        "category": "Entertainment"
+      },
+      "scenic": {
+        "title": "Scenic Viewpoints",
+        "description": "Find the most spectacular viewpoints and observation decks offering panoramic views and photo opportunities.",
+        "category": "Scenic"
+      },
+      "coastal": {
+        "title": "Coastal Attractions",
+        "description": "Explore beautiful coastlines, pristine beaches, marine sanctuaries, and waterfront destinations.",
+        "category": "Coastal"
+      },
+      "cultural": {
+        "title": "Cultural Centers",
+        "description": "Immerse yourself in local culture through art galleries, cultural centers, and traditional experiences.",
+        "category": "Culture"
+      }
+    },
+    "loadMore": {
+      "text": "More attractions coming soon...",
+      "button": "Load More Attractions"
+    },
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "company": {
+      "title": "Attractions Hub",
+      "description": "Your gateway to discovering the world's most amazing attractions and destinations."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "attractions": "Attractions"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email: info@attractionshub.com",
+      "phone": "Phone: +1 (555) 123-4567"
+    },
+    "copyright": "© {year} Attractions Hub. All rights reserved."
+  },
+  "common": {
+    "imagePlaceholder": "Image Placeholder"
+  }
+}
