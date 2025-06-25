@@ -1,108 +1,108 @@
 {
-  "site": {
-    "title": "Attractions Hub",
-    "description": "Discover amazing attractions around the world"
-  },
+
   "navigation": {
     "home": "Home",
-    "attractions": "Attractions"
-  },
-  "language": {
-    "switch": "Language",
-    "english": "English",
-    "russian": "Русский"
-  },
-  "home": {
-    "hero": {
-      "title": "Welcome to Attractions Hub",
-      "subtitle": "Discover the world's most incredible attractions, from natural wonders to architectural marvels.",
-      "cta": "Explore Attractions"
-    },
-    "features": {
-      "title": "Why Choose Attractions Hub?",
-      "subtitle": "We provide comprehensive information about the world's best attractions to help you plan your perfect adventure.",
-      "discover": {
-        "title": "Discover Locations",
-        "description": "Find amazing attractions near you or in destinations you're planning to visit."
-      },
-      "information": {
-        "title": "Detailed Information",
-        "description": "Get comprehensive details about each attraction including hours, prices, and tips."
-      },
-      "favorites": {
-        "title": "Personal Favorites",
-        "description": "Save your favorite attractions and create personalized travel itineraries."
-      }
-    },
-    "cta": {
-      "title": "Ready to Start Exploring?",
-      "subtitle": "Browse through our curated list of world-class attractions and start planning your next adventure today.",
-      "button": "View All Attractions"
-    }
-  },
-
-
-  "attractions": {
-    "header": {
-      "title": "World Attractions",
-      "subtitle": "Explore our curated collection of the world's most amazing attractions, from natural wonders to iconic landmarks."
-    },
-    "cards": {
-      "nature": {
-        "title": "Natural Wonder Parks",
-        "description": "Discover breathtaking national parks featuring stunning landscapes, diverse wildlife, and pristine natural beauty.",
-        "category": "Nature"
-      },
-      "historic": {
-        "title": "Historic Landmarks",
-        "description": "Explore iconic historical sites and architectural marvels that tell the story of human civilization.",
-        "category": "History"
-      },
-      "entertainment": {
-        "title": "Entertainment Districts",
-        "description": "Experience vibrant entertainment areas with theme parks, museums, theaters, and cultural attractions.",
-        "category": "Entertainment"
-      },
-      "scenic": {
-        "title": "Scenic Viewpoints",
-        "description": "Find the most spectacular viewpoints and observation decks offering panoramic views and photo opportunities.",
-        "category": "Scenic"
-      },
-      "coastal": {
-        "title": "Coastal Attractions",
-        "description": "Explore beautiful coastlines, pristine beaches, marine sanctuaries, and waterfront destinations.",
-        "category": "Coastal"
-      },
-      "cultural": {
-        "title": "Cultural Centers",
-        "description": "Immerse yourself in local culture through art galleries, cultural centers, and traditional experiences.",
-        "category": "Culture"
-      }
-    },
-    "loadMore": {
-      "text": "More attractions coming soon...",
-      "button": "Load More Attractions"
-    },
-    "learnMore": "Learn More"
+    "attractions": "Attractions",
+    "travel-tips": "Travel Tips",
+    "tours": "Tours & Guides"
   },
   "footer": {
-    "company": {
-      "title": "Attractions Hub",
-      "description": "Your gateway to discovering the world's most amazing attractions and destinations."
-    },
-    "quickLinks": {
-      "title": "Quick Links",
-      "home": "Home",
-      "attractions": "Attractions"
-    },
-    "contact": {
-      "title": "Contact",
-      "email": "infoattractionshub.com",
-      "phone": "4567"
-    },
-    "copyright": " Attractions Hub. All rights reserved."
+    "copyright": "© {year} Kaleiçi Guide. All rights reserved.",
+    "tagline": "Your guide to historic Antalya",
+    "quickLinks": "Quick Links",
+    "madeWith": "Made with ❤️ for travelers"
   },
-  "common": {
-    "imagePlaceholder": "Image Placeholder"
-  }
+
+
+  "hero": {
+    "title": "Discover the Heart of Ancient Antalya",
+    "subtitle": "Step into Kaleici, the beating heart of Antalya, where cobblestone streets wind through centuries of history and Mediterranean breezes carry the scent of jasmine and citrus.",
+    "exploreBtn": "Explore Kaleiçi",
+    "toursBtn": "Book Tours & Guides"
+  },
+  "discover": {
+    "title": "Why Visit Kaleiçi Old Town?",
+    "description": {
+      "part1": "This ancient district, known as Antalya Old Town, is a mesmerizing labyrinth where Roman, Byzantine, Seljuk, and Ottoman legacies blend seamlessly with modern Turkish life. As you wander beneath stone archways and past timber-framed houses with vibrant bougainvillea cascading from balconies, you'll discover a place where time seems to slow, inviting you to savor every moment of your journey.",
+      "part2": "Kaleici isn't just another tourist destination—it's a living museum where every stone tells a story. This historic district has been continuously inhabited for over 2,000 years, creating a rich tapestry of cultural heritage that's evident in its architecture, cuisine, and atmosphere. The ancient Roman harbor, once the lifeblood of the city, now hosts charming cafés and restaurants where you can dine with breathtaking views of the Mediterranean.",
+      "part3": "As you explore the narrow streets of Antalya's historic district, you'll encounter magnificent landmarks like Hadrian's Gate, a grand triple-arched marble portal built to honor the Roman Emperor's visit in 130 AD. The towering Hidirlik Tower offers panoramic views that capture the essence of this coastal paradise, while the distinctive fluted minaret of Yivli Minare Mosque stands as an iconic symbol of the city's Seljuk heritage.",
+      "part4": "Beyond the monuments, it's the authentic Turkish culture in Antalya that truly captivates visitors. Local artisans craft traditional goods in small workshops, the aroma of Turkish coffee and spices fills the air, and friendly locals welcome you with legendary hospitality. Whether you're a history enthusiast, a culinary adventurer, or simply seeking the perfect Mediterranean getaway, Kaleici offers an experience that will linger in your memory long after you've returned home."
+    },
+    "links": {
+      "attractions": "Discover Attractions",
+      "tips": "Travel Tips",
+      "tours": "View Tours"
+    }
+  },
+  "highlights": {
+    "title": "Unmissable Highlights of Kaleiçi",
+    "gate": {
+      "title": "Hadrian's Gate",
+      "description": "Discover the fascinating stories, architectural details, and historical context..."
+    },
+    "harbor": {
+      "title": "Old Harbor",
+      "description": "The historic harbor area, now a picturesque marina..."
+    },
+    "bazaar": {
+      "title": "Traditional Bazaar",
+      "description": "Explore local crafts and vibrant Turkish goods..."
+    }
+  },
+  "stay": {
+    "title": "Where to Stay in Antalya Old Town",
+    "intro": "For an authentic experience, nothing compares to staying within the historic walls of Kaleici itself. The old town is home to numerous boutique hotels and charming guesthouses, many housed in beautifully restored Ottoman mansions. Wake up to the sound of seagulls and the distant call to prayer, step outside your door directly into the historic streets, and return after a day of exploration to relax in a traditional courtyard.",
+    "details": "From luxury boutique hotels in restored Ottoman mansions to charming family-run pensions, discover accommodations with authentic character in the heart of Antalya Old Town.",
+    "cta": "Browse Old Town Hotels"
+  },
+  "experiences": {
+    "title": "Authentic Experiences in Antalya Old Town",
+    "part1": "Beyond sightseeing, Kaleici offers immersive experiences that connect you with authentic Turkish culture. Start your day with a traditional Turkish breakfast spread featuring fresh cheeses, olives, honey, and çay (tea) in a courtyard café. Wander through the narrow streets to discover artisan workshops where craftspeople continue centuries-old traditions of leatherwork, carpet weaving, and metalsmithing.",
+    "part2": "As evening falls, join locals for a sunset stroll along the harbor promenade, then settle into a rooftop restaurant for a feast of Antalyan specialties. Don't miss the opportunity to visit a traditional hamam (Turkish bath) for a rejuvenating scrub and massage—many historic bath houses in and around Kaleici have been beautifully restored to offer this authentic wellness experience."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "Is Antalya Old Town pedestrian-friendly?",
+        "answer": "Yes, Kaleici is largely pedestrianized, with narrow streets that are best explored on foot. Vehicles have limited access to certain areas, making it a pleasant environment for walking. Comfortable shoes are recommended as the streets are often cobbled and can be steep in places."
+      },
+      {
+        "question": "How much time should I allocate for visiting Antalya Old Town?",
+        "answer": "While you can see the main highlights in half a day, we recommend allocating at least a full day to truly appreciate Kaleici's charm. For a more immersive experience, consider staying 2-3 days in the old town to explore at a leisurely pace, enjoy the restaurants, and soak up the atmosphere."
+      },
+      {
+        "question": "Are there entrance fees for Antalya Old Town?",
+        "answer": "Entering Kaleici itself is free, but some individual attractions within the old town may charge entrance fees. Museums typically have modest entrance fees, while some historical sites like Hadrian's Gate can be viewed without charge. The small beach at Mermerli requires a small entrance fee that includes facilities."
+      }
+    ]
+  },
+  "visitingInfo": {
+  "title": "Practical Information for Visiting Antalya Old Town",
+  "gettingThereTitle": "Getting There",
+  "gettingThereText": "Antalya Old Town is easily accessible from most parts of the city. From Antalya International Airport, it's approximately a 30-minute drive to Kaleici. The main entrances to the old town are through Kalekapısı (Clock Tower Square) and the more picturesque Hadrian's Gate. The nostalgic tram (Nostalji Tramvayı) provides a scenic route that passes near Kalekapısı.",
+  "bestTimeTitle": "Best Time to Visit",
+  "bestTimeText": "Spring (April-May) and autumn (September-October) offer ideal weather for exploring, with pleasant temperatures and fewer crowds. Summer (June-August) brings hot weather and more tourists, while winter (November-March) is mild but can be rainy. For the most magical experience, arrive in Kaleici early in the morning or in the late afternoon when the light is golden and the streets are less crowded."
+ },
+
+  "gettingThereCards": {
+    "walking": "Kaleiçi is within walking distance from the city center and nearby hotels.",
+    "tram": "The nostalgic tram stops near Kalekapısı, just a short walk from Kaleiçi.",
+    "bus": "Several bus routes connect the city to stops near the old town entrance.",
+    "taxi": "Taxis are widely available and can drop you off directly at Kaleiçi’s gates."
+  },
+
+    "tours": {
+      "title": "Ready to Explore the Magic of Antalya Old Town?",
+      "subtitle": "Discover the perfect balance of history, culture, and Mediterranean charm with our expertly guided tours.",
+      "description": "From hidden courtyards to panoramic viewpoints, experience the authentic heart of Kaleici with knowledgeable local guides who bring its stories to life.",
+      "button": "Book Your Antalya Adventure Today"
+    },
+    "closing": {
+      "title": "Experience the Timeless Charm of Kaleici",
+      "paragraph1": "Antalya Old Town isn't just a destination—it's a journey through centuries of Mediterranean history and culture. As you wander through its ancient gates and narrow streets, you'll discover a place where every corner reveals a new story, every meal celebrates culinary traditions passed down through generations, and every sunset over the harbor creates memories that last a lifetime.",
+      "paragraph2": "Whether you're drawn by the ancient architecture, the vibrant atmosphere, the delicious cuisine, or simply the joy of getting lost in its labyrinthine streets, Kaleici offers an authentic Turkish experience that captivates all who visit. Come discover why travelers throughout history—from Roman emperors to modern adventurers—have fallen under the spell of this enchanting Mediterranean gem."
+    }
+  
+  
 }

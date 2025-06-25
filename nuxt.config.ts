@@ -4,10 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   
   // Add Tailwind CSS and i18n modules
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/i18n'
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/image'],
   
   // Configure CSS
   css: ['~/assets/css/main.css'],
