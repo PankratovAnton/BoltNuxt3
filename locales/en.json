@@ -97,10 +97,10 @@
     },
     "contact": {
       "title": "Contact",
-      "email": "Email: info@attractionshub.com",
-      "phone": "Phone: +1 (555) 123-4567"
+      "email": "infoattractionshub.com",
+      "phone": "4567"
     },
-    "copyright": "© {year} Attractions Hub. All rights reserved."
+    "copyright": " Attractions Hub. All rights reserved."
   },
   "common": {
     "imagePlaceholder": "Image Placeholder"

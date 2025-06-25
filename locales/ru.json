@@ -95,10 +95,10 @@
     },
     "contact": {
       "title": "Контакты",
-      "email": "Email: info@attractionshub.com",
-      "phone": "Телефон: +1 (555) 123-4567"
+      "email": "attractionshub.com",
+      "phone": "Телефон567"
     },
-    "copyright": "© {year} Центр Достопримечательностей. Все права защищены."
+    "copyright": "ентр Достопримечательностей. Все права защищены."
   },
   "common": {
     "imagePlaceholder": "Заглушка Изображения"

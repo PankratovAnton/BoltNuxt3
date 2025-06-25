@@ -10,17 +10,18 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "^8.0.0",
-    "@tailwindcss/typography": "^0.5.16",
-    "@vueuse/core": "^13.4.0",
-    "gsap": "^3.13.0",
-    "nuxt": "^3.13.0",
-    "swiper": "^11.2.8"
+    "@intlify/vue-i18n-bridge": "^1.1.0",
+    "@nuxtjs/i18n": "8.0.0",
+    "@tailwindcss/typography": "0.5.16",
+    "@vueuse/core": "13.4.0",
+    "gsap": "3.13.0",
+    "nuxt": "3.13.0",
+    "swiper": "11.2.8"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.1",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1"
+    "@nuxtjs/tailwindcss": "6.12.1",
+    "autoprefixer": "10.4.17",
+    "postcss": "8.4.35",
+    "tailwindcss": "3.4.1"
   }
 }
