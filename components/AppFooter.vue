@@ -3,10 +3,10 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row justify-between items-center gap-4">
         <div class="text-xl font-semibold font-serif italic">Kaleiçi Guide</div>
-        <p class="text-stone-400 text-center">
+        <p class="text-stone-400 font-sans text-center">
           {{ $t('footer.copyright', { year: new Date().getFullYear() }) }}
         </p>
-        <p class="text-stone-400">{{ $t('footer.madeWith') }}</p>
+        <p class="text-stone-400 font-sans ">{{ $t('footer.madeWith') }}</p>
       </div>
     </div>
   </footer>

@@ -9,7 +9,7 @@
       @focus="showDropdown = true"
       type="button"
     >
-      <span class="font-medium">{{ currentLanguage.code.toUpperCase() }}</span>
+      <span class="font-sans">{{ currentLanguage.code.toUpperCase() }}</span>
       <span class="text-xs">▼</span>
     </button>
     <div 
@@ -22,8 +22,8 @@
         v-for="lang in languages"
         :key="lang.code"
         @click="changeLanguage(lang.code)"
-        class="block w-full text-left px-4 py-2 text-sm text-[#3e2b1c] hover:bg-[#3e2b1c]/10 transition-colors"
-        :class="{ 'font-medium': lang.code === locale }"
+        class="block w-full text-left px-4 py-2 text-sm text-[#3e2b1c] font-sans hover:bg-[#3e2b1c]/10 transition-colors"
+        :class="{ 'font-sans': lang.code === locale }"
       >
         {{ lang.name }}
       </button>

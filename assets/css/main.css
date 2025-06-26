@@ -8,7 +8,7 @@
     @apply scroll-smooth;
   }
   body {
-    @apply bg-kaleici-bg text-kaleici-brown font-serif;
+    @apply text-kaleici-brown font-serif;
   }
 }
 

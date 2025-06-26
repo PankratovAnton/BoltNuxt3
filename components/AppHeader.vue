@@ -24,8 +24,8 @@
             v-for="item in navigation"
             :key="item.name"
             :to="localePath(item.path)"
-            class="px-3 py-1 text-[#3e2b1c] hover:text-amber-800 transition-colors duration-300 font-medium"
-            :class="isActive(item.path) ? 'font-bold underline' : ''"
+            class="px-3 py-1 text-[#3e2b1c] hover:text-amber-800 transition-colors duration-300 font-sans font-medium"
+            :class="isActive(item.path) ? 'text-amber-800' : ''"
           >
             {{ $t(`navigation.${item.name}`) }}
           </NuxtLink>
