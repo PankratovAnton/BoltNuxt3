@@ -99,8 +99,8 @@
 
 
 <!-- Cat Section -->
-<section ref="CatSection" class="py-16 bg-[#f5ede1]">
-  <div class="container mx-auto px-4">
+<section ref="CatSection" class=" container mx-auto mb-16 bg-[#f5ede1] p-8 rounded-xl shadow-lg">
+  <div class="content-section max-w-none  px-4">
     <div class="grid md:grid-cols-2 gap-12 items-center">
       <!-- Фото -->
       <div class="relative">
@@ -124,9 +124,9 @@
 </section>
 
 <!-- Nearby Attractions -->
-<section class="content-section mb-18 py-10 bg-stone-50">
+<section class="content-section mb-18 py-10 ">
   <div class="container mx-auto px-4">
-    <div class="bg-white/70 rounded-2xl p-10 shadow-xl">
+    <div class="bg-[#f7eee2] rounded-2xl p-10 shadow-xl">
       <h2 class="text-3xl font-sans font-bold text-kaleici-800 text-center mb-4">
         {{ $t('nearbyAttractions.sectionTitle') }}
       </h2>
