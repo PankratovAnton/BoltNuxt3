@@ -23,7 +23,7 @@
       </section>
 
       <!-- History Section -->
-      <section class="content-section mb-16" ref="archSection">
+      <section class="content-section mb-16" >
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <InteractiveImage
@@ -83,11 +83,11 @@
       </section>
 
       <!-- Nearby Attractions -->
-<section ref="archSection3" class="content-section mb-16 bg-stone-50 p-8 rounded-xl shadow-lg">
-  <h2 class="text-3xl font-bold text-kaleici-800 mb-4 tracking-tight leading-snug">
+<section class="content-section mb-16 bg-[#fdedd8] p-8 rounded-xl shadow-lg">
+  <h2 class="text-3xl font-sans font-bold text-kaleici-800 text-center mb-4">
     {{ $t('nearbyAttractions.sectionTitle') }}
   </h2>
-  <p class="text-lg text-kaleici-700 mb-8 leading-relaxed">
+  <p class="text-lg font-sans text-center text-kaleici-600 mb-8">
     {{ $t('nearbyAttractions.sectionDescription1') }}
   </p>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -97,7 +97,7 @@
         <img src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg" alt="Old Harbor in Antalya Kaleici, Turkey" class="w-full h-full object-cover">
       </div>
       <div class="p-6">
-        <h3 class="text-xl font-semibold text-kaleici-800 mb-3">{{ $t('nearbyAttractions.oldHarbor.title') }}</h3>
+        <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.oldHarbor.title') }}</h3>
         <p class="text-kaleici-600">{{ $t('nearbyAttractions.oldHarbor.description') }}</p>
       </div>
     </NuxtLink>
@@ -107,7 +107,7 @@
         <img src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Authentic Streets" class="w-full h-full object-cover" />
       </div>
       <div class="p-5">
-        <h3 class="text-xl font-semibold text-kaleici-800 mb-2">
+        <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
           {{ $t('nearbyAttractions.authenticStreets.title') }}
         </h3>
         <p class="text-kaleici-700 text-base leading-relaxed">
@@ -121,7 +121,7 @@
         <img src="/images/hidirlik-tower-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Hıdırlık Tower" class="w-full h-full object-cover" />
       </div>
       <div class="p-5">
-        <h3 class="text-xl font-semibold text-kaleici-800 mb-2">
+        <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
           {{ $t('nearbyAttractions.hidirlikTower.title') }}
         </h3>
         <p class="text-kaleici-700 text-base leading-relaxed">
@@ -134,8 +134,8 @@
 
       
       <!-- Conclusion -->
-      <section ref="archSection4" class="content-section mb-16">
-        <h2 class="text-3xl font-bold text-kaleici-800 mb-4 tracking-tight leading-snug">
+      <section class="content-section mb-16">
+        <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-4 tracking-tight leading-snug">
           {{ $t('hadriansGate.h2Text7') }}
         </h2>
         <div class="prose prose-lg max-w-none text-kaleici-700">
@@ -145,10 +145,9 @@
       </section>
       <!-- ... -->
 
-<!-- ...предыдущие секции выше -->
 
       <!-- Legends Section -->
-      <section ref="archSection5" class="content-section mb-16">
+      <section class="content-section mb-16">
         <div class="mb-8 rounded-lg overflow-hidden shadow-lg">
           <InteractiveImage 
             src="/images/hadrians-gate-roman-arch-landmark-in-antalya-kaleici-old-town-turkey.jpg"
@@ -156,7 +155,7 @@
             class="w-full h-64 object-cover"
           />
         </div>
-        <h2 class="text-3xl font-bold text-kaleici-800 mb-4 tracking-tight leading-snug">
+        <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-4 tracking-tight leading-snug">
           {{ $t('hadriansGate.h2Text4') }}
         </h2>
         <div class="prose prose-lg max-w-none text-kaleici-700">
@@ -166,17 +165,17 @@
       </section>
 
       <!-- Visiting Today Section -->
-      <section ref="archSection6" class="content-section mb-16">
+      <section ref="archSection3" class="content-section mb-16">
         <div class="grid md:grid-cols-2 gap-8 items-stretch">
           <!-- Text block -->
           <div class="bg-[#f5ede1] p-6 rounded-xl shadow-lg flex flex-col justify-between">
-            <h2 class="text-2xl font-semibold text-kaleici-800 mb-4">{{ $t('hadriansGate.h2Text5') }}</h2>
-            <div class="prose prose-base text-kaleici-700 leading-relaxed">
+            <h2 class="text-3xl font-bold text-center font-sans text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text5') }}</h2>
+            <div class="prose prose-base font-sans text-kaleici-700 leading-relaxed">
               <p>{{ $t('hadriansGate.pText15') }}</p>
-              <h3 class="text-xl font-semibold mt-6 mb-2">{{ $t('hadriansGate.h3Text4') }}</h3>
+              <h3 class="text-xl font-sans mt-6 mb-2">{{ $t('hadriansGate.h3Text4') }}</h3>
               <p>{{ $t('hadriansGate.pText16') }}</p>
               <p>{{ $t('hadriansGate.pText17') }}</p>
-              <h3 class="text-xl font-semibold mt-6 mb-2">{{ $t('hadriansGate.h3Text5') }}</h3>
+              <h3 class="text-xl font-sans mt-6 mb-2">{{ $t('hadriansGate.h3Text5') }}</h3>
               <ul class="list-disc pl-5">
                 <li>{{ $t('hadriansGate.liText1') }}</li>
                 <li>{{ $t('hadriansGate.liText2') }}</li>
@@ -201,55 +200,55 @@
       <section ref="archSection7" class="content-section mb-16">
         <div class="grid md:grid-cols-2 gap-8 items-stretch">
           <div class="flex flex-col justify-between space-y-8 h-full">
-            <h2 class="text-3xl font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text6') }}</h2>
+            <h2 class="text-3xl font-sans font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text6') }}</h2>
             <InteractiveImage 
               src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
               alt="Visitor facilities near Hadrian's Gate"
             />
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564.1336697113363!2d30.708982505630104!3d36.885038351263354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39127a10a816b%3A0xb3281b73313e753a!2z0JLQvtGA0L7RgtCwINCQ0LTRgNC40LDQvdCw!5e0!3m2!1sru!2str!4v1749070044496!5m2!1sru!2str" 
-              width="100%" height="300" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              width="100%" height="400" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
           <div class="prose prose-lg h-full flex flex-col justify-between text-kaleici-700 leading-relaxed">
-            <h3 class="text-2xl font-semibold mb-4">{{ $t('hadriansGate.h3Text6') }}</h3>
-            <p>{{ $t('hadriansGate.pText18') }}</p>
-            <h3 class="text-2xl font-semibold mt-8 mb-4">{{ $t('hadriansGate.h3Text7') }}</h3>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <h3 class="text-2xl text-center font-sans mb-4">{{ $t('hadriansGate.h3Text6') }}</h3>
+            <p class="font-sans [text-indent:2em]">{{ $t('hadriansGate.pText18') }}</p>
+            <h3 class="text-2xl text-center font-sans mt-8 mb-4">{{ $t('hadriansGate.h3Text7') }}</h3>
+            <div ref="archSection" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-                <img src="/icons/Walk.svg" alt="Walking Icon" class="w-5 h-8 mx-auto text-amber-600 mb-2" />
-                <p class="text-sm text-left text-kaleici-800">{{ $t('hadriansGate.pText19') }}</p>
+                <img src="/icons/Walk.svg" alt="Walking Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('hadriansGate.pText19') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-                <img src="/icons/Tram.svg" alt="Tram Icon" class="w-6 h-8 mx-auto text-amber-600 mb-2" />
-                <p class="text-sm text-left text-kaleici-800">{{ $t('hadriansGate.pText20') }}</p>
+                <img src="/icons/Tram.svg" alt="Tram Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('hadriansGate.pText20') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-                <img src="/icons/Bus.svg" alt="Bus Icon" class="w-7 h-8 mx-auto text-amber-600 mb-2" />
-                <p class="text-sm text-left text-kaleici-800">{{ $t('hadriansGate.pText21') }}</p>
+                <img src="/icons/Bus.svg" alt="Bus Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('hadriansGate.pText21') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-                <img src="/icons/Taxi.svg" alt="Taxi Icon" class="w-8 h-8 mx-auto text-amber-600 mb-2" />
-                <p class="text-sm text-left text-kaleici-800">{{ $t('hadriansGate.pText22') }}</p>
+                <img src="/icons/Taxi.svg" alt="Taxi Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('hadriansGate.pText22') }}</p>
               </div>
             </div>
-            <h3 class="text-2xl font-semibold mt-4 mb-4">{{ $t('hadriansGate.h3Text8') }}</h3>
-            <p>{{ $t('hadriansGate.pText23') }}</p>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <h3 class="text-2xl text-center font-sans mt-4 mb-4">{{ $t('hadriansGate.h3Text8') }}</h3>
+            <p class="font-sans [text-indent:2em]">{{ $t('hadriansGate.pText23') }}</p>
+            <div ref="archSection5" class="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/Cafe.svg" alt="Cafe Icon" class="w-8 h-6 mx-auto text-amber-600 mb-2" />
-                <p class="text-sm font-medium text-kaleici-800">{{ $t('hadriansGate.pText24') }}</p>
+                <img src="/icons/Cafe.svg" alt="Cafe Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <p class="text-sm font-medium font-sans text-kaleici-800">{{ $t('hadriansGate.pText24') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/Gift.svg" alt="Souvenir Icon" class="w-7 h-7 mx-auto text-amber-600 mb-2" />
-                <p class="text-sm font-medium text-kaleici-800">{{ $t('hadriansGate.pText25') }}</p>
+                <img src="/icons/Gift.svg" alt="Souvenir Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <p class="text-sm font-medium font-sans text-kaleici-800">{{ $t('hadriansGate.pText25') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/WC.svg" alt="Restroom WC Icon" class="w-7 h-5 mx-auto text-amber-600 mb-2" />
-                <p class="text-sm font-medium text-kaleici-800">{{ $t('hadriansGate.pText26') }}</p>
+                <img src="/icons/WC.svg" alt="Restroom WC Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <p class="text-sm font-medium font-sans text-kaleici-800">{{ $t('hadriansGate.pText26') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/Nature.svg" alt="Areas to Rest Icon" class="w-7 h-7 mx-auto text-amber-600 mb-2" />
-                <p class="text-sm font-medium text-kaleici-800">{{ $t('hadriansGate.pText27') }}</p>
+                <img src="/icons/Nature.svg" alt="Areas to Rest Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <p class="text-sm font-medium font-sans text-kaleici-800">{{ $t('hadriansGate.pText27') }}</p>
               </div>
             </div>
           </div>
@@ -258,8 +257,8 @@
 
       <!-- Tours Widget -->
       <section ref="archSection8" class="content-section">
-        <div class="bg-white rounded-lg shadow-lg p-8">
-          <h2 class="text-3xl font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text8') }}</h2>
+        <div class="bg-[#f5ede1] rounded-lg shadow-lg p-8">
+          <h2 class="text-3xl text-center font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text8') }}</h2>
           <p class="text-lg mb-8">{{ $t('hadriansGate.pText30') }}</p>
           <div class="gyg-widget-container">
             <GetYourGuide widgettype="activities" partner="kaleici_guide" q="hadrians gate antalya" />
@@ -288,6 +287,7 @@ const archSection = ref(null)
 const archSection2 = ref(null)
 const archSection3 = ref(null)
 const archSection4 = ref(null)
+const archSection5 = ref(null)
 
 onMounted(() => {
   [archSection, archSection2, archSection3, archSection4].forEach(section => {

@@ -92,13 +92,13 @@
       </section>
 
       <!-- Nearby Attractions -->
-      <section class="content-section mb-16 bg-stone-50 p-8 rounded-xl shadow-lg">
+      <section class="content-section mb-16 bg-[#fdedd8] p-8 rounded-xl shadow-lg">
         <h2
-          class="text-3xl font-bold text-kaleici-800 mb-4 tracking-tight leading-snug"
+          class="text-3xl font-bold font-sans text-center text-kaleici-800 mb-4 tracking-tight leading-snug"
         >
           {{ $t('nearbyAttractions.sectionTitle') }}
         </h2>
-        <p class="text-lg text-kaleici-700 mb-8 leading-relaxed">
+        <p class="text-lg font-sans text-center text-kaleici-700 mb-8 leading-relaxed">
           {{ $t('nearbyAttractions.sectionDescription2') }}
         </p>
 
@@ -116,7 +116,7 @@
               />
             </div>
             <div class="p-5">
-              <h3 class="text-xl font-semibold text-kaleici-800 mb-2">
+              <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
                 {{ $t('nearbyAttractions.traditionalBazaars.title') }}
               </h3>
               <p class="text-kaleici-700 text-base leading-relaxed">
@@ -137,7 +137,7 @@
               />
             </div>
             <div class="p-5">
-              <h3 class="text-xl font-semibold text-kaleici-800 mb-2">
+              <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
                 {{ $t('nearbyAttractions.authenticStreets.title') }}
               </h3>
               <p class="text-kaleici-700 text-base leading-relaxed">
@@ -158,7 +158,7 @@
               />
             </div>
             <div class="p-5">
-              <h3 class="text-xl font-semibold text-kaleici-800 mb-2">
+              <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
                 {{ $t('nearbyAttractions.hadriansGate.title') }}
               </h3>
               <p class="text-kaleici-700 text-base leading-relaxed">
@@ -172,7 +172,7 @@
       <!-- Conclusion -->
       <section class="content-section mb-16">
         <h2
-          class="text-3xl font-bold text-kaleici-800 mb-4 tracking-tight leading-snug"
+          class="text-3xl font-bold text-center text-kaleici-800 mb-4 tracking-tight leading-snug"
         >
           {{ $t('oldHarbor.oldHarbor.sectionModernTitle') }}
         </h2>
@@ -216,7 +216,7 @@
             ref="qSection"
             class="bg-[#f5ede1] p-6 rounded-xl shadow-lg flex flex-col justify-between"
           >
-            <h2 class="text-2xl font-semibold text-kaleici-800 mb-4">
+            <h2 class="text-2xl text-center font-semibold text-kaleici-800 mb-4">
               {{ $t('oldHarbor.oldHarbor.sectionFactsTitle') }}
             </h2>
             <div class="prose prose-base text-kaleici-700 leading-relaxed">
@@ -246,7 +246,7 @@
             <InteractiveImage
               src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
               alt="Visiting Old Harbor"
-              class="w-full h-full object-cover max-h-[900px] rounded-xl shadow-lg"
+              class="w-full object-cover max-h-[800px] rounded-xl shadow-lg"
             />
           </div>
         </div>
@@ -254,7 +254,7 @@
 
       <section class="content-section mb-16">
         <h2
-          class="text-3xl font-bold text-kaleici-800 mb-4 tracking-tight leading-snug"
+          class="text-3xl font-bold text-center text-kaleici-800 mb-4 tracking-tight leading-snug"
         >
           {{ $t('oldHarbor.oldHarbor.sectionExperienceFinalTitle') }}
         </h2>
@@ -287,25 +287,25 @@
             ref="wSection"
             class="bg-[#f5ede1] p-6 rounded-xl shadow-lg flex flex-col justify-between"
           >
-            <h2 class="text-2xl font-semibold text-kaleici-800 mb-4">
+            <h2 class="text-3xl font-bold text-center font-sans text-kaleici-800 mb-6">
               {{ $t('oldHarbor.oldHarbor.sectionVisitingTipsTitle') }}
             </h2>
-            <div class="prose prose-base text-kaleici-700 leading-relaxed">
+            <div class="prose prose-base font-sans text-kaleici-700 leading-relaxed">
               <p>{{ $t('oldHarbor.oldHarbor.visitingTips_intro') }}</p>
 
-              <h3 class="text-xl font-semibold mt-6 mb-2">
-                {{ $t('oldHarbor.oldHarbor.sectionPhotoSpotsTitle') }}
+              <h3 class="text-xl font-sans mt-6 mb-2">
+                {{ $t('oldHarbor.oldHarbor.visitingTips_bestTimeTitle') }}
               </h3>
-              <ul class="list-disc pl-5">
+              <ul class="list-disc font-sans pl-5">
                 <li>{{ $t('oldHarbor.oldHarbor.visitingTips_1') }}</li>
                 <li>{{ $t('oldHarbor.oldHarbor.visitingTips_2') }}</li>
                 <li>{{ $t('oldHarbor.oldHarbor.visitingTips_3') }}</li>
               </ul>
 
-              <h3 class="text-xl font-semibold mt-6 mb-2">
+              <h3 class="text-xl font-sans mt-6 mb-2">
                 {{ $t('oldHarbor.oldHarbor.sectionPhotoSpotsTitle') }}
               </h3>
-              <ul class="list-disc pl-5">
+              <ul class="list-disc font-sans pl-5">
                 <li>{{ $t('oldHarbor.oldHarbor.photoSpots_1') }}</li>
                 <li>{{ $t('oldHarbor.oldHarbor.photoSpots_2') }}</li>
                 <li>{{ $t('oldHarbor.oldHarbor.photoSpots_3') }}</li>
@@ -320,11 +320,11 @@
       <section class="content-section mb-16">
         <div class="grid md:grid-cols-2 gap-8 items-stretch">
           <div class="prose prose-lg h-full flex flex-col justify-between text-kaleici-700 leading-relaxed">
-            <h3 class="text-2xl font-semibold mb-4">
+            <h3 class="text-2xl font-sans text-center mb-4">
               {{ $t('hadriansGate.h3Text6') }}
             </h3>
-            <p>{{ $t('oldHarbor.oldHarbor.gettingThere_intro') }}</p>
-            <h3 class="text-2xl font-semibold mt-8 mb-4">
+            <p class="font-sans [text-indent:2em]">{{ $t('oldHarbor.oldHarbor.gettingThere_intro') }}</p>
+            <h3 class="text-2xl font-sans text-center mt-8 mb-4">
               {{ $t('oldHarbor.oldHarbor.gettingThere_publicTransportTitle') }}
             </h3>
             <div ref="eSection" class="flex flex-col gap-3 mb-8">
@@ -333,15 +333,15 @@
                 <img
                   src="/icons/Walk.svg"
                   alt="Walking Icon"
-                  class="w-7 h-7 mr-4 text-amber-600"
+                  class="w-10 h-10 mr-4 text-amber-600"
                 />
-                <p class="text-sm text-kaleici-800">
+                <p class="text-sm font-sans text-kaleici-800">
                   {{ $t('oldHarbor.oldHarbor.gettingThere_walk_fromHadriansGate') }}
                 </p>
-                <p class="text-sm text-kaleici-800">
+                <p class="text-sm font-sans text-kaleici-800">
                   {{ $t('oldHarbor.oldHarbor.gettingThere_walk_fromHadriansGate2') }}
                 </p>
-                <p class="text-sm text-kaleici-800">
+                <p class="text-sm font-sans text-kaleici-800">
                   {{ $t('oldHarbor.oldHarbor.gettingThere_walk_fromHadriansGate3') }}
                 </p>
               </div>
@@ -350,9 +350,9 @@
                 <img
                   src="/icons/Tram.svg"
                   alt="Tram Icon"
-                  class="w-7 h-7 mr-4 text-amber-600"
+                  class="w-10 h-10 mr-4 text-amber-600"
                 />
-                <p class="text-sm text-kaleici-800">
+                <p class="text-sm font-sans text-kaleici-800">
                   {{ $t('oldHarbor.oldHarbor.gettingThere_tram') }}
                 </p>
               </div>
@@ -361,9 +361,9 @@
                 <img
                   src="/icons/Bus.svg"
                   alt="Bus Icon"
-                  class="w-7 h-7 mr-4 text-amber-600"
+                  class="w-10 h-10 mr-4 text-amber-600"
                 />
-                <p class="text-sm text-kaleici-800">
+                <p class="text-sm font-sans text-kaleici-800">
                   {{ $t('oldHarbor.oldHarbor.gettingThere_bus') }}
                 </p>
               </div>
@@ -372,27 +372,27 @@
                 <img
                   src="/icons/Taxi.svg"
                   alt="Taxi Icon"
-                  class="w-7 h-7 mr-4 text-amber-600"
+                  class="w-10 h-10 mr-4 text-amber-600"
                 />
-                <p class="text-sm text-kaleici-800">
+                <p class="text-sm font-sans text-kaleici-800">
                   {{ $t('oldHarbor.oldHarbor.gettingThere_taxi') }}
                 </p>
               </div>
             </div>
 
-            <h3 class="text-2xl font-semibold mt-0 mb-2">
+            <h3 class="text-2xl text-center font-sans mt-0 mb-2">
               {{ $t('hadriansGate.h3Text8') }}
             </h3>
-            <p>{{ $t('hadriansGate.pText23') }}</p>
+            <p class="font-sans [text-indent:2em]">{{ $t('hadriansGate.pText23') }}</p>
             <div ref="rSection" class="grid grid-cols-2 md:grid-cols-4 gap-2">
               <!-- Cafe -->
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
                 <img
                   src="/icons/Cafe.svg"
                   alt="Cafe Icon"
-                  class="w-8 h-6 mx-auto text-amber-600 mb-2"
+                  class="w-10 h-10 mx-auto text-amber-600 mb-2"
                 />
-                <p class="text-sm font-medium text-kaleici-800">
+                <p class="text-sm font-medium font-sans text-kaleici-800">
                   {{ $t('hadriansGate.pText24') }}
                 </p>
               </div>
@@ -401,9 +401,9 @@
                 <img
                   src="/icons/Gift.svg"
                   alt="Souvenir Icon"
-                  class="w-7 h-7 mx-auto text-amber-600 mb-2"
+                  class="w-10 h-10 mx-auto text-amber-600 mb-2"
                 />
-                <p class="text-sm font-medium text-kaleici-800">
+                <p class="text-sm font-medium font-sans text-kaleici-800">
                   {{ $t('hadriansGate.pText25') }}
                 </p>
               </div>
@@ -412,9 +412,9 @@
                 <img
                   src="/icons/WC.svg"
                   alt="Restroom WC Icon"
-                  class="w-7 h-5 mx-auto text-amber-600 mb-2"
+                  class="w-10 h-10 mx-auto text-amber-600 mb-2"
                 />
-                <p class="text-sm font-medium text-kaleici-800">
+                <p class="text-sm font-medium font-sans text-kaleici-800">
                   {{ $t('hadriansGate.pText26') }}
                 </p>
               </div>
@@ -423,16 +423,16 @@
                 <img
                   src="/icons/Nature.svg"
                   alt="Areas to Rest Icon"
-                  class="w-7 h-7 mx-auto text-amber-600 mb-2"
+                  class="w-10 h-10 mx-auto text-amber-600 mb-2"
                 />
-                <p class="text-sm font-medium text-kaleici-800">
+                <p class="text-sm font-medium font-sans text-kaleici-800">
                   {{ $t('hadriansGate.pText27') }}
                 </p>
               </div>
             </div>
           </div>
           <div class="flex flex-col justify-between space-y-8 h-full">
-            <h2 class="text-3xl font-bold text-kaleici-800 mb-6">
+            <h2 class="text-3xl font-bold font-sans text-kaleici-800 mb-6">
               {{ $t('oldHarbor.oldHarbor.sectionGettingThereTitle') }}
             </h2>
             <InteractiveImage
@@ -442,8 +442,8 @@
             />
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5367.022202453687!2d30.69893574217092!3d36.88435531445283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3900525de718b%3A0x448a01e080365c0!2z0KHRgtCw0YDRi9C5INC_0L7RgNGCINCQ0L3RgtCw0LvQuNC4!5e0!3m2!1sru!2str!4v1749309573734!5m2!1sru!2str"
-              width="600"
-              height="400"
+              width=100%
+              height="500"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
@@ -457,7 +457,7 @@
       <!-- Tours Widget -->
       <section class="content-section">
         <div class="bg-white rounded-lg shadow-lg p-8">
-          <h2 class="text-3xl font-bold text-kaleici-800 mb-6">
+          <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
             {{ $t('hadriansGate.h2Text8') }}
           </h2>
           <p class="text-lg mb-8">{{ $t('hadriansGate.pText30') }}</p>

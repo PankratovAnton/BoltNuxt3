@@ -126,7 +126,7 @@
 <!-- Nearby Attractions -->
 <section class="content-section mb-18 py-10 ">
   <div class="container mx-auto px-4">
-    <div class="bg-[#f7eee2] rounded-2xl p-10 shadow-xl">
+    <div class="bg-[#fdedd8] rounded-2xl p-10 shadow-xl">
       <h2 class="text-3xl font-sans font-bold text-kaleici-800 text-center mb-4">
         {{ $t('nearbyAttractions.sectionTitle') }}
       </h2>
@@ -172,9 +172,9 @@
 </section>
 
 <!-- Conclusion -->
-<section class="py-16 bg-[#f5ede1]">
+<section class="py-16 ">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl md:text-4xl font-bold text-kaleici-800 mb-10">
+    <h2 class="text-3xl md:text-4xl text-center font-bold text-kaleici-800 mb-10">
       {{ $t('home.experiences.title') }}
     </h2>
     <div class="text-kaleici-800 leading-relaxed text-[1.075rem] space-y-5">
@@ -234,18 +234,32 @@
 <!-- Closing Section -->
 <section class="bg-stone-100 py-16">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl md:text-4xl font-bold text-kaleici-800 mb-10">
-      {{ $t('home.experiences.title') }}
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-kaleici-800 mb-10">
+      {{ $t('home.closing.title') }}
     </h2>
     <div class="text-kaleici-800 leading-relaxed text-[1.075rem] space-y-5">
       <p class="[text-indent:2em]">
-        {{ $t('home.experiences.part1') }}
+        {{ $t('home.closing.paragraph1') }}
       </p>
       <p class="[text-indent:2em]">
-        {{ $t('home.experiences.part2') }}
+        {{ $t('home.closing.paragraph2') }}
       </p>
     </div>
+
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <InteractiveImage src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg" alt="Kaleici streets in Antalya Old Town, Turkey" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+      </div>
+      <div>
+        <InteractiveImage src="/images/text-decorations-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg" alt="Kaleici streets in Antalya Old Town, Turkey" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+      </div>
+      <div>
+        <InteractiveImage src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg" alt="Kaleici streets in Antalya Old Town, Turkey" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+      </div>
+    </div>
+    <!-- конец блока с фото -->
   </div>
+
 </section>
 
 <!-- FAQ Section -->
@@ -253,7 +267,7 @@
   <div class="container mx-auto px-4">
     <div  class="grid md:grid-cols-2 gap-8" >
       <div ref="FAGSection" class="bg-[#f5ede1] p-8 rounded-xl shadow-lg">
-        <h2 class="text-3xl font-bold font-sans text-kaleici-800 mb-6">{{ $t('home.faq.title') }}</h2>
+        <h2 class="text-3xl font-bold text-center font-sans text-kaleici-800 mb-6">{{ $t('home.faq.title') }}</h2>
         <div class="prose prose-lg">
       
       <h3 class="text-2xl font-sans text-kaleici-700 mt-8 mb-4">{{ $t('home.faq.questions[0].question') }}</h3>
@@ -271,7 +285,7 @@
         <InteractiveImage 
           src="/images/other-in-antalya-kaleici-old-town-turkey-1.jpg"
           alt="Visiting Hadrian's Gate"
-          class="w-full h-[800px] max-h-[1000px] w-[600px] object-cover rounded-xl"
+          class=" w-[600px] object-cover rounded-xl"
         />
       </div>
     </div>
@@ -283,18 +297,18 @@
   <div class="container mx-auto px-4">
     <div class="grid md:grid-cols-2 gap-8 items-stretch">
       <div class="flex flex-col justify-between space-y-8 h-full">
-        <h2 class="text-3xl font-sans font-bold text-kaleici-800 mb-6">{{ $t('home.visitingInfo.title') }}</h2>
+        <h2 class="text-3xl font-sans font-bold text-kaleici-800 ">{{ $t('home.visitingInfo.title') }}</h2>
         <InteractiveImage
           class="rounded-xl"
           src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-4.jpg"
           alt="Visitor facilities near Hadrian's Gate"
         />
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564.1336697113363!2d30.708982505630104!3d36.885038351263354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39127a10a816b%3A0xb3281b73313e753a!2z0JLQvtGA0L7RgtCwINCQ0LTRgNC40LDQvdCw!5e0!3m2!1sru!2str!4v1749070044496!5m2!1sru!2str" width="100%" height="300" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.7127613660177!2d30.702752776113237!3d36.88327847210452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009be0e3b47%3A0x3cb5088367f69e0e!2sKalei%C3%A7i%2C%20Antalya%2C%20Turkey!5e0!3m2!1sen!2sus!4v1708893144902!5m2!1sen!2sus" width="100%" height="400" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="prose prose-lg h-full flex flex-col justify-between text-kaleici-700 leading-relaxed">
-        <h3 class="text-2xl font-sans font-semibold mb-4">{{ $t('hadriansGate.h3Text6') }}</h3>
+        <h3 class="text-2xl font-sans text-center font-semibold mb-4">{{ $t('hadriansGate.h3Text6') }}</h3>
         <p class="font-sans [text-indent:2em]">{{ $t('home.visitingInfo.gettingThereText') }}</p>
-        <h3 class="text-2xl font-sans font-semibold mt-8 mb-4">{{ $t('home.visitingInfo.gettingThereTitle') }}</h3>
+        <h3 class="text-2xl font-sans  text-center font-semibold mt-8 mb-4">{{ $t('home.visitingInfo.gettingThereTitle') }}</h3>
         <div ref="IconMSection" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <!-- Icons — смотри пути и названия SVG! -->
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
@@ -314,7 +328,7 @@
             <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('home.gettingThereCards.taxi') }}</p>
           </div>
         </div>
-        <h3 class="text-2xl font-sans font-semibold mt-4 mb-4">{{ $t('home.visitingInfo.bestTimeTitle') }}</h3>
+        <h3 class="text-2xl font-sans text-center font-semibold mt-4 mb-4">{{ $t('home.visitingInfo.bestTimeTitle') }}</h3>
         <p class="[text-indent:2em] font-sans">{{ $t('home.visitingInfo.bestTimeText') }}</p>
         <div ref="IconSSection" class="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
@@ -372,6 +386,7 @@ import 'swiper/css'
 import 'swiper/css/effect-fade'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import InteractiveImage from '~/components/InteractiveImage.vue'
 // Если нужны компоненты — раскомментируй:
 // import GetYourGuide from '../components/GetYourGuide.vue'
 // import InteractiveImage from '../components/InteractiveImage.vue'
