@@ -141,7 +141,7 @@
                 {{ $t('nearbyAttractions.authenticStreets.title') }}
               </h3>
               <p class="text-kaleici-700 text-base leading-relaxed">
-                {{ $t('nearbyAttractions.authenticStreets.title') }}
+                {{ $t('nearbyAttractions.authenticStreets.description') }}
               </p>
             </div>
           </NuxtLink>
