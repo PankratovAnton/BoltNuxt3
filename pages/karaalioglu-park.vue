@@ -2,7 +2,7 @@
   <article class="attraction-page">
     <!-- Hero Section -->
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
-      <img src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Karaalioglu Park in Antalya" class="w-full h-full object-cover">
+      <img src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover">
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
       <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
         <div class="container mx-auto">
@@ -28,7 +28,7 @@
           <div>
             <InteractiveImage
               src="/images/karaalioglu-park-hand-sculpture-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
-              alt="Karaalioglu Park Historic View"
+              :alt="$t('alt.karaalioglu-park')"
               class="float-left mr-8 mb-4 rounded-lg shadow-lg max-w-[640px] min-w-[420px] h-[400] md:w-4/5"
             />
           </div>
@@ -69,7 +69,7 @@
             <img
               ref="interactiveImage"
               src="/images/karaalioglu-park-panorama-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg"
-              alt="Park Panorama"
+              :alt="$t('alt.karaalioglu-park')"
               class="w-full max-w-[800px] h-[500px] object-cover transition-all duration-300 ease-out will-change-transform"
               :style="imageTransform"
             />
@@ -89,7 +89,7 @@
     <!-- Traditional Bazaars -->
     <NuxtLink :to="localePath('/traditional-bazaars')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/traditional-bazaar-handmade-carpets-souvenirs-in-antalya-kaleici-old-town-turkey.jpg" alt="Traditional Bazaars" class="w-full h-full object-cover">
+        <img src="/images/traditional-bazaar-handmade-carpets-souvenirs-in-antalya-kaleici-old-town-turkey.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover">
       </div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.traditionalBazaars.title') }}</h3>
@@ -99,7 +99,7 @@
     <!-- Authentic Streets -->
     <NuxtLink :to="localePath('/authentic-streets')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Authentic Streets" class="w-full h-full object-cover" />
+        <img src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover" />
       </div>
       <div class="p-5">
         <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-2">
@@ -113,7 +113,7 @@
     <!-- Hadrian's Gate -->
     <NuxtLink :to="localePath('/hadrians-gate')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Hadrian's Gate" class="w-full h-full object-cover">
+        <img src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover">
       </div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.hadriansGate.title') }}</h3>
@@ -131,7 +131,7 @@
             <div class="relative h-full">
               <InteractiveImage 
                 src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-6.webp"
-                alt="Karaalioglu Park"
+                :alt="$t('alt.karaalioglu-park')"
                 class=" h-[800px] max-h-[1000px] w-[700px] object-cover rounded-xl "
               />
             </div>
@@ -163,7 +163,7 @@
       <!-- Flora Fauna Section -->
       <section class="content-section mb-16">
         <div class="grid md:grid-cols-2 gap-6 items-stretch">
-          <div ref="qSection" class="bg-[#f5ede1] p-6 rounded-xl shadow-lg flex flex-col justify-between">
+          <div ref="eSection" class="bg-[#f5ede1] p-6 rounded-xl shadow-lg flex flex-col justify-between">
             <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6 tracking-tight leading-snug">
               {{ $t('karaaliogluPark.floraFauna_title') }}
             </h2>
@@ -176,7 +176,7 @@
           <div class="relative h-full">
             <InteractiveImage
               src="/images/karaalioglu-park-cat-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
-              alt="Flora Fauna"
+              :alt="$t('alt.karaalioglu-park')"
               class="w-full h-full object-cover max-h-[700px] rounded-xl shadow-lg"
             />
           </div>
@@ -230,7 +230,7 @@
           <div class="relative h-full">
             <InteractiveImage
               src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
-              alt="Visiting Kaarioglu Park"
+              :alt="$t('alt.karaalioglu-park')"
               class="w-full h-full object-cover max-h-[700px] rounded-xl shadow-lg"
             />
           </div>
@@ -275,36 +275,32 @@
         <div class="grid md:grid-cols-2 gap-8 items-stretch font-sans">
           <div class="prose prose-lg h-full flex flex-col justify-between text-kaleici-700 leading-relaxed">
             <h3 class="text-2xl text-center font-semibold mb-4">{{ $t('hadriansGate.h3Text6') }}</h3>
-            <p>{{ $t('hidirlikTower.gettingThere[0].route_text') }}</p>
-            <h3 class="text-2xl text-center font-semibold mt-8 mb-4">{{ $t('hidirlikTower.gettingThere_title') }}</h3>
+            <p>{{ $t('karaaliogluPark.accessibility_paragraph') }}</p>
+            <h3 class="text-2xl text-center font-semibold mt-8 mb-4">{{ $t('karaaliogluPark.access_title') }}</h3>
             <div class="flex flex-col gap-3 mb-8">
               <div class="bg-stone-50 rounded-lg p-4 flex items-center shadow-sm">
-                <img src="/icons/Walk.svg" alt="Walking Icon" class="w-7 h-7 mr-4 text-amber-600" />
+                <img src="/icons/Walk.svg" :alt="$t('alt.karaalioglu-park')" class="w-7 h-7 mr-4 text-amber-600" />
                 <p class="text-sm text-kaleici-800">{{ $t('karaaliogluPark.access_paragraph1') }}</p>
                 
               </div>
               <div class="bg-stone-50 rounded-lg p-4 flex items-center shadow-sm">
-                <img src="/icons/Tram.svg" alt="Tram Icon" class="w-7 h-7 mr-4 text-amber-600" />
+                <img src="/icons/Tram.svg" :alt="$t('alt.karaalioglu-park')" class="w-7 h-7 mr-4 text-amber-600" />
                 <p class="text-sm text-kaleici-800">{{ $t('karaaliogluPark.access_paragraph2') }}</p>
-              </div>
-              <div class="bg-stone-50 rounded-lg p-4 flex items-center shadow-sm">
-                <img src="/icons/Bus.svg" alt="Bus Icon" class="w-7 h-7 mr-4 text-amber-600" />
-                <p class="text-sm text-kaleici-800">{{ $t('hidirlikTower.publicBus') }}</p>
               </div>
             </div>
             <h3 class="text-2xl text-center font-semibold mt-4 mb-4">{{ $t('hadriansGate.h3Text8') }}</h3>
-            <p>{{ $t('hadriansGate.pText23') }}</p>
+            <p>{{ $t('karaaliogluPark.accessibility_paragraph2') }}</p>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/Cafe.svg" alt="Cafe Icon" class="w-8 h-6 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Cafe.svg" :alt="$t('alt.karaalioglu-park')" class="w-8 h-6 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm font-medium text-kaleici-800">{{ $t('hadriansGate.pText24') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/WC.svg" alt="Restroom WC Icon" class="w-7 h-5 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/WC.svg" :alt="$t('alt.karaalioglu-park')" class="w-7 h-5 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm font-medium text-kaleici-800">{{ $t('hadriansGate.pText26') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/Nature.svg" alt="Areas to Rest Icon" class="w-7 h-7 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Nature.svg" :alt="$t('alt.karaalioglu-park')" class="w-7 h-7 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm font-medium text-kaleici-800">{{ $t('hadriansGate.pText27') }}</p>
               </div>
             </div>
@@ -313,7 +309,7 @@
             <h2 class="text-3xl font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text6') }}</h2>
             <InteractiveImage
               src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-              alt="Visitor facilities near Karaalioglu Park"
+              :alt="$t('alt.karaalioglu-park')"
               class="rounded-xl"
             />
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1338.4432856255482!2d30.70457326103492!3d36.879622960741045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3900f46848d4f%3A0x329e0281ef97aba1!2z0J_QsNGA0Log0JrQsNGA0LDQsNC70LjQvtCz0LvRgw!5e1!3m2!1sru!2str!4v1751183864601!5m2!1sru!2str" width="100%" height="400" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -324,7 +320,7 @@
       <!-- Tours Widget -->
       <section class="content-section">
         <div class="bg-white rounded-lg shadow-lg p-8">
-          <h2 class="text-3xl font-bold text-kaleici-800 mb-6">{{ $t('hidirlikTower.discoverMore_title') }}</h2>
+          <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">{{ $t('hidirlikTower.discoverMore_title') }}</h2>
           <p class="text-lg text-kaleici-700 mb-8">{{ $t('hidirlikTower.discoverMore_text') }}</p>
           <div class="gyg-widget-container">
             <GetYourGuide widgettype="activities" partner="kaleici_guide" q="hadrians gate antalya" />
@@ -345,7 +341,8 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
-const { locale } = useI18n()
+const { t } = useI18n()
+const localePath = useLocalePath()
 
 const archSection = ref(null)
 const faqSection = ref(null)
@@ -391,11 +388,11 @@ onMounted(() => {
 })
 
 useSeoMeta({
-  title: "Karaalioglu Park | Kaleiçi Guide",
-  description: "Explore Karaalioglu Park in Antalya: history, features, best spots, nearby attractions, and practical visitor info.",
-  ogTitle: "Karaalioglu Park in Antalya — Complete Guide",
-  ogDescription: "Discover Antalya's famous Karaalioglu Park. History, walking tips, map, and more.",
-  ogImage: "/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg",
+  title: t('seo.karaalioglu-park.title'),
+  description: t('seo.karaalioglu-park.description'),
+  ogTitle: t('seo.karaalioglu-park.ogTitle'),
+  ogDescription: t('seo.karaalioglu-park.ogDescription'),
+  ogImage: t('seo.karaalioglu-park.ogImage'),
   twitterCard: 'summary_large_image'
 })
 

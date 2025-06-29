@@ -13,6 +13,91 @@
     "madeWith": "Made with ❤️ for travelers"
   },
 
+  "seo": {
+    "site": {
+      "title": "Kaleiçi Guide",
+      "description": "Discover Antalya's Kaleiçi Old Town — attractions, history, travel tips, and the best places to visit in the heart of Antalya, Turkey."
+    },
+    "home": {
+      "title": "Home | Kaleiçi Guide",
+      "description": "Explore Antalya's historic Kaleiçi Old Town. Find top attractions, walking tours, hidden gems, and insider travel tips for your visit.",
+      "ogTitle": "Kaleiçi Guide - Explore Antalya's Old Town",
+      "ogDescription": "Discover the culture, history, and unique atmosphere of Antalya's famous Kaleiçi district. Your guide to the best sights, tours, and experiences.",
+      "ogImage": "/images/viewpoints-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "hadrian-gate": {
+      "title": "Hadrian's Gate | Kaleiçi Guide",
+      "description": "Visit Hadrian's Gate, Antalya — the iconic Roman triumphal arch in Kaleiçi Old Town. Learn its history, see visitor tips, and plan your trip.",
+      "ogTitle": "Hadrian's Gate in Antalya - Complete Visitor's Guide",
+      "ogDescription": "See photos and learn about the history of Hadrian's Gate in Antalya's Kaleiçi district. The best tips for tourists, maps, and opening times.",
+      "ogImage": "/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "hidirlik-tower": {
+      "title": "Hidirlik Tower | Kaleiçi Guide",
+      "description": "Discover Hidirlik Tower — panoramic views of Antalya, ancient history, and photo spots in Kaleiçi Old Town. Plan your visit today.",
+      "ogTitle": "Hidirlik Tower - Antalya's Panoramic Landmark",
+      "ogDescription": "All about Hidirlik Tower in Antalya's Old Town: history, best viewpoints, walking directions, and travel information for visitors.",
+      "ogImage": "/images/hidirlik-tower-detailed-upper-walls-in-antalya-kaleici-old-town-turkey.jpg"
+    },
+    "karaalioglu-park": {
+      "title": "Karaalioğlu Park | Kaleiçi Guide",
+      "description": "Relax in Karaalioğlu Park, Antalya — city park with sea views, walking paths, playgrounds, and sunset points. Best for families and photographers.",
+      "ogTitle": "Karaalioğlu Park - Green Oasis of Antalya",
+      "ogDescription": "Visitor's guide to Karaalioğlu Park: best places for photos, where to walk, playgrounds, cafes, and hidden spots in Antalya's Old Town.",
+      "ogImage": "/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "old-harbor": {
+      "title": "Old Harbor | Kaleiçi Guide",
+      "description": "Antalya's Old Harbor — marina, boat trips, seafood restaurants, and waterfront walks in the heart of Kaleiçi Old Town.",
+      "ogTitle": "Old Harbor - Antalya's Picturesque Marina",
+      "ogDescription": "Discover the historic Old Harbor in Antalya: things to do, boat tours, best cafes, and local life by the Mediterranean Sea.",
+      "ogImage": "/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "streets": {
+      "title": "Kaleiçi Streets | Kaleiçi Guide",
+      "description": "Wander through the cobblestone streets of Antalya's Old Town. Explore alleys, colorful houses, traditional shops, and daily life.",
+      "ogTitle": "Kaleiçi Streets - Historic Heart of Antalya",
+      "ogDescription": "The best streets and alleys in Antalya's Kaleiçi. See beautiful architecture, lively local scenes, and where to find unique shops.",
+      "ogImage": "/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "traditional-bazaar": {
+      "title": "Traditional Bazaar | Kaleiçi Guide",
+      "description": "Experience the traditional bazaar of Antalya's Kaleiçi — Turkish markets, handicrafts, carpets, spices, souvenirs, and authentic shopping.",
+      "ogTitle": "Kaleiçi Bazaar - Authentic Turkish Market",
+      "ogDescription": "Shop for souvenirs, carpets, and crafts in Antalya's traditional bazaar. Find the best local goods and unique gifts in Old Town.",
+      "ogImage": "/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    
+    "tours": {
+      "title": "Tours & Activities | Kaleiçi Guide",
+      "description": "Find the best tours, guided walks, and excursions in Antalya's Kaleiçi Old Town. Book unique experiences and see more.",
+      "ogTitle": "Best Tours in Antalya's Kaleiçi Old Town",
+      "ogDescription": "Discover top-rated tours and excursions for exploring Antalya's Old Town — walking, history, food, and boat trips.",
+      "ogImage": "/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-9.jpg"
+    },
+
+    "attractions": {
+  "title": "Attractions in Kaleici | Kaleiçi Guide",
+  "description": "Discover the must-see attractions in Antalya's Kaleiçi Old Town. Explore historical landmarks, museums, parks, and vibrant neighborhoods to make the most of your visit.",
+  "ogTitle": "Kaleiçi's Top Attractions - Best Places to Visit in Antalya",
+  "ogDescription": "Find the best attractions in Kaleiçi, Antalya: famous sights, cultural highlights, architectural gems, and essential experiences for every traveler.",
+  "ogImage": "/images/main-page-carousel-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg"
+}
+
+  },
+
+
+"alt":{
+  "hadrian-gate": "Hadrian's Gate, Antalya, Kaleici, Old Town, Roman architecture, ancient arch, Turkey, historic landmark, sightseeing, travel, tourism, cultural heritage, stone monument, city walls, famous attraction",
+  "hidirlik-tower": "Hidirlik Tower, Antalya, Kaleici, Old Town, Roman tower, sea view, historic site, ancient ruins, Turkey, panoramic, landmark, stone structure, travel destination, Mediterranean, city history",
+  "karaalioglu-park": "Karaalioglu Park, Antalya, Kaleici, Old Town, green park, city views, gardens, walking paths, family area, nature, Mediterranean, relaxing, famous park, playground, scenic spots",
+  "old-harbor": "Old Harbor, Antalya, Kaleici, Old Town, marina, yachts, Mediterranean Sea, historic port, ancient harbor, waterfront, fishing boats, promenade, cityscape, Turkey, travel spot",
+  "streets": "streets, Antalya, Kaleici, Old Town, cobblestone, alleyways, local life, city walk, historical district, Turkey, daily life, street photography, traditional, architecture, atmosphere",
+  "traditional-bazaar": "traditional bazaar, Antalya, Kaleici, Old Town, Turkish market, souvenirs, shopping, local crafts, merchants, authentic, stalls, carpets, cultural experience, spices, vibrant colors",
+  "other": "Antalya, Kaleici, Old Town, Turkey, heritage, travel, architecture, Mediterranean, tourism, attractions, culture, exploration, sightseeing, urban, historic area"
+},
+
+
 "home": {
   "hero": {
     "title": "Discover the Heart of Ancient Antalya",
@@ -80,16 +165,16 @@
   "visitingInfo": {
   "title": "Practical Information for Visiting Antalya Old Town",
   "gettingThereTitle": "Getting There",
-  "gettingThereText": "Antalya Old Town is easily accessible from most parts of the city. From Antalya International Airport, it's approximately a 30-minute drive to Kaleici. The main entrances to the old town are through Kalekapısı (Clock Tower Square) and the more picturesque Hadrian's Gate. The nostalgic tram (Nostalji Tramvayı) provides a scenic route that passes near Kalekapısı.",
+  "gettingThereText": "Antalya Old Town is easily accessible from most parts of the city. From Antalya International Airport, it's approximately a 30-minute drive to Kaleici. The main entrances to the old town are through Kalekapisi (Clock Tower Square) and the more picturesque Hadrian's Gate. The nostalgic tram (Nostalji Tramvayi) provides a scenic route that passes near Kalekapisi.",
   "bestTimeTitle": "Best Time to Visit",
   "bestTimeText": "Spring (April-May) and autumn (September-October) offer ideal weather for exploring, with pleasant temperatures and fewer crowds. Summer (June-August) brings hot weather and more tourists, while winter (November-March) is mild but can be rainy. For the most magical experience, arrive in Kaleici early in the morning or in the late afternoon when the light is golden and the streets are less crowded."
  },
 
   "gettingThereCards": {
     "walking": "Kaleiçi is within walking distance from the city center and nearby hotels.",
-    "tram": "The nostalgic tram stops near Kalekapısı, just a short walk from Kaleiçi.",
+    "tram": "The nostalgic tram stops near Kalekapisi, just a short walk from Kaleiçi.",
     "bus": "Several bus routes connect the city to stops near the old town entrance.",
-    "taxi": "Taxis are widely available and can drop you off directly at Kaleiçi’s gates."
+    "taxi": "Taxis are widely available and can drop you off directly at Kaleiçi's gates."
   },
 
     "tours": {
@@ -135,9 +220,9 @@
     "imageAlt": "Authentic Streets of Kaleiçi"
   },
   "hidirlik-tower": {
-    "title": "Hıdırlık Tower",
+    "title": "Hidirlik Tower",
     "description": "A historic Roman tower offering panoramic views of the Mediterranean Sea and Antalya's coastline.",
-    "imageAlt": "Hıdırlık Tower View"
+    "imageAlt": "Hidirlik Tower View"
   }
 },
 
@@ -152,15 +237,15 @@
 "nearbyAttractions":{
   "sectionTitle": "Nearby Attractions to Explore",
   "sectionDescription0": "Kaleiçi is ideally situated as a starting point for exploring many of Antalya's most fascinating attractions. After visiting this site, consider exploring these nearby highlights.",
-  "sectionDescription1": "Discover even more of Kaleiçi’s rich history and vibrant culture by exploring these nearby highlights.",
-  "sectionDescription2": "Make the most of your visit—these neighboring attractions offer a deeper look into Antalya’s unique character.",
+  "sectionDescription1": "Discover even more of Kaleiçi's rich history and vibrant culture by exploring these nearby highlights.",
+  "sectionDescription2": "Make the most of your visit—these neighboring attractions offer a deeper look into Antalya's unique character.",
   "sectionDescription3": "Extend your journey through Antalya with these must-see places located just steps away.",
   "sectionDescription4": "From ancient monuments to bustling bazaars, these local sights complete your Kaleiçi experience.",
-  "sectionDescription5": "Don’t miss the opportunity to visit these remarkable sites, each adding its own charm to Antalya’s Old Town.",
+  "sectionDescription5": "Don't miss the opportunity to visit these remarkable sites, each adding its own charm to Antalya's Old Town.",
   "sectionDescription6": "Immerse yourself in the diverse history and stunning beauty of Antalya with these attractions close at hand.",
   "sectionDescription7": "Continue your adventure by discovering more of the unforgettable landmarks that define Kaleiçi.",
-  "sectionDescription8": "Each nearby attraction offers a different perspective on Antalya’s fascinating past and vibrant present.",
-  "sectionDescription9": "Experience the full tapestry of Antalya’s heritage with these easily accessible highlights.",
+  "sectionDescription8": "Each nearby attraction offers a different perspective on Antalya's fascinating past and vibrant present.",
+  "sectionDescription9": "Experience the full tapestry of Antalya's heritage with these easily accessible highlights.",
   "sectionDescription10": "Add more memorable moments to your trip by exploring these inviting and historically rich locations.",
 
   "hadriansGate": {
@@ -172,7 +257,7 @@
     "description": "Once a bustling Roman port, today the Old Harbor is a tranquil marina offering restaurants, boat tours, and scenic views of the coastline."
   },
   "hidirlikTower": {
-    "title": "Hıdırlık Tower",
+    "title": "Hidirlik Tower",
     "description": "A historic Roman tower offering panoramic views of the Mediterranean Sea and Antalya's coastline."
   },
   "traditionalBazaars": {
@@ -209,7 +294,7 @@
   "pText10": "The historic port of Antalya, now a picturesque marina surrounded by restaurants and offering stunning Mediterranean views.",
   "h3Text2": "Authentic Streets",
   "pText11": "Explore the charming narrow lanes and historic architecture of Kaleiçi's most picturesque streets.",
-  "h3Text3": "Hıdırlık Tower",
+  "h3Text3": "Hidirlik Tower",
   "pText12": "A historic Roman tower offering panoramic views of the Mediterranean Sea and Antalya's coastline.",
   "h2Text4": "Legends of Hadrian's Gate",
   "pText13": "Beyond its historical significance, Hadrian's Gate has inspired fascinating legends over the centuries. One popular tale claims that the Queen of Sheba passed through the middle arch of the gate on her way to visit King Solomon in Aspendos. While historically impossible—as the gate was built about a millennium after the legendary queen's time—it's possible that Hadrian's Gate replaced an earlier structure that may have been associated with this myth.",
@@ -230,7 +315,7 @@
   "pText18": "Hadrian's Gate is located on Atatürk Boulevard at the entrance to Kaleiçi (Old Town) in Antalya. The site is easily accessible by public transportation or on foot from most parts of central Antalya.",
   "h3Text7": "Transportation Options",
   "pText19": "Walking: The gate is within walking distance from Antalya's city center and many hotels.",
-  "pText20": "Nostalgic Tramway: Take the historic tram from Kalekapısı, which passes near Hadrian's Gate.",
+  "pText20": "Nostalgic Tramway: Take the historic tram from Kalekapisi, which passes near Hadrian's Gate.",
   "pText21": "Public Bus: Several city bus routes stop near Atatürk Boulevard.",
   "pText22": "Taxi: Readily available throughout Antalya and can drop you directly at the gate.",
   "h3Text8": "Visitor Facilities",
@@ -243,7 +328,9 @@
   "pText28": "Hadrian's Gate stands as a testament to Antalya's rich historical legacy and the enduring quality of Roman architecture. More than just an ancient monument, it continues to serve its original purpose as a gateway—now welcoming visitors into the heart of old Antalya rather than the Roman city of Attaleia.",
   "pText29": "Whether you're a history enthusiast, architecture lover, or simply looking to experience the charm of Antalya, Hadrian's Gate offers a meaningful connection to the past while enhancing your exploration of this beautiful Mediterranean city. As you pass through its arches, you become part of a tradition spanning nearly two millennia—a rare opportunity to literally walk in the footsteps of history.",
   "h2Text8": "Experience Hadrian's Gate with Expert Insight",
-  "pText30": "Discover the fascinating stories, architectural details, and historical context of Hadrian's Gate with a knowledgeable local guide. Enhance your visit with insights that bring this ancient monument to life."
+  "pText30": "Discover the fascinating stories, architectural details, and historical context of Hadrian's Gate with a knowledgeable local guide. Enhance your visit with insights that bring this ancient monument to life.",
+  "pText31": "While Hidirlik Tower itself doesn't have dedicated facilities, the surrounding area offers.",
+  "pText32": "While Traditional Bazaar itself doesn't have dedicated facilities, the surrounding area offers."
 },
 
 "hidirlikTower": {
@@ -277,8 +364,8 @@
     },
     {
       "imageCaption": "The Roman fasces reliefs at the entrance provide important historical context",
-      "fact_title": "The Legend of Saint Hıdır",
-      "fact_text": "Local folklore connects the tower to Saint Hıdır (Khidr), a mystical figure in Islamic tradition known for his association with water and vegetation. According to legend, Saint Hıdır visited this location, blessing it with his presence. This connection gave the tower its current name and made it a site of cultural significance beyond its architectural value."
+      "fact_title": "The Legend of Saint Hidir",
+      "fact_text": "Local folklore connects the tower to Saint Hidir (Khidr), a mystical figure in Islamic tradition known for his association with water and vegetation. According to legend, Saint Hidir visited this location, blessing it with his presence. This connection gave the tower its current name and made it a site of cultural significance beyond its architectural value."
     },
     {
       "imageCaption": "Hidirlik Tower beautifully illuminated against the night sky",
@@ -309,7 +396,7 @@
   ],
   "gettingThere_mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6725431851424!2d30.703145776279144!3d36.88272447210611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009259f7e4f%3A0x8b1817aa2e5f733a!2sH%C4%B1d%C4%B1rl%C4%B1k%20Tower!5e0!3m2!1sen!2sus!4v1699453523018!5m2!1sen!2sus",
   "publicTransport_title": "Public Transportation",
-  "publicTram": "If you're coming from other parts of Antalya, the nearest tram stops are İsmetpaşa or Doğu Garajı on the Antray line. From either stop, it's about a 15-20 minute walk to the tower.  City buses that stop near Kaleici can get you close to the area, after which you'll need to continue on foot.",
+  "publicTram": "If you're coming from other parts of Antalya, the nearest tram stops are İsmetpaşa or Doğu Garaji on the Antray line. From either stop, it's about a 15-20 minute walk to the tower.  City buses that stop near Kaleici can get you close to the area, after which you'll need to continue on foot.",
   "publicBus": "City buses that stop near Kaleici can get you close to the area, after which you'll need to continue on foot.",
   "publicTaxi": "If you're driving, there are several public parking areas near Kaleici. The most convenient is the parking lot near Hadrian's Gate or along the streets surrounding Karaalioglu Park. From there, it's a short walk to the tower. Note that parking in the immediate vicinity of the tower is limited.",
   "byCar": "If you're driving, there are several public parking areas near Kaleici. The most convenient is the parking lot near Hadrian's Gate or along the streets surrounding Karaalioglu Park. From there, it's a short walk to the tower. Note that parking in the immediate vicinity of the tower is limited."
@@ -334,7 +421,7 @@
     "Entrance to the tower and surrounding park is free of charge"
   ],
   "magic_title": "Experience the Magic of Hidirlik Tower",
-  "magic_text": "Hidirlik Tower stands as a testament to Antalya's rich historical tapestry, offering visitors a unique blend of ancient architecture, fascinating history, and breathtaking Mediterranean views. As one of the best-preserved Roman structures in Kaleici, it provides a tangible connection to the city's past while serving as an iconic landmark in its present. Whether you're tracing the footsteps of ancient Romans, capturing the perfect sunset photograph, or simply seeking a moment of tranquility overlooking the turquoise waters, Hidirlik Tower rewards visitors with an authentic glimpse into Antalya's soul. Make sure to include this historical gem in your exploration of Antalya Old Town – it's an experience that will enhance your understanding and appreciation of this beautiful Turkish coastal city.",
+  "magic_text": "Hidirlik Tower stands as a testament to Antalya's rich historical tapestry, offering visitors a unique blend of ancient architecture, fascinating history, and breathtaking Mediterranean views. As one of the best-preserved Roman structures in Kaleici, it provides a tangible connection to the city's past while serving as an iconic landmark in its present. Whether you're tracing the footsteps of ancient Romans, capturing the perfect sunset photograph, or simply seeking a moment of tranquility overlooking the turquoise waters, Hidirlik Tower rewards visitors with an authentic glimpse into Antalya's soul. Make sure to include this historical gem in your exploration of Antalya Old Town - it's an experience that will enhance your understanding and appreciation of this beautiful Turkish coastal city.",
   "discoverMore_title": "Discover More of Antalya's Hidden Treasures",
   "discoverMore_text": "Enhance your Antalya experience with a guided walking tour of Kaleici that includes Hidirlik Tower and other historical landmarks. Learn fascinating stories, discover secret spots, and gain deeper insights into this ancient city's rich heritage.",
   "discoverMore_cta": "Book a Walking Tour"
@@ -352,7 +439,7 @@
   "history_paragraph3": "The park covers approximately 140,000 square meters (14 hectares) and stretches along the clifftops south of Kaleiçi, Antalya's historic old town. This strategic location has made it not only a recreational space but also a witness to centuries of Mediterranean history.",
 
   "features_title": "Stunning Features of Karaalioğlu Park",
-  "features_paragraph1": "Karaalioğlu Park in Antalya is renowned for its elevated position above the Mediterranean Sea, offering some of the most spectacular panoramic views in the city. Visitors are treated to sweeping vistas of the turquoise waters of the Gulf of Antalya, dramatic cliffs, and the majestic snow-capped peaks of the Beydağları Mountains in the distance.",
+  "features_paragraph1": "Karaalioğlu Park in Antalya is renowned for its elevated position above the Mediterranean Sea, offering some of the most spectacular panoramic views in the city. Visitors are treated to sweeping vistas of the turquoise waters of the Gulf of Antalya, dramatic cliffs, and the majestic snow-capped peaks of the Beydağlari Mountains in the distance.",
   "features_paragraph2": "The park features several viewing terraces, locally known as mirador, which serve as perfect spots for photography or quiet contemplation. These viewpoints, especially at sunrise or sunset, showcase nature's beauty at its finest and have become some of the city's most emblematic locations.",
   "features_paragraph3": "Well-maintained walking paths wind through the park's lush landscape, shaded by pine trees, palm trees, and vibrant seasonal flowers. Numerous benches and open grassy areas invite visitors to relax, read a book, or enjoy a picnic while taking in the refreshing sea breeze.",
 
@@ -360,18 +447,18 @@
 
   "hidrlikTower_title": "Hidrlik Tower",
 
-  "hidrlikTower_paragraph": "The ancient Hıdırlık Tower stands as the park's most iconic landmark. Dating back to the 2nd century AD during the Roman period, this cylindrical stone structure was possibly used as a lighthouse, tomb, or fortification. Today, it offers visitors a glimpse into Antalya's rich Roman heritage and provides fantastic views from its summit.",
+  "hidrlikTower_paragraph": "The ancient Hidirlik Tower stands as the park's most iconic landmark. Dating back to the 2nd century AD during the Roman period, this cylindrical stone structure was possibly used as a lighthouse, tomb, or fortification. Today, it offers visitors a glimpse into Antalya's rich Roman heritage and provides fantastic views from its summit.",
 
   "art_monuments_title": "Art Monuments",
 
-  "art_monuments_paragraph": "Art enthusiasts will appreciate the various contemporary sculptures and monuments scattered throughout the park. These include a monument to the renowned poet Nâzım Hikmet (created in 2010), a statue of Don Quixote, and the \"Worker and Son\" monument, each adding artistic dimension to the natural landscape.",
+  "art_monuments_paragraph": "Art enthusiasts will appreciate the various contemporary sculptures and monuments scattered throughout the park. These include a monument to the renowned poet Nâzim Hikmet (created in 2010), a statue of Don Quixote, and the \"Worker and Son\" monument, each adding artistic dimension to the natural landscape.",
 
   "dancingGirls_title": "Dancing Girls statue",
 
   "dancingGirls_paragraph": "The Dancing Girls statue near the central area of the park has become a popular photo spot, symbolizing joy and celebration. Nearby, you'll find beautifully designed fountains that create a soothing atmosphere with their gentle sounds of flowing water.",
 
   "guidedTour_title": "Experience Karaalioğlu Park with a Local Guide",
-  "guidedTour_paragraph": "Discover the hidden stories and best viewpoints of Karaalioğlu Park with our expert local guides. Enjoy a 2-hour walking tour that includes the historic Hıdırlık Tower, secret photo spots, and fascinating insights into Antalya's culture.",
+  "guidedTour_paragraph": "Discover the hidden stories and best viewpoints of Karaalioğlu Park with our expert local guides. Enjoy a 2-hour walking tour that includes the historic Hidirlik Tower, secret photo spots, and fascinating insights into Antalya's culture.",
   "bookTour_title": "Book Your Guided Tour",
 
   "floraFauna_title": "Flora and Fauna of Karaalioğlu Park",
@@ -398,14 +485,14 @@
 
   "photoSpots_title": "Best Photo Spots in Karaalioğlu Park",
   "photoSpots_paragraph1": "The western cliffside viewpoints offer the most spectacular panoramas of the Mediterranean Sea and are perfect for landscape photography. These elevated terraces provide unobstructed views of the horizon, making them ideal for capturing breathtaking sunset shots as the sun dips below the sea.",
-  "photoSpots_paragraph2": "The historic Hıdırlık Tower provides both an excellent subject for photography and a platform for taking elevated shots of the surrounding area. The ancient stone structure creates a compelling contrast against the natural landscape and modern city views.",
+  "photoSpots_paragraph2": "The historic Hidirlik Tower provides both an excellent subject for photography and a platform for taking elevated shots of the surrounding area. The ancient stone structure creates a compelling contrast against the natural landscape and modern city views.",
   "photoSpots_paragraph3": "The central flower gardens burst with color during spring and summer months, offering beautiful foreground elements for your photographs. These meticulously maintained gardens feature seasonal blooms arranged in artistic patterns that are visually striking from any angle.",
 
   "cliffsideViewpoints_title": "Cliffside Viewpoints",
   "cliffsideViewpoints_paragraph": "Perfect for wide panoramic shots of the Mediterranean Sea and coastline. Best visited during golden hour for dramatic lighting.",
 
   "historicStructures_title": "Historic Structures",
-  "historicStructures_paragraph": "The Hıdırlık Tower and ancient city walls make compelling subjects that showcase Antalya's rich history.",
+  "historicStructures_paragraph": "The Hidirlik Tower and ancient city walls make compelling subjects that showcase Antalya's rich history.",
 
   "floralDisplays_title": "Floral Displays",
   "floralDisplays_paragraph": "Seasonal flower beds and botanical arrangements offer vibrant close-up photography opportunities throughout the year.",
@@ -419,7 +506,7 @@
   "localsTip_paragraph": "For a truly authentic experience, visit Karaalioğlu Park around 5-7 PM when Antalya residents come for their evening strolls. This is when the park comes alive with local culture, and you might encounter impromptu music performances or see families gathering for picnics.",
 
   "access_title": "Accessibility and Getting to Karaalioğlu Park",
-  "access_paragraph1": "Karaalioğlu Park is conveniently located in Antalya's city center, making it easily accessible by various transportation methods. If you're staying in or near Kaleiçi (the Old Town), the park is within comfortable walking distance – simply head south from the historic district.",
+  "access_paragraph1": "Karaalioğlu Park is conveniently located in Antalya's city center, making it easily accessible by various transportation methods. If you're staying in or near Kaleiçi (the Old Town), the park is within comfortable walking distance - simply head south from the historic district.",
   "access_paragraph2": "Public transportation options include the nostalgic tramway, which has stops near the park. The tram line connects major points throughout the city center and provides a charming way to reach the park while enjoying views of Antalya along the way.",
   "access_paragraph3": "For those with mobility concerns, much of the park features paved pathways that are wheelchair accessible. The main promenades and central areas are generally flat and well-maintained, though some of the more secluded paths may present challenges for those with limited mobility.",
   "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6759132212074!2d30.6989!3d36.8831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009376b0c2d%3A0x9a59a04e3d5a9252!2sKaraalio%C4%9Flu%20Park%C4%B1!5e0!3m2!1sen!2suk!4v1634567890123!5m2!1sen!2suk",
@@ -432,6 +519,9 @@
   "itinerary_title": "Plan Your Perfect Antalya Itinerary",
   "itinerary_paragraph": "Combine your visit to Karaalioğlu Park with Antalya's other must-see attractions. Our travel experts can create a personalized itinerary that includes the park, historic sites, beaches, and local dining experiences.",
   "getItinerary_title": "Get Your Custom Itinerary",
+
+  "accessibility_paragraph": "Karaalioğlu Park in Antalya is open to the public 24 hours a day and offers completely free admission, making it an excellent choice for budget travelers. Visitors can safely enjoy the park at any time, though daylight and early evening hours are most popular. Its convenient central location near Kaleiçi makes Karaalioğlu Park easily accessible for both locals and tourists looking to experience Antalya's scenic beauty.",
+  "accessibility_paragraph2": "The park features several small cafes and tea gardens where you can enjoy Turkish tea, coffee, and light snacks, as well as clean restroom facilities for visitors' convenience. Families with children will appreciate the well-equipped playgrounds and open grassy areas for recreation. Karaalioğlu Park also offers stunning Mediterranean views, charming walking paths, and plenty of relaxing spots for everyone to enjoy.",
 
   "faq_title": "Frequently Asked Questions About Karaalioğlu Park",
   "faq_question1": "Is there an entrance fee to Karaalioğlu Park?",
@@ -539,14 +629,14 @@
     "gettingThere_publicTransportTitle": "Public Transportation",
 
     "gettingThere_tram": "Take the AntRay tram to \"İskele\" station, which is just a short 5-minute walk from the harbor.",
-    "gettingThere_bus": "Several city bus routes stop near Kalekapısı (Old City Gate), from where it's a 10-minute walk downhill to the harbor.",
+    "gettingThere_bus": "Several city bus routes stop near Kalekapisi (Old City Gate), from where it's a 10-minute walk downhill to the harbor.",
     "gettingThere_taxi": "Taxis are readily available throughout Antalya and can drop you directly at one of the harbor entrances.",
 
     "gettingThere_walkingTitle": "Walking Routes",
 
     "gettingThere_walk_fromHadriansGate": "From Hadrian's Gate: A scenic 10-minute walk through the charming streets of Kaleiçi. ",
 
-    "gettingThere_walk_fromHadriansGate2":"From Kalekapısı (Clock Tower): Follow the sloping streets downhill for approximately 15 minutes.",
+    "gettingThere_walk_fromHadriansGate2":"From Kalekapisi (Clock Tower): Follow the sloping streets downhill for approximately 15 minutes.",
 
     "gettingThere_walk_fromHadriansGate3":"From Republic Square: A 20-minute walk along Atatürk Boulevard and then through Kaleiçi.",
 
@@ -620,37 +710,37 @@
   "intro": "Nestled within the historic heart of Antalya, Turkey, the traditional bazaars of Kaleici offer travelers a captivating journey through centuries of Turkish commerce and culture. These vibrant marketplaces, tucked between ancient city walls and Ottoman-era buildings, create a mesmerizing labyrinth where the scents of spices, the shimmer of handcrafted jewelry, and the vibrant colors of textiles blend to form an authentic Turkish shopping experience unlike any other.",
 
   "historyTitle": "History of Kaleici's Bazaars",
-  "historyParagraph1": "The bazaars of Kaleici trace their origins back to the 2nd century BC, when Antalya—then called Attaleia—emerged as a vital port city linking the Mediterranean to inland trade routes. As merchants from across the ancient world converged in Antalya, the foundations of Kaleici’s traditional marketplace were established. During the Byzantine era, the market area grew, featuring specialized sections for different goods, reflecting the district’s expanding commercial importance. These early markets not only drove trade but also helped shape the vibrant urban life that continues in Kaleici to this day.",
-  "historyParagraph2": "It was in the Ottoman period, from the 15th to the early 20th centuries, that Kaleici's bazaars truly flourished and acquired their distinctive architectural and organizational features. The term 'bazaar' itself comes from Persian, hinting at the multicultural influences at play. Ottoman administrators organized the markets into sections known as 'hans' or 'bedestens,' where various crafts and trades were clustered together. Unlike the grand, covered bazaars of Istanbul, Kaleici’s markets grew organically, adapting to the old city’s hilly terrain and winding streets. This unique development resulted in the charming, labyrinthine layout and authentic local character seen in Kaleici’s bazaar today.",
-  "historyParagraph3": "Many of the buildings that house today’s shops in the Kaleici bazaar date back to the 18th and 19th centuries, although architectural elements from earlier eras are still visible throughout the district. Restoration efforts that began in the 1980s have preserved the area’s historical character while adapting the space for modern commerce. Today, Kaleici’s bazaar stands as a living museum of Turkish commercial history, where traditional crafts, contemporary souvenirs, and everyday commerce exist side by side. This vibrant marketplace reflects centuries of trade, cultural exchange, and the rich heritage of Antalya’s old town.",
+  "historyParagraph1": "The bazaars of Kaleici trace their origins back to the 2nd century BC, when Antalya—then called Attaleia—emerged as a vital port city linking the Mediterranean to inland trade routes. As merchants from across the ancient world converged in Antalya, the foundations of Kaleici's traditional marketplace were established. During the Byzantine era, the market area grew, featuring specialized sections for different goods, reflecting the district's expanding commercial importance. These early markets not only drove trade but also helped shape the vibrant urban life that continues in Kaleici to this day.",
+  "historyParagraph2": "It was in the Ottoman period, from the 15th to the early 20th centuries, that Kaleici's bazaars truly flourished and acquired their distinctive architectural and organizational features. The term 'bazaar' itself comes from Persian, hinting at the multicultural influences at play. Ottoman administrators organized the markets into sections known as 'hans' or 'bedestens,' where various crafts and trades were clustered together. Unlike the grand, covered bazaars of Istanbul, Kaleici's markets grew organically, adapting to the old city's hilly terrain and winding streets. This unique development resulted in the charming, labyrinthine layout and authentic local character seen in Kaleici's bazaar today.",
+  "historyParagraph3": "Many of the buildings that house today's shops in the Kaleici bazaar date back to the 18th and 19th centuries, although architectural elements from earlier eras are still visible throughout the district. Restoration efforts that began in the 1980s have preserved the area's historical character while adapting the space for modern commerce. Today, Kaleici's bazaar stands as a living museum of Turkish commercial history, where traditional crafts, contemporary souvenirs, and everyday commerce exist side by side. This vibrant marketplace reflects centuries of trade, cultural exchange, and the rich heritage of Antalya's old town.",
 
   "atmosphereTitle": "The Unique Atmosphere of the Markets",
-  "atmosphereParagraph1": "Walking through the traditional bazaars of Kaleici in Antalya is a truly immersive experience. Narrow, winding cobblestone streets create an intimate setting where indoor and outdoor spaces blend together, shaded by colorful awnings and lush vines. The lively soundscape—merchants calling, the clink of tea glasses, snippets of haggling, and traditional Turkish music—creates a vibrant, authentic ambiance that makes these markets unique among Turkey’s historic districts.",
-  "atmosphereParagraph2": "Unlike the bustling Grand Bazaar in Istanbul, Kaleici’s markets offer a more relaxed and welcoming pace. Shopkeepers are known for their genuine hospitality, often inviting visitors to share apple tea and conversation. This warmth, combined with the bazaar’s organic layout that follows the historic city’s contours, provides natural viewpoints where shoppers can catch glimpses of the blue Mediterranean Sea beyond Antalya’s ancient walls, reminding visitors of the city’s maritime heritage.",
-  "atmosphereParagraph3": "The character of the bazaar changes throughout the day and across the seasons. Early mornings see locals shopping for daily goods, while midday welcomes tourists and a vibrant display of souvenirs and crafts. In the evenings, soft lights and warm stones create a cozy atmosphere. Summer months bring a lively, energetic crowd and outdoor displays, while winter reveals a quieter, more authentic side of local life in Kaleici’s markets.",
+  "atmosphereParagraph1": "Walking through the traditional bazaars of Kaleici in Antalya is a truly immersive experience. Narrow, winding cobblestone streets create an intimate setting where indoor and outdoor spaces blend together, shaded by colorful awnings and lush vines. The lively soundscape—merchants calling, the clink of tea glasses, snippets of haggling, and traditional Turkish music—creates a vibrant, authentic ambiance that makes these markets unique among Turkey's historic districts.",
+  "atmosphereParagraph2": "Unlike the bustling Grand Bazaar in Istanbul, Kaleici's markets offer a more relaxed and welcoming pace. Shopkeepers are known for their genuine hospitality, often inviting visitors to share apple tea and conversation. This warmth, combined with the bazaar's organic layout that follows the historic city's contours, provides natural viewpoints where shoppers can catch glimpses of the blue Mediterranean Sea beyond Antalya's ancient walls, reminding visitors of the city's maritime heritage.",
+  "atmosphereParagraph3": "The character of the bazaar changes throughout the day and across the seasons. Early mornings see locals shopping for daily goods, while midday welcomes tourists and a vibrant display of souvenirs and crafts. In the evenings, soft lights and warm stones create a cozy atmosphere. Summer months bring a lively, energetic crowd and outdoor displays, while winter reveals a quieter, more authentic side of local life in Kaleici's markets.",
 
   "shoppingTipsTitle": "Shopping Tips for Visitors",
-  "shoppingTipsParagraph1": "Bargaining is an essential and enjoyable aspect of shopping in Kaleici’s bazaars. Start by showing genuine interest in an item before asking the price, then offer about 40–50% less as your first counter. Most deals are settled through friendly negotiation. Early mornings and late afternoons are the best times to visit for a relaxed atmosphere, while midday hours can be busy and hot, especially in summer.",
+  "shoppingTipsParagraph1": "Bargaining is an essential and enjoyable aspect of shopping in Kaleici's bazaars. Start by showing genuine interest in an item before asking the price, then offer about 40-50% less as your first counter. Most deals are settled through friendly negotiation. Early mornings and late afternoons are the best times to visit for a relaxed atmosphere, while midday hours can be busy and hot, especially in summer.",
   "shoppingTipsParagraph2": "Always compare quality between shops—examine carpets for tight weaving and even patterns, and check ceramics for smooth glazing. Ask about reliable international shipping for large items like carpets, and get details in writing. Cash is preferred by many vendors, though larger shops often accept cards. It's smart to withdraw Turkish lira before entering the bazaar area.",
-  "shoppingTipsParagraph3": "Take photos of items you’re considering to compare options later, but always ask permission first. Learn a few helpful Turkish phrases for shopping, such as 'Ne kadar?' (How much?) and 'Biraz indirim yapabilir misiniz?' (Can you give me a discount?). Watch out for unofficial guides offering to show you the 'best shops' for a commission—these can lead to higher prices. For food items, check your country’s import rules before buying.",
+  "shoppingTipsParagraph3": "Take photos of items you're considering to compare options later, but always ask permission first. Learn a few helpful Turkish phrases for shopping, such as 'Ne kadar?' (How much?) and 'Biraz indirim yapabilir misiniz?' (Can you give me a discount?). Watch out for unofficial guides offering to show you the 'best shops' for a commission—these can lead to higher prices. For food items, check your country's import rules before buying.",
 
   "faqTitle": "Frequently Asked Questions",
   "faq1Question": "Is bargaining acceptable in Kaleici's bazaars?",
-  "faq1Answer": "Yes, bargaining is expected in most shops throughout Kaleici’s traditional bazaars in Antalya. Start by offering about 40–50% of the asking price and negotiate in a friendly, respectful manner until you reach a fair agreement.",
-  "faq2Question": "How do Kaleici’s bazaars differ from the Grand Bazaar in Istanbul?",
-  "faq2Answer": "Kaleici’s bazaars are open-air markets woven into Antalya’s historic old town, with a relaxed atmosphere and fewer aggressive vendors than Istanbul’s Grand Bazaar. They offer a unique mix of local Mediterranean crafts and Turkish souvenirs in a more intimate setting.",
+  "faq1Answer": "Yes, bargaining is expected in most shops throughout Kaleici's traditional bazaars in Antalya. Start by offering about 40-50% of the asking price and negotiate in a friendly, respectful manner until you reach a fair agreement.",
+  "faq2Question": "How do Kaleici's bazaars differ from the Grand Bazaar in Istanbul?",
+  "faq2Answer": "Kaleici's bazaars are open-air markets woven into Antalya's historic old town, with a relaxed atmosphere and fewer aggressive vendors than Istanbul's Grand Bazaar. They offer a unique mix of local Mediterranean crafts and Turkish souvenirs in a more intimate setting.",
   "faq3Question": "How can I recognize authentic Turkish crafts in the bazaars?",
   "faq3Answer": "Authentic Turkish crafts often feature handwork and unique details, such as individual knots in carpets or hand-painted ceramic patterns. Ask merchants about the origin and production process—reputable shops are proud to share details and may offer certificates for valuable pieces.",
 
   "conclusionTitle": "Conclusion",
-  "conclusionParagraph1": "Kaleici’s traditional bazaars in Antalya offer more than shopping—they provide an immersive journey into Turkish culture, craftsmanship, and hospitality. Each visit is a chance to connect with local artisans and experience centuries-old traditions.",
-  "conclusionParagraph2": "Whether you’re bargaining for a handwoven carpet, choosing unique jewelry, or sharing tea with a shopkeeper, every interaction in the bazaar creates meaningful memories and authentic travel experiences that go beyond typical tourism.",
-  "conclusionParagraph3": "Leaving Antalya’s historic markets, you take home not just souvenirs but a deeper appreciation for Turkish creativity and tradition. The bazaars of Kaleici remain vibrant centers of commerce and cultural exchange, preserving the true spirit of Turkish heritage.",
+  "conclusionParagraph1": "Kaleici's traditional bazaars in Antalya offer more than shopping—they provide an immersive journey into Turkish culture, craftsmanship, and hospitality. Each visit is a chance to connect with local artisans and experience centuries-old traditions.",
+  "conclusionParagraph2": "Whether you're bargaining for a handwoven carpet, choosing unique jewelry, or sharing tea with a shopkeeper, every interaction in the bazaar creates meaningful memories and authentic travel experiences that go beyond typical tourism.",
+  "conclusionParagraph3": "Leaving Antalya's historic markets, you take home not just souvenirs but a deeper appreciation for Turkish creativity and tradition. The bazaars of Kaleici remain vibrant centers of commerce and cultural exchange, preserving the true spirit of Turkish heritage.",
 
   "practicalInfoTitle": "Practical Information for Tourists",
-  "practicalInfoParagraph1": "Kaleici’s traditional bazaars are centrally located in Antalya’s old town, with the main entrance near Hadrian’s Gate. Visitors can easily access the bazaar area on foot, by public transport, or taxi. Shops typically open from 9:00 AM to 7:00 PM, with longer hours in summer. Most remain open on Fridays, though some may briefly close for prayers.",
-  "practicalInfoParagraph2": "The bazaar’s narrow, pedestrian-friendly streets make exploring safe and pleasant, but watch for occasional delivery motorcycles. Petty theft is rare but possible in crowded areas, so keep bags secure. Most shops accept credit cards, but smaller vendors prefer cash (Turkish lira). Restrooms are limited, but facilities are available near Hadrian’s Gate, the marina, and in cafes.",
-  "practicalInfoParagraph3": "Be aware that Kaleici’s bazaars feature uneven cobblestone streets, steps, and slopes due to the historic, hilly terrain. While main streets are accessible, some charming alleys may be difficult for wheelchair users or those with limited mobility."
+  "practicalInfoParagraph1": "Kaleici's traditional bazaars are centrally located in Antalya's old town, with the main entrance near Hadrian's Gate. Visitors can easily access the bazaar area on foot, by public transport, or taxi. Shops typically open from 9:00 AM to 7:00 PM, with longer hours in summer. Most remain open on Fridays, though some may briefly close for prayers.",
+  "practicalInfoParagraph2": "The bazaar's narrow, pedestrian-friendly streets make exploring safe and pleasant, but watch for occasional delivery motorcycles. Petty theft is rare but possible in crowded areas, so keep bags secure. Most shops accept credit cards, but smaller vendors prefer cash (Turkish lira). Restrooms are limited, but facilities are available near Hadrian's Gate, the marina, and in cafes.",
+  "practicalInfoParagraph3": "Be aware that Kaleici's bazaars feature uneven cobblestone streets, steps, and slopes due to the historic, hilly terrain. While main streets are accessible, some charming alleys may be difficult for wheelchair users or those with limited mobility."
 
 
 }

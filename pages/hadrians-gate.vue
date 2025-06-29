@@ -2,7 +2,7 @@
   <article class="attraction-page">
     <!-- Hero Section -->
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
-      <img src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Hadrian's Gate in Antalya" class="w-full h-full object-cover">
+      <img src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover">
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
       <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
         <div class="container mx-auto">
@@ -28,7 +28,7 @@
           <div>
             <InteractiveImage
               src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
-              alt="Historical view of Hadrian's Gate"
+              :alt="$t('alt.hadrian-gate')"
               class="rounded-lg shadow-lg"
             />
           </div>
@@ -74,8 +74,8 @@
             <img
               ref="interactiveImage"
               src="/images/hadrians-gate-detailed-arches-ceiling-in-antalya-kaleici-old-town-turkey.jpg"
-              alt="Architectural details of Hadrian's Gate"
-              class="w-full h-full h-[800px] transition-all duration-300 ease-out will-change-transform"
+              :alt="$t('alt.hadrian-gate')"
+              class="w-full h-[800px] transition-all duration-300 ease-out will-change-transform"
               :style="imageTransform"
             />
           </div>
@@ -94,7 +94,7 @@
     <!-- Old Harbor -->
     <NuxtLink :to="localePath('/old-harbor')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg" alt="Old Harbor in Antalya Kaleici, Turkey" class="w-full h-full object-cover">
+        <img src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover">
       </div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.oldHarbor.title') }}</h3>
@@ -104,7 +104,7 @@
     <!-- Authentic Streets -->
     <NuxtLink :to="localePath('/authentic-streets')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Authentic Streets" class="w-full h-full object-cover" />
+        <img src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover" />
       </div>
       <div class="p-5">
         <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
@@ -118,7 +118,7 @@
     <!-- Hıdırlık Tower -->
     <NuxtLink :to="localePath('/hidirlik-tower')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/hidirlik-tower-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Hıdırlık Tower" class="w-full h-full object-cover" />
+        <img src="/images/hidirlik-tower-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover" />
       </div>
       <div class="p-5">
         <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
@@ -151,7 +151,7 @@
         <div class="mb-8 rounded-lg overflow-hidden shadow-lg">
           <InteractiveImage 
             src="/images/hadrians-gate-roman-arch-landmark-in-antalya-kaleici-old-town-turkey.jpg"
-            alt="Hadrian's Gate illuminated at night"
+            :alt="$t('alt.hadrian-gate')"
             class="w-full h-64 object-cover"
           />
         </div>
@@ -189,7 +189,7 @@
           <div class="relative h-full">
             <InteractiveImage 
               src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-2.webp"
-              alt="Visiting Hadrian's Gate"
+              :alt="$t('alt.hadrian-gate')"
               class="w-full h-full object-cover rounded-xl shadow-lg"
             />
           </div>
@@ -203,7 +203,7 @@
             <h2 class="text-3xl font-sans font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text6') }}</h2>
             <InteractiveImage 
               src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
-              alt="Visitor facilities near Hadrian's Gate"
+              :alt="$t('alt.hadrian-gate')"
             />
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564.1336697113363!2d30.708982505630104!3d36.885038351263354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39127a10a816b%3A0xb3281b73313e753a!2z0JLQvtGA0L7RgtCwINCQ0LTRgNC40LDQvdCw!5e0!3m2!1sru!2str!4v1749070044496!5m2!1sru!2str" 
               width="100%" height="400" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
@@ -215,19 +215,19 @@
             <h3 class="text-2xl text-center font-sans mt-8 mb-4">{{ $t('hadriansGate.h3Text7') }}</h3>
             <div ref="archSection" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-                <img src="/icons/Walk.svg" alt="Walking Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Walk.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('hadriansGate.pText19') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-                <img src="/icons/Tram.svg" alt="Tram Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Tram.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('hadriansGate.pText20') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-                <img src="/icons/Bus.svg" alt="Bus Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Bus.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('hadriansGate.pText21') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-                <img src="/icons/Taxi.svg" alt="Taxi Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Taxi.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('hadriansGate.pText22') }}</p>
               </div>
             </div>
@@ -235,19 +235,19 @@
             <p class="font-sans [text-indent:2em]">{{ $t('hadriansGate.pText23') }}</p>
             <div ref="archSection5" class="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/Cafe.svg" alt="Cafe Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Cafe.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm font-medium font-sans text-kaleici-800">{{ $t('hadriansGate.pText24') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/Gift.svg" alt="Souvenir Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Gift.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm font-medium font-sans text-kaleici-800">{{ $t('hadriansGate.pText25') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/WC.svg" alt="Restroom WC Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/WC.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm font-medium font-sans text-kaleici-800">{{ $t('hadriansGate.pText26') }}</p>
               </div>
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-                <img src="/icons/Nature.svg" alt="Areas to Rest Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+                <img src="/icons/Nature.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
                 <p class="text-sm font-medium font-sans text-kaleici-800">{{ $t('hadriansGate.pText27') }}</p>
               </div>
             </div>
@@ -280,7 +280,8 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
-const { locale } = useI18n()
+const { t } = useI18n()
+const localePath = useLocalePath()
 
 // Список секций для анимаций
 const archSection = ref(null)
@@ -328,11 +329,11 @@ const handleMouseLeave = () => {
 
 // SEO
 useSeoMeta({
-  title: 'Hadrian\'s Gate | Kaleiçi Guide',
-  description: 'Discover Hadrian\'s Gate, a Roman triumphal arch in Antalya, with history, photos, and tips for visitors.',
-  ogTitle: 'Hadrian\'s Gate in Antalya — Complete Guide',
-  ogDescription: 'See photos and learn about the history of Hadrian\'s Gate in Kaleiçi, Antalya.',
-  ogImage: '/images/hadrians-gate-og.jpg',
+  title: t('seo.hadrian-gate.title'),
+  description: t('seo.hadrian-gate.description'),
+  ogTitle: t('seo.hadrian-gate.ogTitle'),
+  ogDescription: t('seo.hadrian-gate.ogDescription'),
+  ogImage: t('seo.hadrian-gate.ogImage'),
   twitterCard: 'summary_large_image'
 })
 

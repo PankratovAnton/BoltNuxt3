@@ -4,7 +4,7 @@
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
       <img
         src="/images/traditional-bazaar-handmade-carpets-souvenirs-in-antalya-kaleici-old-town-turkey.jpg"
-        alt="Traditional Bazaars in Antalya"
+        :alt="$t('alt.traditional-bazaar')"
         class="w-full h-full object-cover"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -34,12 +34,12 @@
           <div>
             <InteractiveImage
               src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
-              alt="Traditional Bazaar in Old Kaleici"
-              class="rounded-lg max-h-[800px] object-cover object-center shadow-lg"
+              :alt="$t('alt.traditional-bazaar')"
+              class="rounded-lg h-[650px] object-cover object-center shadow-lg"
             />
           </div>
           <div>
-            <h2 class="text-3xl font-bold text-kaleici-800 mb-6">
+            <h2 class="text-3xl text-center font-bold text-kaleici-800 mb-6">
               {{ $t('traditionalBazaar.historyTitle') }}
             </h2>
             <div class="space-y-4 text-base leading-relaxed text-gray-700">
@@ -61,7 +61,7 @@
       <section ref="ArchSection" class="content-section mb-16 bg-[#f5ede1] p-8 rounded-xl shadow-lg">
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div class="prose prose-lg max-w-none">
-            <p class="indent-6 mb-4 text-2xl text-kaleici-800">
+            <p class="text-3xl text-center font-bold text-kaleici-800 mb-6">
               {{ $t('traditionalBazaar.atmosphereTitle') }}
             </p>
             <p class="indent-4 text-kaleici-700">
@@ -79,7 +79,7 @@
             <img
               ref="interactiveImage"
               src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
-              alt="Traditional Bazaar Details"
+              :alt="$t('alt.traditional-bazaar')"
               class="w-full h-full object-cover max-h-[500px] transition-all duration-300 ease-out will-change-transform"
               :style="imageTransform"
             />
@@ -88,21 +88,21 @@
       </section>
 
       <!-- Nearby Attractions -->
-      <section class="content-section mb-16 bg-stone-50 p-8 rounded-xl shadow-lg">
-        <h2 class="text-3xl font-bold text-kaleici-800 mb-4 tracking-tight leading-snug">
+      <section class="content-section mb-16 bg-[#fdedd8] p-8 rounded-xl shadow-lg">
+        <h2 class="text-3xl font-sans text-center font-bold text-kaleici-800 mb-4 tracking-tight leading-snug">
           {{ $t('nearbyAttractions.sectionTitle') }}
         </h2>
-        <p class="text-lg text-kaleici-700 mb-8 leading-relaxed">
+        <p class="text-lg font-sans text-center text-kaleici-700 mb-8 leading-relaxed">
           {{ $t('nearbyAttractions.sectionDescription4') }}
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Hadrian's Gate -->
           <NuxtLink :to="localePath('/hadrians-gate')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
             <div class="h-48 overflow-hidden">
-              <img src="/images/hadrians-gate-roman-arch-landmark-in-antalya-kaleici-old-town-turkey.jpg" alt="Hadrians Gate in Antalya, Kaleici, Turkey" class="w-full h-full object-cover" />
+              <img src="/images/hadrians-gate-roman-arch-landmark-in-antalya-kaleici-old-town-turkey.jpg" :alt="$t('alt.traditional-bazaar')" class="w-full h-full object-cover" />
             </div>
             <div class="p-5">
-              <h3 class="text-xl font-semibold text-kaleici-800 mb-2">
+              <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-2">
                 {{ $t('nearbyAttractions.hadriansGate.title') }}
               </h3>
               <p class="text-kaleici-700 text-base leading-relaxed">
@@ -113,10 +113,10 @@
           <!-- Old Harbor -->
           <NuxtLink :to="localePath('/old-harbor')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
             <div class="h-48 overflow-hidden">
-              <img src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" alt="Old Harbor in Antalya, Kaleici, Turkey" class="w-full h-full object-cover" />
+              <img src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.traditional-bazaar')" class="w-full h-full object-cover" />
             </div>
             <div class="p-5">
-              <h3 class="text-xl font-semibold text-kaleici-800 mb-2">
+              <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-2">
                 {{ $t('nearbyAttractions.oldHarbor.title') }}
               </h3>
               <p class="text-kaleici-700 text-base leading-relaxed">
@@ -127,10 +127,10 @@
           <!-- Hıdırlık Tower -->
           <NuxtLink :to="localePath('/hidirlik-tower')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
             <div class="h-48 overflow-hidden">
-              <img src="/images/hidirlik-tower-seaside-perspective-olive-tree-in-antalya-kaleici-old-town-turkey.jpg" alt="Hidirlik Tower in Antalya Kaleiçi" class="w-full h-full object-cover" />
+              <img src="/images/hidirlik-tower-seaside-perspective-olive-tree-in-antalya-kaleici-old-town-turkey.jpg" :alt="$t('alt.traditional-bazaar')" class="w-full h-full object-cover" />
             </div>
             <div class="p-5">
-              <h3 class="text-xl font-semibold text-kaleici-800 mb-2">
+              <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
                 {{ $t('nearbyAttractions.hidirlikTower.title') }}
               </h3>
               <p class="text-kaleici-700 text-base leading-relaxed">
@@ -143,14 +143,14 @@
 
       <!-- Conclusion -->
       <section class="content-section mb-16">
-        <h2 class="text-3xl font-bold text-kaleici-800 mb-4 tracking-tight leading-snug">
+        <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-4 tracking-tight leading-snug">
           {{ $t('traditionalBazaar.conclusionTitle') }}
         </h2>
         <div class="prose prose-lg max-w-none text-kaleici-700">
           <p class="indent-4 font-medium mb-4">
             {{ $t('traditionalBazaar.conclusionParagraph1') }}
           </p>
-          <p class="indent-4 font-medium">
+          <p class=" font-medium">
             {{ $t('traditionalBazaar.conclusionParagraph2') }}
           </p>
         </div>
@@ -161,7 +161,7 @@
         <div class="mb-8 rounded-lg overflow-hidden shadow-lg">
           <InteractiveImage
             src="/images/traditional-bazaar-handmade-carpets-souvenirs-in-antalya-kaleici-old-town-turkey.jpg"
-            alt="Traditional Bazaar illuminated at night"
+            :alt="$t('alt.traditional-bazaar')"
             class="w-full h-64 object-cover"
           />
         </div>
@@ -181,19 +181,19 @@
             ref="qSection"
             class="bg-[#f5ede1] p-6 rounded-xl shadow-lg flex flex-col justify-between"
           >
-            <h2 class="text-2xl font-semibold text-kaleici-800 mb-2">
+            <h2 class="text-2xl text-center font-semibold text-kaleici-800 mb-2">
               {{ $t('traditionalBazaar.faqTitle') }}
             </h2>
             <div class="prose prose-base text-kaleici-700 leading-relaxed">
-              <h3 class="text-xl font-semibold mt-6 mb-2">
+              <h3 class="text-xl font-semibold mt-6 mb-4">
                 {{ $t('traditionalBazaar.faq1Question') }}
               </h3>
               <p>{{ $t('traditionalBazaar.faq1Answer') }}</p>
-              <h3 class="text-xl font-semibold mt-6 mb-2">
+              <h3 class="text-xl font-semibold mt-6 mb-4">
                 {{ $t('traditionalBazaar.faq2Question') }}
               </h3>
               <p>{{ $t('traditionalBazaar.faq2Answer') }}</p>
-              <h3 class="text-xl font-semibold mt-6 mb-2">
+              <h3 class="text-xl font-semibold mt-6 mb-4">
                 {{ $t('traditionalBazaar.faq3Question') }}
               </h3>
               <p>{{ $t('traditionalBazaar.faq3Answer') }}</p>
@@ -203,8 +203,8 @@
           <div class="relative h-full">
             <InteractiveImage
               src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-              alt="Traditional Bazaar"
-              class="w-full h-full object-cover max-h-[650px] rounded-xl shadow-lg"
+              :alt="$t('alt.traditional-bazaar')"
+              class="w-full object-cover h-[600px] rounded-xl shadow-lg"
             />
           </div>
         </div>
@@ -217,7 +217,7 @@
           <div class="relative h-full">
             <InteractiveImage
               src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
-              alt="Traditional Bazaar"
+              :alt="$t('alt.traditional-bazaar')"
               class="w-full h-full object-cover max-h-[650px] rounded-xl shadow-lg"
             />
           </div>
@@ -226,17 +226,17 @@
             ref="wSection"
             class="bg-[#f5ede1] p-6 rounded-xl shadow-lg flex flex-col justify-between"
           >
-            <h2 class="text-2xl font-semibold text-kaleici-800 mb-4">
+            <h2 class="text-2xl font-semibold text-center text-kaleici-800 mb-4">
               {{ $t('traditionalBazaar.shoppingTipsTitle') }}
             </h2>
             <div class="prose prose-base text-kaleici-700 leading-relaxed">
               <p class="indent-6 mb-4">
                 {{ $t('traditionalBazaar.shoppingTipsParagraph1') }}
               </p>
-              <p class="indent-6 mb-4">
+              <p class=" mb-4">
                 {{ $t('traditionalBazaar.shoppingTipsParagraph2') }}
               </p>
-              <p class="indent-6 mb-4">
+              <p class=" mb-4">
                 {{ $t('traditionalBazaar.shoppingTipsParagraph3') }}
               </p>
             </div>
@@ -247,36 +247,36 @@
  <!-- Practical Information -->
 <section class="content-section mb-16">
   <div class="grid md:grid-cols-2 gap-8 items-stretch">
-    <div class="prose prose-lg h-full flex flex-col justify-between text-kaleici-700 leading-relaxed">
-      <h3 class="text-2xl font-semibold mb-4">
+    <div class="prose prose-lg h-full flex flex-col justify-between font-sans text-kaleici-700 leading-relaxed">
+      <h3 class="text-2xl text-center font-semibold mb-4">
         {{ $t('hadriansGate.h3Text6') }}
       </h3>
       <p>{{ $t('traditionalBazaar.practicalInfoParagraph1') }}</p>
       <p>{{ $t('traditionalBazaar.practicalInfoParagraph3') }}</p>
-      <h3 class="text-2xl font-semibold mt-8 mb-4">
+      <h3 class="text-2xl text-center font-semibold mt-4 mb-4">
         {{ $t('oldHarbor.oldHarbor.gettingThere_publicTransportTitle') }}
       </h3>
       <div ref="eSection" class="flex flex-col gap-3 mb-8">
         <div class="bg-stone-50 rounded-lg p-4 flex items-center shadow-sm">
-          <img src="/icons/Walk.svg" alt="Walking Icon" class="w-7 h-7 mr-4 text-amber-600" />
+          <img src="/icons/Walk.svg" :alt="$t('alt.traditional-bazaar')" class="w-7 h-7 mr-4 text-amber-600" />
           <p class="text-sm text-kaleici-800">
             {{ $t('traditionalBazaar.practicalInfoParagraph2') }}
           </p>
         </div>
       </div>
-      <h3 class="text-2xl font-semibold mt-0 mb-2">
+      <h3 class="text-2xl text-center font-semibold mt-0 mb-2">
         {{ $t('hadriansGate.h3Text8') }}
       </h3>
-      <p>{{ $t('hadriansGate.pText23') }}</p>
+      <p>{{ $t('hadriansGate.pText32') }}</p>
       <div ref="rSection" class="grid grid-cols-2 md:grid-cols-4 gap-2">
         <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-          <img src="/icons/Cafe.svg" alt="Cafe Icon" class="w-8 h-6 mx-auto text-amber-600 mb-2" />
+          <img src="/icons/Cafe.svg" :alt="$t('alt.traditional-bazaar')" class="w-8 h-6 mx-auto text-amber-600 mb-2" />
           <p class="text-sm font-medium text-kaleici-800">
             {{ $t('hadriansGate.pText24') }}
           </p>
         </div>
         <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-          <img src="/icons/Gift.svg" alt="Souvenir Icon" class="w-7 h-7 mx-auto text-amber-600 mb-2" />
+          <img src="/icons/Gift.svg" :alt="$t('alt.traditional-bazaar')" class="w-7 h-7 mx-auto text-amber-600 mb-2" />
           <p class="text-sm font-medium text-kaleici-800">
             {{ $t('hadriansGate.pText25') }}
           </p>
@@ -284,18 +284,18 @@
       </div>
     </div>
     <div class="flex flex-col justify-between space-y-8 h-full">
-      <h2 class="text-3xl font-bold text-kaleici-800 mb-6">
+      <h2 class="text-3xl font-sans text-center font-bold text-kaleici-800 mb-6">
         {{ $t('traditionalBazaar.practicalInfoTitle') }}
       </h2>
       <InteractiveImage
         src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg"
         class="rounded-xl"
-        alt="Visitor facilities near Traditional Bazaar"
+        :alt="$t('alt.traditional-bazaar')"
       />
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5366.822454153865!2d30.69755689505437!3d36.88719695032865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c391b7173340d3%3A0x87916fac2e3d58f!2sOld%20Town%20Bazaar!5e0!3m2!1sru!2str!4v1750339959043!5m2!1sru!2str"
-        width="600"
-        height="450"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.09207152887!2d30.70276844458454!3d36.8881456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3919ea7b73439%3A0xc335f2d00727417b!2sOld%20Bazaar!5e0!3m2!1sru!2str!4v1751207376227!5m2!1sru!2str"
+        width=100%
+        height="400"
         style="border:0;"
         allowfullscreen=""
         loading="lazy"
@@ -309,7 +309,7 @@
       <!-- Tours Widget -->
       <section class="content-section">
         <div class="bg-white rounded-lg shadow-lg p-8">
-          <h2 class="text-3xl font-bold text-kaleici-800 mb-6">
+          <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
             {{ $t('hadriansGate.h2Text8') }}
           </h2>
           <p class="text-lg mb-8">{{ $t('hadriansGate.pText30') }}</p>
@@ -338,7 +338,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const { t } = useI18n()
 const localePath = useLocalePath()
+
+
 const animatedSections = [
   ref(null), // ArchSection
   ref(null), // qSection
@@ -386,11 +389,11 @@ const handleMouseLeave = () => {
 }
 
 useSeoMeta({
-  title: "Traditional Bazaar – Kaleiçi Guide",
-  description: "Explore the vibrant Traditional Bazaars of Kaleiçi, Antalya. Discover authentic local goods, souvenirs, and the lively atmosphere of the old town's market streets.",
-  ogTitle: "Traditional Bazaar – Kaleiçi Guide",
-  ogDescription: "Explore the vibrant Traditional Bazaars of Kaleiçi, Antalya. Discover authentic local goods, souvenirs, and the lively atmosphere of the old town's market streets.",
-  ogImage: "/images/traditional-bazaar-og.jpg",
+  title: t('seo.traditional-bazaar.title'),
+  description: t('seo.traditional-bazaar.description'),
+  ogTitle: t('seo.traditional-bazaar.ogTitle'),
+  ogDescription: t('seo.traditional-bazaar.ogDescription'),
+  ogImage: t('seo.traditional-bazaar.ogImage'),
   twitterCard: "summary_large_image"
 })
 

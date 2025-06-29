@@ -4,7 +4,7 @@
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
       <img
         src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-        alt="Authentic Streets of Kaleiçi"
+        :alt="$t('alt.streets')"
         class="w-full h-full object-cover"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -37,17 +37,17 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <img
             src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg"
-            alt="Historic streets of Kaleiçi"
+            :alt="$t('alt.streets')"
             class="w-full h-64 object-cover rounded-lg shadow-lg"
           />
           <img
             src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
-            alt="Traditional architecture in Kaleiçi"
+            :alt="$t('alt.streets')"
             class="w-full h-64 object-cover rounded-lg shadow-lg"
           />
           <img
             src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
-            alt="Charming corners of Kaleiçi"
+            :alt="$t('alt.streets')"
             class="w-full h-64 object-cover rounded-lg shadow-lg"
           />
         </div>
@@ -71,7 +71,7 @@
       <div class="h-48 overflow-hidden">
         <img
           src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-          alt="Hadrian's Gate"
+          :alt="$t('alt.streets')"
           class="w-full h-full object-cover"
         />
       </div>
@@ -93,7 +93,7 @@
       <div class="h-48 overflow-hidden">
         <img
           src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-          alt="Old Harbor"
+          :alt="$t('alt.streets')"
           class="w-full h-full object-cover"
         />
       </div>
@@ -115,7 +115,7 @@
       <div class="h-48 overflow-hidden">
         <img
           src="/images/hidirlik-tower-seaside-perspective-olive-tree-in-antalya-kaleici-old-town-turkey.jpg"
-          alt="Hidirlik Tower"
+          :alt="$t('alt.streets')"
           class="w-full h-full object-cover"
         />
       </div>
@@ -159,24 +159,27 @@ import { useSeoMeta, useHead } from '#imports'
 import { useI18n } from 'vue-i18n'
 import GetYourGuide from '../../components/GetYourGuide.vue'
 
-const { t, locale } = useI18n()
+const { t} = useI18n()
+const localePath = useLocalePath()
 
 useSeoMeta({
-  title: t('authenticStreets.seoTitle'),
-  ogTitle: t('authenticStreets.seoTitle'),
-  description: t('authenticStreets.seoDescription'),
-  ogDescription: t('authenticStreets.seoDescription'),
-  ogImage: '/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg'
+  title: t('seo.streets.title'),
+  description: t('seo.streets.description'),
+  ogTitle: t('seo.streets.ogTitle'),
+  ogDescription: t('seo.streets.ogDescription'),
+  ogImage: t('seo.streets.ogImage'),
+  twitterCard: "summary_large_image"
 })
 
 useHead({
-  htmlAttrs: { lang: locale.value },
   link: [
-    { rel: 'canonical', href: 'https://kaleici.guide/authentic-streets' }
+    { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
   ],
   meta: [
-    { name: 'viewport', content: 'width=device-width,initial-scale=1' }
+    { name: 'robots', content: 'index, follow' }
   ]
 })
+
 </script>
 

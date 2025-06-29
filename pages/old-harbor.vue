@@ -4,7 +4,7 @@
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
       <img
         src="/images/main-page-carousel-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-        alt="Old Harbor in Antalya"
+        :alt="$t('alt.old-harbor')"
         class="w-full h-full object-cover"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -34,7 +34,7 @@
           <div>
             <InteractiveImage
               src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-7.jpg"
-              alt="Historical view of Old Harbor"
+              :alt="$t('alt.old-harbor')"
               class="rounded-lg max-h-[600px] object-cover object-center shadow-lg"
             />
           </div>
@@ -83,7 +83,7 @@
             <img
               ref="interactiveImage"
               src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-9.jpg"
-              alt="Architectural details of Old Harbor"
+              :alt="$t('alt.old-harbor')"
               class="w-full h-full object-cover max-h-[500px] transition-all duration-300 ease-out will-change-transform"
               :style="imageTransform"
             />
@@ -111,7 +111,7 @@
             <div class="h-48 overflow-hidden">
               <img
                 src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
-                alt="Traditional Bazaar Street Scene"
+                :alt="$t('alt.old-harbor')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -132,7 +132,7 @@
             <div class="h-48 overflow-hidden">
               <img
                 src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-                alt="Authentic Streets"
+                :alt="$t('alt.old-harbor')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -153,7 +153,7 @@
             <div class="h-48 overflow-hidden">
               <img
                 src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-                alt="Hadrian's Gate in Antalya Kaleiçi"
+                :alt="$t('alt.old-harbor')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -191,7 +191,7 @@
         <div class="mb-8 rounded-lg overflow-hidden shadow-lg">
           <InteractiveImage
             src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-10.jpg"
-            alt="Old Harbor illuminated at night"
+            :alt="$t('alt.old-harbor')"
             class="w-full h-64 object-cover"
           />
         </div>
@@ -245,7 +245,7 @@
           <div class="relative h-full">
             <InteractiveImage
               src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
-              alt="Visiting Old Harbor"
+              :alt="$t('alt.old-harbor')"
               class="w-full object-cover max-h-[800px] rounded-xl shadow-lg"
             />
           </div>
@@ -278,7 +278,7 @@
           <div class="relative h-full">
             <InteractiveImage
               src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
-              alt="Visiting Old Harbor"
+              :alt="$t('alt.old-harbor')"
               class="w-full h-full object-cover max-h-[700px] rounded-xl shadow-lg"
             />
           </div>
@@ -332,7 +332,7 @@
               <div class="bg-stone-50 rounded-lg p-4 flex items-center shadow-sm">
                 <img
                   src="/icons/Walk.svg"
-                  alt="Walking Icon"
+                  :alt="$t('alt.old-harbor')"
                   class="w-10 h-10 mr-4 text-amber-600"
                 />
                 <p class="text-sm font-sans text-kaleici-800">
@@ -349,7 +349,7 @@
               <div class="bg-stone-50 rounded-lg p-4 flex items-center shadow-sm">
                 <img
                   src="/icons/Tram.svg"
-                  alt="Tram Icon"
+                  :alt="$t('alt.old-harbor')"
                   class="w-10 h-10 mr-4 text-amber-600"
                 />
                 <p class="text-sm font-sans text-kaleici-800">
@@ -360,7 +360,7 @@
               <div class="bg-stone-50 rounded-lg p-4 flex items-center shadow-sm">
                 <img
                   src="/icons/Bus.svg"
-                  alt="Bus Icon"
+                  :alt="$t('alt.old-harbor')"
                   class="w-10 h-10 mr-4 text-amber-600"
                 />
                 <p class="text-sm font-sans text-kaleici-800">
@@ -371,7 +371,7 @@
               <div class="bg-stone-50 rounded-lg p-3 flex items-center shadow-sm">
                 <img
                   src="/icons/Taxi.svg"
-                  alt="Taxi Icon"
+                  :alt="$t('alt.old-harbor')"
                   class="w-10 h-10 mr-4 text-amber-600"
                 />
                 <p class="text-sm font-sans text-kaleici-800">
@@ -389,7 +389,7 @@
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
                 <img
                   src="/icons/Cafe.svg"
-                  alt="Cafe Icon"
+                  :alt="$t('alt.old-harbor')"
                   class="w-10 h-10 mx-auto text-amber-600 mb-2"
                 />
                 <p class="text-sm font-medium font-sans text-kaleici-800">
@@ -400,7 +400,7 @@
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
                 <img
                   src="/icons/Gift.svg"
-                  alt="Souvenir Icon"
+                  :alt="$t('alt.old-harbor')"
                   class="w-10 h-10 mx-auto text-amber-600 mb-2"
                 />
                 <p class="text-sm font-medium font-sans text-kaleici-800">
@@ -411,7 +411,7 @@
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
                 <img
                   src="/icons/WC.svg"
-                  alt="Restroom WC Icon"
+                  :alt="$t('alt.old-harbor')"
                   class="w-10 h-10 mx-auto text-amber-600 mb-2"
                 />
                 <p class="text-sm font-medium font-sans text-kaleici-800">
@@ -422,7 +422,7 @@
               <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
                 <img
                   src="/icons/Nature.svg"
-                  alt="Areas to Rest Icon"
+                  :alt="$t('alt.old-harbor')"
                   class="w-10 h-10 mx-auto text-amber-600 mb-2"
                 />
                 <p class="text-sm font-medium font-sans text-kaleici-800">
@@ -438,7 +438,7 @@
             <InteractiveImage
               src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
               class="rounded-xl"
-              alt="Visitor facilities near Old Harbor"
+              :alt="$t('alt.old-harbor')"
             />
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5367.022202453687!2d30.69893574217092!3d36.88435531445283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3900525de718b%3A0x448a01e080365c0!2z0KHRgtCw0YDRi9C5INC_0L7RgNGCINCQ0L3RgtCw0LvQuNC4!5e0!3m2!1sru!2str!4v1749309573734!5m2!1sru!2str"
@@ -484,7 +484,8 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
-const { locale, t } = useI18n()
+const { t } = useI18n()
+const localePath = useLocalePath()
 
 const ArchSection = ref(null)
 const ArchSection2 = ref(null)
@@ -530,13 +531,14 @@ const handleMouseLeave = () => {
 
 // SEO: адаптируй под нужный тебе тайтл, дескрипшн и canonical
 useSeoMeta({
-  title: 'Old Harbor | Kaleiçi Guide',
-  description: 'Complete guide to Antalya Old Harbor: history, architecture, tips, photos.',
-  ogTitle: 'Old Harbor in Antalya — Complete Guide',
-  ogDescription: 'See photos and learn about the history of Old Harbor in Kaleiçi, Antalya.',
-  ogImage: '/images/old-harbor-og.jpg',
+  title: t('seo.old-harbor.title'),
+  description: t('seo.old-harbor.description'),
+  ogTitle: t('seo.old-harbor.ogTitle'),
+  ogDescription: t('seo.old-harbor.ogDescription'),
+  ogImage: t('seo.old-harbor.ogImage'),
   twitterCard: 'summary_large_image'
 })
+
 useHead({
   link: [
     { rel: 'canonical', href: 'https://your-domain.com/old-harbor' },

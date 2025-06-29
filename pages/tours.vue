@@ -85,16 +85,28 @@ import GetYourGuide from '../../components/GetYourGuide.vue'
 
 // i18n
 const { t } = useI18n()
+const localePath = useLocalePath()
 
-// SEO meta
 useSeoMeta({
-  title: computed(() => t('tours.seo_title') || 'Tours & Excursions in Kaleiçi | Kaleiçi Guide'),
-  description: computed(() => t('tours.seo_description') || 'Discover the best tours, excursions, and activities in Antalya\'s Kaleiçi. Book partner tours and experiences online.')
+  title: t('seo.tours.title'),
+  description: t('seo.tours.description'),
+  ogTitle: t('seo.tours.ogTitle'),
+  ogDescription: t('seo.tours.ogDescription'),
+  ogImage: t('seo.tours.ogImage'),
+  twitterCard: "summary_large_image"
 })
 
+// SEO Nuxt 3 (или см. useHead Nuxt 3)
 useHead({
-  htmlAttrs: { lang: 'en' }
+  link: [
+    { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+  ],
+  meta: [
+    { name: 'robots', content: 'index, follow' }
+  ]
 })
+
 </script>
 
 

@@ -80,7 +80,7 @@
       <div class="relative">
         <InteractiveImage
           src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-1.jpg"
-          alt="Discover the charm of Kaleiçi's historic streets"
+          :alt="$t('alt.hadrian-gate')"
           class="rounded-xl shadow-xl w-full h-[640px] object-cover object-center"
         />
         <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-lg max-w-xs">
@@ -106,7 +106,7 @@
       <div class="relative">
         <InteractiveImage
           src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-2.jpg"
-          alt="Discover the charm of Kaleiçi's historic streets"
+          :alt="$t('alt.hadrian-gate')"
           class="rounded-lg shadow-xl w-full h-[480px] object-cover object-center"
         />
       </div>
@@ -137,7 +137,7 @@
         <!-- Old Harbor -->
         <NuxtLink :to="localePath('/old-harbor')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
           <div class="h-48 overflow-hidden">
-            <InteractiveImage src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-6.jpg" alt="Old Harbor in Antalya Kaleici, Turkey" class="w-full h-full object-cover"/>
+            <InteractiveImage src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-6.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover"/>
           </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.oldHarbor.title') }}</h3>
@@ -148,7 +148,7 @@
         <!-- Karaalioglu park -->
         <NuxtLink :to="localePath('/karaalioglu-park')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
           <div class="h-48 overflow-hidden">
-            <InteractiveImage src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-1.jpg" alt="Karaalioglu Park in Antalya Kaleici, Turkey" class="w-full h-full object-cover"/>
+            <InteractiveImage src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover"/>
           </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.karaaliogluPark.title') }}</h3>
@@ -159,7 +159,7 @@
         <!-- Hadrians Gate -->
         <NuxtLink :to="localePath('/hadrians-gate')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
           <div class="h-48 overflow-hidden">
-            <InteractiveImage src="/images/hadrian-gate-in-antalya-kaleici-old-town-turkey-1.jpg" alt="Hadrian's Gate in Antalya Kaleici, Turkey" class="w-full h-full object-cover"/>
+            <InteractiveImage src="/images/hadrian-gate-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover"/>
           </div>
           <div class="p-6">
             <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-3">{{ $t('nearbyAttractions.hadriansGate.title') }}</h3>
@@ -193,7 +193,7 @@
   <!-- BG IMAGE -->
   <img
     src="/images/text-decorations-in-antalya-kaleici-old-town-turkey-1.jpg"
-    alt="Ottoman mansion door in Kaleiçi"
+    :alt="$t('alt.hadrian-gate')"
     class="absolute inset-0 w-full h-full object-cover object-center opacity-70 pointer-events-none select-none"
     aria-hidden="true"
     draggable="false"
@@ -207,7 +207,7 @@
     <div class="w-full md:w-[44%] flex justify-center items-center">
       <InteractiveImage
         src="/images/text-decorations-in-antalya-kaleici-old-town-turkey-1.jpg"
-        alt="Ottoman mansion door in Kaleici"
+        :alt="$t('alt.hadrian-gate')"
         class="w-full h-[300px] md:h-[520px] max-h-[600px] md:w-[420px] object-cover object-center rounded-xl shadow-xl md:my-6"
       />
     </div>
@@ -248,13 +248,13 @@
 
     <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
-        <InteractiveImage src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg" alt="Kaleici streets in Antalya Old Town, Turkey" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+        <InteractiveImage src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
       </div>
       <div>
-        <InteractiveImage src="/images/text-decorations-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg" alt="Kaleici streets in Antalya Old Town, Turkey" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+        <InteractiveImage src="/images/text-decorations-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
       </div>
       <div>
-        <InteractiveImage src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg" alt="Kaleici streets in Antalya Old Town, Turkey" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+        <InteractiveImage src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
       </div>
     </div>
     <!-- конец блока с фото -->
@@ -284,7 +284,7 @@
       <div class="relative h-full">
         <InteractiveImage 
           src="/images/other-in-antalya-kaleici-old-town-turkey-1.jpg"
-          alt="Visiting Hadrian's Gate"
+          :alt="$t('alt.hadrian-gate')"
           class=" w-[600px] object-cover rounded-xl"
         />
       </div>
@@ -301,7 +301,7 @@
         <InteractiveImage
           class="rounded-xl"
           src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-4.jpg"
-          alt="Visitor facilities near Hadrian's Gate"
+          :alt="$t('alt.hadrian-gate')"
         />
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.7127613660177!2d30.702752776113237!3d36.88327847210452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009be0e3b47%3A0x3cb5088367f69e0e!2sKalei%C3%A7i%2C%20Antalya%2C%20Turkey!5e0!3m2!1sen!2sus!4v1708893144902!5m2!1sen!2sus" width="100%" height="400" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
@@ -312,19 +312,19 @@
         <div ref="IconMSection" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <!-- Icons — смотри пути и названия SVG! -->
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-            <img src="/icons/Walk.svg" alt="Walking Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+            <img src="/icons/Walk.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
             <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('home.gettingThereCards.walking') }}</p>
           </div>
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-            <img src="/icons/Tram.svg" alt="Tram Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+            <img src="/icons/Tram.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
             <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('home.gettingThereCards.tram') }}</p>
           </div>
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-            <img src="/icons/Bus.svg" alt="Bus Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+            <img src="/icons/Bus.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
             <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('home.gettingThereCards.bus') }}</p>
           </div>
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm">
-            <img src="/icons/Taxi.svg" alt="Taxi Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+            <img src="/icons/Taxi.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
             <p class="text-sm text-left font-sans text-kaleici-800">{{ $t('home.gettingThereCards.taxi') }}</p>
           </div>
         </div>
@@ -332,19 +332,19 @@
         <p class="[text-indent:2em] font-sans">{{ $t('home.visitingInfo.bestTimeText') }}</p>
         <div ref="IconSSection" class="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-            <img src="/icons/Cafe.svg" alt="Cafe Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+            <img src="/icons/Cafe.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
             <p class="text-sm font-sans font-medium text-kaleici-800">{{ $t('hadriansGate.pText24') }}</p>
           </div>
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-            <img src="/icons/Gift.svg" alt="Souvenir Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+            <img src="/icons/Gift.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
             <p class="text-sm font-sans font-medium text-kaleici-800">{{ $t('hadriansGate.pText25') }}</p>
           </div>
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-            <img src="/icons/WC.svg" alt="Restroom WC Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+            <img src="/icons/WC.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
             <p class="text-sm font-sans font-medium text-kaleici-800">{{ $t('hadriansGate.pText26') }}</p>
           </div>
           <div class="bg-stone-50 rounded-lg p-4 text-center shadow-sm aspect-square flex flex-col items-center justify-center">
-            <img src="/icons/Nature.svg" alt="Areas to Rest Icon" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
+            <img src="/icons/Nature.svg" :alt="$t('alt.hadrian-gate')" class="w-10 h-10 mx-auto text-amber-600 mb-2" />
             <p class="text-sm font-sans font-medium text-kaleici-800">{{ $t('hadriansGate.pText27') }}</p>
           </div>
         </div>
@@ -352,6 +352,7 @@
     </div>
   </div>
 </section>
+
 
 
   </div>
@@ -362,21 +363,7 @@
 const { t } = useI18n()
 const localePath = useLocalePath()
 
-// Nuxt 3 — SEO мета-теги
-definePageMeta({
-  title: 'Home - Attractions Hub',
-  description: 'Welcome to Attractions Hub - Your gateway to discovering amazing attractions worldwide'
-})
 
-useHead({
-  title: () => `${t('navigation.home')} - ${t('site.title')}`,
-  meta: [
-    {
-      name: 'description',
-      content: () => t('site.description')
-    }
-  ]
-})
 
 // ---- Старый функционал (swiper, gsap, hero) ----
 import { ref, onMounted } from 'vue'
@@ -415,15 +402,15 @@ const isActiveSlide = ref({})
 const heroImages = [
   {
     url: '/images/viewpoints-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg',
-    altKey: 'images.viewpoints_in_antalya_kaleici_old_town_turkey_1jpg'
+    altKey: 'alt.old-harbor'
   },
   {
     url: '/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg',
-    altKey: 'images.old_harbor_in_antalya_kaleici_old_town_turkey_1jpg'
+    altKey: 'alt.old-harbor'
   },
   {
     url: '/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg',
-    altKey: 'images.hadrians_gate_in_antalya_kaleici_old_town_turkey_1jpg'
+    altKey: 'alt.old-harbor'
   }
 ]
 
@@ -459,4 +446,25 @@ onMounted(() => {
     })
   })
 })
+
+// SEO
+ useSeoMeta({
+  title: t('seo.home.title'),
+  description: t('seo.home.description'),
+  ogTitle: t('seo.home.ogTitle'),
+  ogDescription: t('seo.home.ogDescription'),
+  ogImage: t('seo.home.ogImage'),
+  twitterCard: 'summary_large_image'
+})
+
+useHead({
+  link: [
+    { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+  ],
+  meta: [
+    { name: 'robots', content: 'index, follow' }
+  ]
+})
+
 </script>

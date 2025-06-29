@@ -34,7 +34,7 @@
             <div class="relative h-64">
               <InteractiveImage
                 src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-                :alt="$t('attractions.hadrians-gate.imageAlt')"
+                :alt="$t('alt.hadrian-gate')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -57,7 +57,7 @@
             <div class="relative h-64">
               <InteractiveImage
                 src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
-                :alt="$t('attractions.authentic-streets.imageAlt')"
+                :alt="$t('alt.streets')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -80,7 +80,7 @@
             <div class="relative h-64">
               <InteractiveImage
                 src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-                :alt="$t('attractions.authentic-streets.imageAlt')"
+                :alt="$t('alt.karaalioglu-park')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -102,7 +102,7 @@
             <div class="relative h-64">
               <InteractiveImage
                 src="/images/hidirlik-tower-detailed-upper-walls-in-antalya-kaleici-old-town-turkey.jpg"
-                :alt="$t('attractions.hidirlik-tower.imageAlt')"
+                :alt="$t('alt.hidirlik-tower')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -124,7 +124,7 @@
             <div class="relative h-64">
               <InteractiveImage
                 src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
-                :alt="$t('attractions.authentic-streets.imageAlt')"
+                :alt="$t('alt.traditional-bazaar')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -146,7 +146,7 @@
             <div class="relative h-64">
               <InteractiveImage
                 src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-                :alt="$t('attractions.authentic-streets.imageAlt')"
+                :alt="$t('alt.authentic-streets')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -192,28 +192,27 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
 
+
+useSeoMeta({
+  title: t('seo.attractions.title'),
+  description: t('seo.attractions.description'),
+  ogTitle: t('seo.attractions.ogTitle'),
+  ogDescription: t('seo.attractions.ogDescription'),
+  ogImage: t('seo.attractions.ogImage'),
+  twitterCard: "summary_large_image"
+})
+
 // SEO Nuxt 3 (или см. useHead Nuxt 3)
 useHead({
-  title: computed(() => t('attractions.title') + ' | Kaleiçi Guide'),
+  link: [
+    { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+  ],
   meta: [
-    {
-      name: 'description',
-      content: computed(() => t('attractions.introduction'))
-    },
-    {
-      property: 'og:title',
-      content: computed(() => t('attractions.title') + ' | Kaleiçi Guide')
-    },
-    {
-      property: 'og:description',
-      content: computed(() => t('attractions.introduction'))
-    },
-    {
-      property: 'og:image',
-      content: '/images/uploads/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg'
-    }
+    { name: 'robots', content: 'index, follow' }
   ]
 })
+
 </script>
 
 <style scoped>
