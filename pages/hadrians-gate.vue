@@ -33,7 +33,7 @@
             />
           </div>
           <div>
-            <h2 class="text-3xl font-bold text-kaleici-800 mb-6">
+            <h2 class="text-3xl text-center font-bold text-kaleici-800 mb-6">
               {{ $t('hadriansGate.h2Text1') }}
             </h2>
             <div class="space-y-4 text-base leading-relaxed text-gray-700">
@@ -56,15 +56,15 @@
 
       <!-- Architectural Features -->
       <section ref="archSection2" class="content-section mb-16 bg-[#f5ede1] p-8 rounded-xl shadow-lg">
-        <h2 class="text-3xl font-bold text-kaleici-800 mb-6 tracking-tight leading-snug">
+        <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6 tracking-tight leading-snug">
           {{ $t('hadriansGate.h2Text2') }}
         </h2>
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div class="prose prose-lg max-w-none text-kaleici-700">
             <p class="indent-6 mb-4">{{ $t('hadriansGate.pText5') }}</p>
-            <p class="indent-6 mb-4">{{ $t('hadriansGate.pText6') }}</p>
-            <p class="indent-6 mb-4">{{ $t('hadriansGate.pText7') }}</p>
-            <p class="indent-6">{{ $t('hadriansGate.pText8') }}</p>
+            <p class=" mb-4">{{ $t('hadriansGate.pText6') }}</p>
+            <p class=" mb-4">{{ $t('hadriansGate.pText7') }}</p>
+            <p class="">{{ $t('hadriansGate.pText8') }}</p>
           </div>
           <div
             class="interactive-image-container overflow-hidden rounded-lg shadow-lg"
@@ -75,7 +75,7 @@
               ref="interactiveImage"
               src="/images/hadrians-gate-detailed-arches-ceiling-in-antalya-kaleici-old-town-turkey.jpg"
               :alt="$t('alt.hadrian-gate')"
-              class="w-full h-[800px] transition-all duration-300 ease-out will-change-transform"
+              class="w-full h-[600px] transition-all duration-300 ease-out will-change-transform"
               :style="imageTransform"
             />
           </div>
@@ -200,7 +200,7 @@
       <section ref="archSection7" class="content-section mb-16">
         <div class="grid md:grid-cols-2 gap-8 items-stretch">
           <div class="flex flex-col justify-between space-y-8 h-full">
-            <h2 class="text-3xl font-sans font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text6') }}</h2>
+            <h2 class="text-3xl font-sans text-center font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text6') }}</h2>
             <InteractiveImage 
               src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
               :alt="$t('alt.hadrian-gate')"
@@ -340,7 +340,7 @@ useSeoMeta({
 useHead({
   link: [
     { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
-    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }

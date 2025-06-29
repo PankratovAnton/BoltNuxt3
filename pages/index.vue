@@ -460,7 +460,7 @@ onMounted(() => {
 useHead({
   link: [
     { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
-    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
