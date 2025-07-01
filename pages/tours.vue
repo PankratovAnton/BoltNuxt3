@@ -200,7 +200,7 @@
             <div class="relative h-64">
               <InteractiveImage
                 src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-                :alt="$t('alt.authentic-streets')"
+                :alt="$t('alt.streets')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -281,7 +281,7 @@ const heroImages = [
 
 const discoverLinks = [
   { name: 'attractions', translationKey: 'attractions' },
-  { name: 'travel-tips', translationKey: 'tips' },
+  { name: '', translationKey: 'tips' },
   { name: 'tours', translationKey: 'tours' }
 ]
 
@@ -325,13 +325,49 @@ useSeoMeta({
 // SEO Nuxt 3 (или см. useHead Nuxt 3)
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'canonical', href: 'https://your-domain.com/tours' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/tours' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/tours' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/tours' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/tours' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/tours' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/tours' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/tours' },
+
+
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
+
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Tours & Guides",
+        "name": "Tours in Kaleiçi",
+        "provider": {
+          "@type": "Organization",
+          "name": "Kaleiçi Guide"
+        },
+        "url": "https://example.com/tours",
+        "description": "Book local tours and guided experiences in Kaleiçi, Antalya.",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Kaleiçi, Antalya, Turkey"
+        },
+        "inLanguage": ["en", "ru", "tr", "de", "uk", "es", "pl"]
+      })
+    }
+  ]
+})
+
 
 </script>
 

@@ -146,7 +146,7 @@
             <div class="relative h-64">
               <InteractiveImage
                 src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
-                :alt="$t('alt.authentic-streets')"
+                :alt="$t('alt.streets')"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -205,11 +205,35 @@ useSeoMeta({
 // SEO Nuxt 3 (или см. useHead Nuxt 3)
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
+    { rel: 'canonical', href: 'https://example.com/attractions' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/attractions' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/attractions' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/attractions' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/attractions' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/attractions' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/attractions' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/attractions' },
+
     { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
+  ]
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Attractions in Kaleiçi",
+        "url": "https://example.com/attractions",
+        "description": "Overview of the main attractions in Kaleiçi, Antalya. Find historical sites, beautiful landmarks, and unique places to visit.",
+        "inLanguage": ["en", "ru", "tr", "de", "uk", "es", "pl"]
+      })
+    }
   ]
 })
 

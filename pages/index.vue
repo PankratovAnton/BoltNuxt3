@@ -267,9 +267,9 @@
   <div class="container mx-auto px-4">
         <div class="bg-white rounded-lg shadow-lg p-8">
           <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
-            {{ $t('home.tours.title') }}
+            {{ $t('home.toursHome.title') }}
           </h2>
-          <p class="text-center text-lg mb-8">{{ $t('home.tours.subtitle') }}</p>
+          <p class="text-center text-lg mb-8">{{ $t('home.toursHome.subtitle') }}</p>
           <div class="gyg-widget-container">
             <GetYourGuide
               widgettype="activities"
@@ -377,9 +377,9 @@
   <div class="container mx-auto px-4">
         <div class="bg-white rounded-lg shadow-lg p-8">
           <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
-            {{ $t('home.tours.title') }}
+            {{ $t('home.toursHome.title') }}
           </h2>
-          <p class="text-center text-lg mb-8">{{ $t('home.tours.subtitle') }}</p>
+          <p class="text-center text-lg mb-8">{{ $t('home.toursHome.subtitle') }}</p>
           <div class="gyg-widget-container">
             <GetYourGuide
               widgettype="activities"
@@ -410,6 +410,9 @@ import 'swiper/css/effect-fade'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import InteractiveImage from '~/components/InteractiveImage.vue'
+
+
+
 // Если нужны компоненты — раскомментируй:
 // import GetYourGuide from '../components/GetYourGuide.vue'
 // import InteractiveImage from '../components/InteractiveImage.vue'
@@ -452,7 +455,6 @@ const heroImages = [
 
 const discoverLinks = [
   { name: 'attractions', translationKey: 'attractions' },
-  { name: 'travel-tips', translationKey: 'tips' },
   { name: 'tours', translationKey: 'tours' }
 ]
 
@@ -495,12 +497,39 @@ onMounted(() => {
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'canonical', href: 'https://example.com/' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/' },
+    
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
+
+
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Kaleiçi Guide",
+        "url": "https://example.com/",
+        "description": "Discover Antalya's Kaleiçi Old Town — attractions, history, travel tips, and the best places to visit in the heart of Antalya.",
+        "inLanguage": ["en", "ru", "tr", "de", "uk", "es", "pl"]
+      })
+    }
+  ]
+})
+
 
 </script>

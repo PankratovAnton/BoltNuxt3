@@ -656,11 +656,50 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/old-harbor' },
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'canonical', href: 'https://example.com/old-harbor' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/old-harbor' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/old-harbor' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/old-harbor' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/old-harbor' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/old-harbor' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/old-harbor' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/old-harbor' },
+
+
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
+
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Old Harbor",
+        "description": "Once a bustling Roman port, today the Old Harbor is a tranquil marina offering restaurants, boat tours, and scenic views of the coastline.",
+        "image": "https://example.com/images/old-harbor.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Antalya",
+          "addressCountry": "TR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 36.8836,
+          "longitude": 30.7042
+        },
+        "url": "https://example.com/old-harbor"
+      })
+    }
+  ]
+})
+
+
+
 </script>

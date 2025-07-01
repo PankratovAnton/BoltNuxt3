@@ -1,0 +1,746 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "attractions": "Gezilecek Yerler",
+    "": "Seyahat İpuçları",
+    "tours": "Turlar ve Rehberler"
+  },
+  "footer": {
+    "copyright": "© {year} Kaleiçi Rehberi. Tüm hakları saklıdır.",
+    "tagline": "Tarihi Antalya için rehberiniz",
+    "quickLinks": "Hızlı Bağlantılar",
+    "madeWith": "Gezginler için ❤️ ile hazırlandı"
+  },
+
+  "seo": {
+    "site": {
+      "title": "Kaleiçi Rehberi",
+      "description": "Antalya Kaleiçi Eski Şehir’ini keşfedin — gezilecek yerler, tarih, seyahat ipuçları ve Antalya'nın kalbindeki en iyi noktalar."
+    },
+    "home": {
+      "title": "Kaleiçi’ni Ziyaret Edin | Kaleiçi Rehberi",
+      "description": "Antalya’nın tarihi Kaleiçi Eski Şehri’ni keşfedin. En iyi gezilecek yerler, yürüyüş turları, gizli hazineler ve ziyaretiniz için ipuçları bulun.",
+      "ogTitle": "Kaleiçi Rehberi - Antalya’nın Eski Şehrini Keşfedin",
+      "ogDescription": "Antalya’nın ünlü Kaleiçi bölgesinin kültürünü, tarihini ve benzersiz atmosferini keşfedin. En iyi gezi noktaları, turlar ve deneyimler için rehberiniz.",
+      "ogImage": "/images/viewpoints-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "hadrian-gate": {
+      "title": "Hadrian Kapısı | Kaleiçi Rehberi",
+      "description": "Antalya’da Hadrian Kapısı’nı ziyaret edin — Kaleiçi Eski Şehir’deki simge Roma zafer takı. Tarihini öğrenin, ziyaretçi ipuçlarını inceleyin, seyahatinizi planlayın.",
+      "ogTitle": "Antalya’da Hadrian Kapısı - Ziyaretçi Rehberi",
+      "ogDescription": "Antalya Kaleiçi’nde Hadrian Kapısı’nın fotoğraflarını görün ve tarihini öğrenin. Turistler için en iyi ipuçları, haritalar ve çalışma saatleri.",
+      "ogImage": "/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "hidirlik-tower": {
+      "title": "Hıdırlık Kulesi | Kaleiçi Rehberi",
+      "description": "Hıdırlık Kulesi’ni keşfedin — Antalya manzaraları, antik tarih ve Kaleiçi Eski Şehir’de fotoğraf noktaları. Ziyaretinizi bugün planlayın.",
+      "ogTitle": "Hıdırlık Kulesi - Antalya'nın Panoramik Simgesi",
+      "ogDescription": "Antalya Eski Şehri’ndeki Hıdırlık Kulesi hakkında her şey: tarih, en iyi seyir noktaları, yürüyüş yönleri ve ziyaretçi bilgileri.",
+      "ogImage": "/images/hidirlik-tower-detailed-upper-walls-in-antalya-kaleici-old-town-turkey.jpg"
+    },
+    "karaalioglu-park": {
+      "title": "Karaalioğlu Parkı | Kaleiçi Rehberi",
+      "description": "Karaalioğlu Parkı’nda dinlenin — şehir parkı, deniz manzaraları, yürüyüş yolları, oyun alanları ve gün batımı noktaları. Aileler ve fotoğrafçılar için ideal.",
+      "ogTitle": "Karaalioğlu Parkı - Antalya'nın Yeşil Vahası",
+      "ogDescription": "Karaalioğlu Parkı ziyaretçi rehberi: en iyi fotoğraf noktaları, yürüyüş yerleri, oyun alanları, kafeler ve Antalya Eski Şehri’ndeki gizli köşeler.",
+      "ogImage": "/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "old-harbor": {
+      "title": "Eski Liman | Kaleiçi Rehberi",
+      "description": "Antalya'nın Eski Limanı — marina, tekne turları, deniz ürünleri restoranları ve Kaleiçi Eski Şehir’in kalbinde sahil yürüyüşleri.",
+      "ogTitle": "Eski Liman - Antalya'nın Kartpostal Marinası",
+      "ogDescription": "Antalya’da tarihi Eski Limanı keşfedin: yapılacaklar, tekne turları, en iyi kafeler ve Akdeniz kıyısında yerel yaşam.",
+      "ogImage": "/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "streets": {
+      "title": "Kaleiçi Sokakları | Kaleiçi Rehberi",
+      "description": "Antalya'nın Eski Şehri’nde Arnavut kaldırımlı sokaklarda dolaşın. Dar sokaklar, renkli evler, geleneksel dükkanlar ve günlük yaşamı keşfedin.",
+      "ogTitle": "Kaleiçi Sokakları - Antalya'nın Tarihi Kalbi",
+      "ogDescription": "Antalya Kaleiçi’ndeki en güzel sokaklar ve caddeler. Güzel mimari, canlı yerel sahneler ve benzersiz dükkanların nerede bulunacağı.",
+      "ogImage": "/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "traditional-bazaar": {
+      "title": "Geleneksel Pazar | Kaleiçi Rehberi",
+      "description": "Antalya Kaleiçi’nin geleneksel pazarını deneyimleyin — Türk çarşıları, el sanatları, halılar, baharatlar, hediyelikler ve otantik alışveriş.",
+      "ogTitle": "Kaleiçi Pazarı - Otantik Türk Çarşısı",
+      "ogDescription": "Antalya'nın geleneksel pazarında hediyelikler, halılar ve el sanatları satın alın. Eski Şehir’de en iyi yerel ürünleri ve benzersiz hediyeleri bulun.",
+      "ogImage": "/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "tours": {
+      "title": "Turlar ve Aktiviteler | Kaleiçi Rehberi",
+      "description": "Antalya Kaleiçi Eski Şehir’de en iyi turlar, rehberli yürüyüşler ve geziler. Benzersiz deneyimler için rezervasyon yapın ve daha fazlasını keşfedin.",
+      "ogTitle": "Antalya Kaleiçi Eski Şehir’de En İyi Turlar",
+      "ogDescription": "Antalya Eski Şehir’i keşfetmek için en iyi turlar ve geziler — yürüyüş, tarih, yemek ve tekne turları.",
+      "ogImage": "/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-9.jpg"
+    },
+    "attractions": {
+      "title": "Kaleiçi'nde Gezilecek Yerler | Kaleiçi Rehberi",
+      "description": "Antalya Kaleiçi Eski Şehir’de mutlaka görülmesi gereken yerleri keşfedin. Tarihi simgeler, müzeler, parklar ve canlı mahallelerle ziyaretinizi en iyi şekilde değerlendirin.",
+      "ogTitle": "Kaleiçi’nin En İyi Gezilecek Yerleri - Antalya’da Görülmesi Gerekenler",
+      "ogDescription": "Kaleiçi, Antalya’da en iyi gezilecek yerleri bulun: ünlü noktalar, kültürel zenginlikler, mimari harikalar ve her gezgin için vazgeçilmez deneyimler.",
+      "ogImage": "/images/main-page-carousel-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg"
+    }
+  },
+  "alt": {
+    "hadrian-gate": "Hadrian Kapısı, Antalya, Kaleiçi, Eski Şehir, Roma mimarisi, antik tak, Türkiye, tarihi simge, gezi, turizm, kültürel miras, taş anıt, şehir surları, ünlü yer",
+    "hidirlik-tower": "Hıdırlık Kulesi, Antalya, Kaleiçi, Eski Şehir, Roma kulesi, deniz manzarası, tarihi alan, antik kalıntılar, Türkiye, panoramik, simge yapı, taş yapı, seyahat noktası, Akdeniz, şehir tarihi",
+    "karaalioglu-park": "Karaalioğlu Parkı, Antalya, Kaleiçi, Eski Şehir, yeşil park, şehir manzarası, bahçeler, yürüyüş yolları, aile alanı, doğa, Akdeniz, dinlenme, ünlü park, oyun alanı, manzaralı noktalar",
+    "old-harbor": "Eski Liman, Antalya, Kaleiçi, Eski Şehir, marina, yatlar, Akdeniz, tarihi liman, antik iskele, sahil, balıkçı tekneleri, yürüyüş yolu, şehir manzarası, Türkiye, gezi yeri",
+    "streets": "sokaklar, Antalya, Kaleiçi, Eski Şehir, Arnavut kaldırımı, dar yollar, yerel yaşam, şehir yürüyüşü, tarihi bölge, Türkiye, günlük hayat, sokak fotoğrafçılığı, geleneksel, mimari, atmosfer",
+    "traditional-bazaar": "geleneksel pazar, Antalya, Kaleiçi, Eski Şehir, Türk çarşısı, hediyelik, alışveriş, yerel el sanatları, esnaflar, otantik, tezgahlar, halılar, kültürel deneyim, baharatlar, canlı renkler",
+    "other": "Antalya, Kaleiçi, Eski Şehir, Türkiye, miras, gezi, mimari, Akdeniz, turizm, gezilecek yerler, kültür, keşif, gezi, şehir, tarihi alan"
+  },
+
+  "home": {
+    "hero": {
+      "title": "Antik Antalya'nın Kalbini Keşfedin",
+      "subtitle": "Kaleiçi’ne adım atın; Antalya’nın atan kalbinde, Arnavut kaldırımlı sokaklar yüzyılların tarihini rüzgarla taşırken, Akdeniz esintisi yasemin ve turunç kokularını getirir.",
+      "exploreBtn": "Kaleiçi’ni Keşfet",
+      "toursBtn": "Tur ve Rehber Rezervasyonu"
+    },
+    "discover": {
+      "title": "Neden Kaleiçi Eski Şehri’ni Ziyaret Etmelisiniz?",
+      "description": {
+        "part1": "Antalya’nın Eski Şehri olarak bilinen bu antik bölge, Roma, Bizans, Selçuklu ve Osmanlı mirasının modern Türk yaşamıyla kusursuzca birleştiği büyüleyici bir labirenttir. Taş kemerlerin altından ve balkonlardan sarkan begonvillerle süslü ahşap evlerin önünden geçerken, zamanın yavaşladığı, yolculuğunuzun her anını doya doya yaşayacağınız bir yer keşfedeceksiniz.",
+        "part2": "Kaleiçi sadece bir turist noktası değil—her taşı bir hikâye anlatan yaşayan bir müzedir. Bu tarihi bölge, 2.000 yıldan fazla süredir sürekli olarak iskan edilmiş ve mimarisiyle, mutfağıyla, atmosferiyle benzersiz bir kültürel miras dokusu oluşturmuştur. Antik Roma limanı, bir zamanlar şehrin yaşam kaynağıydı; şimdi ise Akdeniz manzaralı kafelerde ve restoranlarda keyifli yemekler sunuluyor.",
+        "part3": "Antalya'nın tarihi bölgesinin dar sokaklarını gezerken, 130 yılında Roma İmparatoru onuruna inşa edilen üç kemerli mermer portal Hadrian Kapısı gibi görkemli simgelerle karşılaşacaksınız. Yükselen Hıdırlık Kulesi, bu kıyı cennetinin özünü yakalayan panoramik manzaralar sunarken, Yivli Minare Camii’nin belirgin oluklu minaresi, şehrin Selçuklu mirasının ikonik sembolüdür.",
+        "part4": "Anıtlardan öte, Antalya’da ziyaretçileri en çok etkileyen şey otantik Türk kültürüdür. Yerel zanaatkârlar küçük atölyelerde geleneksel ürünler üretir, Türk kahvesi ve baharatların kokusu havayı doldurur, dost canlısı insanlar efsanevi misafirperverlikleriyle sizi ağırlar. İster tarih tutkunu olun, ister lezzet avcısı ya da sadece mükemmel bir Akdeniz tatili arayan biri olun, Kaleiçi hafızanızda uzun süre yer edecek bir deneyim sunar."
+      },
+      "links": {
+        "attractions": "Gezilecek Yerleri Keşfet",
+        "tips": "Pratik Bilgiler",
+        "tours": "Turları Görüntüle"
+      }
+    },
+    "highlights": {
+      "title": "Kaleiçi’nin Kaçırılmayacak Güzellikleri",
+      "gate": {
+        "title": "Hadrian Kapısı",
+        "description": "Büyüleyici hikâyeleri, mimari detayları ve tarihi bağlamı keşfedin..."
+      },
+      "harbor": {
+        "title": "Eski Liman",
+        "description": "Tarihi liman bölgesi, artık kartpostallık bir marina..."
+      },
+      "bazaar": {
+        "title": "Geleneksel Pazar",
+        "description": "Yerel el sanatlarını ve canlı Türk ürünlerini keşfedin..."
+      }
+    },
+    "stay": {
+      "title": "Antalya Eski Şehir’de Nerede Kalınır?",
+      "intro": "Otantik bir deneyim için Kaleiçi’nin tarihi surlarının içinde konaklamanın yeri ayrıdır. Eski şehirde, çoğu güzelce restore edilmiş Osmanlı konaklarında hizmet veren çok sayıda butik otel ve şirin pansiyon bulunur. Martıların sesi ve uzaktan gelen ezanla uyanın, kapınızdan çıkıp doğrudan tarihi sokaklara adım atın ve keşifle dolu bir günün ardından geleneksel bir avluda dinlenin.",
+      "details": "Restore edilmiş Osmanlı konaklarındaki lüks butik otellerden, aile işletmesi sıcak pansiyonlara kadar, Antalya Eski Şehir’in tam kalbinde otantik karakterli konaklama seçeneklerini keşfedin.",
+      "cta": "Eski Şehir Otellerini İncele"
+    },
+    "experiences": {
+      "title": "Antalya Eski Şehir’de Otantik Deneyimler",
+      "part1": "Sadece gezip görmekle kalmayın, Kaleiçi’nde gerçek Türk kültürüyle bağ kurmanızı sağlayacak deneyimler de yaşayın. Güne, geleneksel bir Türk kahvaltısı ile başlayın: taze peynirler, zeytinler, bal ve çay (çay) içeren bir avlu kafesinde. Dar sokaklarda dolaşarak, dericilik, halı dokuma ve bakırcılık gibi yüzyıllık geleneklerin sürdüğü atölyeleri keşfedin.",
+      "part2": "Akşam olunca, liman yürüyüş yolunda gün batımı yürüyüşüne çıkın, ardından bir çatı restoranında Antalya’ya özgü lezzetlerle dolu bir akşam yemeği yiyin. Tarihi hamamları da kaçırmayın—Kaleiçi’nde ve çevresinde birçok hamam, bu otantik wellness deneyimini yaşamanız için restore edilmiştir."
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "questions": [
+        {
+          "question": "Antalya Eski Şehir yayalara uygun mu?",
+          "answer": "Evet, Kaleiçi büyük ölçüde yayalaştırılmıştır; dar sokaklar en iyi yürüyerek keşfedilir. Araçların girişi sınırlıdır, bu da yürüyüş için keyifli bir ortam sunar. Sokaklar çoğunlukla Arnavut kaldırımlı ve bazı yerler eğimli olduğundan rahat ayakkabılar önerilir."
+        },
+        {
+          "question": "Antalya Eski Şehir’de gezmek için ne kadar zaman ayırmalıyım?",
+          "answer": "Ana noktaları yarım günde görebilirsiniz, ancak Kaleiçi’nin gerçek cazibesini hissetmek için en az bir tam gün ayırmanızı öneririz. Daha derinlemesine bir deneyim için eski şehirde 2-3 gün konaklayarak restoranları ve atmosferi doyasıya yaşayabilirsiniz."
+        },
+        {
+          "question": "Antalya Eski Şehir’e giriş ücretli mi?",
+          "answer": "Kaleiçi’ne giriş ücretsizdir, ancak bazı gezilecek yerlerde giriş ücreti olabilir. Müzeler genelde düşük ücretlidir, Hadrian Kapısı gibi bazı tarihi yerler ise ücretsiz gezilebilir. Mermerli Plajı’na giriş ücreti küçük bir miktardır ve bu ücret olanakları da kapsar."
+        }
+      ]
+    },
+    "visitingInfo": {
+      "title": "Antalya Eski Şehir Ziyareti İçin Pratik Bilgiler",
+      "gettingThereTitle": "Ulaşım",
+      "gettingThereText": "Antalya Eski Şehir, şehrin çoğu noktasından kolayca ulaşılabilir. Antalya Havalimanı’ndan Kaleiçi’ne yaklaşık 30 dakikalık bir yolculukla ulaşılır. Eski şehrin ana girişleri Kalekapısı (Saat Kulesi Meydanı) ve daha görkemli olan Hadrian Kapısı’dır. Nostaljik tramvay (Nostalji Tramvayı), Kalekapısı’ndan geçerek güzel bir ulaşım alternatifi sunar.",
+      "bestTimeTitle": "Ziyaret İçin En İyi Zaman",
+      "bestTimeText": "Bahar (Nisan-Mayıs) ve sonbahar (Eylül-Ekim), gezmek için ideal havalar ve daha az kalabalık sunar. Yaz (Haziran-Ağustos) sıcak ve kalabalık, kış (Kasım-Mart) ise ılık ama yağışlı geçer. Kaleiçi’nin en büyüleyici zamanlarını yaşamak için sabah erken ya da akşam üstü saatlerinde gelin; bu vakitlerde ışık altın rengi olur ve sokaklar daha sakindir."
+    },
+
+    "gettingThereCards": {
+      "walking": "Kaleiçi, şehir merkezi ve yakın otellerden yürüyüş mesafesindedir.",
+      "tram": "Nostaljik tramvay Kalekapısı’nda durur, Kaleiçi’ne kısa bir yürüyüş mesafesindedir.",
+      "bus": "Şehirden kalkan çeşitli otobüs hatları, eski şehre yakın duraklara ulaşır.",
+      "taxi": "Taksiler yaygındır ve sizi doğrudan Kaleiçi kapılarına bırakabilir."
+    },
+
+    "toursHome": {
+      "title": "Antalya Eski Şehir’in Büyüsünü Keşfetmeye Hazır mısınız?",
+      "subtitle": "Uzman rehberlerimizle tarihin, kültürün ve Akdeniz cazibesinin mükemmel dengesini yaşayın.",
+      "description": "Gizli avlulardan panoramik manzaralara kadar, Kaleiçi’nin gerçek ruhunu hayatınıza taşıyan bilgili yerel rehberlerle otantik bir deneyim yaşayın.",
+      "button": "Antalya Maceranı Bugün Rezerve Et"
+    },
+    "closing": {
+      "title": "Kaleiçi’nin Zamansız Cazibesini Yaşayın",
+      "paragraph1": "Antalya Eski Şehir yalnızca bir destinasyon değil—Akdeniz’in yüzyıllara yayılan tarihini ve kültürünü adım adım yaşayacağınız bir yolculuktur. Eski kapılardan ve dar sokaklardan geçerken, her köşede yeni bir hikâye, her yemekte nesilden nesile aktarılan mutfak gelenekleri ve limanda batan her güneşte ömür boyu unutamayacağınız anılar bulacaksınız.",
+      "paragraph2": "İster antik mimari, ister canlı atmosfer, lezzetli yemekler ya da sadece bu labirent gibi sokaklarda kaybolmanın keyfi için gelin, Kaleiçi her ziyaretçisini etkileyen otantik bir Türk deneyimi sunar. Tarih boyunca — Roma imparatorlarından modern gezginlere kadar — pek çok yolcunun neden bu büyülü Akdeniz incisine hayran kaldığını keşfedin."
+    }
+  },
+"attractions": {
+  "title": "Kaleiçi’nin Tarihi Gezilecek Yerleri",
+  "introduction": "Kaleiçi’nin en simgesel noktalarıyla zengin kültürel ve mimari mirasını keşfedin. Her bir mekan, Antalya’nın büyüleyici geçmişine benzersiz bir bakış sunar.",
+  "highlights_section_title": "Kaleiçi’nin Kaçırılmayacak Güzellikleri",
+  "hadrians-gate": {
+    "title": "Hadrian Kapısı",
+    "description": "Bilgili bir yerel rehberle Hadrian Kapısı’nın büyüleyici hikâyelerini, mimari detaylarını ve tarihi arka planını keşfedin. Bu antik anıtı canlandıran bilgilerle ziyaretinizi zenginleştirin.",
+    "imageAlt": "Antalya Kaleiçi’nde Hadrian Kapısı"
+  },
+  "old-harbor": {
+    "title": "Eski Liman",
+    "description": "Bir zamanlar yoğun bir Roma limanı olan Eski Liman, bugün sahil boyunca restoranlar, tekne turları ve manzaralı yürüyüş yolları sunan huzurlu bir marinadır.",
+    "imageAlt": "Kaleiçi’nde Eski Liman"
+  },
+  "karaalioglu-park": {
+    "title": "Karaalioğlu Parkı",
+    "description": "Akdeniz ve Toros Dağları’nın nefes kesen manzaralarını sunan muhteşem bir deniz kenarı parkı.",
+    "imageAlt": "Karaalioğlu Parkı’ndan Manzara"
+  },
+  "traditional-bazaars": {
+    "title": "Geleneksel Pazarlar",
+    "description": "El yapımı ürünler, baharatlar, tekstil ürünleri ve hediyeliklerin satıldığı hareketli çarşı sokaklarında dolaşın.",
+    "imageAlt": "Geleneksel Pazar Sokak Manzarası"
+  },
+  "authentic-streets": {
+    "title": "Otantik Sokaklar",
+    "description": "Kaleiçi’nin en güzel dar sokaklarında, tarihi mimaride gezinin ve bu atmosferi keşfedin.",
+    "imageAlt": "Kaleiçi’nin Otantik Sokakları"
+  },
+  "hidirlik-tower": {
+    "title": "Hıdırlık Kulesi",
+    "description": "Akdeniz ve Antalya kıyı şeridinin panoramik manzaralarını sunan tarihi bir Roma kulesi.",
+    "imageAlt": "Hıdırlık Kulesi Manzarası"
+  }
+},
+
+"tours": {
+  "title": "Tavsiye Edilen Turlar",
+  "description": "Kaleiçi ve Antalya’da en iyi turları ve aktiviteleri keşfedin. Yürüyüş turlarından tekne gezilerine, seyahat tarzınıza uygun deneyimler bulun."
+},
+
+"nearbyAttractions": {
+  "sectionTitle": "Yakındaki Keşfedilecek Yerler",
+  "sectionDescription0": "Kaleiçi, Antalya’nın en büyüleyici noktalarını keşfetmek için mükemmel bir başlangıç noktasıdır. Burayı gezdikten sonra, bu yakın güzellikleri de görmeyi unutmayın.",
+  "sectionDescription1": "Kaleiçi’nin zengin tarihini ve canlı kültürünü daha da derinlemesine keşfetmek için bu yakın yerleri ziyaret edin.",
+  "sectionDescription2": "Ziyaretinizden en iyi şekilde faydalanın—bu komşu cazibe merkezleri, Antalya’nın eşsiz karakterini daha iyi tanımanıza yardımcı olur.",
+  "sectionDescription3": "Antalya’da mutlaka görülmesi gereken bu yerlere adımlarınızı uzatarak yolculuğunuzu uzatın.",
+  "sectionDescription4": "Antik anıtlardan hareketli pazarlara kadar, bu yerler Kaleiçi deneyiminizi tamamlar.",
+  "sectionDescription5": "Her biri Antalya Eski Şehri’ne ayrı bir güzellik katan bu dikkat çekici noktaları ziyaret etme fırsatını kaçırmayın.",
+  "sectionDescription6": "Antalya’nın çeşitli tarihi ve büyüleyici güzelliklerini yakından keşfedin.",
+  "sectionDescription7": "Unutulmaz Kaleiçi simgelerini keşfetmeye devam ederek maceranıza devam edin.",
+  "sectionDescription8": "Her bir yakın cazibe merkezi, Antalya’nın geçmişi ve bugünü hakkında farklı bir bakış sunar.",
+  "sectionDescription9": "Antalya’nın mirasının tüm dokusunu, kolayca ulaşabileceğiniz bu önemli yerlerle deneyimleyin.",
+  "sectionDescription10": "Tarihi ve zengin bu davetkar noktaları gezerek, gezinize daha fazla unutulmaz an ekleyin.",
+
+  "hadriansGate": {
+    "title": "Hadrian Kapısı",
+    "description": "Bilgili bir yerel rehberle Hadrian Kapısı’nın büyüleyici hikâyelerini, mimari detaylarını ve tarihi bağlamını keşfedin. Ziyaretinizi anlamlı bilgilerle zenginleştirin."
+  },
+  "oldHarbor": {
+    "title": "Eski Liman",
+    "description": "Bir zamanlar hareketli bir Roma limanı olan Eski Liman, günümüzde restoranlar, tekne turları ve sahil manzarasıyla huzurlu bir marinadır."
+  },
+  "hidirlikTower": {
+    "title": "Hıdırlık Kulesi",
+    "description": "Akdeniz ve Antalya kıyılarının panoramik manzarasını sunan tarihi bir Roma kulesi."
+  },
+  "traditionalBazaars": {
+    "title": "Geleneksel Pazarlar",
+    "description": "El işi ürünlerin, baharatların, tekstil ve hediyeliklerin satıldığı canlı çarşı sokaklarında dolaşın."
+  },
+  "karaaliogluPark": {
+    "title": "Karaalioğlu Parkı",
+    "description": "Akdeniz ve Toros Dağları’nın nefes kesen manzaralarını sunan muhteşem bir deniz kenarı parkı."
+  },
+  "authenticStreets": {
+    "title": "Otantik Sokaklar",
+    "description": "Kaleiçi’nin en güzel dar sokaklarında, tarihi mimaride gezinin ve bu atmosferi keşfedin."
+  }
+},
+"hadriansGate": {
+  "h1Text1": "Antalya Hadrian Kapısı: Antik Tarihe Açılan Muhteşem Bir Kapı",
+  "pText1": "Kaleiçi’nin (Eski Şehir) girişinde görkemli bir şekilde yükselen Hadrian Kapısı, antik dünya ile modern şehir yaşamı arasında etkileyici bir köprü olarak hizmet vermektedir. 130 yılında Roma İmparatoru Hadrian’ın şehri ziyaretini onurlandırmak için inşa edilen bu iyi korunmuş Roma zafer takı, etkileyici mimarisi ve tarihi önemiyle ziyaretçileri büyülemeye devam ediyor. Antalya’nın en ikonik simgelerinden biri olan bu kapı, bölgenin zengin Roma mirasına bir pencere sunarken, hareketli modern şehir ile eski mahallelerin dar sokakları arasında bir sınır oluşturur.",
+  "h2Text1": "Hadrian Kapısı’nın Tarihi",
+  "pText2": "Hadrian Kapısı, Roma İmparatoru Hadrian’ın Attaleia’yı (Antalya’nın antik adı) ziyaretini anmak için 130 yılında inşa edilmiştir. Kral Attalos tarafından kurulan şehir, Roma İmparatorluğu’nun bir parçası olmuş ve Akdeniz’in önemli bir limanı olarak gelişmiştir. Kapı, antik şehri çevreleyen savunma duvarlarından geçiş için anıtsal bir giriş olarak tasarlanmıştır.",
+  "pText3": "Kapı, Batı dünyası tarafından ancak 1817’de İrlandalı-İngiliz hidrograf Sir Francis Beaufort’un seyahat günlüğünde kayda geçirilmesiyle yeniden keşfedildi. O zamanlar kapının bir de ikinci katı olduğu biliniyordu, ancak bu kat zamanla kayboldu. Ayrıca, yapının tepesinde Hadrian ve ailesinin heykellerinin bulunduğuna inanılıyor.",
+  "pText4": "1950’lerde dış duvarların çökmesiyle kapı yeniden gün yüzüne çıktı ve kapsamlı bir restorasyon süreci başladı. Restorasyon sırasında eski Roma taş döşemeler ortaya çıkarıldı ve kapının tabanında bulunan bronz harfler dikkatlice korunarak dünyanın çeşitli müzelerinde sergilenmeye başlandı.",
+  "h2Text2": "Hadrian Kapısı’nın Mimari Özellikleri",
+  "pText5": "Hadrian Kapısı, klasik Roma zafer takı mimarisinin mükemmel bir örneğidir ve üç aynı kemerli geçitten oluşur. Yaklaşık 8 metre (26 ft) yüksekliğinde olan kapı, esas olarak beyaz mermer ve granitten yapılmıştır ve etkileyici, kalıcı bir anıt oluşturur.",
+  "pText6": "Her iki cephesinde de dörder sütun bulunur; üst bölümlerde ise zarif çiçek süslemeleri ve stilize aslan başları yer alır. Kemerlerin içindeki kasetli tavanlar, neredeyse iki bin yıllık tarihe dayanan olağanüstü bir işçilik sergiler.",
+  "pText7": "En dikkat çekici özelliklerden biri, yüzyıllar boyunca merkez kemerin altındaki taş döşemede derinleşen tekerlek izleridir. Bu izler, çok derinleşip tehlikeli hale geldiğinden, ziyaretçileri korumak için şeffaf bir yürüyüş yolu inşa edilmiştir ve geçmişin izlerini korur.",
+  "pText8": "Kapının iki yanında yer alan kuleler orijinal yapıya ait değildir. Güneydeki kule (bulvardan bakıldığında soldaki), Roma dönemine aitken, kuzeydeki kule (sağdaki) Selçuklu Sultanı Alaeddin Keykubat I (1219-1238) döneminde yeniden inşa edilmiştir ve üzerindeki kitabelerden bunu anlamak mümkündür.",
+  "h2Text3": "Keşfetmeniz Gereken Yakınlardaki Gezilecek Yerler",
+  "pText9": "Hadrian Kapısı, Antalya’nın en ilgi çekici yerlerini keşfetmek için ideal bir başlangıç noktasıdır. Kapıyı gezdikten sonra aşağıdaki yakın alanları da mutlaka ziyaret edin:",
+  "h3Text1": "Eski Liman",
+  "pText10": "Antalya’nın tarihi limanı, bugün restoranlarla çevrili pitoresk bir marina ve muhteşem Akdeniz manzarası sunmaktadır.",
+  "h3Text2": "Otantik Sokaklar",
+  "pText11": "Kaleiçi’nin en güzel dar sokaklarında tarihi mimari ve atmosferi keşfedin.",
+  "h3Text3": "Hıdırlık Kulesi",
+  "pText12": "Akdeniz’in ve Antalya kıyı şeridinin panoramik manzaralarını sunan tarihi bir Roma kulesi.",
+  "h2Text4": "Hadrian Kapısı’nın Efsaneleri",
+  "pText13": "Tarihi öneminin ötesinde, Hadrian Kapısı yüzyıllar boyunca ilginç efsanelere ilham vermiştir. Popüler bir rivayete göre, Seba Kraliçesi, Aspendos’taki Kral Süleyman’ı ziyarete giderken kapının orta kemerinden geçmiştir. Gerçekte bu imkansızdır; çünkü kapı efsanevi kraliçeden yaklaşık bin yıl sonra inşa edilmiştir. Ancak, Hadrian Kapısı’nın yerinde daha önce böyle bir yapı olduğu düşünülmektedir.",
+  "pText14": "Bir diğer yerel inanışa göre, kapının orta kemerinden geçenlere şans ve bolluk gelir. Bu inanış, kapıyı sadece tarihi bir anıt değil, aynı zamanda hem yerel halk hem de ziyaretçiler için anlamlı bir kültürel sembol haline getirmiştir.",
+  "h2Text5": "Günümüzde Hadrian Kapısı’nı Ziyaret",
+  "pText15": "Günümüzde Hadrian Kapısı, Kaleiçi’nin ana girişi olarak hizmet veriyor ve halka 7/24 ücretsiz olarak açıktır. Merkezi konumu sayesinde şehrin herhangi bir noktasından kolayca yürüyerek veya toplu taşımayla ulaşmak mümkündür.",
+  "h3Text4": "Ziyaret İçin En İyi Zaman",
+  "pText16": "Kapı yıl boyunca açıktır, ancak en iyi zamanlar sabah erken veya akşam saatleridir. Bu saatlerde kalabalık daha az ve ışık fotoğrafçılık için idealdir. Özellikle gün batımında mermer taşların altın tonlara büründüğü anlar büyüleyici bir atmosfer oluşturur.",
+  "pText17": "Yaz aylarında (Haziran-Ağustos) kapıyı akşam saatlerinde gezmek, hem sıcaklardan korunmak hem de gece aydınlatmasını görmek için idealdir.",
+  "h3Text5": "Fotoğrafçılık İpuçları",
+  "liText1": "Atatürk Bulvarı’ndan Kaleiçi yönüne bakarak ön cephe fotoğrafı çekin",
+  "liText2": "Kaleiçi’nden modern şehre bakarken",
+  "liText3": "Süslemeler ve aslan başlarının yakın plan çekimleri",
+  "liText4": "Şeffaf yürüyüş yolunun altındaki tekerlek izleri",
+  "liText5": "Antik kapı ile modern şehir hayatı arasındaki kontrastı yakalayın",
+  "h2Text6": "Ziyaretçiler İçin Pratik Bilgiler",
+  "h3Text6": "Konum ve Ulaşım 📌",
+  "pText18": "Hadrian Kapısı, Antalya Kaleiçi girişinde Atatürk Bulvarı üzerinde yer alır. Şehrin merkezi noktalarından yürüyerek veya toplu taşımayla kolayca ulaşılabilir.",
+  "h3Text7": "Ulaşım Seçenekleri",
+  "pText19": "Yürüyerek: Kapı, Antalya şehir merkezi ve birçok otelden yürüme mesafesindedir.",
+  "pText20": "Nostaljik Tramvay: Kalekapısı’ndan geçen nostaljik tramvay ile Hadrian Kapısı’na ulaşabilirsiniz.",
+  "pText21": "Belediye Otobüsü: Çeşitli otobüs hatları Atatürk Bulvarı’nda durmaktadır.",
+  "pText22": "Taksi: Şehrin her yerinde kolayca bulunabilir ve doğrudan kapının önüne bırakabilir.",
+  "h3Text8": "Ziyaretçi Olanakları",
+  "pText23": "Hadrian Kapısı’nda özel olanaklar bulunmaz, ancak çevresinde şunlar vardır:",
+  "pText24": "Kafeler & Restoranlar",
+  "pText25": "Hediyelik Eşya Dükkanları",
+  "pText26": "Tuvaletler",
+  "pText27": "Dinlenme Alanları",
+  "h2Text7": "Bin Yılı Birbirine Bağlayan Bir Anıt",
+  "pText28": "Hadrian Kapısı, Antalya’nın zengin tarihi mirasının ve Roma mimarisinin kalıcılığının bir simgesidir. Sadece antik bir anıt değil, aynı zamanda bugün de orijinal amacına hizmet etmektedir: artık Attaleia’nın Roma kapısı yerine, eski Antalya’nın kalbine ziyaretçileri karşılayan bir geçit.",
+  "pText29": "Tarih ve mimariye ilgi duyanlar ya da sadece Antalya’nın büyüsünü yaşamak isteyenler için Hadrian Kapısı, geçmişle anlamlı bir bağ kurar. Bu kemerlerden geçerken, neredeyse iki bin yılı aşan bir geleneğin parçası oluyorsunuz—gerçek anlamda tarihin izinde yürümek için nadir bir fırsat.",
+  "h2Text8": "Uzman Eşliğinde Hadrian Kapısı Deneyimi",
+  "pText30": "Bilgili bir yerel rehberle Hadrian Kapısı’nın büyüleyici hikâyelerini, mimari detaylarını ve tarihi arka planını keşfedin. Bu antik anıtı canlandıran bilgilerle ziyaretinizi zenginleştirin.",
+  "pText31": "Hıdırlık Kulesi’nde özel olanaklar bulunmasa da çevrede çeşitli imkanlar vardır.",
+  "pText32": "Geleneksel Pazar’da özel olanaklar bulunmasa da çevresinde farklı imkanlar vardır."
+},
+"karaaliogluPark": {
+  "intro_title": "Karaalioğlu Parkı Antalya: Türkiye'nin Kalbinde Bir Akdeniz Vahası",
+  "intro_paragraph": "Muhteşem Akdeniz kıyısında yer alan Karaalioğlu Parkı, Antalya'nın en çok sevilen şehir içi dinlenme alanlarından biridir. Bu geniş yeşil alan, ziyaretçilere doğal güzellik, tarihi önem ve Türkiye'nin büyüleyici güney sahilini yansıtan panoramik deniz manzaralarının mükemmel bir birleşimini sunar.",
+  "location_paragraph": "Antalya şehir merkezinin kalbinde yer alan bu park, hem yerel halkın hem de turistlerin yoğun şehir hayatından kaçıp huzurlu anlar yaşadığı sakin bir sığınaktır. Sabah yürüyüşü, büyüleyici bir gün batımı veya Antalya'nın zengin kültürel mirasına bir bakış arıyorsanız, Karaalioğlu Parkı unutulmaz bir deneyim sunar.",
+
+  "history_title": "Karaalioğlu Parkı'nın Zengin Tarihi",
+  "history_paragraph1": "Karaalioğlu Parkı'nın hikayesi, 1940'larda kamusal bir dinlenme alanı olarak resmen açılmasıyla başlar. Başlangıçta Türkiye'nin ikinci cumhurbaşkanı İsmet İnönü'yü onurlandırmak için İnönü Parkı olarak açılmış, daha sonra parkın kuruluşuna katkıda bulunan bir yerel toprak sahibinin adıyla Karaalioğlu olarak değiştirilmiştir.",
+  "history_paragraph2": "Resmi park olarak geliştirilmeden önce, bu kıyı şeridi 20. yüzyılın başlarından itibaren Antalyalıların popüler bir buluşma noktasıydı. Burasının büyük bir halk parkına dönüştürülmesi vizyonu, şehrin büyümesine paralel olarak erişilebilir yeşil alan ihtiyacını fark eden Belediye Başkanı Haşim İşcan’ın liderliğinde gerçekleşti.",
+  "history_paragraph3": "Park yaklaşık 140.000 metrekarelik (14 hektar) bir alanı kaplar ve Kaleiçi'nin (Antalya'nın tarihi eski kenti) güneyindeki falezler boyunca uzanır. Bu stratejik konumu sayesinde yalnızca bir rekreasyon alanı değil, aynı zamanda yüzyıllardır Akdeniz tarihinin tanığı olmuştur.",
+
+  "features_title": "Karaalioğlu Parkı'nın Büyüleyici Özellikleri",
+  "features_paragraph1": "Antalya'daki Karaalioğlu Parkı, Akdeniz’in üzerinde yükselen konumuyla şehirdeki en etkileyici panoramik manzaraları sunar. Ziyaretçiler, Antalya Körfezi'nin turkuaz suları, dramatik falezler ve uzakta yükselen Beydağları'nın karla kaplı zirvelerinin muhteşem manzaralarıyla karşılaşır.",
+  "features_paragraph2": "Parkta, özellikle gün doğumu veya gün batımında doğanın güzelliğini en iyi şekilde sergileyen mirador olarak bilinen birkaç seyir terası bulunur. Bu noktalar, hem fotoğrafçılık hem de sessiz bir düşünce için mükemmeldir ve şehrin en sembolik mekanları haline gelmiştir.",
+  "features_paragraph3": "Bakımlı yürüyüş yolları, çam ağaçları, palmiye ağaçları ve rengarenk mevsimlik çiçeklerle dolu yemyeşil parkın içinden kıvrılarak geçer. Banklar ve açık çimenlik alanlar, ziyaretçilere kitap okumak, piknik yapmak veya ferahlatıcı deniz meltemini hissederek dinlenmek için mükemmel bir ortam sunar.",
+
+  "whatToSee_title": "Karaalioğlu Parkı'nda Görülmesi Gerekenler",
+
+  "hidrlikTower_title": "Hıdırlık Kulesi",
+
+  "hidrlikTower_paragraph": "Antik Hıdırlık Kulesi, parkın en ikonik simgesidir. Roma döneminde, MS 2. yüzyıla kadar uzanan bu silindirik taş yapı, muhtemelen deniz feneri, anıt mezar veya savunma kulesi olarak kullanılmıştır. Günümüzde, Antalya'nın zengin Roma mirasına bir pencere sunar ve zirvesinden muhteşem manzaralar sağlar.",
+
+  "art_monuments_title": "Sanat Anıtları",
+
+  "art_monuments_paragraph": "Sanatseverler, park genelinde dağılmış çeşitli çağdaş heykelleri ve anıtları takdir edeceklerdir. Bunlar arasında ünlü şair Nâzım Hikmet'e adanan anıt (2010), Don Kişot heykeli ve \"İşçi ve Oğlu\" anıtı bulunur. Her biri doğal peyzaja sanatsal bir boyut kazandırır.",
+
+  "dancingGirls_title": "Dans Eden Kızlar Heykeli",
+
+  "dancingGirls_paragraph": "Parkın merkezi bölgesine yakın bulunan Dans Eden Kızlar heykeli, sevinci ve kutlamayı simgeleyen popüler bir fotoğraf noktası haline gelmiştir. Yakınında ise nazikçe akan suyun rahatlatıcı sesiyle atmosferi tamamlayan güzelce tasarlanmış çeşmeler bulabilirsiniz.",
+
+  "guidedTour_title": "Karaalioğlu Parkı'nı Yerel Rehber ile Keşfedin",
+  "guidedTour_paragraph": "Uzman yerel rehberlerimiz eşliğinde Karaalioğlu Parkı'nın gizli hikayelerini ve en iyi seyir noktalarını keşfedin. 2 saatlik bir yürüyüş turunda, tarihi Hıdırlık Kulesi, gizli fotoğraf noktaları ve Antalya kültürüne dair ilginç bilgiler sizi bekliyor.",
+  "bookTour_title": "Rehberli Turunuzu Rezervasyon Yapın",
+
+  "floraFauna_title": "Karaalioğlu Parkı'nın Bitki ve Hayvan Çeşitliliği",
+  "floraFauna_paragraph1": "Karaalioğlu Parkı, yıl boyunca canlı ve yeşil bir ortam sağlayan çeşitli Akdeniz bitki türlerine ev sahipliği yapar. Ana yürüyüş yollarının çoğunda yükselen palmiye ağaçları bulunur; bunlar sıcak yaz aylarında gölge sağlarken, parkın sahil atmosferine de katkıda bulunur.",
+  "floraFauna_paragraph2": "Park genelinde bol miktarda bulunan çam ağaçları, tuzlu deniz havasıyla karışan kendine özgü ferah kokularını yayar. Zakkum çalıları ise pembe ve beyaz çiçekleriyle renklilik katar; mevsimlik çiçekler ise ziyaret ettiğiniz döneme bağlı olarak parkı her daim görsel açıdan çekici kılar.",
+  "floraFauna_paragraph3": "Kuş gözlemcileri, parkı yuva olarak kullanan veya mevsimsel olarak uğrayan çeşitli türleri gözlemleyebilir. Martılar yakındaki Akdeniz'den sıkça gelirken, zaman zaman ağaçlarda rengarenk papağanlara da rastlayabilirsiniz. Parkın göç yolları üzerinde bulunması ise dönemsel olarak daha farklı kuş türlerinin de görülebileceği anlamına gelir.",
+
+  "activities_title": "Karaalioğlu Parkı'nda Yapılacak Aktiviteler",
+  "activities_paragraph1": "Parktaki çok sayıdaki yol boyunca yürüyüş ve koşu, her seviyeden ziyaretçi için en popüler aktivitedir. Ana promenad, deniz manzarası sunarken, iç yollarda ise daha sakin ve gölgeli alanlar bulunur.",
+  "activities_paragraph2": "Fotoğrafçılıkla ilgilenenler için, panoramik manzaralardan tarihi yapılara ve bitki detaylarına kadar unutulmaz kareler yakalamak için sayısız fırsat vardır. Gün ışığının gün boyunca değişimi, özellikle gün batımı öncesi saatlerde parka büyülü bir atmosfer kazandırır.",
+  "activities_paragraph3": "Hem yerel halkın hem de ziyaretçilerin favorisi olan piknik, parkın en keyifli aktivitelerinden biridir. Bir battaniye ve birkaç Türk atıştırmalığı alıp doğanın güzelliği içinde keyifli bir açık hava yemeği yiyebilirsiniz. Çeşitli piknik alanlarında konforlu oturma ve gölge imkanı da bulunur.",
+
+  "morningActivities_title": "Sabah Aktiviteleri",
+  "morningActivities_item1": "Doğu seyir noktalarında gün doğumu fotoğrafçılığı",
+  "morningActivities_item2": "Deniz manzaralı yollarda sabah koşusu",
+  "morningActivities_item3": "Yaban hayatının en aktif olduğu saatlerde kuş gözlemi",
+  "morningActivities_item4": "Sakin bahçelerde sessiz meditasyon",
+
+  "eveningActivities_title": "Akşam Aktiviteleri",
+  "eveningActivities_item1": "Batı teraslarından gün batımı seyri",
+  "eveningActivities_item2": "Aile ve arkadaşlarla akşam pikniği",
+  "eveningActivities_item3": "Kültürel etkinlikler ve gösteriler (mevsimsel)",
+  "eveningActivities_item4": "Sıcakların azaldığı saatlerde keyifli yürüyüşler",
+
+  "photoSpots_title": "Karaalioğlu Parkı'ndaki En İyi Fotoğraf Noktaları",
+  "photoSpots_paragraph1": "Batıdaki falez seyir noktaları, Akdeniz’in ve sahil şeridinin en etkileyici panoramik manzaralarını sunar ve manzara fotoğrafçılığı için idealdir. Bu yüksek teraslardan, güneşin deniz üzerinde batışını izlerken büyüleyici kareler yakalayabilirsiniz.",
+  "photoSpots_paragraph2": "Tarihi Hıdırlık Kulesi, hem kendisi fotoğraf için harika bir obje hem de çevrenin yukarıdan çekimleri için mükemmel bir platform sağlar. Antik taş yapı, doğal peyzaj ve modern şehir manzaralarıyla güzel bir kontrast oluşturur.",
+  "photoSpots_paragraph3": "Merkezdeki çiçek bahçeleri, ilkbahar ve yaz aylarında rengarenk çiçeklerle dolup taşar; bu alanlar, fotoğraflarınızda öne çıkacak muhteşem ön plan detayları sunar. Sanatsal olarak düzenlenen bu bahçeler her açıdan görsel bir şölen sunar.",
+
+  "cliffsideViewpoints_title": "Falez Seyir Noktaları",
+  "cliffsideViewpoints_paragraph": "Akdeniz’in ve kıyı şeridinin geniş panoramik fotoğrafları için mükemmel. Dramatik ışık için en iyi zaman altın saatlerdir (gün batımı).",
+
+  "historicStructures_title": "Tarihi Yapılar",
+  "historicStructures_paragraph": "Hıdırlık Kulesi ve antik şehir surları, Antalya’nın zengin tarihini gözler önüne seren etkileyici objelerdir.",
+
+  "floralDisplays_title": "Çiçek Düzenlemeleri",
+  "floralDisplays_paragraph": "Mevsimlik çiçek yatakları ve botanik düzenlemeler, yıl boyunca canlı yakın plan fotoğraf fırsatları sunar.",
+
+  "tips_title": "Karaalioğlu Parkı Ziyaretçileri İçin İpuçları",
+  "tips_paragraph1": "Karaalioğlu Parkı’nı ziyaret etmek için en iyi zamanlar sabah erken saatler ve akşam üzeridir. Sabah serinliğinde ve yumuşak ışıkta fotoğrafçılık yapmak mümkünken, akşam üzeri ise muhteşem gün batımının tadını çıkarabilirsiniz. Ayrıca bu saatlerde parkta yerel halkla birlikte olmak, gerçek Antalya kültürünü gözlemlemenizi sağlar.",
+  "tips_paragraph2": "Park genel olarak çok güvenli olsa da, özellikle çocuklarla birlikteyseniz falez kenarlarına yaklaşırken dikkatli olun. Bazı seyir noktalarında koruyucu bariyerler bulunsa da, bazı yerlerde koruma az olabilir. Her zaman kenardan güvenli bir mesafede durmakta fayda var.",
+  "tips_paragraph3": "Özellikle yaz aylarında sıcaklar yüksek olabileceğinden yanınızda bol su bulundurun. Parkta çeşitli içecek noktaları olsa da, kendi suyunuzla gezmek konforunuzu artırır.",
+
+  "localsTip_title": "Yerel Tavsiyesi",
+  "localsTip_paragraph": "Gerçek bir yerel deneyim için Karaalioğlu Parkı’nı 17.00-19.00 saatleri arasında ziyaret edin. Bu saatlerde Antalyalılar akşam yürüyüşüne çıkar ve park adeta canlanır; bazen sürpriz müzik performansları veya piknik yapan ailelerle karşılaşabilirsiniz.",
+
+  "access_title": "Karaalioğlu Parkı’na Ulaşım ve Erişilebilirlik",
+  "access_paragraph1": "Karaalioğlu Parkı, Antalya şehir merkezinde oldukça merkezi bir konumda yer alır ve farklı ulaşım yöntemleriyle kolayca ulaşılabilir. Eğer Kaleiçi (Eski Şehir) içinde veya yakınında kalıyorsanız, sadece güneye doğru kısa bir yürüyüşle parka ulaşabilirsiniz.",
+  "access_paragraph2": "Toplu taşıma seçenekleri arasında nostaljik tramvay hattı bulunur; tramvay şehir merkezinin ana noktalarını park yakınında birleştirir ve yolculuk boyunca Antalya manzarasının tadını çıkarmanızı sağlar.",
+  "access_paragraph3": "Hareket kabiliyeti kısıtlı olanlar için parkın büyük bölümü tekerlekli sandalyeye uygun döşeme yollarla kaplanmıştır. Ana yollar ve merkezi alanlar genellikle düz ve iyi bakımlıdır, ancak bazı ara yollar engebeli olabileceğinden dikkatli olmak gerekir.",
+  "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6759132212074!2d30.6989!3d36.8831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009376b0c2d%3A0x9a59a04e3d5a9252!2sKaraalio%C4%9Flu%20Park%C4%B1!5e0!3m2!1sen!2suk!4v1634567890123!5m2!1sen!2suk",
+
+  "nearbyAttractions_title": "Keşfedilecek Yakındaki Gezilecek Yerler",
+  "kaleici_paragraph": "Karaalioğlu Parkı’ndan sadece kısa bir yürüyüş mesafesinde yer alan Kaleiçi, Antalya’nın büyüleyici eski kentidir. Bu tarihi mahallede daracık sokaklar, geleneksel Osmanlı evleri, butik oteller ve sayısız restoran bulunur. Parkın doğal güzelliği ile Kaleiçi'nin tarihi zenginliği mükemmel bir keşif günü sunar.",
+  "hadriansGate_paragraph": "Karaalioğlu Parkı'nın kuzey sınırında yer alan Hadrian Kapısı, Roma İmparatoru Hadrian’ın 130 yılındaki ziyareti anısına inşa edilmiştir. Bu iyi korunmuş antik anıt, üç kemerli girişi ve heybetli kuleleriyle Kaleiçi’nin ana girişlerinden biridir.",
+  "marina_paragraph": "Eski Şehir Marina’sı, park gezisinden sonra yemek veya içecek için pitoresk bir ortam sunar. Restoran ve kafelerle dolu marina, Akdeniz manzarası ve gün boyunca hareketli tekne trafiği ile keyifli vakit geçirmenizi sağlar.",
+
+  "itinerary_title": "Mükemmel Antalya Rotanızı Planlayın",
+  "itinerary_paragraph": "Karaalioğlu Parkı'nı, Antalya'nın diğer görülmesi gereken yerleriyle birleştirerek ziyaretinizi tamamlayın. Seyahat uzmanlarımız, park, tarihi alanlar, plajlar ve yerel lezzet durakları içeren size özel bir güzergah hazırlayabilir.",
+  "getItinerary_title": "Kişisel Güzergahınızı Alın",
+
+  "accessibility_paragraph": "Antalya’daki Karaalioğlu Parkı, halka 24 saat açık ve tamamen ücretsizdir; bu nedenle bütçe dostu seyahatler için harika bir seçenektir. Dilediğiniz zaman güvenle gezebilirsiniz; ancak özellikle gün ışığı ve akşam saatleri en popüler zamanlardır. Kaleiçi'ne yakın merkezi konumu sayesinde hem yerel halk hem de turistler için kolayca ulaşılabilen bir parktır.",
+  "accessibility_paragraph2": "Parkta Türk çayı, kahvesi ve hafif atıştırmalıkların sunulduğu küçük kafeler ve çay bahçeleri ile temiz tuvaletler mevcuttur. Çocuklu aileler için çeşitli oyun alanları ve geniş çimenlikler, rahatlatıcı yürüyüş yolları ve Akdeniz manzarasıyla her yaşa uygun birçok keyifli alan sunar.",
+
+  "faq_title": "Karaalioğlu Parkı Hakkında Sıkça Sorulan Sorular",
+  "faq_question1": "Karaalioğlu Parkı’na giriş ücretli mi?",
+  "faq_answer1": "Hayır, Karaalioğlu Parkı’na giriş tamamen ücretsizdir. Park halka açıktır ve giriş için herhangi bir ücret talep edilmez. Ancak park içindeki veya yakınındaki bazı müzeler gibi özel alanların kendi giriş ücretleri olabilir.",
+  "faq_question2": "Karaalioğlu Parkı'nın açılış saatleri nedir?",
+  "faq_answer2": "Karaalioğlu Parkı 24 saat açıktır; ancak sabah erken saatlerden akşam geç saatlere kadar daha yoğun ziyaret edilir. Güvenlik nedeniyle gündüz ve akşam saatlerinde gezmek önerilir. Özellikle gün batımı, parkın en güzel ve kalabalık zamanıdır.",
+  "faq_question3": "Karaalioğlu Parkı’nda restoran veya kafe var mı?",
+  "faq_answer3": "Park içinde ve yakınında birkaç küçük kafe ve çay bahçesi bulunmaktadır. Buralarda geleneksel Türk çayı, kahvesi ve hafif atıştırmalıklar bulabilirsiniz. Daha doyurucu yemekler için, parkın hemen yakınındaki Kaleiçi mahallesindeki restoranlar idealdir.",
+  "faq_question4": "Karaalioğlu Parkı çocuklar için uygun mu?",
+  "faq_answer4": "Evet, Karaalioğlu Parkı aile dostudur ve çocukların keyif alacağı çeşitli alanlar sunar. Farklı yaş gruplarına uygun oyun alanları, geniş çimenlikler ve bolca açık alan bulunur. Ebeveynler, Akdeniz’e bakan falez kenarlarında çocukları gözetim altında tutmalıdır.",
+  "faq_question5": "Karaalioğlu Parkı’nı ziyaret etmek için en iyi sezon hangisidir?",
+  "faq_answer5": "Karaalioğlu Parkı yıl boyunca güzeldir, ancak ilkbahar (Nisan-Mayıs) ve sonbahar (Eylül-Ekim) en ideal sıcaklıkları ve canlı renkleri sunar. Yaz (Haziran-Ağustos) oldukça sıcak olabilir, ancak deniz meltemi ve gölgelik alanlar serinlik sağlar. Kış (Kasım-Mart) Antalya’da ılıman geçer ve daha sakin bir park deneyimi sunar.",
+
+  "experience_title": "Karaalioğlu Parkı’nın Büyüsünü Yaşayın",
+  "experience_paragraph1": "Karaalioğlu Parkı, Antalya’nın doğal güzellik, tarihi önem ve modern dinlenme alanlarının mükemmel birleşimini simgeler. Akdeniz kıyısının büyüleyici fotoğraflarını çekmekten antik Roma yapıları keşfetmeye ya da yemyeşil bahçelerde huzurlu anlar yaşamaya kadar, bu park şehrin karmaşasından kaçmak için mükemmel bir kaçış noktasıdır.",
+  "experience_paragraph2": "Antalya’nın en çok sevilen yeşil alanlarından biri olarak Karaalioğlu Parkı, dünyanın dört bir yanından ziyaretçileri cezbetmeye devam ederken, yerel halk için de vazgeçilmez bir buluşma noktasıdır. Erişilebilirliği, çeşitli cazibe merkezleri ve muhteşem manzarasıyla, Antalya’da mutlaka görülmesi gereken bir duraktır."
+},
+"oldHarbor": {
+  "oldHarbor": {
+    "title": "Antalya'nın Eski Limanı: Kaleiçi'nde Zamansız Bir Mücevheri Keşfedin",
+
+    "intro": "Antalya'nın Kaleiçi ilçesinin tarihi kalbinde yer alan Eski Liman, şehrin zengin denizcilik mirasının yaşayan bir kanıtıdır. Bir zamanlar antik Antalya'nın ekonomik can damarı olan bu hilal şeklindeki liman, günümüzde tarihle modern eğlencenin buluştuğu canlı bir turistik destinasyona dönüşmüştür. Masmavi suları, geleneksel ahşap guletleri ve panoramik dağ manzaralarıyla Eski Liman, ziyaretçilere tarihi önemin ve çağdaş cazibenin mükemmel bir birleşimini sunar.",
+
+    "photoCaption1": "Geleneksel tekneler ve tarihi çevreyle Antalya Eski Limanının büyüleyici manzarası",
+
+    "sectionHistoryTitle": "Antalya Eski Limanının Tarihçesi",
+
+    "history_paragraph1": "Eski Liman'ın hikayesi, M.Ö. 150 civarında Bergama Kralı II. Attalos'un Antalya'yı bir deniz üssü olarak kurmasıyla başlar. Doğal liman kısa sürede şehrin kimliğinin ve refahının temel taşı haline gelmiştir. Yüzyıllar boyunca bu liman, Anadolu ile Akdeniz dünyası arasında hayati bir bağlantı noktası olmuştur.",
+
+    "photoCaption2": "Roma döneminde önemli bir Akdeniz limanı olan Eski Liman'ın sanatçı yorumu",
+
+    "history_paragraph2": "Roma yönetimi sırasında liman, önemli bir ticaret merkezi olarak gelişti. Romalılar, şehrin surlarını güçlendirdi ve liman tesislerini geliştirerek Antalya'yı doğu Akdeniz'in en önemli limanlarından biri haline getirdi. Arkeolojik bulgular, bu sulardan düzenli olarak Mısır, Kıbrıs ve Levant'tan malların geçtiğini göstermektedir.",
+
+    "history_paragraph3": "Bizans döneminde de liman, Anadolu'nun güney kıyısındaki en büyük deniz üssü olma özelliğini korudu. Bizans İmparatorluğu'na giriş ve çıkış yapan ticaret için kritik bir kapıydı; Kıbrıs ve diğer Ege toprakları, çoğunlukla Antalya üzerinden imparatorluğa erişim sağlıyordu.",
+
+    "photoCaption3": "Limanı çevreleyen antik şehir surları ve Osmanlı dönemi yapıları, çok katmanlı tarihi yansıtır",
+
+    "history_paragraph4": "Selçuklu ve Osmanlı yönetiminde de liman, Antalya'daki günlük hayatın merkezi olmaya devam etti. Osmanlılar, liman tesislerini geliştirerek yeni binalar inşa etti ve 20. yüzyılın başlarına kadar limanı önemli bir bölgesel ticaret merkezi olarak muhafaza ettiler.",
+
+    "history_paragraph5": "1920'lere gelindiğinde, liman tarihsel zirvesinden küçülerek bugün gördüğümüz daha küçük ancak cazibesiyle öne çıkan marinaya dönüştü. Bu dönüşüm, hareketli bir ticari limandan eğlence odaklı bir destinasyona geçişte limanın uzun tarihinin yeni bir bölümünü başlatmıştır.",
+
+    "sectionModernTitle": "Günümüz Eski Limanı: Neler Yaşanır?",
+
+    "modern_paragraph1": "Günümüzde Antalya Eski Limanı'nı ziyaret edenler, tarihi unsurları modern olanaklarla harika şekilde birleştiren pitoresk bir marina ile karşılaşır. Liman, ticari bir merkezden Akdeniz kıyı hayatının özünü yansıtan canlı bir sosyal ve kültürel merkeze dönüşmüştür.",
+
+    "photoCaption4": "Modern Eski Liman'ın kafeleri, restoranları ve yatlarıyla canlı atmosferi",
+
+    "modern_paragraph2": "Liman artık ziyaretçilere muhteşem manzaralar eşliğinde geleneksel Türk çayı, kahvesi veya tam bir yemek sunan çok sayıda kafe ve restoran ile doludur. Bu işletmelerin tamamı, limanın turkuaz suları manzarasıyla birleşen rahat kafelerden şık restoranlara kadar çeşitlilik gösterir.",
+
+    "modern_paragraph3": "Artık limanda yük gemileri yerine, kıyı boyunca turlar sunan özel yatlar ve geleneksel ahşap guletler yer alıyor. Bu tekne turları, Antalya'nın kıyı şeridine ve şehri çevreleyen etkileyici Toros Dağlarına benzersiz bir bakış açısı kazandırır.",
+
+    "photoCaption5": "Geleneksel ahşap guletler, limandan kıyı turları düzenler",
+
+    "modern_paragraph4": "Liman çevresinde dolaşırken, el sanatları, antikalar ve hediyelik eşyalar satan yerel dükkanları keşfedebilirsiniz. Limandan yukarıya Kaleiçi'ne çıkan dar sokaklar, el yapımı takılardan geleneksel Türk halılarına kadar her şeyin satıldığı butik mağazalarla doludur.",
+
+    "modern_paragraph5": "Eski Liman'ın atmosferi gün boyunca değişir. Sabahları şehir yeni uyanırken huzurlu bir ambiyans hakimdir; akşamları ise hem yerel halkın hem de turistlerin gün batımını ve tarihi binaların gece aydınlatmasını izlemek için toplandığı canlı bir buluşma noktasına dönüşür.",
+
+    "sectionExperienceTitle": "Eski Liman'ın Büyüsünü Yaşayın",
+
+    "experience_paragraph1": "Eski Liman'ın zengin tarihi ve güzelliğine tam anlamıyla dalmak ister misiniz? Profesyonel rehberler, çoğu ziyaretçinin kaçırdığı gizli hikayeleri ve saklı köşeleri keşfetmenizi sağlar.",
+
+    "experience_paragraph2": "Rehberli Liman Turu Rezervasyonu Yapın",
+
+    "sectionFactsTitle": "Antalya Eski Limanı Hakkında İlginç Bilgiler",
+
+    "facts_quote": "Antalya limanı, antik kralların gemilerinden günümüz gezinti teknelerine kadar iki bin yılı aşkın Akdeniz tarihine tanıklık etmiştir.",
+
+    "fact_engineeringTitle": "Antik Mühendislik Harikası",
+
+    "fact_engineering_paragraph": "Orijinal liman, dönemi için gelişmiş mühendislik teknikleri kullanılarak inşa edilmiştir. Roma mühendisleri, bazıları bugün hâlâ su altında görülebilen devasa taş bloklar kullanarak dalgakıranlar inşa etmişlerdir. Bu yapılar, gemileri açık denizden korurken Akdeniz'e kolay erişim sağlamıştır.",
+
+    "photoCaption6": "Antik Roma liman yapılarının su altındaki kalıntıları",
+
+    "fact_hadrianTitle": "Hadrian'ın Ziyareti",
+
+    "fact_hadrian_paragraph": "İmparator Hadrian, 130 yılında Antalya limanını ziyaret etmiştir. O kadar önemli bir olaydı ki, şehir onun onuruna muhteşem üç kemerli bir kapı inşa etti. Bugün Hadrian Kapısı olarak bilinen bu yapı hâlâ liman yakınında ayakta durmakta ve Antalya'nın en önemli tarihi anıtlarından biri olmayı sürdürmektedir.",
+
+    "photoCaption7": "Hadrian'ın Antalya limanına yaptığı ziyareti anmak için inşa edilen Hadrian Kapısı",
+
+    "fact_byzantineTitle": "Bizans Donanma Üssü",
+
+    "fact_byzantine_paragraph": "Bizans döneminde Eski Liman, imparatorluğun Anadolu'nun güney kıyısındaki en önemli donanma üssüydü. Tarihi kayıtlara göre, limanda Bizans ticaret yollarını koruyan ve Arap donanma saldırılarına karşı savunma yapan önemli bir filo bulunuyordu.",
+
+    "photoCaption8": "Limanın Bizans donanma üssü olarak işlediği dönemi gösteren sanatçı rekonstrüksiyonu",
+
+    "fact_transformationTitle": "Limanın Dönüşümü",
+
+    "fact_transformation_paragraph": "1970'lerde liman, düşüşteki bir ticaret merkezinden turistik cazibe merkezine dönüştürüldü. Bu dikkatli restorasyon sürecinde tarihi unsurlar korunurken, modern olanaklar da eklendi; böylece kültürel miras ile çağdaş kullanım arasında denge sağlandı.",
+
+    "photoCaption9": "Eski Liman'ın çalışma limanından turistik destinasyona dönüşümü",
+
+    "sectionGettingThereTitle": "Antalya Eski Limanına Nasıl Gidilir?",
+
+    "gettingThere_intro": "Antalya'nın tarihi bölgesinin tam kalbinde yer alan Eski Liman, çeşitli ulaşım seçenekleriyle kolayca ulaşılabilir. İster şehir merkezinde konaklayın ister uzak bir noktadan gelin, bu tarihi marinaya ulaşmak oldukça kolaydır.",
+
+    "gettingThere_mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.2612109591!2d30.70245371527305!3d36.88355197992895!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009a1644927%3A0x97bd019ea3f28131!2sOld%20City%20Marina!5e0!3m2!1sen!2sus!4v1650123456789!5m2!1sen!2sus",
+
+    "photoCaption10": "Antalya'nın tarihi Kaleiçi ilçesindeki Eski Liman'ın konumu",
+
+    "gettingThere_publicTransportTitle": "Toplu Taşıma",
+
+    "gettingThere_tram": "\"İskele\" durağına kadar AntRay tramvayını kullanın; bu duraktan limana sadece 5 dakikalık bir yürüyüş mesafesindedir.",
+    "gettingThere_bus": "Şehirdeki birçok otobüs hattı, Kalekapısı (Eski Şehir Kapısı) yakınında durur; buradan limana yokuş aşağı yaklaşık 10 dakikalık bir yürüyüşle ulaşılır.",
+    "gettingThere_taxi": "Antalya genelinde taksiler kolayca bulunur ve sizi doğrudan liman girişlerinden birine bırakabilir.",
+
+    "gettingThere_walkingTitle": "Yürüyüş Rotaları",
+
+    "gettingThere_walk_fromHadriansGate": "Hadrian Kapısı'ndan: Kaleiçi'nin büyüleyici sokaklarından geçen 10 dakikalık manzaralı yürüyüş. ",
+
+    "gettingThere_walk_fromHadriansGate2": "Kalekapısı'ndan (Saat Kulesi): Yokuş aşağı yaklaşık 15 dakikalık bir yürüyüş.",
+    "gettingThere_walk_fromHadriansGate3": "Cumhuriyet Meydanı'ndan: Atatürk Bulvarı boyunca yürüyüp ardından Kaleiçi'nden geçerek 20 dakikalık bir yürüyüş.",
+
+    "sectionVisitingTipsTitle": "Antalya Eski Limanını Ziyaret İçin Pratik İpuçları",
+
+    "visitingTips_intro": "Bu tarihi marinada ziyaretinizden en iyi şekilde yararlanmak için bu pratik ipuçlarını ve önerileri dikkate alın. Ziyaret saatlerinden en iyi fotoğraf noktalarına kadar, Eski Liman deneyiminizi geliştirecek öneriler:",
+
+    "visitingTips_bestTimeTitle": "Ziyaret İçin En İyi Zaman",
+
+    "visitingTips_1": "Günün Saati: Sabah erken saatler (07:00-09:00) huzurlu manzaralar ve harika ışık için idealdir. Gün batımı (yaz aylarında yaklaşık 19:00-20:00) ise suyun ve binaların üzerinde büyülü bir altın ışık oluşturur.",
+    "visitingTips_2": "Hafta içi vs. Hafta sonu: Hafta içi sabah saatlerinde kalabalık daha az olur.",
+    "visitingTips_3": "Mevsimler: Nisan-Haziran ve Eylül-Ekim, yazın zirvesine göre daha serin hava ve daha az kalabalık sunar.",
+
+    "photoCaption11": "Eski Liman'da büyülü gün batımı — ziyaret için en iyi zamanlardan biri",
+
+    "sectionPhotoSpotsTitle": "Fotoğraf Noktaları",
+    "photoSpots_intro": "Bu başlıca lokasyonlarda unutulmaz kareler yakalayın:",
+    "photoSpots_1": "Yükseltilmiş Manzara: Limanın doğu yakasındaki kafe teraslarından panoramik görüntüler.",
+    "photoSpots_2": "Yansımalar: Sabah erken saatlerde, su sakin olduğunda teknelerin ve binaların yansımaları mükemmeldir.",
+    "photoSpots_3": "Çerçeveli Kare: Liman girişindeki taş kemer, teknelerin güzel bir manzarasını çerçeveler.",
+    "photoSpots_4": "Tarihi Kontrast: Hem antik surları hem de modern yatları aynı karede yakalayacak açıdan çekim yapın.",
+    "photoCaption12": "Taş kemerler, liman fotoğrafları için doğal çerçeve sağlar.",
+
+    "sectionNearbyAttractionsTitle": "Yakındaki Gezilecek Yerler",
+    "nearbyAttractions_intro": "Liman ziyaretinizi bu yakın ilgi noktalarıyla birleştirin:",
+
+    "nearbyAttractions_hadriansGateTitle": "Hadrian Kapısı",
+    "nearbyAttractions_hadriansGate_desc": "Bu iyi korunmuş Roma zafer takı, limandan sadece 10 dakikalık yürüme mesafesindedir ve Antalya'nın Roma geçmişine bir pencere sunar.",
+    "photoCaption13": "Limanın kısa mesafesinde yer alan görkemli Hadrian Kapısı",
+
+    "nearbyAttractions_yivliMinareTitle": "Yivli Minare",
+    "nearbyAttractions_yivliMinare_desc": "13. yüzyıldan kalma bu Selçuklu minaresi, Antalya'nın simgesidir ve çevresinden limanın harika manzaralarını sunar.",
+    "photoCaption14": "Antalya'nın sembolü olan ikonik Yivli Minare",
+
+    "nearbyAttractions_mermerliBeachTitle": "Mermerli Plajı",
+    "nearbyAttractions_mermerliBeach_desc": "Limanın hemen yanında yer alan bu küçük ama şirin plaj, geziden sonra serinlemek için mükemmel bir noktadır.",
+    "photoCaption15": "Mermerli Plajı, limandan sadece birkaç adım ötede ferahlatıcı bir mola sunar.",
+
+    "sectionDiscoverMoreTitle": "Kaleiçi'nin Diğer Hazinelerini Keşfedin",
+    "discoverMore_paragraph": "Eski Liman, Antalya'nın tarihi kentinde bulunan birçok tarihi mücevherden yalnızca biridir. Uzman bir yerel rehber eşliğinde dar sokakları, antik yapıları ve gizli avluları keşfedin.",
+    "discoverMore_tourCta": "Birleşik Liman ve Eski Kent Turu Rezervasyonu Yapın",
+
+    "sectionPracticalInfoTitle": "Ziyaretçiler İçin Pratik Bilgiler",
+    "practicalInfo_openingHoursTitle": "Açılış Saatleri ve Ücretler",
+    "practicalInfo_openingHours": "Eski Liman alanı, yıl boyunca 24 saat ziyaretçilere açıktır. Limana giriş için herhangi bir ücret yoktur; bu da onu tüm bütçelere uygun erişilebilir bir cazibe merkezi yapar.",
+    "practicalInfo_establishments": "Genel liman alanı her zaman açık olsa da, bireysel restoranlar, kafeler ve mağazalar kendi açılış saatlerine sahiptir. Çoğu sabah 09:00 civarında açılır ve özellikle yaz sezonunda geç saatlere kadar hizmet verir.",
+
+    "sectionExperienceFinalTitle": "Antalya Eski Limanı'nın Büyüsünü Yaşayın",
+
+    "experienceFinal_paragraph1": "Antalya Eski Limanı, şehrin zengin tarihi ve canlı günümüzünü mükemmel şekilde yansıtır. Bir zamanlar önemli bir Akdeniz limanı olan bu alan, günümüzde büyüleyici bir marina olarak Kaleiçi'nin kalbinde yaşamaya devam ediyor.",
+
+    "experienceFinal_paragraph2": "İster bir sahil kafesinden manzarayı izleyin, ister çevredeki tarihi sokakları keşfedin ya da geleneksel bir guletle tura çıkın; liman, ziyaretçileri bu olağanüstü kıyı kentinin hem geçmişine hem de bugününe bağlayan deneyimler sunar.",
+
+    "photoCaption16": "Antalya Eski Limanı'nda büyüleyici akşam atmosferi",
+
+    "experienceFinal_paragraph3": "Antalya seyahatinizi planlarken, Eski Liman'ın farklı saatlerinde tadını çıkarmak için yeterli zaman ayırmayı unutmayın. Sabahları balıkçı teknelerinin dönüşünü izleyin, öğleden sonra hareketli tekne kalkışlarının keyfini çıkarın ve nesiller boyunca ziyaretçileri büyüleyen büyülü gün batımı manzaralarını yaşayın.",
+
+    "sectionReadyToExploreTitle": "Eski Liman ve Ötesini Keşfetmeye Hazır Mısınız?",
+
+    "readyToExplore_paragraph": "Antalya'nın Eski Limanı ve Kaleiçi bölgesinin tüm güzelliğini ve tarihini, bu antik limanın hikayelerini hayatınıza taşıyan uzman yerel rehberlerle keşfedin.",
+
+    "readyToExplore_cta": "Rehberli Turunuzu Hemen Rezervasyon Yapın"
+  }
+},
+
+
+"hidirlikTower": {
+  "title": "Hıdırlık Kulesi: Antalya Kaleiçi'nde Tarihi Bir Mücevher",
+  "introduction": "Antalya'nın büyüleyici Kaleiçi (Eski Şehir) bölgesinin güney ucunda görkemli bir şekilde yükselen Hıdırlık Kulesi, neredeyse iki bin yıl boyunca Akdeniz kıyılarını sessizce izlemiştir. Bu antik Roma yapısı, ziyaretçilerine yalnızca Antalya'nın zengin geçmişine bir bakış sunmakla kalmaz, aynı zamanda turkuaz Akdeniz'in en nefes kesici panoramik manzaralarından bazılarını da gözler önüne serer. İster tarih meraklısı olun, ister fotoğrafçılık tutkunu ya da sadece Antalya'nın eski şehir hazinelerini keşfediyor olun, bu ikonik silindirik kule gezilecekler listenizde mutlaka yer almalıdır.",
+  "history_title": "Hıdırlık Kulesi'nin Tarihçesi",
+  "history1": "Hıdırlık Kulesi, Antalya'nın Attaleia adıyla anıldığı Roma İmparatorluk dönemine, MS 2. yüzyıla kadar uzanır. Tarihçiler orijinal amacı konusunda farklı görüşler öne sürse de, çoğu kanıt, kulenin ilk olarak önemli bir Roma konsülü için (muhtemelen M. Calpurnius Rufus veya M. Petronius Umbrinus) anıtsal bir mezar olarak inşa edildiğine işaret eder.",
+  "history2": "Kulenin yapısı klasik Roma mühendislik prensiplerini yansıtır: alt katı kare planlı, üst kısmı ise silindirik olarak inşa edilmiştir. Alt giriş kapısının her iki yanında, Roma kökenini doğrulayan altı adet fasces rölyefi (Roma liktörlerinin taşıdığı sembolik nesneler) görülebilir.",
+  "history3": "Bizans döneminde (MS 5-6. yüzyıllar), kule önemli bir dönüşüm geçirmiştir. Şehrin savunma surlarına entegre edilerek bir deniz feneri olarak kullanılmış ve gemilerin Antalya limanına güvenli bir şekilde girmesine yardımcı olmuştur. Hem savunma yapısı hem de denizcilik işlevi, stratejik önemini gözler önüne serer.",
+  "history4": "Yüzyıllar boyunca Hıdırlık Kulesi farklı amaçlara hizmet etmeye devam etmiştir. Selçuklu döneminde köşk olarak kullanılmış, Osmanlılar zamanında ise askeri depo ve gözetleme kulesi olarak hizmet vermiştir. Farklı uygarlıklar boyunca geçirdiği bu evrim, onu mimari adaptasyon açısından büyüleyici bir inceleme konusu yapar.",
+  "modern_title": "Günümüzde Hıdırlık Kulesi",
+  "modern1": "Günümüzde Hıdırlık Kulesi, Antalya'nın en iyi korunmuş antik yapılarından biridir. Silindirik tasarımı, zamanın zorlu testlerine karşı oldukça sağlam kalan, büyük ve özenle kesilmiş kireçtaşı bloklardan oluşan kare bir taban üzerinde etkileyici bir şekilde yükselir.",
+  "modern2": "Kuzeydoğu cephesindeki ana giriş, büyük taş bloklardan oluşan dört basamaklı bir merdivene açılır. Bu merdiven, ana odaya (muhtemelen orijinal mezar odası) açılan dromos benzeri bir koridora bağlanır. Üç büyük niş ve mazgallar, iç mekâna doğal ışığın süzülmesini sağlar ve etkileyici bir atmosfer yaratır.",
+  "modern3": "Kulenin üst seviyesine, merkezde ölen kişiye ait bir heykelin bulunduğu düşünülen kare kaideye çıkan 30 basamaklı bir taş merdivenle ulaşılır. Bu üst seviyeden ziyaretçileri, Akdeniz'in, Antalya'nın pitoresk limanının ve çevredeki Kaleiçi bölgesinin muhteşem 360 derecelik manzarası bekler.",
+  "modern4": "Kule günümüzde güzel Karaalioğlu Parkı'nın içinde yer alır. Bu huzurlu yeşil alan, ziyaret deneyimini zenginleştirir. Parkın bakımlı bahçeleri, yürüyüş yolları ve oturma alanları, kuleyi keşfettikten sonra dinlenmek ya da yüzyıllardır ziyaretçileri büyüleyen eşsiz kıyı manzarasının tadını çıkarmak için idealdir.",
+  "facts_title": "Hıdırlık Kulesi Hakkında İlginç Bilgiler",
+  "facts": [
+    {
+      "imageCaption": "Akşam gökyüzü fonunda Hıdırlık Kulesi'nin karakteristik silueti",
+      "fact_title": "Çift Amaçlı Tasarım",
+      "fact_text": "Hıdırlık Kulesi'nin en ilgi çekici yönlerinden biri, tarih boyunca iki farklı amaca hizmet etmesidir. Anıtsal bir mezar olarak başlayan yapı, daha sonra hem savunma yapısı hem de deniz feneri olarak kullanılmıştır—farklı uygarlıklar ve ihtiyaçlar doğrultusunda pratik mimari adaptasyonun dikkat çekici bir örneğidir."
+    },
+    {
+      "imageCaption": "Girişteki Roma fasces rölyefleri önemli tarihi ipuçları sunar",
+      "fact_title": "Aziz Hıdır Efsanesi",
+      "fact_text": "Yerel efsaneler, kuleyi İslam geleneğinde su ve bereketle ilişkilendirilen mistik bir figür olan Hızır (Hıdır) ile ilişkilendirir. Rivayete göre, Aziz Hıdır bu konumu ziyaret etmiş ve burayı kutsamıştır. Bu bağlantı, kuleye günümüzdeki adını kazandırmış ve ona mimari değerinin ötesinde kültürel bir önem yüklemiştir."
+    },
+    {
+      "imageCaption": "Gece aydınlatmasında Hıdırlık Kulesi",
+      "fact_title": "Gizli Arkeolojik Keşifler",
+      "fact_text": "Kule çevresinde yapılan son arkeolojik kazılarda, Hıdırlık Kulesi'nin daha büyük bir kompleksin parçası olduğuna işaret eden ek Roma eserleri ve yapısal unsurlar ortaya çıkarılmıştır. Bu keşifler, Roma döneminde Antalya'nın önemi ve kulenin antik şehirdeki rolü hakkında anlayışımızı geliştirmeye devam etmektedir."
+    }
+  ],
+  "enhance_visit_title": "Ziyaretinizi Uzman Bilgisiyle Zenginleştirin",
+  "enhance_visit_paragraph1": "Hıdırlık Kulesi'nin gizli hikayelerini ve arkeolojik sırlarını bilgili bir yerel rehberle keşfedin. Sesli rehberlerimiz, rehber kitaplarda bulamayacağınız ilginç tarihi bilgiler sunar.",
+  "enhance_visit_cta": "Sesli Rehberi Dinle",
+  "gettingThere_title": "Hıdırlık Kulesi'ne Nasıl Gidilir?",
+  "gettingThere": [
+    {
+      "imageCaption": "Antalya Kaleiçi'nde Hıdırlık Kulesi'ne yaya rotaları",
+      "route_title": "Kaleiçi'nden (Eski Şehir): 5-10 dakika",
+      "route_text": "Hıdırlık Kulesi, Kaleiçi'nin güney ucunda yer alır ve Antalya'nın eski şehir kısmının her yerinden yürüyerek kolayca ulaşılabilir. En güzel rota, geleneksel Osmanlı evlerinin ve zanaatçı dükkanlarının arasından geçen dar sokaklardan geçer."
+    },
+    {
+      "imageCaption": "Kaleiçi'nin Arnavut kaldırımlı yolları Hıdırlık Kulesi'ne çıkar",
+      "route_title": "Hadrian Kapısı'ndan: 5 dakika",
+      "route_text": "Başka bir önemli Roma anıtı olan Hadrian Kapısı'ndan başlıyorsanız, kuleye yürüyüş yaklaşık 15-20 dakika sürer. Kaleiçi boyunca güneye ilerleyip Karaalioğlu Parkı'nı takip edin. Güzergâh iyi işaretlenmiştir ve tarihi bölgeyi keşfetmek için pek çok fırsat sunar."
+    },
+    {
+      "route_title": "Antalya Eski Limanı'ndan (Marina): 5 dakika",
+      "route_text": "Eski Liman'dan Hıdırlık Kulesi'ne yokuş yukarı yürüyerek sadece 5-10 dakika sürer. Karaalioğlu Parkı tabelalarını takip edin; kuleyi parkın güney ucunda, az önce arkanızda bıraktığınız limanın üzerinde bulacaksınız."
+    }
+  ],
+  "gettingThere_mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6725431851424!2d30.703145776279144!3d36.88272447210611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009259f7e4f%3A0x8b1817aa2e5f733a!2sH%C4%B1d%C4%B1rl%C4%B1k%20Tower!5e0!3m2!1sen!2sus!4v1699453523018!5m2!1sen!2sus",
+  "publicTransport_title": "Toplu Taşıma",
+  "publicTram": "Antalya'nın diğer bölgelerinden geliyorsanız, Antray hattındaki en yakın tramvay durakları İsmetpaşa veya Doğu Garajı'dır. Bu duraklardan kuleye yürüyerek yaklaşık 15-20 dakika sürecektir. Kaleiçi'ne uğrayan şehir içi otobüslerle de bölgeye yaklaşabilir, sonrasında yürüyebilirsiniz.",
+  "publicBus": "Kaleiçi'ne uğrayan şehir içi otobüslerle bölgeye yaklaşabilir, sonrasında yürüyerek kuleye ulaşabilirsiniz.",
+  "publicTaxi": "Araçla geliyorsanız, Kaleiçi çevresinde birkaç halka açık otopark bulunur. En uygun olanı Hadrian Kapısı yakınındaki veya Karaalioğlu Parkı çevresindeki otoparklardır. Buradan kuleye kısa bir yürüyüşle ulaşabilirsiniz. Kule çevresinde doğrudan park imkanı sınırlıdır.",
+  "byCar": "Araçla geliyorsanız, Kaleiçi çevresinde birkaç halka açık otopark bulunur. En uygun olanı Hadrian Kapısı yakınındaki veya Karaalioğlu Parkı çevresindeki otoparklardır. Buradan kuleye kısa bir yürüyüşle ulaşabilirsiniz. Kule çevresinde doğrudan park imkanı sınırlıdır.",
+  "tips_title": "Hıdırlık Kulesi'ni Ziyaret İçin İpuçları",
+  "bestTime_title": "En Uygun Ziyaret Zamanı",
+  "bestTime_text": "En büyülü deneyim için Hıdırlık Kulesi'ni gün batımında ziyaret edin. Altın saat ışığında antik taşlar parıldarken, Akdeniz turuncu ve mor tonlara bürünür ve unutulmaz bir atmosfer ile harika fotoğraf fırsatları doğar. Daha az kalabalık tercih edenler için sabah saat 10'dan önce ziyaret önerilir.",
+  "photographyTips_title": "Fotoğrafçılık İpuçları",
+  "photographyTips_text": "Kuledeki geniş manzaraları yakalamak için geniş açılı bir lens getirin. En iyi fotoğraf noktaları, üst seviyeden panoramik deniz manzaraları ve batı tarafından kuleyle Akdeniz'i aynı karede yakalayabileceğiniz alanlardır. Mimari detay çekimleri için sabah ışığı, taş işçiliği ve Roma rölyeflerini en iyi şekilde aydınlatır.",
+  "refreshments_title": "Yakındaki İkramlar",
+  "refreshments_text": "Kuleyi gezdikten sonra, çevredeki çeşitli kafe ve çay bahçelerinde dinlenebilirsiniz. Vanilla Lounge, kuleye çok yakın olup, deniz manzaralı konforlu oturma imkanı sunar. Panoramik manzaralı geleneksel Türk çayı veya kahvesi için, kuleye yakın Karaalioğlu Parkı'ndaki kafeyi deneyin.",
+  "tourOptions_title": "Tur Seçenekleri",
+  "tourOptions_text": "Hıdırlık Kulesi'ni kendi başınıza gezebileceğiniz gibi, kuleyi içeren rehberli Kaleiçi yürüyüş turlarına katılarak değerli tarihi bilgiler edinebilirsiniz. Bu turlar genellikle 2-3 saat sürer ve Eski Şehir'in birkaç önemli noktasını kapsar. Alternatif olarak, uzman anlatımlı sesli rehberleri tercih edebilirsiniz.",
+  "practicalInfo_title": "Pratik Bilgiler",
+  "practicalInfo_list": [
+    "Kuleye ve iç basamaklara ulaşım için rahat yürüyüş ayakkabısı giyin",
+    "Özellikle yaz aylarında sıcaklık artabileceği için su getirin",
+    "Kule çevresinde gölge sınırlı olduğundan güneş koruyucu taşıyın",
+    "Kule alanı genellikle sakin, ancak yoğun yaz sezonunda kalabalık olabilir",
+    "Kuleyi ve manzarayı tam olarak keşfetmek için 30-45 dakika ayırın",
+    "Kuleye ve parkın etrafına giriş ücretsizdir"
+  ],
+  "magic_title": "Hıdırlık Kulesi'nin Büyüsünü Deneyimleyin",
+  "magic_text": "Hıdırlık Kulesi, Antalya'nın zengin tarihi dokusunun bir kanıtı olarak; antik mimari, ilgi çekici tarih ve nefes kesici Akdeniz manzaralarını bir arada sunar. Kaleiçi'nin en iyi korunmuş Roma yapılarından biri olarak, şehrin geçmişiyle canlı bir bağlantı kurar ve günümüzde de ikonik bir simge olarak öne çıkar. İster antik Romalıların ayak izlerini takip edin, ister mükemmel bir gün batımı fotoğrafı çekin ya da sadece turkuaz sulara karşı huzurlu bir an arayın, Hıdırlık Kulesi size Antalya'nın ruhuna otantik bir bakış sunar. Bu tarihi mücevheri, Antalya Eski Şehri gezinizde mutlaka ziyaret edin—şehrin güzelliğini ve tarihini daha derinden anlamanızı sağlayacak eşsiz bir deneyim sunacaktır.",
+  "discoverMore_title": "Antalya'nın Gizli Hazinelerini Keşfedin",
+  "discoverMore_text": "Kaleiçi'nde Hıdırlık Kulesi ve diğer tarihi simgeleri içeren rehberli bir yürüyüş turuyla Antalya deneyiminizi zenginleştirin. İlginç hikayeler öğrenin, gizli noktaları keşfedin ve bu kadim şehrin zengin mirasını daha yakından tanıyın.",
+  "discoverMore_cta": "Yürüyüş Turu Rezervasyonu Yap"
+},
+
+
+
+"traditionalBazaar": {
+  "title": "Kaleiçi, Antalya'nın Geleneksel Çarşılarını Keşfetmek: Bir Seyahat Rehberi",
+  "intro": "Antalya'nın tarihi kalbinde yer alan Kaleiçi'nin geleneksel çarşıları, gezginlere yüzyıllara yayılan Türk ticareti ve kültürüyle büyüleyici bir yolculuk sunar. Antik kent surları ve Osmanlı dönemi yapıları arasında saklı kalan bu hareketli pazarlar; baharatların kokusu, el yapımı takıların ışıltısı ve kumaşların canlı renkleriyle benzersiz bir Türk alışveriş deneyimi yaratır.",
+
+  "historyTitle": "Kaleiçi Çarşılarının Tarihi",
+  "historyParagraph1": "Kaleiçi çarşılarının kökeni, Antalya'nın M.Ö. 2. yüzyılda Attaleia adıyla Akdeniz'i iç bölge ticaret yollarına bağlayan hayati bir liman şehri olarak ortaya çıktığı döneme kadar uzanır. Antik dünyanın dört bir yanından tüccarların Antalya'da buluşmasıyla Kaleiçi'nin geleneksel pazarının temelleri atıldı. Bizans döneminde pazar alanı büyüyerek farklı mallara özel bölümler oluştu ve bölgenin artan ticari önemini yansıttı. Bu erken pazarlar, sadece ticaretin itici gücü değil, aynı zamanda günümüzde Kaleiçi'nde devam eden canlı şehir yaşamının oluşmasına da katkı sağladı.",
+  "historyParagraph2": "Kaleiçi çarşıları, 15. yüzyıldan 20. yüzyıl başına kadar Osmanlı döneminde gerçek anlamda gelişti ve kendine has mimari ile organizasyon özelliklerini kazandı. 'Çarşı' kelimesinin kendisi Farsçadan gelir ve çokkültürlü etkileri gösterir. Osmanlı yöneticileri, pazarları 'han' veya 'bedesten' adı verilen bölümlere ayırarak farklı zanaat ve ticaretleri bir araya getirdiler. İstanbul'un görkemli kapalı çarşılarının aksine, Kaleiçi pazarları, kentin engebeli arazi ve dolambaçlı sokaklarına uyum sağlayacak şekilde organik olarak gelişti. Bu eşsiz yapı, Kaleiçi'nin çarşısına bugün görülen labirent düzeni ve otantik yerel karakter kazandırmıştır.",
+  "historyParagraph3": "Günümüzde çarşıdaki dükkanların çoğu, 18. ve 19. yüzyıla ait binalarda yer alıyor; ancak daha eski dönemlere ait mimari unsurlar da bölge genelinde görülebilir. 1980'lerde başlayan restorasyon çalışmaları, alanın tarihi dokusunu korurken modern ticarete uygun şekilde yenilenmesini sağladı. Bugün Kaleiçi çarşısı, geleneksel el sanatları, çağdaş hediyelikler ve günlük ticaretin yan yana olduğu yaşayan bir Türk ticaret tarihi müzesi konumundadır. Bu hareketli pazar, yüzyıllardır süren ticaret, kültürel etkileşim ve Antalya'nın eski kentinin zengin mirasını yansıtır.",
+
+  "atmosphereTitle": "Pazarların Benzersiz Atmosferi",
+  "atmosphereParagraph1": "Antalya'nın Kaleiçi'ndeki geleneksel çarşılarında dolaşmak gerçekten sürükleyici bir deneyimdir. Dar, dolambaçlı Arnavut kaldırımlı sokaklar; renkli tenteler ve sarmaşıklarla gölgelenmiş, kapalı ve açık alanlar iç içe geçmiş samimi bir ortam yaratır. Satıcıların sesleri, çay bardaklarının şıngırtısı, pazarlık sesleri ve geleneksel Türk müziğinin eşlik ettiği hareketli ses manzarası bu çarşıları benzersiz ve otantik kılar.",
+  "atmosphereParagraph2": "İstanbul'daki hareketli Kapalıçarşı'nın aksine, Kaleiçi pazarları daha rahat ve sıcak bir atmosfere sahiptir. Dükkan sahipleri genellikle ziyaretçilere elma çayı ve sohbet ikram eder. Bu misafirperverlik ve organik pazar yerleşimi, alışveriş yapanlara Antalya'nın antik surları ötesinde mavi Akdeniz'in manzaralarını sunan doğal seyir noktaları sağlar ve kentin denizcilik geçmişini hatırlatır.",
+  "atmosphereParagraph3": "Pazarın karakteri günün saatine ve mevsimlere göre değişir. Sabah erken saatlerde yerliler günlük alışverişlerini yaparken, öğle vakti turistler ve renkli hediyelikler ile el sanatları pazarı canlanır. Akşamları ise loş ışıklar ve sıcak taşlar huzurlu bir atmosfer oluşturur. Yaz aylarında enerji dolu ve dışarıya taşan tezgahlarla kalabalık olurken, kışları ise Kaleiçi'nin gerçek yerel yaşamının daha sakin ve otantik bir yönünü ortaya koyar.",
+
+  "shoppingTipsTitle": "Ziyaretçiler İçin Alışveriş İpuçları",
+  "shoppingTipsParagraph1": "Kaleiçi çarşılarında alışverişin ayrılmaz ve keyifli bir parçası pazarlıktır. Bir ürüne ilgi göstererek başlayın, ardından ilk karşı teklif olarak istenen fiyatın %40-50'sini sunun. Çoğu alışveriş, dostça pazarlıkla sonuçlanır. Sabah erken veya akşam üstü saatler, daha sakin bir atmosfer için en uygun zamanlardır; öğle saatlerinde ise yazın kalabalık ve sıcak olabilir.",
+  "shoppingTipsParagraph2": "Her zaman dükkanlar arasında kalite karşılaştırması yapın—halılarda sık dokuma ve düzgün desenlere, seramiklerde ise pürüzsüz sır kaplamasına dikkat edin. Halı gibi büyük ürünlerde güvenilir uluslararası gönderim seçeneklerini sorun ve detayları yazılı alın. Nakit ödeme birçok satıcı tarafından tercih edilir, ancak büyük dükkanlarda kart da geçerli olabilir. Çarşıya girmeden önce Türk lirası çekmek akıllıca olacaktır.",
+  "shoppingTipsParagraph3": "Almayı düşündüğünüz ürünlerin fotoğrafını çekin, ancak önce izin istemeyi unutmayın. Alışverişte işinize yarayacak birkaç Türkçe cümle öğrenin; örneğin 'Ne kadar?' (Kaç lira?), 'Biraz indirim yapabilir misiniz?' (İndirim olur mu?). 'En iyi dükkanları göstereyim' diyerek komisyon karşılığı rehberlik yapan gayriresmi kişilere dikkat edin—bu durumda fiyatlar artabilir. Gıda ürünlerinde ise ülkenizin ithalat kurallarını önceden kontrol edin.",
+
+  "faqTitle": "Sıkça Sorulan Sorular",
+  "faq1Question": "Kaleiçi çarşılarında pazarlık yapılır mı?",
+  "faq1Answer": "Evet, Antalya'nın Kaleiçi'ndeki geleneksel çarşılardaki çoğu dükkanda pazarlık beklenir. Genellikle istenen fiyatın %40-50'sini teklif ederek başlayın ve dostça, saygılı bir şekilde makul bir anlaşmaya varın.",
+  "faq2Question": "Kaleiçi çarşıları, İstanbul Kapalıçarşı'dan nasıl farklıdır?",
+  "faq2Answer": "Kaleiçi çarşıları, Antalya'nın tarihi kentinde açık havada yer alır, daha rahat bir atmosfere ve daha az ısrarcı satıcılara sahiptir. Yerel Akdeniz el sanatları ile Türk hediyeliklerinin özgün karışımını daha samimi bir ortamda sunar.",
+  "faq3Question": "Çarşılarda otantik Türk el sanatları nasıl anlaşılır?",
+  "faq3Answer": "Otantik Türk el sanatlarında genellikle el işçiliği ve benzersiz detaylar bulunur—örneğin halılardaki düğümler veya seramiklerdeki el boyaması desenler. Satıcıya ürünün menşei ve yapım sürecini sorun; güvenilir dükkanlar bu konuda bilgi vermekten gurur duyar ve değerli ürünlerde sertifika sunabilir.",
+
+  "conclusionTitle": "Sonuç",
+  "conclusionParagraph1": "Antalya'nın Kaleiçi'ndeki geleneksel çarşılar, alışverişten fazlasını sunar—Türk kültürüne, zanaatkarlığına ve misafirperverliğine sürükleyici bir yolculuk sağlar. Her ziyaret, yerel zanaatkarlarla bağlantı kurma ve asırlık gelenekleri yaşama fırsatıdır.",
+  "conclusionParagraph2": "İster el dokuması bir halı için pazarlık yapıyor, ister benzersiz takı seçiyor, ister bir dükkanda çay içiyor olun, çarşıdaki her etkileşim, tipik turizmin ötesinde anlamlı anılar ve otantik seyahat deneyimleri kazandırır.",
+  "conclusionParagraph3": "Antalya'nın tarihi pazarlarından ayrılırken sadece hediyelikler değil, aynı zamanda Türk yaratıcılığına ve geleneğine daha derin bir saygı da götürmüş olursunuz. Kaleiçi çarşıları, Türk mirasının gerçek ruhunu yaşatan canlı ticaret ve kültürel etkileşim merkezleri olmaya devam ediyor.",
+
+  "practicalInfoTitle": "Turistler İçin Pratik Bilgiler",
+  "practicalInfoParagraph1": "Kaleiçi'nin geleneksel çarşıları Antalya'nın tarihi merkezinde yer alır; ana giriş Hadrian Kapısı'na yakındır. Ziyaretçiler, çarşıya yürüyerek, toplu taşıma veya taksiyle kolayca ulaşabilir. Dükkanlar genellikle 09:00-19:00 arasında açıktır; yazın daha uzun saatler çalışır. Çoğu cuma günü açıktır, ancak bazıları kısa bir süre namaz için kapanabilir.",
+  "practicalInfoParagraph2": "Çarşının dar ve yaya dostu sokakları keşfi güvenli ve keyifli kılar; ancak zaman zaman teslimat motosikletlerine dikkat edin. Hırsızlık nadir ama kalabalık alanlarda çantalarınızı güvende tutun. Çoğu dükkan kredi kartı kabul eder, ancak küçük satıcılar nakit (Türk lirası) tercih eder. Tuvaletler sınırlıdır; Hadrian Kapısı, marina ve kafelerde olanaklar bulabilirsiniz.",
+  "practicalInfoParagraph3": "Kaleiçi çarşılarında tarihi, engebeli arazi nedeniyle düzensiz Arnavut kaldırımı sokaklar, merdivenler ve yokuşlar bulunur. Ana caddeler erişilebilir olsa da, bazı dar sokaklar tekerlekli sandalye kullananlar veya hareket kısıtlılığı olanlar için zorlayıcı olabilir.",
+  "toursTitle": "Kaleiçi Çarşılarını Yerel Bir Rehberle Keşfedin",
+  "toursText": "Pazarın gizli köşelerini bulun ve pazarlık sanatını içinize işleyen bir uzman eşliğinde öğrenin."
+},
+"authentic-streets": {
+  "title": "Kaleiçi'nin Otantik Sokaklarını Keşfetmek: Antalya'nın Tarihi Kalbi",
+  "intro": "Antalya'nın modern kalabalığı arasında saklı kalan Kaleiçi, yüzyıllardır hikayeler fısıldayan dar, Arnavut kaldırımlı sokaklardan oluşan bir labirenttir. İsmi 'surların içinde' anlamına gelen bu tarihi mahalle, gezginlere Türkiye'nin zengin Osmanlı mirasına otantik bir bakış sunar. Kıvrımlı yollarında yürürken; antik taş duvarları saran canlı begonviller, oymalı kapılarıyla geleneksel ahşap evler ve nesiller boyu değişmeden süregelen yerel yaşamın huzurlu ritmiyle karşılaşırsınız. Antalya'nın tatil köyleriyle dolu sahilinin aksine, Kaleiçi'nin otantik sokakları sizi yavaşlamaya ve Türk kültürüyle daha derin bir bağ kurmaya davet eder.",
+  "historyTitle": "Zaman Yolculuğu: Kaleiçi'nin Tarihi Arka Planı",
+  "history": {
+    "p": "Kaleiçi'nin hikayesi, bölgenin Bergama Kralı II. Attalos tarafından M.Ö. 2. yüzyılda 'Attaleia' adıyla kurulmasıyla başlar. Bu antik liman şehri, bugün hala eski kentin görkemli girişi olan Hadrian Kapısı ile kanıtlanan önemli bir Roma limanı haline gelmiştir. 130 yılında İmparator Hadrianus'un ziyareti onuruna inşa edilen bu üç kemerli zafer takından geçerken, neredeyse iki bin yıl önce bu taş kapıdan geçmiş Roma asillerinin ayak izlerini gerçekten takip etmiş oluyorsunuz.",
+    "p1": "Yüzyıllar boyunca Kaleiçi, Bizans, Selçuklu ve nihayet Osmanlı dönemlerinde dönüşüme uğradı ve her uygarlık kendine has mimari izler bıraktı. Bugünkü Kaleiçi'nin karakterini en çok şekillendiren dönem Osmanlı dönemidir (15. yüzyıldan 20. yüzyıl başlarına kadar); çıkıntılı üst katları ve Akdeniz iklimine uygun iç avluları olan ahşap evler bu dönemin eseridir. Antalya'nın Kaleiçi'ni özel yapan şey, antik kent surlarından Yivli Minare Camii'nin oluklu minaresine kadar her ayrıntıda görülebilen bu katmanlı tarihtir.",
+    "p2": "Son yıllarda Kaleiçi genelinde kapsamlı restorasyon çalışmaları yapılmıştır. Bir zamanlar ihmal edilen bir mahalleyken, bugün Türkiye'nin en büyüleyici tarihi bölgelerinden biri haline gelmiştir. Yerel yönetim, otantik karakteri koruyarak butik oteller, restoranlar ve dükkanların hassas gelişimine olanak sağlamış ve bu kadim sokaklara yeni bir ekonomik canlılık kazandırmıştır."
+  },
+  "streetsTitle": "Labirentte Gezinti: Kaleiçi'nin Dikkat Çeken Sokakları",
+  "streetsIntro": "Kaleiçi'nin cazibesinin kalbi, sizi keyifle kaybolmaya teşvik eden dar ve kıvrımlı sokak ağında gizlidir. Her sokak kendi karakterine, hikayesine ve keşfedilmeyi bekleyen gizli hazinelere sahiptir. İşte bu tarihi mahallenin otantik ruhunu yakalayan en özel yollar:",
+  "streets": {
+    "hesapci": {
+      "title": "Hesapçı Sokak",
+      "text": "Kaleiçi'nin ana damarı kabul edilen Hesapçı Sokak, sabahtan gece geç saatlere kadar canlılığını korur. Sokak, bölgedeki en iyi korunmuş Osmanlı evlerinden bazılarına ev sahipliği yapar; bu evlerin birçoğu günümüzde butik otel ve restorana dönüştürülmüştür. İsmi 'Muhasebeci Sokağı' anlamına gelir ve tarihi önemini yansıtır. Bugün ise bir açık hava kafesinde oturup çayınızı yudumlayarak hayatın akışını izlemek için mükemmel bir yerdir."
+    },
+    "uzun-carsi": {
+      "title": "Uzun Çarşı Sokak",
+      "text": "İsmi 'Uzun Çarşı Sokağı' anlamına gelir ve gerçekten de yüzyıllardır alışveriş merkezi olmuştur. Burada el yapımı deri ürünlerinden geleneksel Türk halılarına, bakır kahve cezvelerinden nazar boncuğu tılsımlarına kadar her şeyi bulabilirsiniz. Bu sokağı özel kılan, geleneksel zanaatkarlığın devam etmesidir—bazı atölyelerde nesilden nesile aktarılan yöntemlerle üretim yapılır ve bu, günümüzde nadir görülen bir zanaat anlayışını yansıtır."
+    },
+    "mermerli": {
+      "title": "Mermerli Sokak",
+      "text": "Bu şirin sokak, Mermerli Plajı ve eski limana doğru aşağıya inerken Akdeniz'in muhteşem manzaralarını sunar. Hafif eğimli yolu boyunca, çiçeklerle süslü balkonlarıyla Kaleiçi'nin en fotojenik binalarından bazıları yer alır. Yolun sonunda ise, güneşli sokakları keşfettikten sonra serinleyebileceğiniz küçük ama huzurlu bir koy olan Mermerli Plajı sizi bekliyor."
+    }
+  },
+  "conclusion": "Bu sokakları gerçekten özel kılan şey, sadece tarihi önemi veya mimari güzelliği değil, aynı zamanda günümüzde de yaşayan, nefes alan birer şehir parçası olmalarıdır. Bazı aşırı restore edilmiş tarihi mahallelerin aksine, Kaleiçi'nin otantik sokakları hâlâ gerçek sakinlerine ev sahipliği yapar; bu da tarihle modern yaşamın olağanüstü bir uyumla bir arada olduğu bir atmosfer yaratır.",
+
+  "nearbyTitle": "Kaleiçi Sokaklarında Görülmesi Gereken Yerler",
+  "nearbyText": "Amaçsızca dolaşmak Kaleiçi'nin cazibesinin bir parçası olsa da, bu otantik sokaklarda keşfederken kaçırmamanız gereken bazı önemli simge yapılar var. Bu tarihi hazineler, bölgenin zengin geçmişini anlamak için bağlam sağlar:",
+
+  "toursTitle": "Gizli Hikayeleri Keşfetmek İster misiniz?",
+  "toursText": "Kendi başına keşfetmek yerine rehberli gezileri tercih edenler için, yerel yürüyüş turları Kaleiçi'nin tarihini ve efsanelerini yakından tanıma fırsatı sunar. Bilgili sakinler tarafından düzenlenen bu turlar genellikle 2-3 saat sürer ve önceden rezerve edilebildiği gibi oteliniz aracılığıyla da ayarlanabilir."
+}
+}

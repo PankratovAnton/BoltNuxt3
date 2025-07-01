@@ -1,0 +1,654 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "attractions": "Atracciones",
+    "": "Consejos de viaje",
+    "tours": "Tours y Guías"
+  },
+  "footer": {
+    "copyright": "© {year} Kaleiçi Guide. Todos los derechos reservados.",
+    "tagline": "Tu guía del histórico Antalya",
+    "quickLinks": "Enlaces rápidos",
+    "madeWith": "Hecho con ❤️ para viajeros"
+  },
+
+  "seo": {
+    "site": {
+      "title": "Guía de Kaleiçi",
+      "description": "Descubre el casco antiguo de Kaleiçi en Antalya: atracciones, historia, consejos de viaje y los mejores lugares para visitar en el corazón de Antalya, Turquía."
+    },
+    "home": {
+      "title": "Visita Kaleici | Guía de Kaleiçi",
+      "description": "Explora el histórico casco antiguo de Kaleiçi en Antalya. Descubre las mejores atracciones, recorridos a pie, rincones ocultos y consejos internos para tu visita.",
+      "ogTitle": "Guía de Kaleiçi - Explora el casco antiguo de Antalya",
+      "ogDescription": "Descubre la cultura, historia y el ambiente único del famoso distrito Kaleiçi de Antalya. Tu guía para los mejores lugares, tours y experiencias.",
+      "ogImage": "/images/viewpoints-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "hadrian-gate": {
+      "title": "Puerta de Adriano | Guía de Kaleiçi",
+      "description": "Visita la Puerta de Adriano en Antalya, el emblemático arco triunfal romano en el casco antiguo de Kaleiçi. Conoce su historia, consejos para visitantes y planea tu viaje.",
+      "ogTitle": "Puerta de Adriano en Antalya - Guía completa para el visitante",
+      "ogDescription": "Mira fotos y aprende sobre la historia de la Puerta de Adriano en el distrito Kaleiçi de Antalya. Los mejores consejos para turistas, mapas y horarios.",
+      "ogImage": "/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "hidirlik-tower": {
+      "title": "Torre Hidirlik | Guía de Kaleiçi",
+      "description": "Descubre la Torre Hidirlik: vistas panorámicas de Antalya, historia antigua y lugares para fotos en el casco antiguo de Kaleiçi. Planifica tu visita hoy.",
+      "ogTitle": "Torre Hidirlik - El mirador panorámico de Antalya",
+      "ogDescription": "Todo sobre la Torre Hidirlik en el casco antiguo de Antalya: historia, mejores puntos de vista, rutas a pie e información de viaje para visitantes.",
+      "ogImage": "/images/hidirlik-tower-detailed-upper-walls-in-antalya-kaleici-old-town-turkey.jpg"
+    },
+    "karaalioglu-park": {
+      "title": "Parque Karaalioğlu | Guía de Kaleiçi",
+      "description": "Relájate en el Parque Karaalioğlu en Antalya: parque urbano con vistas al mar, senderos, áreas de juegos y puntos de atardecer. Ideal para familias y fotógrafos.",
+      "ogTitle": "Parque Karaalioğlu - El oasis verde de Antalya",
+      "ogDescription": "Guía del visitante para el Parque Karaalioğlu: mejores lugares para fotos, rutas, parques infantiles, cafeterías y rincones ocultos en el casco antiguo de Antalya.",
+      "ogImage": "/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "old-harbor": {
+      "title": "Puerto Antiguo | Guía de Kaleiçi",
+      "description": "El Puerto Antiguo de Antalya: marina, paseos en barco, restaurantes de mariscos y paseos frente al mar en el corazón del casco antiguo de Kaleiçi.",
+      "ogTitle": "Puerto Antiguo - La pintoresca marina de Antalya",
+      "ogDescription": "Descubre el histórico Puerto Antiguo en Antalya: qué hacer, paseos en barco, mejores cafeterías y vida local junto al Mediterráneo.",
+      "ogImage": "/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "streets": {
+      "title": "Calles de Kaleiçi | Guía de Kaleiçi",
+      "description": "Pasea por las calles empedradas del casco antiguo de Antalya. Explora callejones, casas coloridas, tiendas tradicionales y la vida cotidiana.",
+      "ogTitle": "Calles de Kaleiçi - Corazón histórico de Antalya",
+      "ogDescription": "Las mejores calles y callejones en el distrito Kaleiçi de Antalya. Ver arquitectura, escenas locales y dónde encontrar tiendas únicas.",
+      "ogImage": "/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "traditional-bazaar": {
+      "title": "Bazar tradicional | Guía de Kaleiçi",
+      "description": "Vive el bazar tradicional del casco antiguo de Kaleiçi en Antalya: mercados turcos, artesanías, alfombras, especias, recuerdos y compras auténticas.",
+      "ogTitle": "Bazar de Kaleiçi - Mercado tradicional turco",
+      "ogDescription": "Compra recuerdos, alfombras y artesanías en el bazar tradicional de Antalya. Encuentra los mejores productos locales y regalos únicos en el casco antiguo.",
+      "ogImage": "/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+
+    "tours": {
+      "title": "Tours y actividades | Guía de Kaleiçi",
+      "description": "Encuentra los mejores tours, recorridos guiados y excursiones en el casco antiguo de Kaleiçi, Antalya. Reserva experiencias únicas y conoce más.",
+      "ogTitle": "Los mejores tours en el casco antiguo de Kaleiçi, Antalya",
+      "ogDescription": "Descubre tours y excursiones con mejor valoración para explorar el casco antiguo de Antalya: a pie, historia, gastronomía y paseos en barco.",
+      "ogImage": "/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-9.jpg"
+    },
+
+    "attractions": {
+      "title": "Atracciones en Kaleici | Guía de Kaleiçi",
+      "description": "Descubre las atracciones imperdibles del casco antiguo de Kaleiçi, Antalya. Explora monumentos históricos, museos, parques y barrios vibrantes para aprovechar tu visita al máximo.",
+      "ogTitle": "Principales atracciones de Kaleiçi - Los mejores lugares para visitar en Antalya",
+      "ogDescription": "Encuentra las mejores atracciones en Kaleiçi, Antalya: lugares famosos, cultura, joyas arquitectónicas y experiencias esenciales para cada viajero.",
+      "ogImage": "/images/main-page-carousel-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg"
+    }
+  },
+
+  "alt": {
+    "hadrian-gate": "Puerta de Adriano, Antalya, Kaleici, casco antiguo, arquitectura romana, arco antiguo, Turquía, monumento histórico, turismo, patrimonio cultural, piedra, murallas, atracción famosa",
+    "hidirlik-tower": "Torre Hidirlik, Antalya, Kaleici, casco antiguo, torre romana, vistas al mar, sitio histórico, ruinas antiguas, Turquía, panorámica, monumento, piedra, destino turístico, Mediterráneo, historia de la ciudad",
+    "karaalioglu-park": "Parque Karaalioglu, Antalya, Kaleici, casco antiguo, parque verde, vistas de la ciudad, jardines, senderos, área familiar, naturaleza, Mediterráneo, relajante, parque famoso, zona de juegos, lugares escénicos",
+    "old-harbor": "Puerto Antiguo, Antalya, Kaleici, casco antiguo, marina, yates, mar Mediterráneo, puerto histórico, muelle antiguo, paseo marítimo, barcos de pesca, ciudad, Turquía, destino turístico",
+    "streets": "calles, Antalya, Kaleici, casco antiguo, adoquinado, callejones, vida local, paseo urbano, barrio histórico, Turquía, vida diaria, fotografía callejera, tradicional, arquitectura, atmósfera",
+    "traditional-bazaar": "bazar tradicional, Antalya, Kaleici, casco antiguo, mercado turco, recuerdos, compras, artesanías locales, comerciantes, auténtico, puestos, alfombras, experiencia cultural, especias, colores vivos",
+    "other": "Antalya, Kaleici, casco antiguo, Turquía, patrimonio, viaje, arquitectura, Mediterráneo, turismo, atracciones, cultura, exploración, vistas, área histórica"
+  },
+
+
+    "home": {
+    "hero": {
+      "title": "Descubre el Corazón de la Antigua Antalya",
+      "subtitle": "Entra en Kaleici, el corazón palpitante de Antalya, donde las calles adoquinadas serpentean a través de siglos de historia y las brisas mediterráneas llevan el aroma de jazmín y cítricos.",
+      "exploreBtn": "Explorar Kaleiçi",
+      "toursBtn": "Reservar Tours y Guías"
+    },
+    "discover": {
+      "title": "¿Por Qué Visitar el Casco Antiguo de Kaleiçi?",
+      "description": {
+        "part1": "Este antiguo distrito, conocido como el casco antiguo de Antalya, es un fascinante laberinto donde los legados romano, bizantino, selyúcida y otomano se mezclan perfectamente con la vida moderna turca. Mientras paseas bajo arcos de piedra y casas de madera con vibrantes bugambilias que caen desde los balcones, descubrirás un lugar donde el tiempo parece ralentizarse, invitándote a disfrutar cada momento de tu viaje.",
+        "part2": "Kaleici no es solo otro destino turístico: es un museo viviente donde cada piedra cuenta una historia. Este distrito histórico ha estado habitado continuamente por más de 2,000 años, creando un rico tapiz de patrimonio cultural evidente en su arquitectura, gastronomía y ambiente. El antiguo puerto romano, que fue alguna vez el alma de la ciudad, ahora alberga encantadores cafés y restaurantes donde puedes comer con impresionantes vistas al Mediterráneo.",
+        "part3": "Mientras exploras las estrechas calles del distrito histórico de Antalya, encontrarás monumentos magníficos como la Puerta de Adriano, un gran portal de mármol con triple arco construido para honrar la visita del emperador romano en el año 130 d.C. La imponente Torre Hidirlik ofrece vistas panorámicas que capturan la esencia de este paraíso costero, mientras que el distintivo minarete estriado de la Mezquita Yivli Minare se erige como símbolo icónico de la herencia selyúcida de la ciudad.",
+        "part4": "Más allá de los monumentos, lo que realmente cautiva a los visitantes es la cultura turca auténtica de Antalya. Los artesanos locales crean productos tradicionales en pequeños talleres, el aroma del café turco y las especias impregna el aire, y los amables lugareños te reciben con su legendaria hospitalidad. Ya seas un entusiasta de la historia, un aventurero culinario o simplemente busques la escapada mediterránea perfecta, Kaleici te ofrece una experiencia que quedará en tu memoria mucho después de regresar a casa."
+      },
+      "links": {
+        "attractions": "Descubrir Atracciones",
+        "tips": "Información Práctica",
+        "tours": "Ver Tours"
+      }
+    },
+    "highlights": {
+      "title": "Imprescindibles de Kaleiçi",
+      "gate": {
+        "title": "Puerta de Adriano",
+        "description": "Descubre historias fascinantes, detalles arquitectónicos y contexto histórico..."
+      },
+      "harbor": {
+        "title": "Puerto Antiguo",
+        "description": "La histórica zona portuaria, hoy una pintoresca marina..."
+      },
+      "bazaar": {
+        "title": "Bazar Tradicional",
+        "description": "Explora artesanías locales y coloridos productos turcos..."
+      }
+    },
+    "stay": {
+      "title": "Dónde Alojarse en el Casco Antiguo de Antalya",
+      "intro": "Para una experiencia auténtica, nada como alojarse dentro de las históricas murallas de Kaleici. El casco antiguo cuenta con numerosos hoteles boutique y encantadoras casas de huéspedes, muchas en mansiones otomanas restauradas. Despierta con el sonido de gaviotas y el lejano llamado a la oración, sal directamente a las calles históricas y regresa tras un día de exploración para relajarte en un tradicional patio.",
+      "details": "Desde hoteles boutique de lujo en mansiones otomanas restauradas hasta pensiones familiares con encanto, descubre alojamientos auténticos en el corazón del casco antiguo de Antalya.",
+      "cta": "Ver Hoteles en el Casco Antiguo"
+    },
+    "experiences": {
+      "title": "Experiencias Auténticas en el Casco Antiguo de Antalya",
+      "part1": "Más allá de hacer turismo, Kaleici ofrece experiencias inmersivas que te conectan con la cultura turca auténtica. Comienza tu día con un tradicional desayuno turco con quesos frescos, aceitunas, miel y té (çay) en una cafetería con patio. Pasea por las estrechas calles y descubre talleres de artesanos donde continúan tradiciones centenarias de cuero, alfombras y orfebrería.",
+      "part2": "Al atardecer, únete a los locales para un paseo por el puerto y luego cena en un restaurante con terraza para saborear especialidades de Antalya. No te pierdas la oportunidad de visitar un hamam tradicional para disfrutar de un baño y masaje: muchas casas de baño históricas en y cerca de Kaleici han sido restauradas para ofrecer esta auténtica experiencia de bienestar."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "questions": [
+        {
+          "question": "¿Es peatonal el casco antiguo de Antalya?",
+          "answer": "Sí, Kaleici es en gran parte peatonal, con calles estrechas que se exploran mejor a pie. El acceso de vehículos es limitado, lo que lo convierte en un lugar agradable para caminar. Se recomienda calzado cómodo, ya que las calles suelen estar adoquinadas y pueden ser empinadas."
+        },
+        {
+          "question": "¿Cuánto tiempo debería dedicar a visitar el casco antiguo de Antalya?",
+          "answer": "Aunque puedes ver lo principal en medio día, recomendamos dedicar al menos un día completo para apreciar el encanto de Kaleici. Para una experiencia más inmersiva, considera quedarte 2-3 días en el casco antiguo para explorar sin prisas, disfrutar de los restaurantes y absorber el ambiente."
+        },
+        {
+          "question": "¿Hay tarifas de entrada al casco antiguo de Antalya?",
+          "answer": "Entrar a Kaleici es gratis, pero algunas atracciones individuales pueden cobrar entrada. Los museos suelen tener precios bajos, mientras que algunos sitios como la Puerta de Adriano se pueden ver sin costo. La pequeña playa Mermerli requiere una pequeña tarifa que incluye instalaciones."
+        }
+      ]
+    },
+    "visitingInfo": {
+      "title": "Información Práctica para Visitar el Casco Antiguo de Antalya",
+      "gettingThereTitle": "Cómo Llegar",
+      "gettingThereText": "El casco antiguo de Antalya es fácilmente accesible desde la mayoría de partes de la ciudad. Desde el aeropuerto internacional, son unos 30 minutos en coche hasta Kaleici. Las entradas principales son Kalekapisi (Plaza de la Torre del Reloj) y la pintoresca Puerta de Adriano. El tranvía nostálgico (Nostalji Tramvayi) ofrece una ruta escénica que pasa cerca de Kalekapisi.",
+      "bestTimeTitle": "Mejor Época para Visitar",
+      "bestTimeText": "La primavera (abril-mayo) y el otoño (septiembre-octubre) ofrecen el clima ideal para explorar, con temperaturas agradables y menos gente. El verano (junio-agosto) trae calor y más turistas, mientras que el invierno (noviembre-marzo) es suave pero puede ser lluvioso. Para una experiencia mágica, llega a Kaleici temprano en la mañana o al atardecer cuando la luz es dorada y las calles están menos concurridas."
+    },
+
+    "gettingThereCards": {
+      "walking": "Kaleiçi está a poca distancia a pie del centro y hoteles cercanos.",
+      "tram": "El tranvía nostálgico para cerca de Kalekapisi, a un corto paseo de Kaleiçi.",
+      "bus": "Varias líneas de autobús conectan la ciudad con paradas cercanas al casco antiguo.",
+      "taxi": "Los taxis son abundantes y pueden dejarte directamente en las puertas de Kaleiçi."
+    },
+
+    "toursHome": {
+      "title": "¿Listo para Explorar la Magia del Casco Antiguo de Antalya?",
+      "subtitle": "Descubre el equilibrio perfecto entre historia, cultura y encanto mediterráneo con nuestros expertos guías.",
+      "description": "Desde patios ocultos hasta miradores panorámicos, vive el auténtico corazón de Kaleici con guías locales conocedores que dan vida a sus historias.",
+      "button": "Reserva tu Aventura en Antalya Hoy"
+    },
+    "closing": {
+      "title": "Vive el Encanto Atemporal de Kaleici",
+      "paragraph1": "El casco antiguo de Antalya no es solo un destino: es un viaje a través de siglos de historia y cultura mediterránea. Mientras caminas por sus antiguas puertas y calles estrechas, descubrirás un lugar donde cada rincón revela una nueva historia, cada comida celebra tradiciones transmitidas por generaciones y cada atardecer sobre el puerto crea recuerdos para toda la vida.",
+      "paragraph2": "Ya sea por la arquitectura antigua, el ambiente vibrante, la deliciosa gastronomía o simplemente el placer de perderse en sus calles laberínticas, Kaleici ofrece una experiencia turca auténtica que cautiva a todos los que la visitan. Descubre por qué viajeros de toda la historia —desde emperadores romanos hasta aventureros modernos— han sucumbido al encanto de esta joya mediterránea."
+    }
+  },
+
+  "attractions": {
+    "title": "Atracciones Históricas de Kaleiçi",
+    "introduction": "Explora el rico patrimonio cultural y arquitectónico de Kaleiçi a través de sus monumentos más emblemáticos. Cada lugar ofrece una visión única del fascinante pasado de Antalya.",
+    "highlights_section_title": "Imprescindibles de Kaleiçi",
+    "hadrians-gate": {
+      "title": "Puerta de Adriano",
+      "description": "Descubre historias fascinantes, detalles arquitectónicos y contexto histórico de la Puerta de Adriano con un guía local experto. Enriquece tu visita con perspectivas que dan vida a este antiguo monumento.",
+      "imageAlt": "Puerta de Adriano en Kaleiçi, Antalya"
+    },
+    "old-harbor": {
+      "title": "Puerto Antiguo",
+      "description": "Antiguo puerto romano, hoy el Puerto Antiguo es una tranquila marina con restaurantes, excursiones en barco y vistas panorámicas de la costa.",
+      "imageAlt": "Puerto Antiguo en Kaleiçi"
+    },
+    "karaalioglu-park": {
+      "title": "Parque Karaalioğlu",
+      "description": "Un impresionante parque junto al mar con vistas espectaculares del Mediterráneo y las montañas Tauro.",
+      "imageAlt": "Vista desde el Parque Karaalioğlu"
+    },
+    "traditional-bazaars": {
+      "title": "Bazares Tradicionales",
+      "description": "Pasea por animados mercados donde artesanos locales venden productos hechos a mano, especias, textiles y recuerdos.",
+      "imageAlt": "Escena del Bazar Tradicional"
+    },
+    "authentic-streets": {
+      "title": "Calles Auténticas",
+      "description": "Explora los encantadores callejones y la arquitectura histórica de las calles más pintorescas de Kaleiçi.",
+      "imageAlt": "Calles Auténticas de Kaleiçi"
+    },
+    "hidirlik-tower": {
+      "title": "Torre Hidirlik",
+      "description": "Una torre romana histórica con vistas panorámicas del mar Mediterráneo y la costa de Antalya.",
+      "imageAlt": "Vista desde la Torre Hidirlik"
+    }
+  },
+
+    "tours": {
+    "title": "Tours Recomendados",
+    "description": "Descubre los mejores tours y actividades en Kaleiçi y Antalya. Desde recorridos a pie hasta paseos en barco, encuentra experiencias para tu estilo de viaje."
+  },
+
+  "nearbyAttractions": {
+    "sectionTitle": "Atracciones Cercanas para Explorar",
+    "sectionDescription0": "Kaleiçi es el punto de partida ideal para descubrir muchas de las atracciones más fascinantes de Antalya. Después de visitar este sitio, considera explorar estos destacados cercanos.",
+    "sectionDescription1": "Descubre aún más de la rica historia y vibrante cultura de Kaleiçi explorando estos lugares cercanos.",
+    "sectionDescription2": "Aprovecha al máximo tu visita: estas atracciones vecinas ofrecen una visión más profunda del carácter único de Antalya.",
+    "sectionDescription3": "Amplía tu recorrido por Antalya con estos lugares imprescindibles situados a pocos pasos.",
+    "sectionDescription4": "Desde monumentos antiguos hasta bazares bulliciosos, estos sitios locales completan tu experiencia en Kaleiçi.",
+    "sectionDescription5": "No pierdas la oportunidad de visitar estos lugares notables, cada uno con su propio encanto en el casco antiguo de Antalya.",
+    "sectionDescription6": "Sumérgete en la diversa historia y la impresionante belleza de Antalya con estas atracciones cercanas.",
+    "sectionDescription7": "Continúa tu aventura descubriendo más de los inolvidables monumentos que definen Kaleiçi.",
+    "sectionDescription8": "Cada atracción cercana ofrece una perspectiva diferente del fascinante pasado y vibrante presente de Antalya.",
+    "sectionDescription9": "Experimenta todo el patrimonio de Antalya con estos destacados de fácil acceso.",
+    "sectionDescription10": "Agrega más momentos memorables a tu viaje explorando estos lugares acogedores y ricos en historia.",
+
+    "hadriansGate": {
+      "title": "Puerta de Adriano",
+      "description": "Descubre historias fascinantes, detalles arquitectónicos y contexto histórico de la Puerta de Adriano con un guía local experto. Enriquece tu visita con perspectivas que dan vida a este antiguo monumento."
+    },
+    "oldHarbor": {
+      "title": "Puerto Antiguo",
+      "description": "Antiguo puerto romano, hoy el Puerto Antiguo es una tranquila marina con restaurantes, excursiones en barco y vistas panorámicas de la costa."
+    },
+    "hidirlikTower": {
+      "title": "Torre Hidirlik",
+      "description": "Una torre romana histórica con vistas panorámicas del mar Mediterráneo y la costa de Antalya."
+    },
+    "traditionalBazaars": {
+      "title": "Bazares Tradicionales",
+      "description": "Pasea por animados mercados donde artesanos locales venden productos hechos a mano, especias, textiles y recuerdos."
+    },
+    "karaaliogluPark": {
+      "title": "Parque Karaalioğlu",
+      "description": "Un impresionante parque junto al mar con vistas espectaculares del Mediterráneo y las montañas Tauro."
+    },
+    "authenticStreets": {
+      "title": "Calles Auténticas",
+      "description": "Explora los encantadores callejones y la arquitectura histórica de las calles más pintorescas de Kaleiçi."
+    }
+  },
+
+  "hadriansGate": {
+    "h1Text1": "Puerta de Adriano en Antalya: Una Magnífica Entrada a la Historia Antigua",
+    "pText1": "Erguida majestuosamente en la entrada de Kaleiçi (Casco Antiguo), la Puerta de Adriano en Antalya sirve como un impresionante puente entre el mundo antiguo y la vida moderna de la ciudad. Este arco triunfal romano notablemente conservado, construido en el año 130 d.C. para honrar la visita del emperador Adriano, sigue cautivando a los visitantes con su imponente arquitectura y su importancia histórica. Como uno de los monumentos más emblemáticos de Antalya, la puerta ofrece una visión del rico legado romano de la región, marcando el límite entre la bulliciosa ciudad moderna y las encantadoras calles del antiguo barrio.",
+    "h2Text1": "Historia de la Puerta de Adriano",
+    "pText2": "La Puerta de Adriano fue construida en el año 130 d.C. para conmemorar la visita del emperador romano Adriano a Attaleia (nombre antiguo de Antalya). La ciudad, fundada originalmente por el rey Atalo de Pérgamo, pasó a formar parte del Imperio Romano y floreció como un importante puerto mediterráneo. La puerta fue diseñada como una entrada monumental a través de las murallas defensivas que una vez rodearon la antigua ciudad.",
+    "pText3": "La puerta permaneció en gran medida desconocida para el mundo occidental hasta que el hidrógrafo irlandés-británico Sir Francis Beaufort la documentó en su diario de viaje publicado en 1817. En ese momento, la puerta contaba con un segundo piso que se ha perdido con el tiempo. También se cree que estatuas del emperador Adriano y su familia alguna vez adornaron la parte superior de la estructura.",
+    "pText4": "A partir de la década de 1950 comenzó un extenso trabajo de restauración, cuando la puerta fue redescubierta tras el colapso de los muros exteriores que la habían encerrado. Los esfuerzos incluyeron retirar cuidadosamente los muros deteriorados, descubrir los adoquines romanos originales y conservar las letras de bronce encontradas en la base de la puerta, hoy expuestas en museos de todo el mundo.",
+    "h2Text2": "Características Arquitectónicas de la Puerta de Adriano",
+    "pText5": "La Puerta de Adriano ejemplifica la arquitectura clásica de arco triunfal romano con sus tres arcos idénticos. Con una altura aproximada de 8 metros, la puerta está construida principalmente de mármol blanco y granito, creando un monumento impresionante y duradero.",
+    "pText6": "La puerta cuenta con cuatro columnas en cada fachada, con decoraciones florales ornamentadas y cabezas de león estilizadas en la parte superior. El techo artesonado dentro de los arcos muestra una artesanía notable que ha perdurado casi dos milenios.",
+    "pText7": "Una de las características más fascinantes se encuentra a nivel del suelo: profundas ranuras talladas en el pavimento de piedra bajo el arco central por miles de ruedas de carros que pasaron a lo largo de los siglos. Estas ranuras se volvieron tan profundas y peligrosas que se instaló una pasarela transparente para proteger a los visitantes y preservar esta evidencia tangible del largo uso de la puerta.",
+    "pText8": "Las dos torres que flanquean la puerta no formaban parte de la construcción original. La torre sur (izquierda desde el bulevar) data de la época romana, mientras que la torre norte (derecha) fue reconstruida durante la era selyúcida por el sultán Alaeddin Keykubat I entre 1219-1238, según inscripciones en las estructuras.",
+    "h2Text3": "Atracciones Cercanas para Explorar",
+    "pText9": "La Puerta de Adriano es el punto de partida ideal para explorar muchas de las atracciones más fascinantes de Antalya. Después de visitarla, considera explorar estos lugares cercanos:",
+    "h3Text1": "Puerto Antiguo",
+    "pText10": "El histórico puerto de Antalya, hoy una pintoresca marina rodeada de restaurantes y con impresionantes vistas al Mediterráneo.",
+    "h3Text2": "Calles Auténticas",
+    "pText11": "Explora los encantadores callejones y la arquitectura histórica de las calles más pintorescas de Kaleiçi.",
+    "h3Text3": "Torre Hidirlik",
+    "pText12": "Una torre romana histórica con vistas panorámicas del mar Mediterráneo y la costa de Antalya.",
+    "h2Text4": "Leyendas de la Puerta de Adriano",
+    "pText13": "Más allá de su importancia histórica, la Puerta de Adriano ha inspirado fascinantes leyendas a lo largo de los siglos. Una historia popular afirma que la Reina de Saba cruzó el arco central en su camino para visitar al Rey Salomón en Aspendos. Aunque históricamente imposible —ya que la puerta fue construida aproximadamente mil años después— es posible que reemplazara una estructura anterior relacionada con este mito.",
+    "pText14": "Otra tradición local sugiere que pasar por el arco central trae buena fortuna y prosperidad. Esta creencia ha hecho de la puerta no solo un monumento histórico, sino también un símbolo cultural para locales y visitantes.",
+    "h2Text5": "Visitar la Puerta de Adriano Hoy",
+    "pText15": "Hoy, la Puerta de Adriano es la entrada principal a Kaleiçi, el encantador casco antiguo de Antalya. La puerta es de acceso público y gratuito las 24 horas del día. Su ubicación central en el bulevar Atatürk facilita encontrarla y visitarla durante un recorrido a pie por la ciudad.",
+    "h3Text4": "Mejor Época para Visitar",
+    "pText16": "La puerta es accesible todo el año, pero los mejores momentos para visitarla son temprano en la mañana o al final de la tarde, cuando hay menos gente y la luz es ideal para fotografías. El atardecer ofrece una experiencia mágica, con el mármol adquiriendo un tono dorado.",
+    "pText17": "Si visitas durante los meses de verano (junio-agosto), considera explorar la puerta por la tarde, cuando las temperaturas son más agradables y el monumento está bellamente iluminado.",
+    "h3Text5": "Consejos de Fotografía",
+    "liText1": "Desde el bulevar Atatürk mirando hacia Kaleiçi para una vista frontal",
+    "liText2": "Desde dentro de Kaleiçi mirando hacia la ciudad moderna",
+    "liText3": "Primeros planos de los elementos decorativos y cabezas de león",
+    "liText4": "Las ranuras de las ruedas bajo la pasarela transparente",
+    "liText5": "El contraste entre la antigua puerta y la vida moderna",
+    "h2Text6": "Información Práctica para Visitantes",
+    "h3Text6": "Ubicación y Acceso 📌",
+    "pText18": "La Puerta de Adriano se encuentra en el bulevar Atatürk, en la entrada de Kaleiçi (Casco Antiguo) en Antalya. El sitio es fácilmente accesible en transporte público o a pie desde la mayoría de las zonas céntricas.",
+    "h3Text7": "Opciones de Transporte",
+    "pText19": "A pie: la puerta está a poca distancia del centro de Antalya y de muchos hoteles.",
+    "pText20": "Tranvía Nostálgico: toma el tranvía histórico desde Kalekapisi, que pasa cerca de la Puerta de Adriano.",
+    "pText21": "Autobús: varias rutas urbanas paran cerca del bulevar Atatürk.",
+    "pText22": "Taxi: disponibles en toda Antalya y pueden dejarte directamente en la puerta.",
+    "h3Text8": "Servicios para Visitantes",
+    "pText23": "Si bien la Puerta de Adriano no tiene instalaciones propias, la zona alrededor ofrece:",
+    "pText24": "Cafés y Restaurantes",
+    "pText25": "Tiendas de recuerdos",
+    "pText26": "Baños públicos",
+    "pText27": "Zonas de descanso",
+    "h2Text7": "Un Monumento que Une Milenios",
+    "pText28": "La Puerta de Adriano es un testimonio del rico legado histórico de Antalya y de la perdurable calidad de la arquitectura romana. Más que un antiguo monumento, sigue cumpliendo su propósito original como puerta de entrada: ahora recibe a visitantes en el corazón de la antigua Antalya.",
+    "pText29": "Tanto si eres un apasionado de la historia, amante de la arquitectura o simplemente buscas experimentar el encanto de Antalya, la Puerta de Adriano ofrece una conexión significativa con el pasado y enriquece tu exploración de esta hermosa ciudad mediterránea. Al cruzar sus arcos, te conviertes en parte de una tradición de casi dos milenios: una oportunidad única para caminar literalmente por la historia.",
+    "h2Text8": "Vive la Puerta de Adriano con Perspectiva Experta",
+    "pText30": "Descubre historias fascinantes, detalles arquitectónicos y contexto histórico de la Puerta de Adriano con un guía local experto. Enriquece tu visita con perspectivas únicas.",
+    "pText31": "Si bien la Torre Hidirlik no tiene instalaciones propias, la zona alrededor ofrece.",
+    "pText32": "Si bien el Bazar Tradicional no tiene instalaciones propias, la zona alrededor ofrece."
+  },
+
+    "hidirlikTower": {
+    "title": "Torre Hidirlik: Una Joya Histórica en el Distrito Kaleici de Antalya",
+    "introduction": "Erguida majestuosa en el extremo sur del encantador distrito Kaleici (Casco Antiguo) de Antalya, la Torre Hidirlik ha vigilado en silencio la costa mediterránea durante casi dos milenios. Esta antigua estructura romana ofrece a los visitantes no solo un vistazo al rico pasado de Antalya, sino también algunas de las vistas panorámicas más impresionantes del turquesa Mar Mediterráneo. Ya seas un entusiasta de la historia, un amante de la fotografía o simplemente explores los tesoros del casco antiguo de Antalya, esta icónica torre cilíndrica merece un lugar en tu itinerario.",
+    "history_title": "Antecedentes Históricos de la Torre Hidirlik",
+    "history1": "La Torre Hidirlik data del siglo II d.C., durante el periodo imperial romano, cuando Antalya era conocida como Attaleia. Aunque los historiadores debaten su propósito original, la mayoría de las evidencias sugieren que inicialmente se construyó como tumba monumental para un cónsul romano destacado, posiblemente M. Calpurnius Rufus o M. Petronius Umbrinus.",
+    "history2": "La estructura de la torre refleja los principios clásicos de la ingeniería romana, con un piso inferior cuadrado y una superestructura cilíndrica. Seis relieves de fasces (objetos simbólicos portados por lictores romanos) pueden observarse a ambos lados de la puerta de entrada inferior, confirmando su origen romano.",
+    "history3": "Durante el periodo bizantino (siglos V-VI d.C.), la torre experimentó una transformación significativa. Se integró en el sistema de murallas defensivas de la ciudad y se reutilizó como faro para guiar barcos de manera segura hasta el puerto de Antalya. Esta doble función como estructura defensiva y ayuda de navegación resalta su importancia estratégica.",
+    "history4": "A lo largo de los siglos, la Torre Hidirlik continuó sirviendo a diversos propósitos. Durante el periodo selyúcida funcionó como pabellón, mientras que los otomanos la utilizaron como almacén militar y torre de vigilancia para monitorear el tráfico naval en el Golfo de Antalya. Esta evolución de funciones a través de diferentes civilizaciones la convierte en un fascinante ejemplo de adaptación arquitectónica.",
+    "modern_title": "Descripción Actual de la Torre Hidirlik",
+    "modern1": "Hoy en día, la Torre Hidirlik se mantiene como una de las estructuras antiguas mejor conservadas de Antalya. El diseño cilíndrico de la torre se eleva de manera impresionante desde su base cuadrada, construida con grandes bloques de piedra caliza cuidadosamente tallados que han resistido notablemente el paso del tiempo.",
+    "modern2": "La entrada principal en la fachada noreste conduce a una escalera de cuatro peldaños de grandes bloques de piedra. Esta escalera conecta con un pasillo tipo dromos que se abre a la cámara principal, que se cree que fue la cámara funeraria original. Tres grandes nichos con almenas permiten que la luz natural penetre en el interior, creando un espacio solemne y atmosférico.",
+    "modern3": "El nivel superior de la torre es accesible mediante una escalera de piedra de 30 peldaños que lleva a un pedestal cuadrado en el centro, que probablemente alojó una estatua del difunto. Desde este nivel superior, los visitantes son recompensados con espectaculares vistas de 360 grados del mar Mediterráneo, el pintoresco puerto de Antalya y el distrito circundante de Kaleici.",
+    "modern4": "La torre se encuentra ahora dentro del hermoso Parque Karaalioglu, un espacio verde tranquilo que mejora la experiencia del visitante. Los jardines bien cuidados del parque, los senderos para caminar y las áreas de descanso lo convierten en el lugar ideal para relajarse después de explorar la torre o simplemente disfrutar de las magníficas vistas costeras que han cautivado a los visitantes durante siglos.",
+    "facts_title": "Datos Interesantes Sobre la Torre Hidirlik",
+    "facts": [
+      {
+        "imageCaption": "La silueta distintiva de la Torre Hidirlik al atardecer",
+        "fact_title": "Diseño de Doble Propósito",
+        "fact_text": "Uno de los aspectos más fascinantes de la Torre Hidirlik es cómo sirvió a doble propósito a lo largo de la historia. Lo que comenzó como una tumba monumental fue reutilizado como estructura defensiva y como faro: un ejemplo notable de adaptación arquitectónica práctica a través de civilizaciones y necesidades diversas."
+      },
+      {
+        "imageCaption": "Los relieves de fasces romanas en la entrada brindan un contexto histórico importante",
+        "fact_title": "La Leyenda de San Hidir",
+        "fact_text": "El folclore local conecta la torre con San Hidir (Khidr), una figura mística en la tradición islámica conocida por su asociación con el agua y la vegetación. Según la leyenda, San Hidir visitó este lugar y lo bendijo con su presencia. Esta conexión dio a la torre su nombre actual y la convirtió en un sitio de importancia cultural más allá de su valor arquitectónico."
+      },
+      {
+        "imageCaption": "La Torre Hidirlik bellamente iluminada en la noche",
+        "fact_title": "Descubrimientos Arqueológicos Ocultos",
+        "fact_text": "Recientes excavaciones arqueológicas alrededor de la torre han descubierto más artefactos romanos y elementos estructurales, lo que sugiere que la Torre Hidirlik formaba parte de un complejo mayor. Estos hallazgos continúan enriqueciendo nuestra comprensión de la importancia de Antalya durante el periodo romano y el papel de la torre en la ciudad antigua."
+      }
+    ],
+    "enhance_visit_title": "Mejora tu Visita con Perspectivas de Expertos",
+    "enhance_visit_paragraph1": "Descubre las historias ocultas y los secretos arqueológicos de la Torre Hidirlik con un guía local experimentado. Nuestras audioguías ofrecen un contexto histórico fascinante que no encontrarás en las guías convencionales.",
+    "enhance_visit_cta": "Escuchar la Audioguía",
+    "gettingThere_title": "Cómo Llegar a la Torre Hidirlik",
+    "gettingThere": [
+      {
+        "imageCaption": "Rutas a pie hasta la Torre Hidirlik desde puntos clave del Casco Antiguo de Antalya",
+        "route_title": "Desde Kaleici (Casco Antiguo): 5-10 minutos",
+        "route_text": "La Torre Hidirlik está convenientemente ubicada en el extremo sur de Kaleici, siendo fácilmente accesible a pie desde cualquier parte del Casco Antiguo de Antalya. La ruta más pintoresca atraviesa las encantadoras calles estrechas de Kaleici, pasando por casas otomanas tradicionales y tiendas de artesanos."
+      },
+      {
+        "imageCaption": "Las encantadoras calles adoquinadas de Kaleici llevan a la Torre Hidirlik",
+        "route_title": "Desde la Puerta de Adriano: 5 minutos",
+        "route_text": "Si empiezas desde la Puerta de Adriano (otro monumento romano imprescindible), la caminata hasta la Torre Hidirlik dura aproximadamente 15-20 minutos. Dirígete al sur por Kaleici, siguiendo las señales hacia el Parque Karaalioglu. La ruta está bien señalizada y ofrece muchas oportunidades para explorar el distrito histórico en el camino."
+      },
+      {
+        "route_title": "Desde el Puerto Antiguo de Antalya (Marina): 5 minutos",
+        "route_text": "Desde la zona del Puerto Antiguo, la Torre Hidirlik está a solo 5-10 minutos a pie cuesta arriba. Sigue las señales hacia el Parque Karaalioglu y encontrarás la torre en el extremo sur del parque con vistas al puerto."
+      }
+    ],
+    "gettingThere_mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6725431851424!2d30.703145776279144!3d36.88272447210611!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009259f7e4f%3A0x8b1817aa2e5f733a!2sH%C4%B1d%C4%B1rl%C4%B1k%20Tower!5e0!3m2!1sen!2sus!4v1699453523018!5m2!1sen!2sus",
+    "publicTransport_title": "Transporte Público",
+    "publicTram": "Si vienes de otras partes de Antalya, las paradas de tranvía más cercanas son İsmetpaşa o Doğu Garaji en la línea Antray. Desde cualquiera de estas paradas, hay unos 15-20 minutos a pie hasta la torre. Los autobuses urbanos que paran cerca de Kaleici también te acercan a la zona, pero deberás continuar a pie.",
+    "publicBus": "Los autobuses urbanos que paran cerca de Kaleici te acercan a la zona, pero deberás continuar a pie.",
+    "publicTaxi": "Si conduces, hay varios estacionamientos públicos cerca de Kaleici. El más conveniente es el aparcamiento junto a la Puerta de Adriano o a lo largo de las calles que rodean el Parque Karaalioglu. Desde allí, es un corto paseo hasta la torre. Ten en cuenta que el estacionamiento en las inmediaciones de la torre es limitado.",
+    "byCar": "Si conduces, hay varios estacionamientos públicos cerca de Kaleici. El más conveniente es el aparcamiento junto a la Puerta de Adriano o a lo largo de las calles que rodean el Parque Karaalioglu. Desde allí, es un corto paseo hasta la torre. Ten en cuenta que el estacionamiento en las inmediaciones de la torre es limitado.",
+    "tips_title": "Consejos Esenciales para Visitar la Torre Hidirlik",
+    "bestTime_title": "Mejor Época para Visitar",
+    "bestTime_text": "Para una experiencia mágica, visita la Torre Hidirlik al atardecer. La luz dorada iluminando las antiguas piedras mientras el mar Mediterráneo se transforma en un lienzo de tonos naranja y púrpura crea una atmósfera inolvidable y oportunidades perfectas para la fotografía. Si prefieres menos multitudes, se recomiendan visitas a primera hora de la mañana (antes de las 10 AM).",
+    "photographyTips_title": "Consejos de Fotografía",
+    "photographyTips_text": "Lleva un objetivo gran angular para capturar las vistas panorámicas desde la torre. Los mejores lugares para fotos incluyen el nivel superior para panorámicas del mar y el lado occidental para capturar la torre con el fondo mediterráneo. Para detalles arquitectónicos, la luz de la mañana resalta mejor la piedra antigua y los relieves romanos.",
+    "refreshments_title": "Opciones de Refrigerio Cercanas",
+    "refreshments_text": "Tras explorar la torre, varios cafés encantadores en los alrededores ofrecen el lugar perfecto para relajarse. Vanilla Lounge, a solo unos pasos, ofrece asientos cómodos con vistas al mar. Para disfrutar de té o café turco con vistas panorámicas, prueba la cafetería dentro del Parque Karaalioglu cerca de la torre.",
+    "tourOptions_title": "Opciones de Tour",
+    "tourOptions_text": "Aunque la Torre Hidirlik se puede explorar de manera independiente, unirse a una visita guiada a pie por Kaleici que incluya la torre brinda valioso contexto histórico. Estos tours suelen durar de 2 a 3 horas y cubren varios puntos destacados del casco antiguo. Alternativamente, hay audioguías disponibles para quienes prefieren una experiencia autodirigida con comentarios de expertos.",
+    "practicalInfo_title": "Información Práctica",
+    "practicalInfo_list": [
+      "Lleva zapatos cómodos ya que el acceso y las escaleras interiores pueden ser irregulares",
+      "Lleva agua, especialmente en los meses de verano cuando las temperaturas pueden ser elevadas",
+      "Usa protección solar ya que hay poca sombra en la torre",
+      "La zona de la torre generalmente no está concurrida excepto en la temporada alta de verano",
+      "Dedica de 30 a 45 minutos para explorar completamente la torre y disfrutar de las vistas",
+      "La entrada a la torre y el parque circundante es gratuita"
+    ],
+    "magic_title": "Vive la Magia de la Torre Hidirlik",
+    "magic_text": "La Torre Hidirlik es testigo del rico tapiz histórico de Antalya, ofreciendo a los visitantes una combinación única de arquitectura antigua, historia fascinante y vistas impresionantes al Mediterráneo. Como una de las estructuras romanas mejor conservadas de Kaleici, proporciona una conexión tangible con el pasado de la ciudad y es un hito icónico en el presente. Ya sea que sigas los pasos de antiguos romanos, captures la fotografía perfecta del atardecer o busques un momento de tranquilidad con vistas al mar turquesa, la Torre Hidirlik recompensa a los visitantes con una visión auténtica del alma de Antalya. No olvides incluir esta joya histórica en tu exploración del casco antiguo: es una experiencia que enriquecerá tu comprensión y apreciación de esta hermosa ciudad costera turca.",
+    "discoverMore_title": "Descubre Más Tesoros Ocultos de Antalya",
+    "discoverMore_text": "Mejora tu experiencia en Antalya con una visita guiada por Kaleici que incluya la Torre Hidirlik y otros monumentos históricos. Descubre historias fascinantes, rincones secretos y obtén una visión más profunda del rico patrimonio de esta antigua ciudad.",
+    "discoverMore_cta": "Reserva un Tour a Pie"
+  },
+
+    "karaaliogluPark": {
+    "intro_title": "Parque Karaalioğlu Antalya: Un Oasis Mediterráneo en el Corazón de Turquía",
+    "intro_paragraph": "Ubicado a lo largo de la impresionante costa mediterránea, el Parque Karaalioğlu es uno de los refugios urbanos más queridos de Antalya. Este amplio espacio verde ofrece a los visitantes una mezcla perfecta de belleza natural, importancia histórica y vistas panorámicas al mar que capturan la esencia de la espectacular costa sur de Turquía.",
+    "location_paragraph": "Situado en el centro de Antalya, este parque sirve como un santuario pacífico donde tanto locales como turistas escapan de las calles bulliciosas para disfrutar momentos de tranquilidad. Ya sea que busques un paseo tranquilo por la mañana, una vista pintoresca al atardecer o una visión del rico patrimonio cultural de Antalya, el Parque Karaalioğlu garantiza una experiencia inolvidable.",
+    "history_title": "La Rica Historia del Parque Karaalioğlu",
+    "history_paragraph1": "La historia del Parque Karaalioğlu comienza en la década de 1940, cuando se estableció formalmente como un espacio recreativo público. Inicialmente abierto bajo el nombre de Parque İnönü en honor al segundo presidente de Turquía, más tarde fue renombrado Karaalioğlu tras un terrateniente local cuya propiedad contribuyó a la creación del parque.",
+    "history_paragraph2": "Antes de su desarrollo como parque oficial, este tramo costero ya era un lugar de reunión popular para los residentes de Antalya a principios del siglo XX. La visión para transformar esta zona en un gran parque público llegó bajo el liderazgo del alcalde Haşim İşcan, quien reconoció la necesidad de espacios verdes accesibles en la ciudad en crecimiento.",
+    "history_paragraph3": "El parque cubre aproximadamente 140,000 metros cuadrados (14 hectáreas) y se extiende a lo largo de los acantilados al sur de Kaleici, el casco antiguo histórico de Antalya. Esta ubicación estratégica lo ha convertido no solo en un espacio recreativo, sino también en testigo de siglos de historia mediterránea.",
+    "features_title": "Impresionantes Características del Parque Karaalioğlu",
+    "features_paragraph1": "El Parque Karaalioğlu es famoso por su posición elevada sobre el Mar Mediterráneo, ofreciendo algunas de las vistas panorámicas más espectaculares de la ciudad. Los visitantes disfrutan de extensas vistas de las aguas turquesas del Golfo de Antalya, acantilados dramáticos y los majestuosos picos nevados de las montañas Beydağlari a lo lejos.",
+    "features_paragraph2": "El parque cuenta con varias terrazas de observación, conocidas localmente como miradores, que son lugares perfectos para la fotografía o la contemplación tranquila. Estos miradores, especialmente al amanecer o al atardecer, muestran la belleza natural en su máximo esplendor y se han convertido en algunos de los lugares más emblemáticos de la ciudad.",
+    "features_paragraph3": "Caminos bien mantenidos atraviesan el paisaje frondoso del parque, sombreados por pinos, palmeras y coloridas flores de temporada. Numerosos bancos y áreas verdes abiertas invitan a los visitantes a relajarse, leer un libro o disfrutar de un picnic mientras sienten la refrescante brisa marina.",
+    "whatToSee_title": "Qué Ver en el Parque Karaalioğlu",
+    "hidrlikTower_title": "Torre Hidirlik",
+    "hidrlikTower_paragraph": "La antigua Torre Hidirlik se erige como el monumento más icónico del parque. Datada del siglo II d.C. durante el periodo romano, esta estructura de piedra cilíndrica se utilizó posiblemente como faro, tumba o fortificación. Hoy en día, ofrece a los visitantes una visión del rico legado romano de Antalya y proporciona vistas fantásticas desde su cima.",
+    "art_monuments_title": "Monumentos de Arte",
+    "art_monuments_paragraph": "Los entusiastas del arte apreciarán las diversas esculturas y monumentos contemporáneos dispersos por el parque. Estos incluyen un monumento al renombrado poeta Nâzim Hikmet (creado en 2010), una estatua de Don Quijote y el monumento 'Obrero y Hijo', cada uno agregando dimensión artística al paisaje natural.",
+    "dancingGirls_title": "Estatua de las Niñas Bailarinas",
+    "dancingGirls_paragraph": "La estatua de las Niñas Bailarinas cerca de la zona central del parque se ha convertido en un popular punto fotográfico, simbolizando alegría y celebración. Cerca encontrarás fuentes bellamente diseñadas que crean una atmósfera relajante con el suave sonido del agua.",
+    "guidedTour_title": "Descubre el Parque Karaalioğlu con un Guía Local",
+    "guidedTour_paragraph": "Descubre las historias ocultas y los mejores miradores del Parque Karaalioğlu con nuestros expertos guías locales. Disfruta de un tour a pie de 2 horas que incluye la histórica Torre Hidirlik, lugares secretos para fotos y fascinantes perspectivas sobre la cultura de Antalya.",
+    "bookTour_title": "Reserva Tu Tour Guiado",
+    "floraFauna_title": "Flora y Fauna del Parque Karaalioğlu",
+    "floraFauna_paragraph1": "El Parque Karaalioğlu cuenta con una variada colección de especies vegetales mediterráneas que crean un entorno vibrante y exuberante durante todo el año. Las altas palmeras bordean muchos de los senderos principales, proporcionando sombra durante los calurosos meses de verano y realzando la atmósfera costera del parque.",
+    "floraFauna_paragraph2": "Los pinos abundan en todo el parque, liberando su fragancia característica que se mezcla con el aire salado del mar. Los arbustos de adelfa con sus flores rosadas y blancas agregan pinceladas de color, mientras que las flores de temporada aseguran que el parque permanezca visualmente atractivo sin importar la época del año.",
+    "floraFauna_paragraph3": "Los amantes de las aves disfrutarán observando diversas especies que residen o visitan el parque estacionalmente. Las gaviotas son visitantes comunes desde el Mediterráneo cercano, mientras que coloridos periquitos pueden verse a veces en los árboles. La ubicación del parque en rutas migratorias también lo convierte en un excelente lugar para la observación ocasional de aves.",
+    "activities_title": "Actividades para Disfrutar en el Parque Karaalioğlu",
+    "activities_paragraph1": "Caminar y correr por los numerosos senderos del parque es quizás la actividad más popular, con rutas adecuadas para todos los niveles. El paseo principal ofrece impresionantes vistas al mar, mientras que los senderos interiores recorren áreas más apartadas y sombreadas para quienes buscan tranquilidad.",
+    "activities_paragraph2": "Los entusiastas de la fotografía encontrarán infinitas oportunidades para capturar imágenes memorables, desde amplias panorámicas hasta detalles íntimos de estructuras históricas y especies botánicas. La luz cambiante a lo largo del día crea diferentes ambientes, siendo especialmente mágico el momento dorado antes del atardecer.",
+    "activities_paragraph3": "Hacer picnic es una de las actividades favoritas de locales y visitantes. Lleva una manta y bocadillos turcos para disfrutar de una comida tranquila rodeado de belleza natural. Varias áreas de picnic designadas ofrecen asientos cómodos y sombra para una experiencia perfecta al aire libre.",
+    "morningActivities_title": "Actividades Matutinas",
+    "morningActivities_item1": "Fotografía del amanecer en los miradores orientales",
+    "morningActivities_item2": "Correr por la mañana por los senderos junto al mar",
+    "morningActivities_item3": "Observación de aves cuando la fauna está más activa",
+    "morningActivities_item4": "Meditación en zonas ajardinadas tranquilas",
+    "eveningActivities_title": "Actividades Vespertinas",
+    "eveningActivities_item1": "Ver el atardecer desde las terrazas occidentales",
+    "eveningActivities_item2": "Picnics al atardecer con familia y amigos",
+    "eveningActivities_item3": "Eventos culturales y espectáculos (según temporada)",
+    "eveningActivities_item4": "Paseos tranquilos cuando baja la temperatura",
+    "photoSpots_title": "Mejores Lugares para Fotos en el Parque Karaalioğlu",
+    "photoSpots_paragraph1": "Los miradores de los acantilados al oeste ofrecen las panorámicas más espectaculares del mar Mediterráneo y son perfectos para fotografía de paisajes. Estas terrazas elevadas proporcionan vistas sin obstáculos del horizonte, ideales para capturar puestas de sol impresionantes.",
+    "photoSpots_paragraph2": "La histórica Torre Hidirlik ofrece tanto un excelente sujeto para fotos como una plataforma para tomar imágenes elevadas de los alrededores. La estructura de piedra antigua crea un contraste interesante con el paisaje natural y las vistas de la ciudad moderna.",
+    "photoSpots_paragraph3": "Los jardines centrales estallan de color durante la primavera y el verano, ofreciendo hermosos elementos en primer plano para tus fotografías. Estos jardines meticulosamente mantenidos presentan flores de temporada dispuestas en patrones artísticos visualmente atractivos desde cualquier ángulo.",
+    "cliffsideViewpoints_title": "Miradores en los Acantilados",
+    "cliffsideViewpoints_paragraph": "Perfectos para panorámicas amplias del mar Mediterráneo y la costa. Lo ideal es visitarlos durante la hora dorada para obtener una luz dramática.",
+    "historicStructures_title": "Estructuras Históricas",
+    "historicStructures_paragraph": "La Torre Hidirlik y las antiguas murallas de la ciudad son sujetos atractivos que muestran la rica historia de Antalya.",
+    "floralDisplays_title": "Exhibiciones Florales",
+    "floralDisplays_paragraph": "Parterres de flores de temporada y arreglos botánicos ofrecen vibrantes oportunidades de fotografía de cerca durante todo el año.",
+    "tips_title": "Consejos para Visitantes del Parque Karaalioğlu",
+    "tips_paragraph1": "Los mejores momentos para visitar el Parque Karaalioğlu son temprano en la mañana y al final de la tarde. Las visitas matutinas ofrecen temperaturas frescas y luz suave para la fotografía, mientras que por la tarde se pueden disfrutar espectaculares atardeceres y la oportunidad de experimentar el parque cuando los locales suelen reunirse.",
+    "tips_paragraph2": "Aunque el parque es generalmente muy seguro, ten cuidado cerca de los bordes de los acantilados, especialmente si visitas con niños. Algunos miradores tienen barreras protectoras, pero otros pueden tener protección limitada, así que mantente siempre a una distancia segura del borde.",
+    "tips_paragraph3": "Lleva suficiente agua, especialmente durante el verano cuando las temperaturas pueden ser altas. Aunque hay opciones de refrescos cerca, llevar tu propio suministro te garantiza mantenerte hidratado mientras exploras el extenso parque.",
+    "localsTip_title": "Consejo de un Local",
+    "localsTip_paragraph": "Para una experiencia verdaderamente auténtica, visita el Parque Karaalioğlu entre las 5 y las 7 de la tarde, cuando los residentes de Antalya salen a pasear. Es cuando el parque cobra vida con la cultura local y podrías encontrarte con actuaciones musicales espontáneas o ver familias reunidas para hacer picnic.",
+    "access_title": "Accesibilidad y Cómo Llegar al Parque Karaalioğlu",
+    "access_paragraph1": "El Parque Karaalioğlu está convenientemente ubicado en el centro de Antalya, por lo que es fácilmente accesible por varios métodos de transporte. Si te alojas en o cerca de Kaleici (el Casco Antiguo), el parque está a una cómoda distancia a pie: simplemente dirígete al sur desde el distrito histórico.",
+    "access_paragraph2": "Las opciones de transporte público incluyen el tranvía nostálgico, que tiene paradas cerca del parque. La línea de tranvía conecta los principales puntos del centro de la ciudad y ofrece una forma encantadora de llegar mientras disfrutas de las vistas de Antalya.",
+    "access_paragraph3": "Para quienes tienen problemas de movilidad, gran parte del parque cuenta con caminos pavimentados accesibles en silla de ruedas. Los paseos principales y las zonas centrales son generalmente planas y bien mantenidas, aunque algunos senderos apartados pueden presentar desafíos para quienes tienen movilidad limitada.",
+    "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6759132212074!2d30.6989!3d36.8831!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009376b0c2d%3A0x9a59a04e3d5a9252!2sKaraalio%C4%9Flu%20Park%C4%B1!5e0!3m2!1sen!2uk!4v1634567890123!5m2!1sen!2uk",
+    "nearbyAttractions_title": "Atracciones Cercanas para Explorar",
+    "kaleici_paragraph": "Kaleici, el encantador casco antiguo de Antalya, se encuentra a solo un corto paseo del Parque Karaalioğlu. Este distrito histórico cuenta con calles angostas y sinuosas, casas otomanas tradicionales, hoteles boutique y numerosos restaurantes. El contraste entre la belleza natural del parque y la riqueza histórica de Kaleici ofrece el día de exploración perfecto.",
+    "hadriansGate_paragraph": "La Puerta de Adriano, un arco triunfal construido en honor al emperador romano Adriano en 130 d.C., se encuentra cerca del límite norte del parque. Este monumento antiguo, notablemente conservado, presenta tres puertas arqueadas enmarcadas por imponentes torres y sirve como una de las entradas principales al distrito de Kaleici.",
+    "marina_paragraph": "El puerto deportivo del casco antiguo ofrece un entorno pintoresco para una comida o una bebida después de visitar el parque. Rodeado de restaurantes y cafeterías, el puerto ofrece hermosas vistas del Mediterráneo y la oportunidad de ver barcos entrando y saliendo durante el día.",
+    "itinerary_title": "Planifica tu Itinerario Perfecto por Antalya",
+    "itinerary_paragraph": "Combina tu visita al Parque Karaalioğlu con otras atracciones imprescindibles de Antalya. Nuestros expertos en viajes pueden crear un itinerario personalizado que incluya el parque, sitios históricos, playas y experiencias gastronómicas locales.",
+    "getItinerary_title": "Obtén tu Itinerario Personalizado",
+    "accessibility_paragraph": "El Parque Karaalioğlu de Antalya está abierto al público las 24 horas del día y ofrece entrada completamente gratuita, lo que lo convierte en una excelente opción para viajeros con presupuesto limitado. Los visitantes pueden disfrutar del parque de forma segura en cualquier momento, aunque las horas de luz y primeras horas de la tarde son las más populares. Su céntrica ubicación cerca de Kaleici hace que el Parque Karaalioğlu sea fácilmente accesible tanto para locales como turistas que desean experimentar la belleza escénica de Antalya.",
+    "accessibility_paragraph2": "El parque cuenta con varios pequeños cafés y teterías donde puedes disfrutar de té turco, café y aperitivos, así como instalaciones de baño limpias para la comodidad de los visitantes. Las familias con niños apreciarán los parques infantiles bien equipados y las zonas verdes abiertas para el recreo. El Parque Karaalioğlu también ofrece impresionantes vistas al Mediterráneo, encantadores senderos y muchos lugares relajantes para que todos disfruten.",
+    "faq_title": "Preguntas Frecuentes Sobre el Parque Karaalioğlu",
+    "faq_question1": "¿Hay tarifa de entrada al Parque Karaalioğlu?",
+    "faq_answer1": "No, la entrada al Parque Karaalioğlu es completamente gratuita. El parque está abierto al público y no cobra tarifa de acceso, por lo que es una atracción muy económica en Antalya. Sin embargo, algunas atracciones específicas dentro o cerca del parque, como los museos, pueden tener su propio coste de entrada.",
+    "faq_question2": "¿Cuáles son los horarios de apertura del Parque Karaalioğlu?",
+    "faq_answer2": "El Parque Karaalioğlu está abierto las 24 horas, aunque la mayoría lo visita desde temprano en la mañana hasta la noche. Por razones de seguridad, se recomienda visitarlo durante el día o al atardecer cuando el parque está más concurrido. Es especialmente hermoso al atardecer, cuando muchos locales y turistas se reúnen para disfrutar de las vistas.",
+    "faq_question3": "¿Hay restaurantes o cafés en el Parque Karaalioğlu?",
+    "faq_answer3": "Hay varios pequeños cafés y teterías dentro o cerca del Parque Karaalioğlu donde puedes disfrutar de refrescos. Estos locales ofrecen té turco tradicional, café y aperitivos. Para comidas más completas, el cercano distrito de Kaleici ofrece numerosas opciones de restaurantes a poca distancia del parque.",
+    "faq_question4": "¿Es adecuado el Parque Karaalioğlu para niños?",
+    "faq_answer4": "Sí, el Parque Karaalioğlu es ideal para familias y ofrece varias áreas para que los niños disfruten. Hay parques infantiles con equipos adecuados para diferentes edades, zonas verdes abiertas perfectas para juegos y mucho espacio para correr. Los padres deben supervisar a los niños cerca de los acantilados donde el parque da al mar Mediterráneo.",
+    "faq_question5": "¿Cuál es la mejor época para visitar el Parque Karaalioğlu?",
+    "faq_answer5": "El Parque Karaalioğlu es hermoso todo el año, pero la primavera (abril-mayo) y el otoño (septiembre-octubre) ofrecen temperaturas agradables y colores vibrantes. El verano (junio-agosto) puede ser bastante caluroso, aunque la brisa marina y las áreas sombreadas ofrecen alivio. El invierno (noviembre-marzo) es suave en Antalya, por lo que el parque es agradable incluso en estos meses y hay menos visitantes.",
+    "experience_title": "Vive la Magia del Parque Karaalioğlu",
+    "experience_paragraph1": "El Parque Karaalioğlu es testimonio de la perfecta combinación de belleza natural, importancia histórica y espacio recreativo moderno de Antalya. Ya sea que captures fotos impresionantes de la costa mediterránea, explores antiguas estructuras romanas o simplemente disfrutes de un momento de paz entre los jardines, este parque es un refrescante escape del bullicio de la ciudad.",
+    "experience_paragraph2": "Como uno de los espacios verdes más queridos de Antalya, el Parque Karaalioğlu continúa encantando a visitantes de todo el mundo y es un punto de encuentro muy apreciado por los locales. Su accesibilidad, diversidad de atracciones y vistas espectaculares lo convierten en una parada esencial en cualquier itinerario por Antalya."
+  },
+
+    "oldHarbor": {
+    "oldHarbor": {
+      "title": "Explorando el Puerto Viejo de Antalya: Una Joya Atemporal en Kaleiçi",
+      "intro": "Ubicado en el corazón histórico del distrito Kaleiçi de Antalya, el Puerto Viejo es un testimonio viviente de la rica herencia marítima de la ciudad. Este puerto en forma de media luna, que alguna vez fue el alma económica de la antigua Antalya, se ha transformado en un vibrante destino turístico donde la historia se encuentra con el ocio moderno. Con sus aguas color turquesa, tradicionales goletas de madera y vistas panorámicas a las montañas, el Puerto Viejo ofrece a los visitantes una mezcla perfecta de importancia histórica y encanto contemporáneo.",
+      "photoCaption1": "La impresionante vista del Puerto Viejo de Antalya con sus barcos tradicionales y su entorno histórico",
+      "sectionHistoryTitle": "Antecedentes Históricos del Puerto Viejo de Antalya",
+      "history_paragraph1": "La historia del Puerto Viejo comienza alrededor del 150 a.C., cuando el rey Atalo II de Pérgamo fundó Antalya como base naval. El puerto natural rápidamente se convirtió en la piedra angular de la identidad y prosperidad de la ciudad. A lo largo de los siglos, este puerto sirvió como un vínculo vital entre Anatolia y el mundo mediterráneo.",
+      "photoCaption2": "Recreación artística del Puerto Viejo en época romana, cuando era un importante puerto mediterráneo",
+      "history_paragraph2": "Durante el dominio romano, el puerto floreció como un importante centro comercial. Los romanos reforzaron las fortificaciones de la ciudad y mejoraron las instalaciones portuarias, estableciendo Antalya como uno de los puertos más importantes del Mediterráneo oriental. La evidencia arqueológica sugiere que mercancías de Egipto, Chipre y el Levante pasaban regularmente por estas aguas.",
+      "history_paragraph3": "En la era bizantina, el puerto continuó siendo la estación naval más grande de la costa sur de Anatolia. Se convirtió en una puerta crucial para el comercio que entraba y salía del Imperio Bizantino, con Chipre y otros territorios del Egeo accediendo al imperio principalmente a través de Antalya.",
+      "photoCaption3": "Las antiguas murallas y las estructuras otomanas que rodean el puerto reflejan su historia multicapa",
+      "history_paragraph4": "Bajo el dominio selyúcida y otomano, el puerto siguió siendo central en la vida cotidiana de Antalya. Los otomanos desarrollaron aún más las instalaciones portuarias, construyendo nuevos edificios y manteniendo el puerto como un importante centro comercial regional hasta principios del siglo XX.",
+      "history_paragraph5": "En la década de 1920, el puerto había disminuido desde su apogeo histórico, convirtiéndose en la pequeña pero encantadora marina que vemos hoy. Esta transformación de un bullicioso puerto comercial a un destino de ocio marca un nuevo capítulo en la larga historia del puerto.",
+      "sectionModernTitle": "El Puerto Viejo Moderno: Qué Experimentar",
+      "modern_paragraph1": "Los visitantes de hoy encuentran en el Puerto Viejo de Antalya una pintoresca marina que combina de manera hermosa elementos históricos con comodidades modernas. El puerto ha pasado de ser un puerto comercial a convertirse en un animado centro social y cultural que captura la esencia de la vida costera mediterránea.",
+      "photoCaption4": "El ambiente animado del Puerto Viejo moderno con sus cafeterías, restaurantes y yates",
+      "modern_paragraph2": "El puerto alberga ahora numerosas cafeterías y restaurantes donde los visitantes pueden disfrutar de té turco tradicional, café o una comida completa mientras contemplan vistas espectaculares. Estos establecimientos van desde cafés informales hasta elegantes restaurantes, todos compartiendo como fondo las aguas turquesas del puerto.",
+      "modern_paragraph3": "En lugar de barcos de carga, el puerto ahora acoge yates privados y goletas tradicionales de madera que ofrecen excursiones por la costa. Estos paseos en barco proporcionan una perspectiva única del litoral de Antalya y las dramáticas montañas Taurus que enmarcan la ciudad.",
+      "photoCaption5": "Las tradicionales goletas de madera ofrecen excursiones costeras desde el puerto",
+      "modern_paragraph4": "Paseando por la zona portuaria, los visitantes pueden explorar tiendas locales que venden artesanías, antigüedades y recuerdos. Las calles estrechas que suben desde el puerto hacia Kaleiçi están llenas de tiendas boutique que ofrecen desde joyería hecha a mano hasta alfombras turcas tradicionales.",
+      "modern_paragraph5": "La atmósfera del Puerto Viejo cambia a lo largo del día. Las mañanas ofrecen una calma especial mientras la ciudad despierta, mientras que las tardes transforman el puerto en un lugar animado donde tanto locales como turistas disfrutan del atardecer y la iluminación nocturna de los edificios históricos.",
+      "sectionExperienceTitle": "Vive la Magia del Puerto Viejo",
+      "experience_paragraph1": "¿Quieres sumergirte por completo en la rica historia y belleza del Puerto Viejo? Los guías profesionales pueden revelar historias ocultas y rincones secretos que la mayoría de los visitantes pasan por alto.",
+      "experience_paragraph2": "Reserva un Tour Guiado por el Puerto",
+      "sectionFactsTitle": "Hechos Fascinantes sobre el Puerto Viejo de Antalya",
+      "facts_quote": "El puerto de Antalya ha sido testigo de más de dos milenios de historia mediterránea, desde barcos de antiguos reyes hasta embarcaciones de recreo actuales.",
+      "fact_engineeringTitle": "Maravilla de la Ingeniería Antigua",
+      "fact_engineering_paragraph": "El puerto original fue construido usando técnicas de ingeniería avanzadas para su época. Los ingenieros romanos crearon espigones con enormes bloques de piedra, algunos de los cuales aún pueden verse bajo el agua hoy en día. Estas estructuras protegían los barcos del mar abierto y permitían fácil acceso al Mediterráneo.",
+      "photoCaption6": "Restos submarinos de las antiguas estructuras portuarias romanas",
+      "fact_hadrianTitle": "La Visita de Adriano",
+      "fact_hadrian_paragraph": "El emperador Adriano visitó el puerto de Antalya en 130 d.C., un evento tan significativo que la ciudad erigió una magnífica puerta de triple arco en su honor. Esta estructura, conocida hoy como la Puerta de Adriano, todavía se encuentra cerca del puerto y sigue siendo uno de los monumentos históricos más importantes de Antalya.",
+      "photoCaption7": "La Puerta de Adriano, construida para conmemorar la visita del emperador al puerto de Antalya",
+      "fact_byzantineTitle": "Base Naval Bizantina",
+      "fact_byzantine_paragraph": "Durante el periodo bizantino, el Puerto Viejo fue la base naval más importante del imperio en la costa sur de Anatolia. Los registros históricos indican que el puerto albergaba una flota significativa que protegía las rutas comerciales bizantinas y defendía contra incursiones árabes.",
+      "photoCaption8": "Reconstrucción artística del puerto durante su época como base naval bizantina",
+      "fact_transformationTitle": "La Transformación del Puerto",
+      "fact_transformation_paragraph": "En la década de 1970, el puerto fue objeto de una importante renovación que lo transformó de un puerto en declive a la atracción turística que es hoy. Esta restauración preservó los elementos históricos y añadió comodidades modernas, logrando un equilibrio entre la conservación patrimonial y el uso contemporáneo.",
+      "photoCaption9": "La transformación del Puerto Viejo de puerto comercial a destino turístico",
+      "sectionGettingThereTitle": "Cómo Llegar al Puerto Viejo de Antalya",
+      "gettingThere_intro": "Ubicado en el corazón del distrito histórico de Antalya, el Puerto Viejo es fácilmente accesible por varias opciones de transporte. Ya sea que te hospedes en el centro de Antalya o llegues desde otros lugares, llegar a esta histórica marina es sencillo.",
+      "gettingThere_mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.2612109591!2d30.70245371527305!3d36.88355197992895!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009a1644927%3A0x97bd019ea3f28131!2sOld%20City%20Marina!5e0!3m2!1sen!2sus!4v1650123456789!5m2!1sen!2sus",
+      "photoCaption10": "Ubicación del Puerto Viejo en el distrito histórico Kaleiçi de Antalya",
+      "gettingThere_publicTransportTitle": "Transporte Público",
+      "gettingThere_tram": "Toma el tranvía AntRay hasta la estación \"İskele\", que está a solo 5 minutos a pie del puerto.",
+      "gettingThere_bus": "Varias rutas de autobús urbano paran cerca de Kalekapisi (Puerta de la Ciudad Vieja), desde donde hay una caminata de 10 minutos cuesta abajo hasta el puerto.",
+      "gettingThere_taxi": "Los taxis están disponibles en toda Antalya y pueden dejarte directamente en una de las entradas del puerto.",
+      "gettingThere_walkingTitle": "Rutas a Pie",
+      "gettingThere_walk_fromHadriansGate": "Desde la Puerta de Adriano: un paseo escénico de 10 minutos por las encantadoras calles de Kaleiçi.",
+      "gettingThere_walk_fromHadriansGate2": "Desde Kalekapisi (Torre del Reloj): sigue las calles en pendiente hacia abajo durante unos 15 minutos.",
+      "gettingThere_walk_fromHadriansGate3": "Desde la Plaza de la República: una caminata de 20 minutos por el Bulevar Atatürk y luego por Kaleiçi.",
+      "sectionVisitingTipsTitle": "Consejos Esenciales para Visitar el Puerto Viejo de Antalya",
+      "visitingTips_intro": "Aprovecha al máximo tu visita a esta histórica marina con estos consejos prácticos y sugerencias. Desde elegir el mejor momento para visitar hasta encontrar los mejores lugares para tomar fotos, estas recomendaciones te ayudarán a disfrutar más tu experiencia en el Puerto Viejo.",
+      "visitingTips_bestTimeTitle": "Mejor Momento para Visitar",
+      "visitingTips_1": "Hora del día: temprano por la mañana (7-9 AM) ofrece vistas tranquilas y gran luz para fotografías. Al atardecer (alrededor de las 7-8 PM en verano) se crea una luz dorada mágica sobre el agua y los edificios.",
+      "visitingTips_2": "Días laborables vs. fines de semana: los días laborables suelen estar menos concurridos, especialmente por la mañana.",
+      "visitingTips_3": "Estaciones: de abril a junio y de septiembre a octubre ofrecen temperaturas agradables y menos multitudes que en los meses de verano.",
+      "photoCaption11": "La vista mágica del atardecer en el Puerto Viejo: uno de los mejores momentos para visitar",
+      "sectionPhotoSpotsTitle": "Lugares para Fotografía",
+      "photoSpots_intro": "Captura imágenes memorables en estos lugares privilegiados:",
+      "photoSpots_1": "Vista elevada: las terrazas de las cafeterías en el lado este del puerto ofrecen vistas panorámicas.",
+      "photoSpots_2": "Reflejos: temprano por la mañana, cuando el agua está calmada, crea reflejos perfectos de los barcos y edificios.",
+      "photoSpots_3": "Foto enmarcada: el arco de piedra en la entrada del puerto enmarca una hermosa vista de los barcos.",
+      "photoSpots_4": "Contraste histórico: colócate para capturar tanto las antiguas murallas como los yates modernos en una sola imagen.",
+      "photoCaption12": "Los arcos de piedra proporcionan marcos naturales perfectos para fotografías del puerto",
+      "sectionNearbyAttractionsTitle": "Atracciones Cercanas",
+      "nearbyAttractions_intro": "Combina tu visita al puerto con estos puntos de interés cercanos:",
+      "nearbyAttractions_hadriansGateTitle": "Puerta de Adriano",
+      "nearbyAttractions_hadriansGate_desc": "Este arco triunfal romano, bien conservado, está a solo 10 minutos a pie del puerto y ofrece una visión del pasado romano de Antalya.",
+      "photoCaption13": "La magnífica Puerta de Adriano, a un corto paseo del puerto",
+      "nearbyAttractions_yivliMinareTitle": "Yivli Minare (Minarete Estriado)",
+      "nearbyAttractions_yivliMinare_desc": "Este distintivo minarete selyúcida del siglo XIII es un símbolo de Antalya y ofrece excelentes vistas del puerto desde sus cercanías.",
+      "photoCaption14": "El emblemático Yivli Minare se alza como símbolo de Antalya",
+      "nearbyAttractions_mermerliBeachTitle": "Playa Mermerli",
+      "nearbyAttractions_mermerliBeach_desc": "Esta pequeña pero encantadora playa está justo al lado del puerto, siendo un lugar perfecto para refrescarse después de hacer turismo.",
+      "photoCaption15": "La playa Mermerli ofrece un respiro refrescante a pocos pasos del puerto",
+      "sectionDiscoverMoreTitle": "Descubre Más Tesoros de Kaleiçi",
+      "discoverMore_paragraph": "El Puerto Viejo es solo una de las muchas joyas históricas del Casco Antiguo de Antalya. Explora las estrechas calles, antiguos edificios y patios ocultos con un guía local experto.",
+      "discoverMore_tourCta": "Reserva un Tour Combinado por el Puerto y el Casco Antiguo",
+      "sectionPracticalInfoTitle": "Información Práctica para Visitantes",
+      "practicalInfo_openingHoursTitle": "Horarios y Tarifas",
+      "practicalInfo_openingHours": "La zona del Puerto Viejo está abierta a los visitantes las 24 horas del día, durante todo el año. No hay tarifa de entrada para acceder al puerto, lo que lo convierte en una atracción accesible para todos los presupuestos.",
+      "practicalInfo_establishments": "Aunque el puerto en general está siempre abierto, los restaurantes, cafeterías y tiendas individuales tienen sus propios horarios. La mayoría abre alrededor de las 9:00 AM y cierra tarde por la noche, especialmente en verano.",
+      "sectionExperienceFinalTitle": "Vive la Magia del Puerto Viejo de Antalya",
+      "experienceFinal_paragraph1": "El Puerto Viejo de Antalya es la encarnación perfecta de la rica historia y el vibrante presente de la ciudad. Desde sus orígenes como un puerto mediterráneo vital hasta su estatus actual como una encantadora marina, el puerto sigue siendo el corazón palpitante del distrito histórico de Kaleiçi.",
+      "experienceFinal_paragraph2": "Ya sea que admires la vista desde una cafetería frente al mar, explores las calles históricas de los alrededores o te embarques en una goleta tradicional, el puerto ofrece experiencias que conectan a los visitantes con el pasado y el presente de esta notable ciudad costera.",
+      "photoCaption16": "El encantador ambiente nocturno del Puerto Viejo de Antalya",
+      "experienceFinal_paragraph3": "Al planear tu visita a Antalya, asegúrate de dedicar tiempo suficiente para experimentar el Puerto Viejo en diferentes momentos del día. Observa el regreso de los barcos pesqueros por la mañana, disfruta del ambiente animado de las salidas de barco por la tarde y maravíllate con las mágicas puestas de sol que han cautivado a generaciones de visitantes.",
+      "sectionReadyToExploreTitle": "¿Listo para Explorar el Puerto Viejo y Más?",
+      "readyToExplore_paragraph": "Descubre toda la belleza e historia del Puerto Viejo de Antalya y el distrito de Kaleiçi con guías locales expertos que dan vida a las historias de este antiguo puerto.",
+      "readyToExplore_cta": "Reserva Tu Tour Guiado Hoy"
+    }
+  },
+
+    "traditionalBazaar": {
+    "title": "Explorando los Bazar Tradicionales de Kaleici, Antalya: Una Guía para el Viajero",
+    "intro": "Ubicados en el corazón histórico de Antalya, Turquía, los bazares tradicionales de Kaleici ofrecen a los viajeros un cautivador viaje a través de siglos de comercio y cultura turca. Estos mercados vibrantes, enclavados entre antiguas murallas y edificios otomanos, crean un laberinto hipnótico donde los aromas de especias, el brillo de la joyería artesanal y los colores vivos de los textiles se combinan para formar una experiencia de compras auténtica turca como ninguna otra.",
+    "historyTitle": "Historia de los Bazares de Kaleici",
+    "historyParagraph1": "Los bazares de Kaleici tienen sus orígenes en el siglo II a.C., cuando Antalya—entonces llamada Attaleia—emergió como una ciudad portuaria vital que conectaba el Mediterráneo con las rutas comerciales del interior. Mientras comerciantes de todo el mundo antiguo se reunían en Antalya, se sentaron las bases del mercado tradicional de Kaleici. Durante la época bizantina, la zona del mercado creció, con secciones especializadas para diferentes productos, reflejando la creciente importancia comercial del distrito. Estos primeros mercados no solo impulsaron el comercio sino que también ayudaron a dar forma a la vibrante vida urbana que continúa en Kaleici hasta hoy.",
+    "historyParagraph2": "Fue durante el periodo otomano, del siglo XV al principios del XX, cuando los bazares de Kaleici realmente florecieron y adquirieron sus características arquitectónicas y organizativas distintivas. El término 'bazar' en sí proviene del persa, lo que indica las influencias multiculturales presentes. Los administradores otomanos organizaron los mercados en secciones conocidas como 'han' o 'bedesten', donde se agrupaban diversos oficios y artesanías. A diferencia de los grandes bazares cubiertos de Estambul, los mercados de Kaleici crecieron orgánicamente, adaptándose al terreno accidentado y las calles sinuosas de la ciudad vieja. Este desarrollo único resultó en el encantador y laberíntico diseño y el carácter local auténtico que se observa hoy en el bazar de Kaleici.",
+    "historyParagraph3": "Muchos de los edificios que albergan las tiendas de hoy en el bazar de Kaleici datan de los siglos XVIII y XIX, aunque aún se pueden ver elementos arquitectónicos de épocas anteriores en todo el distrito. Los esfuerzos de restauración que comenzaron en la década de 1980 han conservado el carácter histórico de la zona mientras se adapta el espacio para el comercio moderno. Hoy en día, el bazar de Kaleici es un museo viviente de la historia comercial turca, donde las artesanías tradicionales, los recuerdos contemporáneos y el comercio cotidiano conviven lado a lado. Este vibrante mercado refleja siglos de comercio, intercambio cultural y el rico patrimonio de la ciudad vieja de Antalya.",
+    "atmosphereTitle": "La Atmósfera Única de los Mercados",
+    "atmosphereParagraph1": "Caminar por los bazares tradicionales de Kaleici en Antalya es una experiencia verdaderamente inmersiva. Calles estrechas y empedradas crean un ambiente íntimo donde los espacios interiores y exteriores se mezclan, sombreados por toldos coloridos y vides exuberantes. El paisaje sonoro animado—comerciantes llamando, el tintineo de los vasos de té, fragmentos de regateo y música tradicional turca—crea una atmósfera auténtica y vibrante que hace que estos mercados sean únicos entre los distritos históricos de Turquía.",
+    "atmosphereParagraph2": "A diferencia del bullicioso Gran Bazar de Estambul, los mercados de Kaleici ofrecen un ritmo más relajado y acogedor. Los comerciantes son conocidos por su genuina hospitalidad, invitando a menudo a los visitantes a compartir un té de manzana y una conversación. Esta calidez, combinada con la disposición orgánica del bazar que sigue los contornos de la ciudad histórica, brinda puntos de vista naturales donde los compradores pueden vislumbrar el azul del mar Mediterráneo más allá de las antiguas murallas de Antalya, recordando a los visitantes el legado marítimo de la ciudad.",
+    "atmosphereParagraph3": "El carácter del bazar cambia a lo largo del día y según la temporada. Por las mañanas, los locales compran productos diarios, mientras que al mediodía los turistas llegan y se muestra una vibrante variedad de recuerdos y artesanías. Por la tarde, las luces suaves y las piedras cálidas crean un ambiente acogedor. Los meses de verano traen una multitud animada y exhibiciones al aire libre, mientras que en invierno se revela un lado más tranquilo y auténtico de la vida local en los mercados de Kaleici.",
+    "shoppingTipsTitle": "Consejos de Compra para Visitantes",
+    "shoppingTipsParagraph1": "Regatear es un aspecto esencial y agradable de comprar en los bazares de Kaleici. Comienza mostrando un interés genuino en un artículo antes de preguntar el precio, luego ofrece aproximadamente un 40-50% menos como tu primera contraoferta. La mayoría de los acuerdos se cierran mediante una negociación amistosa. Las mejores horas para visitar son a primera hora de la mañana y al final de la tarde para disfrutar de un ambiente relajado, mientras que el mediodía puede ser concurrido y caluroso, especialmente en verano.",
+    "shoppingTipsParagraph2": "Siempre compara la calidad entre tiendas: examina las alfombras por la densidad del tejido y patrones uniformes, y verifica que la cerámica tenga un esmaltado suave. Pregunta por el envío internacional confiable para artículos grandes como alfombras, y pide detalles por escrito. Muchos vendedores prefieren el pago en efectivo, aunque las tiendas grandes suelen aceptar tarjetas. Es recomendable retirar liras turcas antes de entrar a la zona del bazar.",
+    "shoppingTipsParagraph3": "Toma fotos de los artículos que consideras para comparar opciones después, pero siempre pide permiso primero. Aprende algunas frases útiles en turco para comprar, como 'Ne kadar?' (¿Cuánto cuesta?) y 'Biraz indirim yapabilir misiniz?' (¿Puede hacerme un descuento?). Cuidado con los guías no oficiales que ofrecen mostrarte las 'mejores tiendas' por comisión—esto puede llevar a precios más altos. Para alimentos, revisa las reglas de importación de tu país antes de comprar.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Question": "¿Se permite regatear en los bazares de Kaleici?",
+    "faq1Answer": "Sí, el regateo es esperado en la mayoría de las tiendas de los bazares tradicionales de Kaleici en Antalya. Comienza ofreciendo alrededor del 40-50% del precio inicial y negocia de forma amistosa y respetuosa hasta llegar a un acuerdo justo.",
+    "faq2Question": "¿En qué se diferencian los bazares de Kaleici del Gran Bazar de Estambul?",
+    "faq2Answer": "Los bazares de Kaleici son mercados al aire libre integrados en el casco antiguo histórico de Antalya, con un ambiente relajado y menos vendedores insistentes que el Gran Bazar de Estambul. Ofrecen una mezcla única de artesanía mediterránea local y recuerdos turcos en un entorno más íntimo.",
+    "faq3Question": "¿Cómo puedo reconocer la artesanía turca auténtica en los bazares?",
+    "faq3Answer": "Las artesanías turcas auténticas suelen mostrar detalles hechos a mano, como nudos individuales en alfombras o patrones pintados a mano en cerámica. Pregunta a los vendedores sobre el origen y el proceso de producción—las tiendas de confianza están orgullosas de compartir detalles y pueden ofrecer certificados para piezas valiosas.",
+    "conclusionTitle": "Conclusión",
+    "conclusionParagraph1": "Los bazares tradicionales de Kaleici en Antalya ofrecen más que compras: brindan un viaje inmersivo a la cultura, artesanía y hospitalidad turca. Cada visita es una oportunidad para conectar con artesanos locales y experimentar tradiciones centenarias.",
+    "conclusionParagraph2": "Ya sea que regatees por una alfombra tejida a mano, elijas joyería única o compartas un té con un comerciante, cada interacción en el bazar crea recuerdos valiosos y experiencias de viaje auténticas que van más allá del turismo típico.",
+    "conclusionParagraph3": "Al salir de los mercados históricos de Antalya, no solo te llevas recuerdos, sino también una apreciación más profunda por la creatividad y la tradición turca. Los bazares de Kaleici siguen siendo centros vibrantes de comercio e intercambio cultural, preservando el verdadero espíritu del patrimonio turco.",
+    "practicalInfoTitle": "Información Práctica para Turistas",
+    "practicalInfoParagraph1": "Los bazares tradicionales de Kaleici están ubicados en el centro de la ciudad vieja de Antalya, con la entrada principal cerca de la Puerta de Adriano. Los visitantes pueden acceder fácilmente al área del bazar a pie, en transporte público o en taxi. Las tiendas generalmente abren de 9:00 a 19:00, con horarios extendidos en verano. La mayoría permanece abierta los viernes, aunque algunas pueden cerrar brevemente para rezar.",
+    "practicalInfoParagraph2": "Las calles estrechas y peatonales del bazar hacen que explorar sea seguro y agradable, pero cuidado con las motocicletas de reparto ocasionales. Los robos son raros, pero posibles en áreas concurridas, así que mantén tus bolsos seguros. La mayoría de las tiendas aceptan tarjetas de crédito, pero los vendedores pequeños prefieren efectivo (liras turcas). Los baños son limitados, pero hay instalaciones cerca de la Puerta de Adriano, el puerto y en las cafeterías.",
+    "practicalInfoParagraph3": "Ten en cuenta que los bazares de Kaleici presentan calles empedradas irregulares, escalones y pendientes debido al terreno histórico y accidentado. Mientras que las calles principales son accesibles, algunos encantadores callejones pueden ser difíciles para personas en silla de ruedas o con movilidad limitada.",
+    "toursTitle": "Vive los Bazares de Kaleici con un Guía Local",
+    "toursText": "Descubre joyas ocultas y aprende el arte del regateo con un experto que conoce a fondo los mercados."
+  },
+
+    "authentic-streets": {
+    "title": "Explorando las Calles Auténticas de Kaleici: El Corazón Histórico de Antalya",
+    "intro": "Ubicado dentro del bullicio moderno de Antalya se encuentra Kaleici, un laberinto de estrechas calles empedradas que susurran historias de siglos pasados. Este barrio histórico, cuyo nombre se traduce como \"dentro de las murallas\", ofrece a los viajeros una auténtica visión de la rica herencia otomana de Turquía. Al pasear por sus sinuosos caminos, descubrirás bugambilias vibrantes que caen sobre antiguos muros de piedra, casas tradicionales de madera con puertas talladas artísticamente y el suave ritmo de la vida local que ha continuado casi sin cambios durante generaciones. A diferencia de la costa llena de resorts por la que Antalya es famosa, las calles auténticas de Kaleici te invitan a desacelerar y saborear una conexión más íntima con la cultura turca.",
+    "historyTitle": "Un Viaje en el Tiempo: El Trasfondo Histórico de Kaleici",
+    "history": {
+      "p": "La historia de Kaleici comienza en el siglo II a.C. cuando la región fue fundada por el rey Átalo II de Pérgamo, quien nombró el asentamiento \"Attaleia\" en su honor. Esta antigua ciudad portuaria se convertiría más tarde en un puerto romano crucial, como lo demuestra la magnífica Puerta de Adriano, que todavía se mantiene como la gran entrada a la ciudad vieja. Al pasar por este arco triunfal construido en el 130 d.C. para conmemorar la visita del emperador Adriano, caminas literalmente sobre los pasos de los dignatarios romanos que atravesaron estos mismos portales de piedra hace casi dos milenios.",
+      "p1": "A lo largo de los siglos, Kaleici se transformó bajo el dominio bizantino, selyúcida y finalmente otomano, dejando cada civilización su huella arquitectónica distintiva. El periodo otomano (del siglo XV a principios del XX) dio forma de manera más significativa al carácter del actual Kaleici, con sus distintivas casas de madera con pisos superiores sobresalientes y patios internos diseñados para la privacidad y la comodidad en el clima mediterráneo. Lo que hace tan especiales a las calles auténticas de Kaleici, Antalya, es esta historia en capas, visible en todo, desde las antiguas murallas de la ciudad hasta el minarete estriado de la Mezquita Yivli Minare.",
+      "p2": "En las últimas décadas se han realizado importantes esfuerzos de restauración en todo Kaleici, transformando lo que alguna vez fue un barrio descuidado en uno de los distritos históricos más encantadores de Turquía. El gobierno local ha trabajado para preservar el carácter auténtico mientras permite el desarrollo sensible de hoteles boutique, restaurantes y tiendas que ahora dan nueva vida económica a estas calles antiguas."
+    },
+    "streetsTitle": "Perdiéndose en el Laberinto: Calles Notables en Kaleici",
+    "streetsIntro": "El corazón del encanto de Kaleici radica en su red de calles estrechas y sinuosas que parecen diseñadas para que te pierdas agradablemente. Cada callejón tiene su propio carácter, historias y tesoros ocultos esperando ser descubiertos. Aquí tienes algunos de los caminos más distintivos que capturan la esencia auténtica de este barrio histórico:",
+    "streets": {
+      "hesapci": {
+        "title": "Hesapçı Sokak",
+        "text": "A menudo considerada la arteria principal de Kaleici, Hesapçı Sokak late con energía desde la mañana hasta bien entrada la noche. Esta vibrante calle está bordeada por algunas de las casas otomanas mejor conservadas de la zona, muchas de las cuales ahora son hoteles boutique y restaurantes. El nombre se traduce aproximadamente como \"Calle del Contador\", lo que sugiere su antigua importancia como centro comercial. Hoy es el lugar perfecto para sentarse en una cafetería al aire libre, tomar té turco y observar el ir y venir de la gente."
+      },
+      "uzun-carsi": {
+        "title": "Uzun Çarşı Sokak",
+        "text": "El nombre significa \"Calle del Mercado Largo\" y, fiel a su nombre, esta bulliciosa vía ha sido un destino de compras durante siglos. Aquí encontrarás desde artículos de cuero hechos a mano y alfombras turcas tradicionales hasta cafeteras de cobre y amuletos del mal de ojo. Lo que hace especial a esta calle es la continuación de la artesanía antigua: algunos talleres todavía usan técnicas transmitidas de generación en generación, ofreciendo una visión de métodos tradicionales que rara vez se ven en nuestro mundo de producción masiva."
+      },
+      "mermerli": {
+        "title": "Mermerli Sokak",
+        "text": "Esta pintoresca calle desciende hacia la playa de Mermerli y el antiguo puerto, ofreciendo impresionantes vistas del mar Mediterráneo a medida que bajas. La suave pendiente está bordeada por algunos de los edificios más fotogénicos de Kaleici, con balcones de madera adornados con flores colgantes. Al final, encontrarás la playa de Mermerli, una pequeña pero encantadora cala donde puedes refrescarte después de explorar las calles bañadas por el sol."
+      }
+    },
+    "conclusion": "Lo que hace realmente especiales a estas calles no es solo su importancia histórica o belleza arquitectónica, sino la manera en que continúan funcionando como partes vivas y activas de la ciudad. A diferencia de algunos distritos históricos excesivamente restaurados que parecen museos al aire libre, las calles auténticas de Kaleici, Antalya, siguen siendo el hogar de residentes reales, creando una atmósfera donde la historia y la vida contemporánea coexisten en una armonía extraordinaria.",
+    "nearbyTitle": "Lugares Imprescindibles a lo Largo de las Calles de Kaleici",
+    "nearbyText": "Aunque perderse sin un itinerario es parte del encanto de Kaleici, ciertos monumentos no deben pasarse por alto durante tu exploración de las calles auténticas de Kaleici, Antalya. Estos tesoros históricos proporcionan contexto para comprender el rico pasado de la zona:",
+    "toursTitle": "¿Quieres Descubrir Historias Ocultas?",
+    "toursText": "Para quienes prefieren una exploración guiada, los recorridos a pie locales ofrecen conocimientos sobre la historia y las leyendas de Kaleici que podrías pasar por alto por tu cuenta. Guiados por residentes conocedores, estos recorridos suelen durar de 2 a 3 horas y pueden reservarse por adelantado o a través de tu hotel."
+  }
+}

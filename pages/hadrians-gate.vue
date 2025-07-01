@@ -408,12 +408,50 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/hadrians-gate' },
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'canonical', href: 'https://example.com/hadrians-gate' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/hadrians-gate' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/hadrians-gate' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/hadrians-gate' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/hadrians-gate' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/hadrians-gate' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/hadrians-gate' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/hadrians-gate' },
+
+
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
+
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Hadrian's Gate",
+        "description": "A triumphal arch built in honor of the Roman Emperor Hadrian, one of the city's most iconic historical landmarks.",
+        "image": "https://example.com/images/hadrians-gate.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Antalya",
+          "addressCountry": "TR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 36.8862,
+          "longitude": 30.7057
+        },
+        "url": "https://example.com/hadrians-gate"
+      })
+    }
+  ]
+})
+
+
 
 </script>

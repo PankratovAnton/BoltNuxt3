@@ -1,0 +1,720 @@
+{
+  "navigation": {
+    "home": "Strona główna",
+    "attractions": "Atrakcje",
+    "": "Porady podróżnicze",
+    "tours": "Wycieczki i przewodnicy"
+  },
+  "footer": {
+    "copyright": "© {year} Przewodnik po Kaleiçi. Wszelkie prawa zastrzeżone.",
+    "tagline": "Twój przewodnik po historycznej Antalyi",
+    "quickLinks": "Szybkie linki",
+    "madeWith": "Stworzone z ❤️ dla podróżników"
+  },
+
+  "seo": {
+    "site": {
+      "title": "Przewodnik po Kaleiçi",
+      "description": "Odkryj starówkę Kaleiçi w Antalyi — atrakcje, historia, porady podróżnicze i najciekawsze miejsca w sercu Antalyi, Turcja."
+    },
+    "home": {
+      "title": "Odwiedź Kaleici | Przewodnik po Kaleiçi",
+      "description": "Poznaj zabytkową starówkę Kaleiçi w Antalyi. Najważniejsze atrakcje, wycieczki piesze, ukryte perełki i wskazówki dla odwiedzających.",
+      "ogTitle": "Przewodnik po Kaleiçi – Odkryj starówkę Antalyi",
+      "ogDescription": "Odkryj kulturę, historię i unikalną atmosferę słynnej dzielnicy Kaleiçi w Antalyi. Twój przewodnik po najciekawszych miejscach, wycieczkach i doświadczeniach.",
+      "ogImage": "/images/viewpoints-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "hadrian-gate": {
+      "title": "Brama Hadriana | Przewodnik po Kaleiçi",
+      "description": "Odwiedź Bramę Hadriana w Antalyi — ikoniczny rzymski łuk triumfalny na starówce Kaleiçi. Poznaj historię, wskazówki dla zwiedzających i zaplanuj wizytę.",
+      "ogTitle": "Brama Hadriana w Antalyi – Kompletny przewodnik",
+      "ogDescription": "Zobacz zdjęcia i poznaj historię Bramy Hadriana w dzielnicy Kaleiçi w Antalyi. Najlepsze wskazówki dla turystów, mapy i godziny otwarcia.",
+      "ogImage": "/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "hidirlik-tower": {
+      "title": "Wieża Hidirlik | Przewodnik po Kaleiçi",
+      "description": "Odkryj Wieżę Hidirlik — panoramiczne widoki na Antalyę, starożytną historię i najlepsze miejsca do zdjęć na starówce Kaleiçi. Zaplanuj wizytę już dziś.",
+      "ogTitle": "Wieża Hidirlik – Panoramiczna ikona Antalyi",
+      "ogDescription": "Wszystko o Wieży Hidirlik w starej części Antalyi: historia, najlepsze punkty widokowe, trasy spacerowe i informacje dla zwiedzających.",
+      "ogImage": "/images/hidirlik-tower-detailed-upper-walls-in-antalya-kaleici-old-town-turkey.jpg"
+    },
+    "karaalioglu-park": {
+      "title": "Park Karaalioğlu | Przewodnik po Kaleiçi",
+      "description": "Odpocznij w Parku Karaalioğlu w Antalyi — park miejski z widokiem na morze, ścieżkami spacerowymi, placami zabaw i punktami widokowymi na zachód słońca. Idealne miejsce dla rodzin i fotografów.",
+      "ogTitle": "Park Karaalioğlu – Zielona oaza Antalyi",
+      "ogDescription": "Przewodnik po Parku Karaalioğlu: najlepsze miejsca do zdjęć, trasy spacerowe, place zabaw, kawiarnie i ukryte zakątki starówki Antalyi.",
+      "ogImage": "/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "old-harbor": {
+      "title": "Stary Port | Przewodnik po Kaleiçi",
+      "description": "Stary port Antalyi — marina, rejsy łodzią, restauracje z owocami morza i spacery nad wodą w sercu starówki Kaleiçi.",
+      "ogTitle": "Stary Port – Malownicza marina Antalyi",
+      "ogDescription": "Poznaj historyczny Stary Port w Antalyi: atrakcje, rejsy, najlepsze kawiarnie i życie lokalne nad Morzem Śródziemnym.",
+      "ogImage": "/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "streets": {
+      "title": "Ulice Kaleiçi | Przewodnik po Kaleiçi",
+      "description": "Przemierzaj brukowane uliczki starówki Antalyi. Poznaj alejki, kolorowe domy, tradycyjne sklepy i codzienne życie.",
+      "ogTitle": "Ulice Kaleiçi – Historyczne serce Antalyi",
+      "ogDescription": "Najlepsze uliczki i zaułki w dzielnicy Kaleiçi w Antalyi. Zobacz piękną architekturę, lokalne sceny i unikalne sklepy.",
+      "ogImage": "/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+    },
+    "traditional-bazaar": {
+      "title": "Tradycyjny bazar | Przewodnik po Kaleiçi",
+      "description": "Przeżyj tradycyjny bazar w starówce Kaleiçi w Antalyi — tureckie targi, rękodzieło, dywany, przyprawy, pamiątki i autentyczne zakupy.",
+      "ogTitle": "Bazar Kaleiçi – Autentyczny turecki targ",
+      "ogDescription": "Kupuj pamiątki, dywany i rękodzieło na tradycyjnym bazarze w Antalyi. Najlepsze lokalne produkty i unikalne prezenty na starówce.",
+      "ogImage": "/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+    },
+    "tours": {
+      "title": "Wycieczki i atrakcje | Przewodnik po Kaleiçi",
+      "description": "Znajdź najlepsze wycieczki, spacery z przewodnikiem i wycieczki w starówce Kaleiçi w Antalyi. Zarezerwuj wyjątkowe doświadczenia i odkryj więcej.",
+      "ogTitle": "Najlepsze wycieczki po starówce Kaleiçi w Antalyi",
+      "ogDescription": "Odkryj najwyżej oceniane wycieczki i atrakcje, by poznać starą Antalyę — spacery, historia, jedzenie i rejsy.",
+      "ogImage": "/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-9.jpg"
+    },
+    "attractions": {
+      "title": "Atrakcje w Kaleici | Przewodnik po Kaleiçi",
+      "description": "Odkryj najważniejsze atrakcje w starówce Kaleiçi w Antalyi. Poznaj zabytki, muzea, parki i tętniące życiem dzielnice, by maksymalnie wykorzystać swój pobyt.",
+      "ogTitle": "Najlepsze atrakcje Kaleiçi – Najciekawsze miejsca w Antalyi",
+      "ogDescription": "Poznaj najciekawsze miejsca w Kaleiçi, Antalya: słynne zabytki, atrakcje kulturowe, perełki architektury i obowiązkowe doświadczenia każdego podróżnika.",
+      "ogImage": "/images/main-page-carousel-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg"
+    }
+  },
+  "alt": {
+    "hadrian-gate": "Brama Hadriana, Antalya, Kaleici, Starówka, architektura rzymska, starożytny łuk, Turcja, historyczny zabytek, zwiedzanie, turystyka, dziedzictwo kulturowe, kamienny monument, mury miejskie, znana atrakcja",
+    "hidirlik-tower": "Wieża Hidirlik, Antalya, Kaleici, Starówka, rzymska wieża, widok na morze, miejsce historyczne, starożytne ruiny, Turcja, panorama, punkt orientacyjny, kamienna budowla, cel podróży, Morze Śródziemne, historia miasta",
+    "karaalioglu-park": "Park Karaalioglu, Antalya, Kaleici, Starówka, zielony park, widoki na miasto, ogrody, ścieżki spacerowe, strefa rodzinna, przyroda, Morze Śródziemne, relaks, słynny park, plac zabaw, malownicze miejsca",
+    "old-harbor": "Stary Port, Antalya, Kaleici, Starówka, marina, jachty, Morze Śródziemne, historyczny port, starożytny port, nabrzeże, łodzie rybackie, promenada, panorama miasta, Turcja, cel podróży",
+    "streets": "ulice, Antalya, Kaleici, Starówka, brukowane, alejki, lokalne życie, spacer po mieście, dzielnica historyczna, Turcja, codzienność, fotografia uliczna, tradycja, architektura, atmosfera",
+    "traditional-bazaar": "tradycyjny bazar, Antalya, Kaleici, Starówka, turecki targ, pamiątki, zakupy, lokalne rękodzieło, handlarze, autentyczność, stoiska, dywany, doświadczenie kulturowe, przyprawy, żywe kolory",
+    "other": "Antalya, Kaleici, Starówka, Turcja, dziedzictwo, podróże, architektura, Morze Śródziemne, turystyka, atrakcje, kultura, odkrywanie, zwiedzanie, miejski, historyczna dzielnica"
+  },
+
+"home": {
+  "hero": {
+    "title": "Odkryj serce starożytnej Antalyi",
+    "subtitle": "Wejdź do Kaleici — tętniącego serca Antalyi, gdzie brukowane uliczki wiją się przez wieki historii, a śródziemnomorskie bryzy niosą zapach jaśminu i cytrusów.",
+    "exploreBtn": "Odkrywaj Kaleiçi",
+    "toursBtn": "Rezerwuj wycieczki i przewodników"
+  },
+  "discover": {
+    "title": "Dlaczego warto odwiedzić starówkę Kaleiçi?",
+    "description": {
+      "part1": "Ta starożytna dzielnica, znana jako Stare Miasto Antalyi, to fascynujący labirynt, gdzie rzymskie, bizantyjskie, seldżuckie i osmańskie dziedzictwo łączy się płynnie ze współczesnym tureckim życiem. Spacerując pod kamiennymi łukami i obok drewnianych domów z kwitnącą bugenwillą na balkonach, odkryjesz miejsce, gdzie czas zwalnia i pozwala cieszyć się każdą chwilą podróży.",
+      "part2": "Kaleici to nie tylko kolejna atrakcja turystyczna — to żywe muzeum, gdzie każdy kamień opowiada swoją historię. Ta historyczna dzielnica jest nieprzerwanie zamieszkana od ponad 2000 lat, tworząc bogatą mozaikę kulturową widoczną w architekturze, kuchni i atmosferze. Dawny rzymski port, kiedyś serce miasta, dziś gości klimatyczne kawiarnie i restauracje z niesamowitym widokiem na Morze Śródziemne.",
+      "part3": "Odkrywając wąskie uliczki starej dzielnicy Antalyi, napotkasz imponujące zabytki, takie jak Brama Hadriana — monumentalny marmurowy portal z trzema łukami, wzniesiony na cześć wizyty cesarza rzymskiego w 130 r. n.e. Imponująca Wieża Hidirlik oferuje panoramiczne widoki na to nadmorskie miasto, a charakterystyczny żłobkowany minaret Yivli Minare stał się symbolem seldżuckiego dziedzictwa Antalyi.",
+      "part4": "Poza zabytkami to właśnie autentyczna turecka kultura w Antalyi urzeka odwiedzających. Lokalni rzemieślnicy tworzą tradycyjne wyroby w małych warsztatach, powietrze wypełnia aromat tureckiej kawy i przypraw, a gościnni mieszkańcy witają gości z legendarną serdecznością. Niezależnie czy jesteś pasjonatem historii, poszukiwaczem kulinarnych przygód czy po prostu szukasz idealnego śródziemnomorskiego wypoczynku — Kaleici zapewni niezapomniane doświadczenie."
+    },
+    "links": {
+      "attractions": "Odkryj atrakcje",
+      "tips": "Informacje praktyczne",
+      "tours": "Zobacz wycieczki"
+    }
+  },
+  "highlights": {
+    "title": "Najważniejsze atrakcje Kaleiçi",
+    "gate": {
+      "title": "Brama Hadriana",
+      "description": "Poznaj fascynujące historie, detale architektoniczne i tło historyczne..."
+    },
+    "harbor": {
+      "title": "Stary Port",
+      "description": "Historyczna dzielnica portowa, obecnie malownicza marina..."
+    },
+    "bazaar": {
+      "title": "Tradycyjny bazar",
+      "description": "Odkryj lokalne rzemiosło i barwne tureckie wyroby..."
+    }
+  },
+  "stay": {
+    "title": "Gdzie zatrzymać się na starówce w Antalyi",
+    "intro": "Dla autentycznych wrażeń nie ma nic lepszego niż pobyt w murach Kaleici. Stare Miasto oferuje wiele butikowych hoteli i przytulnych pensjonatów, często mieszczących się w pięknie odrestaurowanych osmańskich rezydencjach. Obudź się przy śpiewie mew i dźwiękach miasta, wyjdź bezpośrednio na zabytkowe uliczki i wróć po dniu zwiedzania, by odpocząć w tradycyjnym dziedzińcu.",
+    "details": "Od luksusowych butikowych hoteli w odrestaurowanych osmańskich rezydencjach po rodzinne pensjonaty — znajdź nocleg z charakterem w sercu starówki Antalyi.",
+    "cta": "Przeglądaj hotele na starówce"
+  },
+  "experiences": {
+    "title": "Autentyczne doświadczenia na starówce w Antalyi",
+    "part1": "Poza zwiedzaniem Kaleici oferuje prawdziwe doświadczenia kulturowe. Zacznij dzień od tradycyjnego tureckiego śniadania z serami, oliwkami, miodem i herbatą w dziedzińcu kawiarni. Przemierzaj wąskie uliczki, odkrywając warsztaty rzemieślnicze, gdzie rzemieślnicy kontynuują wielowiekowe tradycje wyrobu skóry, dywanów i wyrobów metalowych.",
+    "part2": "Wieczorem dołącz do miejscowych na spacer wzdłuż promenady portowej, a następnie wybierz się do restauracji na dachu, by skosztować lokalnych specjałów. Nie przegap okazji do wizyty w tradycyjnej łaźni tureckiej (hamam) — wiele historycznych łaźni w i wokół Kaleici zostało pięknie odnowionych, by zapewnić autentyczne doznania wellness."
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania",
+    "questions": [
+      {
+        "question": "Czy starówka Antalyi jest przyjazna pieszym?",
+        "answer": "Tak, Kaleici jest w dużej mierze wyłączone z ruchu kołowego, z wąskimi uliczkami idealnymi do zwiedzania pieszo. Pojazdy mają ograniczony wstęp, co tworzy przyjemne warunki do spacerów. Zalecamy wygodne obuwie — ulice są często brukowane i miejscami strome."
+      },
+      {
+        "question": "Ile czasu przeznaczyć na zwiedzanie starówki Antalyi?",
+        "answer": "Najważniejsze atrakcje można zobaczyć w pół dnia, ale polecamy poświęcić co najmniej cały dzień, by w pełni docenić urok Kaleici. Dla głębszych wrażeń warto spędzić 2-3 dni na starówce, by zwiedzać spokojnie, korzystać z restauracji i poczuć atmosferę."
+      },
+      {
+        "question": "Czy wejście na starówkę Antalyi jest płatne?",
+        "answer": "Wstęp do Kaleici jest bezpłatny, jednak niektóre indywidualne atrakcje mogą pobierać opłaty. Muzea mają zwykle niewielkie ceny biletów, a niektóre zabytki, jak Brama Hadriana, można oglądać bez opłat. Mała plaża Mermerli wymaga niewielkiej opłaty obejmującej korzystanie z infrastruktury."
+      }
+    ]
+  },
+  "visitingInfo": {
+    "title": "Informacje praktyczne o zwiedzaniu starówki Antalyi",
+    "gettingThereTitle": "Dojazd",
+    "gettingThereText": "Stare Miasto Antalyi jest łatwo dostępne z większości części miasta. Z lotniska w Antalyi to około 30 minut jazdy do Kaleici. Główne wejścia na starówkę to Kalekapisi (plac Zegarowy) oraz bardziej malownicza Brama Hadriana. Zabytkowy tramwaj (Nostalji Tramvayi) kursuje malowniczą trasą, przejeżdżając w pobliżu Kalekapisi.",
+    "bestTimeTitle": "Najlepszy czas na wizytę",
+    "bestTimeText": "Wiosna (kwiecień–maj) i jesień (wrzesień–październik) oferują idealną pogodę do zwiedzania — przyjemne temperatury i mniej tłumów. Lato (czerwiec–sierpień) przynosi upały i więcej turystów, a zima (listopad–marzec) jest łagodna, ale może być deszczowa. Najbardziej magiczne chwile to poranki i późne popołudnia, kiedy światło jest złote, a uliczki mniej zatłoczone."
+  },
+  "gettingThereCards": {
+    "walking": "Kaleiçi znajduje się w odległości spaceru od centrum miasta i pobliskich hoteli.",
+    "tram": "Zabytkowy tramwaj zatrzymuje się przy Kalekapisi, niedaleko Kaleiçi.",
+    "bus": "Kilka linii autobusowych łączy miasto z przystankami przy wejściu na starówkę.",
+    "taxi": "Taksówki są powszechnie dostępne i mogą dowieźć bezpośrednio pod bramy Kaleiçi."
+  },
+  "toursHome": {
+    "title": "Gotowy na odkrycie magii starówki Antalyi?",
+    "subtitle": "Poznaj idealne połączenie historii, kultury i śródziemnomorskiego uroku podczas wycieczek z doświadczonymi przewodnikami.",
+    "description": "Od ukrytych dziedzińców po panoramiczne punkty widokowe — poznaj autentyczne serce Kaleici z przewodnikami, którzy opowiedzą jej historię.",
+    "button": "Zarezerwuj swoją przygodę w Antalyi już dziś"
+  },
+  "closing": {
+    "title": "Poczuj ponadczasowy urok Kaleici",
+    "paragraph1": "Stare Miasto Antalyi to nie tylko miejsce — to podróż przez wieki śródziemnomorskiej historii i kultury. Przechadzając się przez starożytne bramy i wąskie uliczki, odkryjesz miejsce, gdzie każdy zakątek skrywa nową opowieść, każdy posiłek celebruje przekazywane z pokolenia na pokolenie tradycje kulinarne, a każdy zachód słońca nad portem tworzy wspomnienia na całe życie.",
+    "paragraph2": "Niezależnie czy pociąga Cię starożytna architektura, tętniąca atmosfera, wyśmienita kuchnia czy po prostu radość z błądzenia po labiryncie uliczek — Kaleici oferuje autentyczne tureckie doświadczenie, które oczaruje każdego gościa. Przyjedź i przekonaj się, dlaczego podróżnicy od czasów rzymskich cesarzy po współczesnych odkrywców ulegali urokowi tej śródziemnomorskiej perły."
+  }
+},
+
+
+"attractions": {
+  "title": "Zabytkowe atrakcje Kaleiçi",
+  "introduction": "Odkryj bogactwo kultury i dziedzictwa architektonicznego Kaleiçi poprzez jej najbardziej kultowe miejsca. Każda lokalizacja pozwala zajrzeć w fascynującą przeszłość Antalyi.",
+  "highlights_section_title": "Najważniejsze atrakcje Kaleiçi",
+  "hadrians-gate": {
+    "title": "Brama Hadriana",
+    "description": "Poznaj fascynujące historie, detale architektoniczne i kontekst historyczny Bramy Hadriana z doświadczonym lokalnym przewodnikiem. Uczyń swoją wizytę wyjątkową, dzięki ciekawostkom, które ożywią ten starożytny zabytek.",
+    "imageAlt": "Brama Hadriana w Antalyi, Kaleiçi"
+  },
+  "old-harbor": {
+    "title": "Stary Port",
+    "description": "Dawniej tętniący życiem rzymski port, dziś Stary Port to spokojna marina z restauracjami, rejsami łodziami i pięknymi widokami na wybrzeże.",
+    "imageAlt": "Stary Port w Kaleiçi"
+  },
+  "karaalioglu-park": {
+    "title": "Park Karaalioğlu",
+    "description": "Oszałamiający park nadmorski oferujący zapierające dech w piersiach widoki na Morze Śródziemne i góry Taurus.",
+    "imageAlt": "Widok z parku Karaalioğlu"
+  },
+  "traditional-bazaars": {
+    "title": "Tradycyjne bazary",
+    "description": "Przemierzaj tętniące życiem targowiska, gdzie lokalni rzemieślnicy sprzedają rękodzieło, przyprawy, tkaniny i pamiątki.",
+    "imageAlt": "Scena ulicy tradycyjnego bazaru"
+  },
+  "authentic-streets": {
+    "title": "Autentyczne uliczki",
+    "description": "Odkryj urokliwe, wąskie alejki i zabytkową architekturę najpiękniejszych ulic Kaleiçi.",
+    "imageAlt": "Autentyczne uliczki Kaleiçi"
+  },
+  "hidirlik-tower": {
+    "title": "Wieża Hidirlik",
+    "description": "Historyczna rzymska wieża z panoramicznymi widokami na Morze Śródziemne i wybrzeże Antalyi.",
+    "imageAlt": "Widok z Wieży Hidirlik"
+  }
+},
+
+
+"tours": {
+  "title": "Polecane wycieczki",
+  "description": "Odkryj najlepsze wycieczki i atrakcje w Kaleiçi oraz Antalyi. Od spacerów z przewodnikiem po rejsy łodzią – znajdź doświadczenia dopasowane do Twojego stylu podróżowania."
+},
+
+"nearbyAttractions": {
+  "sectionTitle": "Atrakcje w pobliżu",
+  "sectionDescription0": "Kaleiçi to idealny punkt startowy do odkrywania najciekawszych atrakcji Antalyi. Po zwiedzeniu tej lokalizacji rozważ odwiedzenie pobliskich miejsc.",
+  "sectionDescription1": "Poznaj jeszcze więcej bogatej historii i tętniącej życiem kultury Kaleiçi, odkrywając pobliskie atrakcje.",
+  "sectionDescription2": "Wykorzystaj swoją wizytę maksymalnie — te sąsiednie atrakcje pozwolą Ci głębiej poznać unikalny charakter Antalyi.",
+  "sectionDescription3": "Przedłuż swoją podróż po Antalyi, odwiedzając te miejsca warte zobaczenia, położone zaledwie kilka kroków dalej.",
+  "sectionDescription4": "Od starożytnych zabytków po tętniące życiem bazary – te lokalne atrakcje dopełnią Twoje doświadczenie Kaleiçi.",
+  "sectionDescription5": "Nie przegap okazji, by odwiedzić te niezwykłe miejsca – każde z nich wnosi własny urok do Starego Miasta w Antalyi.",
+  "sectionDescription6": "Zanurz się w różnorodnej historii i oszałamiającym pięknie Antalyi, odwiedzając atrakcje znajdujące się w pobliżu.",
+  "sectionDescription7": "Kontynuuj swoją przygodę, odkrywając kolejne niezapomniane miejsca, które definiują Kaleiçi.",
+  "sectionDescription8": "Każda pobliska atrakcja oferuje inne spojrzenie na fascynującą przeszłość i tętniącą życiem teraźniejszość Antalyi.",
+  "sectionDescription9": "Poznaj pełne dziedzictwo Antalyi dzięki tym łatwo dostępnym atrakcjom.",
+  "sectionDescription10": "Dodaj jeszcze więcej niezapomnianych momentów do swojej podróży, odwiedzając te zapraszające i bogate w historię miejsca.",
+
+  "hadriansGate": {
+    "title": "Brama Hadriana",
+    "description": "Poznaj fascynujące historie, detale architektoniczne i historyczny kontekst Bramy Hadriana z doświadczonym lokalnym przewodnikiem. Dowiedz się ciekawostek, które ożywią ten starożytny zabytek."
+  },
+  "oldHarbor": {
+    "title": "Stary Port",
+    "description": "Dawniej tętniący życiem rzymski port, dziś Stary Port to spokojna marina z restauracjami, rejsami łodziami i malowniczymi widokami na wybrzeże."
+  },
+  "hidirlikTower": {
+    "title": "Wieża Hidirlik",
+    "description": "Historyczna rzymska wieża z panoramicznymi widokami na Morze Śródziemne i wybrzeże Antalyi."
+  },
+  "traditionalBazaars": {
+    "title": "Tradycyjne bazary",
+    "description": "Przemierzaj tętniące życiem targowiska, gdzie lokalni rzemieślnicy sprzedają rękodzieło, przyprawy, tkaniny i pamiątki."
+  },
+  "karaaliogluPark": {
+    "title": "Park Karaalioğlu",
+    "description": "Oszałamiający park nadmorski oferujący zapierające dech w piersiach widoki na Morze Śródziemne i góry Taurus."
+  },
+  "authenticStreets": {
+    "title": "Autentyczne uliczki",
+    "description": "Odkryj urokliwe, wąskie alejki i zabytkową architekturę najpiękniejszych ulic Kaleiçi."
+  }
+},
+
+
+"hadriansGate": {
+  "h1Text1": "Brama Hadriana w Antalyi: Wspaniała brama do starożytnej historii",
+  "pText1": "Stojąca majestatycznie u wejścia do Kaleiçi (Starego Miasta), Brama Hadriana w Antalyi to zachwycający most między światem starożytnym a współczesnym życiem miejskim. Ten wyjątkowo dobrze zachowany rzymski łuk triumfalny, zbudowany w 130 roku n.e. na cześć wizyty cesarza Hadriana, nieustannie fascynuje zwiedzających swoją imponującą architekturą i historycznym znaczeniem. Jako jeden z najbardziej rozpoznawalnych symboli Antalyi, brama daje wgląd w bogate dziedzictwo rzymskie regionu i wyznacza granicę między tętniącym życiem nowoczesnym miastem a uroczymi, wąskimi uliczkami starej dzielnicy.",
+  "h2Text1": "Historia Bramy Hadriana",
+  "pText2": "Brama Hadriana została zbudowana w 130 roku n.e., by upamiętnić wizytę cesarza rzymskiego Hadriana w Attalei (dawna nazwa Antalyi). Miasto, pierwotnie założone przez króla Attalosa z Pergamonu, stało się częścią Imperium Rzymskiego i rozkwitło jako ważny port śródziemnomorski. Brama została zaprojektowana jako monumentalne wejście przez mury obronne, które niegdyś otaczały starożytne miasto.",
+  "pText3": "Brama przez długi czas pozostawała nieznana światu zachodniemu, aż do momentu, gdy irlandzko-brytyjski hydrograf Sir Francis Beaufort opisał ją w swoim dzienniku podróży opublikowanym w 1817 roku. Wówczas brama miała jeszcze drugie piętro, które z czasem zniknęło. Prawdopodobnie na jej szczycie stały niegdyś posągi cesarza Hadriana i jego rodziny.",
+  "pText4": "Szeroko zakrojone prace restauracyjne rozpoczęto w latach 50. XX wieku, gdy brama została ponownie odkryta po zawaleniu się zewnętrznych murów ją zasłaniających. Odbudowa obejmowała ostrożne usunięcie zniszczonych ścian, odsłonięcie oryginalnych rzymskich płyt kamiennych i zabezpieczenie brązowych liter znalezionych u podstawy bramy, które dziś są eksponowane w muzeach na całym świecie.",
+  "h2Text2": "Cechy architektoniczne Bramy Hadriana",
+  "pText5": "Brama Hadriana to przykład klasycznej rzymskiej architektury łuków triumfalnych z trzema identycznymi przejściami łukowymi. Wznosi się na około 8 metrów wysokości i została zbudowana głównie z białego marmuru i granitu, tworząc imponujący, trwały zabytek.",
+  "pText6": "Brama posiada po cztery kolumny na każdej fasadzie, z ozdobnymi dekoracjami roślinnymi i stylizowanymi głowami lwów zdobiącymi górne partie. Kasetonowe sklepienie wewnątrz łuków zachowało niezwykłe mistrzostwo rzeźbiarskie, przetrwałe niemal dwa tysiąclecia.",
+  "pText7": "Jednym z najciekawszych elementów są głębokie rowki wyżłobione w kamiennym bruku pod środkowym łukiem przez tysiące przejeżdżających przez wieki wozów. Rowki te stały się tak głębokie i potencjalnie niebezpieczne, że zainstalowano przezroczystą kładkę chroniącą zarówno odwiedzających, jak i ten namacalny ślad długowiecznego użytkowania bramy.",
+  "pText8": "Dwie wieże flankujące bramę nie były częścią pierwotnej konstrukcji. Południowa wieża (z lewej strony patrząc od bulwaru) pochodzi z okresu rzymskiego, natomiast północna (z prawej) została odbudowana w czasach seldżuckich przez sułtana Alaeddina Keykubata I w latach 1219-1238, o czym świadczą inskrypcje na budowlach.",
+  "h2Text3": "Atrakcje w pobliżu",
+  "pText9": "Brama Hadriana to doskonały punkt startowy do odkrywania najciekawszych atrakcji Antalyi. Po zwiedzeniu bramy rozważ odwiedzenie pobliskich miejsc:",
+  "h3Text1": "Stary Port",
+  "pText10": "Historyczny port Antalyi, obecnie malownicza marina otoczona restauracjami i oferująca wspaniałe widoki na Morze Śródziemne.",
+  "h3Text2": "Autentyczne uliczki",
+  "pText11": "Odkryj urokliwe, wąskie uliczki i historyczną architekturę najpiękniejszych zakątków Kaleiçi.",
+  "h3Text3": "Wieża Hidirlik",
+  "pText12": "Historyczna rzymska wieża z panoramicznymi widokami na Morze Śródziemne i wybrzeże Antalyi.",
+  "h2Text4": "Legendy Bramy Hadriana",
+  "pText13": "Oprócz znaczenia historycznego, Brama Hadriana przez wieki inspirowała fascynujące legendy. Jedna z nich głosi, że Królowa Saby przeszła przez środkowy łuk bramy, zmierzając na spotkanie z królem Salomonem w Aspendos. Choć to niemożliwe historycznie — brama powstała około tysiąc lat po jej czasach — możliwe, że Brama Hadriana zastąpiła wcześniejszą strukturę powiązaną z tym mitem.",
+  "pText14": "Według innej lokalnej tradycji przejście przez środkowy łuk przynosi szczęście i dobrobyt. To przekonanie sprawia, że brama jest nie tylko zabytkiem, ale także ważnym symbolem kulturowym dla mieszkańców i turystów.",
+  "h2Text5": "Zwiedzanie Bramy Hadriana dziś",
+  "pText15": "Dziś Brama Hadriana stanowi główne wejście do Kaleiçi — starej dzielnicy Antalyi. Brama jest dostępna publicznie 24 godziny na dobę, bezpłatnie. Jej centralne położenie przy Bulwarze Atatürka sprawia, że jest łatwa do znalezienia podczas spaceru po mieście.",
+  "h3Text4": "Najlepszy czas na zwiedzanie",
+  "pText16": "Brama jest dostępna przez cały rok, ale najlepsze pory na zwiedzanie to wczesny ranek lub późne popołudnie, gdy tłumy są mniejsze, a światło idealne do fotografii. Szczególnie magicznie wygląda o zachodzie słońca, gdy marmur nabiera złotej barwy.",
+  "pText17": "Jeśli odwiedzasz latem (czerwiec-sierpień), rozważ zwiedzanie wieczorem, gdy temperatury są niższe, a zabytek pięknie oświetlony.",
+  "h3Text5": "Wskazówki fotograficzne",
+  "liText1": "Z bulwaru Atatürka w stronę Kaleiçi — widok frontalny",
+  "liText2": "Ze środka Kaleiçi patrząc na nowoczesne miasto",
+  "liText3": "Zbliżenia detali dekoracyjnych i głów lwów",
+  "liText4": "Rowki po kołach pod przezroczystą kładką",
+  "liText5": "Kontrast między starożytną bramą a współczesnym życiem miasta",
+  "h2Text6": "Praktyczne informacje dla zwiedzających",
+  "h3Text6": "Lokalizacja i dostęp 📌",
+  "pText18": "Brama Hadriana znajduje się przy Bulwarze Atatürka u wejścia do Kaleiçi w Antalyi. Do miejsca można łatwo dotrzeć komunikacją miejską lub pieszo z większości części centrum Antalyi.",
+  "h3Text7": "Opcje transportu",
+  "pText19": "Spacer: Brama znajduje się w odległości spaceru od centrum Antalyi i wielu hoteli.",
+  "pText20": "Historyczny tramwaj: Zabytkowy tramwaj z Kalekapisi przejeżdża w pobliżu Bramy Hadriana.",
+  "pText21": "Autobus miejski: Kilka linii autobusowych zatrzymuje się przy Bulwarze Atatürka.",
+  "pText22": "Taksówka: Dostępne w całej Antalyi i mogą podwieźć bezpośrednio pod bramę.",
+  "h3Text8": "Udogodnienia dla odwiedzających",
+  "pText23": "Sama Brama Hadriana nie posiada specjalnych udogodnień, ale w pobliżu znajdują się:",
+  "pText24": "Kawiarnie i restauracje",
+  "pText25": "Sklepy z pamiątkami",
+  "pText26": "Toalety",
+  "pText27": "Miejsca do odpoczynku",
+  "h2Text7": "Pomnik łączący tysiąclecia",
+  "pText28": "Brama Hadriana to świadectwo bogatego dziedzictwa historycznego Antalyi i trwałości rzymskiej architektury. To nie tylko starożytny zabytek, ale też brama w sensie dosłownym — obecnie zapraszająca zwiedzających do serca starej Antalyi zamiast rzymskiego miasta Attaleia.",
+  "pText29": "Niezależnie od tego, czy jesteś pasjonatem historii, miłośnikiem architektury, czy po prostu chcesz poczuć klimat Antalyi, Brama Hadriana zapewnia wyjątkowe połączenie z przeszłością i wzbogaca zwiedzanie tego pięknego śródziemnomorskiego miasta. Przechodząc przez jej łuki, stajesz się częścią tradycji sięgającej niemal dwóch tysiącleci — to rzadka okazja, by dosłownie podążać śladami historii.",
+  "h2Text8": "Poznaj Bramę Hadriana z ekspertem",
+  "pText30": "Poznaj fascynujące historie, detale architektoniczne i historyczny kontekst Bramy Hadriana z doświadczonym lokalnym przewodnikiem. Dzięki temu Twoja wizyta nabierze jeszcze głębszego sensu.",
+  "pText31": "Wieża Hidirlik sama w sobie nie ma specjalnych udogodnień, ale w okolicy znajdują się liczne kawiarnie i sklepy.",
+  "pText32": "Sam Tradycyjny Bazar nie posiada dedykowanych udogodnień, ale okolica oferuje wszystko, czego potrzebujesz."
+},
+
+
+"hidirlikTower": {
+  "title": "Wieża Hidirlik: Historyczny klejnot dzielnicy Kaleiçi w Antalyi",
+  "introduction": "Stojąca majestatycznie na południowym skraju urokliwej dzielnicy Kaleiçi (Stare Miasto) w Antalyi, Wieża Hidirlik od prawie dwóch tysiącleci strzeże wybrzeża Morza Śródziemnego. Ta starożytna rzymska budowla oferuje odwiedzającym nie tylko wgląd w bogatą przeszłość Antalyi, ale również jedne z najbardziej spektakularnych panoramicznych widoków na turkusowe morze. Niezależnie od tego, czy jesteś pasjonatem historii, miłośnikiem fotografii, czy po prostu odkrywasz skarby Starego Miasta, ta ikoniczna cylindryczna wieża powinna znaleźć się na Twojej liście miejsc do zobaczenia.",
+  "history_title": "Tło historyczne Wieży Hidirlik",
+  "history1": "Wieża Hidirlik pochodzi z II wieku n.e., z czasów panowania Cesarstwa Rzymskiego, kiedy Antalya nosiła nazwę Attaleia. Historycy spierają się co do jej pierwotnej funkcji, jednak większość dowodów wskazuje, że początkowo została wzniesiona jako monumentalny grobowiec dla znaczącego rzymskiego konsula — prawdopodobnie M. Calpurniusza Rufusa lub M. Petroniusza Umbrinusa.",
+  "history2": "Konstrukcja wieży odzwierciedla klasyczne zasady rzymskiej inżynierii: dolna kondygnacja na planie kwadratu i cylindryczna nadbudowa. Po obu stronach dolnego wejścia widnieje sześć reliefów z liktorami (symbolami noszonymi przez rzymskich urzędników), co potwierdza jej rzymskie pochodzenie.",
+  "history3": "W okresie bizantyjskim (V–VI w. n.e.) wieża przeszła poważną transformację. Włączono ją do miejskich fortyfikacji i przekształcono w latarnię morską, która pomagała statkom bezpiecznie wpłynąć do portu Antalyi. Ta podwójna funkcja – obronna i nawigacyjna – podkreśla strategiczne znaczenie wieży.",
+  "history4": "Na przestrzeni wieków Wieża Hidirlik służyła różnym celom. W czasach seldżuckich była pawilonem, zaś Osmanowie używali jej jako wojskowego magazynu i wieży strażniczej do kontroli ruchu morskiego w Zatoce Antalyi. Ta ewolucja funkcji na przestrzeni wieków czyni z niej fascynujący przykład architektonicznej adaptacji.",
+  "modern_title": "Opis współczesnej Wieży Hidirlik",
+  "modern1": "Dziś Wieża Hidirlik jest jednym z najlepiej zachowanych starożytnych obiektów Antalyi. Jej cylindryczna konstrukcja wznosi się imponująco z kwadratowej podstawy zbudowanej z dużych, precyzyjnie ciosanych bloków wapienia, które znakomicie przetrwały próbę czasu.",
+  "modern2": "Główne wejście od strony północno-wschodniej prowadzi do czterostopniowych schodów z dużych bloków kamiennych. Schody łączą się z korytarzem przypominającym dromos, który otwiera się do głównej komory — uważanej za oryginalną komorę grobową. Trzy duże wnęki z otworami wpuszczają naturalne światło do wnętrza, tworząc podniosły, nastrojowy klimat.",
+  "modern3": "Górny poziom wieży jest dostępny przez 30-stopniowe kamienne schody prowadzące do kwadratowego podestu w centrum, który niegdyś prawdopodobnie mieścił posąg zmarłego. Z tej kondygnacji rozpościerają się spektakularne widoki 360 stopni na Morze Śródziemne, malowniczy port w Antalyi oraz otaczającą dzielnicę Kaleiçi.",
+  "modern4": "Wieża znajduje się dziś na terenie pięknego Parku Karaalioğlu — spokojnej zielonej przestrzeni podnoszącej komfort zwiedzania. Dobrze utrzymane ogrody, ścieżki spacerowe i miejsca do siedzenia sprawiają, że to idealne miejsce na relaks po zwiedzaniu wieży lub po prostu cieszenie się widokami, które zachwycają turystów od pokoleń.",
+  "facts_title": "Ciekawe fakty o Wieży Hidirlik",
+  "facts": [
+    {
+      "imageCaption": "Charakterystyczny zarys Wieży Hidirlik na tle wieczornego nieba",
+      "fact_title": "Konstrukcja o podwójnym przeznaczeniu",
+      "fact_text": "Jednym z najbardziej fascynujących aspektów Wieży Hidirlik jest to, jak pełniła różne funkcje w historii. Rozpoczęła jako monumentalny grobowiec, a później służyła jako obiekt obronny i latarnia morska — to doskonały przykład praktycznej adaptacji architektury do różnych potrzeb i cywilizacji."
+    },
+    {
+      "imageCaption": "Rzymskie reliefy przy wejściu — ważny kontekst historyczny",
+      "fact_title": "Legenda o świętym Hidirze",
+      "fact_text": "Lokalny folklor wiąże wieżę ze św. Hidirem (Khidrem), mistyczną postacią w tradycji islamskiej, kojarzoną z wodą i roślinnością. Według legendy św. Hidir odwiedził to miejsce, błogosławiąc je swoją obecnością. To właśnie temu zawdzięcza dzisiejszą nazwę i status miejsca kulturowego, wykraczającego poza walory architektoniczne."
+    },
+    {
+      "imageCaption": "Wieża Hidirlik pięknie oświetlona nocą",
+      "fact_title": "Ukryte odkrycia archeologiczne",
+      "fact_text": "Niedawne wykopaliska archeologiczne w okolicy wieży odsłoniły dodatkowe rzymskie artefakty i elementy konstrukcyjne, sugerując, że Wieża Hidirlik była częścią większego kompleksu. Te odkrycia pogłębiają naszą wiedzę o znaczeniu Antalyi w czasach rzymskich i roli wieży w starożytnym mieście."
+    }
+  ],
+  "enhance_visit_title": "Urozmaić wizytę dzięki wiedzy eksperta",
+  "enhance_visit_paragraph1": "Poznaj ukryte historie i tajemnice archeologiczne Wieży Hidirlik z doświadczonym lokalnym przewodnikiem. Nasze przewodniki audio dostarczają fascynującego kontekstu historycznego, którego nie znajdziesz w typowych przewodnikach.",
+  "enhance_visit_cta": "Posłuchaj przewodnika audio",
+  "gettingThere_title": "Jak dotrzeć do Wieży Hidirlik",
+  "gettingThere": [
+    {
+      "imageCaption": "Trasy piesze do Wieży Hidirlik z kluczowych miejsc Starego Miasta w Antalyi",
+      "route_title": "Z Kaleiçi (Starego Miasta): 5–10 minut",
+      "route_text": "Wieża Hidirlik jest dogodnie położona na południowym skraju Kaleiçi, co sprawia, że jest łatwo dostępna pieszo z dowolnego miejsca Starego Miasta. Najbardziej malownicza trasa prowadzi przez urokliwe, wąskie uliczki Kaleiçi, obok tradycyjnych domów osmańskich i warsztatów rzemieślniczych."
+    },
+    {
+      "imageCaption": "Urokliwe brukowane uliczki Kaleiçi prowadzą do Wieży Hidirlik",
+      "route_title": "Z Bramy Hadriana: 5 minut",
+      "route_text": "Jeśli zaczynasz od Bramy Hadriana (kolejnego obowiązkowego zabytku rzymskiego), spacer do Wieży Hidirlik zajmie około 15–20 minut. Kieruj się na południe przez Kaleiçi, podążając za znakami do Parku Karaalioğlu. Trasa jest dobrze oznakowana i daje wiele okazji do odkrywania historycznej dzielnicy po drodze."
+    },
+    {
+      "route_title": "Z Portu (Mariny) Starego Miasta: 5 minut",
+      "route_text": "Od strony starego portu Wieża Hidirlik znajduje się zaledwie 5–10 minut spacerem pod górę. Podążaj za znakami do Parku Karaalioğlu, a znajdziesz wieżę na południowym krańcu parku, z widokiem na marinę, z której przyszedłeś."
+    }
+  ],
+  "gettingThere_mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6725431851424!2d30.703145776279144!3d36.88272447210611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009259f7e4f%3A0x8b1817aa2e5f733a!2sH%C4%B1d%C4%B1rl%C4%B1k%20Tower!5e0!3m2!1sen!2sus!4v1699453523018!5m2!1sen!2sus",
+  "publicTransport_title": "Transport publiczny",
+  "publicTram": "Jeśli przyjeżdżasz z innych części Antalyi, najbliższe przystanki tramwajowe to İsmetpaşa lub Doğu Garaji na linii Antray. Z każdego z nich czeka cię około 15–20 minut pieszo do wieży. Miejskie autobusy zatrzymujące się w pobliżu Kaleiçi również dowiozą cię w okolice wieży, ale ostatni odcinek trzeba pokonać pieszo.",
+  "publicBus": "Autobusy miejskie zatrzymujące się przy Kaleiçi pozwalają dotrzeć w okolice wieży, dalsza droga wiedzie pieszo.",
+  "publicTaxi": "Jeśli jedziesz samochodem, w pobliżu Kaleiçi jest kilka publicznych parkingów. Najdogodniejszy znajduje się przy Bramie Hadriana lub wzdłuż ulic wokół Parku Karaalioğlu. Stamtąd to tylko krótki spacer do wieży. Parkowanie w najbliższym otoczeniu wieży jest ograniczone.",
+  "byCar": "Jeśli jedziesz samochodem, w pobliżu Kaleiçi jest kilka publicznych parkingów. Najdogodniejszy znajduje się przy Bramie Hadriana lub wzdłuż ulic wokół Parku Karaalioğlu. Stamtąd to tylko krótki spacer do wieży. Parkowanie w najbliższym otoczeniu wieży jest ograniczone.",
+  "tips_title": "Wskazówki dla zwiedzających Wieżę Hidirlik",
+  "bestTime_title": "Najlepszy czas na wizytę",
+  "bestTime_text": "Aby przeżyć najpiękniejsze chwile, odwiedź Wieżę Hidirlik o zachodzie słońca. Złote światło padające na starożytne kamienie, gdy Morze Śródziemne zmienia barwy na pomarańczowe i fioletowe, tworzy niezapomniany klimat i świetne możliwości fotograficzne. Jeśli cenisz spokój, wybierz się wcześnie rano (przed 10:00).",
+  "photographyTips_title": "Wskazówki fotograficzne",
+  "photographyTips_text": "Weź ze sobą obiektyw szerokokątny, by uchwycić rozległe panoramy z wieży. Najlepsze miejsca do zdjęć to górny poziom (widok na morze i port) oraz zachodnia strona — by sfotografować samą wieżę na tle Morza Śródziemnego. Szczegóły architektoniczne najlepiej fotografować rano, kiedy światło pięknie podkreśla rzeźbienia i reliefy.",
+  "refreshments_title": "Gdzie odpocząć i coś zjeść",
+  "refreshments_text": "Po zwiedzaniu wieży liczne kawiarnie w okolicy zapewniają miejsce na relaks. Vanilla Lounge, kilka minut spacerem od wieży, oferuje wygodne miejsca z widokiem na morze. Jeśli chcesz napić się tradycyjnej tureckiej herbaty lub kawy z panoramą na wybrzeże, odwiedź kawiarnię w Parku Karaalioğlu niedaleko wieży.",
+  "tourOptions_title": "Opcje zwiedzania",
+  "tourOptions_text": "Wieżę Hidirlik możesz zwiedzać samodzielnie lub w ramach pieszej wycieczki z przewodnikiem po Kaleiçi — to najlepszy sposób na zdobycie cennej wiedzy historycznej. Takie wycieczki trwają zwykle 2–3 godziny i obejmują także inne atrakcje Starego Miasta. Alternatywnie dostępne są przewodniki audio dla samodzielnych zwiedzających.",
+  "practicalInfo_title": "Informacje praktyczne",
+  "practicalInfo_list": [
+    "Załóż wygodne buty, bo dojście do wieży i schody wewnątrz są nierówne",
+    "Zabierz wodę, szczególnie latem, gdy temperatury są wysokie",
+    "Pamiętaj o ochronie przeciwsłonecznej — w okolicy jest mało cienia",
+    "Okolice wieży są zwykle spokojne, poza szczytem sezonu turystycznego",
+    "Na zwiedzanie wieży i podziwianie widoków zaplanuj 30–45 minut",
+    "Wejście do wieży i parku jest bezpłatne"
+  ],
+  "magic_title": "Poczuj magię Wieży Hidirlik",
+  "magic_text": "Wieża Hidirlik to żywy dowód historycznej mozaiki Antalyi, oferujący odwiedzającym wyjątkowe połączenie starożytnej architektury, fascynującej historii i zachwycających widoków na Morze Śródziemne. Jako jeden z najlepiej zachowanych rzymskich zabytków w Kaleiçi, daje namacalny kontakt z przeszłością miasta i stanowi ważny punkt orientacyjny także dziś. Niezależnie czy śledzisz ślady starożytnych Rzymian, robisz idealne zdjęcie o zachodzie słońca, czy po prostu szukasz chwili spokoju nad lazurowymi wodami — Wieża Hidirlik nagradza autentycznym klimatem i wzbogaca zwiedzanie Antalyi. Koniecznie uwzględnij ten historyczny klejnot w planie zwiedzania Starego Miasta!",
+  "discoverMore_title": "Odkryj więcej ukrytych skarbów Antalyi",
+  "discoverMore_text": "Urozmaić wizytę, wybierając się na pieszą wycieczkę z przewodnikiem po Kaleiçi, obejmującą Wieżę Hidirlik i inne zabytki. Poznaj ciekawe historie, sekrety i głębszy kontekst dziedzictwa tego starożytnego miasta.",
+  "discoverMore_cta": "Zarezerwuj wycieczkę pieszą"
+},
+
+
+"karaaliogluPark": {
+  "intro_title": "Park Karaalioğlu Antalya: Śródziemnomorska oaza w sercu Turcji",
+  "intro_paragraph": "Położony wzdłuż wspaniałego wybrzeża Morza Śródziemnego Park Karaalioğlu jest jednym z najbardziej cenionych zielonych terenów Antalyi. Ta rozległa przestrzeń oferuje odwiedzającym idealne połączenie naturalnego piękna, historycznego znaczenia oraz panoramicznych widoków na morze, oddających wyjątkowy klimat południowego wybrzeża Turcji.",
+  "location_paragraph": "Położony w samym centrum Antalyi park stanowi spokojne schronienie, do którego zarówno mieszkańcy, jak i turyści uciekają od miejskiego zgiełku, by cieszyć się chwilą wytchnienia. Niezależnie od tego, czy szukasz spokojnego porannego spaceru, malowniczego widoku o zachodzie słońca, czy chcesz poczuć klimat bogatej kultury Antalyi — Park Karaalioğlu zapewnia niezapomniane wrażenia.",
+  "history_title": "Bogata historia Parku Karaalioğlu",
+  "history_paragraph1": "Historia parku sięga lat 40. XX wieku, kiedy został formalnie założony jako publiczny teren rekreacyjny. Początkowo nosił nazwę Parku İnönü na cześć drugiego prezydenta Turcji, później przemianowano go na Karaalioğlu od nazwiska lokalnego właściciela ziemskiego, którego działka przyczyniła się do powstania parku.",
+  "history_paragraph2": "Jeszcze przed oficjalnym założeniem park był popularnym miejscem spotkań mieszkańców Antalyi już na początku XX wieku. Wizję stworzenia tu rozległego publicznego ogrodu zrealizowano pod kierownictwem burmistrza Haşima İşcana, który dostrzegł potrzebę zielonych przestrzeni w dynamicznie rozwijającym się mieście.",
+  "history_paragraph3": "Park zajmuje około 140 000 metrów kwadratowych (14 hektarów) i rozciąga się na klifach na południe od Kaleiçi, historycznego Starego Miasta. Ta strategiczna lokalizacja sprawiła, że park jest nie tylko przestrzenią rekreacyjną, ale również świadkiem wieków śródziemnomorskiej historii.",
+  "features_title": "Wyjątkowe cechy Parku Karaalioğlu",
+  "features_paragraph1": "Park Karaalioğlu słynie z położenia na wysokich klifach nad Morzem Śródziemnym, skąd roztaczają się najpiękniejsze panoramy w Antalyi. Odwiedzający mogą podziwiać rozległe widoki na turkusowe wody Zatoki Antalyjskiej, dramatyczne klify oraz majestatyczne, ośnieżone szczyty gór Beydağlari w oddali.",
+  "features_paragraph2": "W parku znajduje się kilka tarasów widokowych, lokalnie zwanych mirador, które są idealnymi punktami do robienia zdjęć lub kontemplacji. Te punkty widokowe — zwłaszcza o wschodzie lub zachodzie słońca — prezentują naturę w najpiękniejszym wydaniu i należą do najbardziej rozpoznawalnych miejsc w mieście.",
+  "features_paragraph3": "Zadbane ścieżki spacerowe wiją się przez bujny krajobraz parku, zacienione przez sosny, palmy i barwne sezonowe kwiaty. Liczne ławki i trawiaste polany zachęcają do odpoczynku, lektury książki lub pikniku wśród świeżego morskiego powietrza.",
+  "whatToSee_title": "Co zobaczyć w Parku Karaalioğlu",
+  "hidrlikTower_title": "Wieża Hidirlik",
+  "hidrlikTower_paragraph": "Starożytna Wieża Hidirlik to najbardziej charakterystyczny zabytek parku. Pochodząca z II wieku n.e., z okresu rzymskiego, cylindryczna kamienna konstrukcja mogła służyć jako latarnia, grobowiec lub fortyfikacja. Dziś daje wgląd w rzymską przeszłość Antalyi oraz fantastyczne widoki ze swojego szczytu.",
+  "art_monuments_title": "Pomniki i rzeźby",
+  "art_monuments_paragraph": "Miłośnicy sztuki docenią różnorodne nowoczesne rzeźby i pomniki rozmieszczone na terenie parku. Należą do nich pomnik poety Nazıma Hikmeta (z 2010 r.), statua Don Kichota i pomnik \"Robotnik z synem\" — każdy z nich wnosi artystyczny wymiar do otaczającej natury.",
+  "dancingGirls_title": "Rzeźba Tańczących Dziewcząt",
+  "dancingGirls_paragraph": "Rzeźba Tańczących Dziewcząt w centralnej części parku stała się popularnym miejscem na zdjęcia, symbolizującym radość i świętowanie. W pobliżu znajdują się pięknie zaprojektowane fontanny, które swoim dźwiękiem wprowadzają atmosferę relaksu.",
+  "guidedTour_title": "Odkryj Park Karaalioğlu z lokalnym przewodnikiem",
+  "guidedTour_paragraph": "Poznaj ukryte historie i najlepsze punkty widokowe parku podczas wycieczki z doświadczonym lokalnym przewodnikiem. 2-godzinny spacer obejmuje zabytkową Wieżę Hidirlik, sekrety fotograficzne i ciekawe fakty o kulturze Antalyi.",
+  "bookTour_title": "Zarezerwuj zwiedzanie z przewodnikiem",
+  "floraFauna_title": "Flora i fauna Parku Karaalioğlu",
+  "floraFauna_paragraph1": "Park szczyci się bogactwem śródziemnomorskiej roślinności, która przez cały rok tworzy bujne i barwne otoczenie. Wysokie palmy wzdłuż głównych alejek zapewniają przyjemny cień w upalne dni i podkreślają nadmorski charakter parku.",
+  "floraFauna_paragraph2": "Sosny są wszechobecne w parku, uwalniając charakterystyczny, świeży zapach mieszający się z morską bryzą. Oleandry z różowymi i białymi kwiatami dodają koloru, a sezonowe kwiaty sprawiają, że park jest atrakcyjny wizualnie niezależnie od pory roku.",
+  "floraFauna_paragraph3": "Miłośnicy ptaków znajdą tu wiele gatunków zamieszkujących park lub pojawiających się sezonowo. Mewy są częstymi gośćmi z pobliskiego morza, a kolorowe papużki nieraz można zobaczyć wśród drzew. Park, położony na trasach migracyjnych, sprzyja także okazjonalnym obserwacjom ptaków.",
+  "activities_title": "Co robić w Parku Karaalioğlu",
+  "activities_paragraph1": "Najpopularniejszą aktywnością są spacery i jogging po licznych parkowych ścieżkach, odpowiednich dla osób o różnym stopniu sprawności. Główna promenada oferuje widoki na morze, a bardziej ukryte ścieżki prowadzą przez spokojne, zacienione zakątki.",
+  "activities_paragraph2": "Miłośnicy fotografii znajdą tu niezliczone możliwości na ciekawe ujęcia — od rozległych krajobrazów po detale historycznych budowli i egzotycznych roślin. Zmieniające się światło w ciągu dnia nadaje zdjęciom różne nastroje, a tzw. złota godzina przed zachodem słońca jest wyjątkowo magiczna.",
+  "activities_paragraph3": "Piknikowanie to ulubiona rozrywka zarówno mieszkańców, jak i turystów. Warto zabrać koc i tureckie przekąski, by zjeść posiłek na łonie natury. Wyznaczone strefy piknikowe oferują wygodne miejsca do siedzenia i cień.",
+  "morningActivities_title": "Poranne aktywności",
+  "morningActivities_item1": "Fotografowanie wschodu słońca z wschodnich punktów widokowych",
+  "morningActivities_item2": "Poranny jogging wzdłuż ścieżek z widokiem na morze",
+  "morningActivities_item3": "Obserwacja ptaków, gdy są najbardziej aktywne",
+  "morningActivities_item4": "Cicha medytacja w ustronnych ogrodach",
+  "eveningActivities_title": "Wieczorne aktywności",
+  "eveningActivities_item1": "Oglądanie zachodu słońca z zachodnich tarasów",
+  "eveningActivities_item2": "Wieczorne pikniki z rodziną i przyjaciółmi",
+  "eveningActivities_item3": "Wydarzenia kulturalne i występy (sezonowe)",
+  "eveningActivities_item4": "Spokojne spacery, gdy temperatura spada",
+  "photoSpots_title": "Najlepsze miejsca na zdjęcia w Parku Karaalioğlu",
+  "photoSpots_paragraph1": "Zachodnie punkty widokowe na klifach oferują najwspanialsze panoramy Morza Śródziemnego i są idealne do fotografowania krajobrazów. Tarasy zapewniają niezakłócony widok na horyzont — najlepiej fotografować tu zachód słońca.",
+  "photoSpots_paragraph2": "Historyczna Wieża Hidirlik jest zarówno doskonałym motywem fotograficznym, jak i punktem widokowym. Starożytna kamienna budowla świetnie kontrastuje z przyrodą i nowoczesną panoramą miasta.",
+  "photoSpots_paragraph3": "Centralne ogrody kwiatowe wybuchają kolorami wiosną i latem, stanowiąc barwne tło dla zdjęć. Skrupulatnie pielęgnowane rabaty prezentują się efektownie z każdego ujęcia.",
+  "cliffsideViewpoints_title": "Punkty widokowe na klifach",
+  "cliffsideViewpoints_paragraph": "Idealne do panoramicznych zdjęć Morza Śródziemnego i wybrzeża. Najlepiej odwiedzać je podczas złotej godziny dla uzyskania dramatycznego światła.",
+  "historicStructures_title": "Zabytkowe budowle",
+  "historicStructures_paragraph": "Wieża Hidirlik i starożytne mury miejskie stanowią ciekawe motywy, podkreślające bogatą historię Antalyi.",
+  "floralDisplays_title": "Kompozycje kwiatowe",
+  "floralDisplays_paragraph": "Sezonowe rabaty i kompozycje botaniczne umożliwiają zrobienie kolorowych zbliżeń przez cały rok.",
+  "tips_title": "Wskazówki dla odwiedzających Park Karaalioğlu",
+  "tips_paragraph1": "Najlepsze pory na wizytę w parku to wczesny poranek i późne popołudnie. Rano panuje przyjemna temperatura i miękkie światło idealne do fotografii, a wieczorem można podziwiać zachód słońca i spotkać miejscowych spacerujących po parku.",
+  "tips_paragraph2": "Park jest ogólnie bardzo bezpieczny, jednak przy klifach należy zachować ostrożność, zwłaszcza z dziećmi. Wiele punktów widokowych ma zabezpieczenia, ale niektóre są nieosłonięte — zawsze zachowaj bezpieczny dystans od krawędzi.",
+  "tips_paragraph3": "Warto mieć ze sobą wodę, szczególnie latem, gdy temperatury są wysokie. Chociaż w okolicy można kupić napoje, własny zapas zapewni komfort podczas zwiedzania rozległego terenu.",
+  "localsTip_title": "Rada mieszkańca",
+  "localsTip_paragraph": "Aby doświadczyć autentycznego klimatu, odwiedź park między 17:00 a 19:00, kiedy mieszkańcy Antalyi wybierają się na wieczorne spacery. Wtedy park ożywa, można trafić na spontaniczne występy muzyczne lub pikniki rodzinne.",
+  "access_title": "Dojazd i dostępność Parku Karaalioğlu",
+  "access_paragraph1": "Park znajduje się w samym centrum Antalyi, więc łatwo do niego dotrzeć różnymi środkami transportu. Jeśli nocujesz w Kaleiçi (Starym Mieście), park jest w zasięgu krótkiego spaceru — wystarczy kierować się na południe od dzielnicy historycznej.",
+  "access_paragraph2": "Do opcji komunikacyjnych należy nostalgiczny tramwaj z przystankami w pobliżu parku. Linia tramwajowa łączy główne punkty centrum i pozwala cieszyć się widokami podczas jazdy.",
+  "access_paragraph3": "Dla osób z ograniczoną mobilnością większość parku posiada utwardzone alejki dostępne dla wózków inwalidzkich. Główne promenady są płaskie i zadbane, choć niektóre bardziej ustronne ścieżki mogą stanowić wyzwanie.",
+  "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6759132212074!2d30.6989!3d36.8831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009376b0c2d%3A0x9a59a04e3d5a9252!2sKaraalio%C4%9Flu%20Park%C4%B1!5e0!3m2!1sen!2uk!4v1634567890123!5m2!1sen!2uk",
+  "nearbyAttractions_title": "Atrakcje w pobliżu Parku Karaalioğlu",
+  "kaleici_paragraph": "Kaleiçi, urokliwe Stare Miasto w Antalyi, leży tuż obok parku. Ta historyczna dzielnica to plątanina wąskich uliczek, tradycyjnych osmańskich domów, butikowych hoteli i restauracji. Kontrast między przyrodą parku a historycznym bogactwem Kaleiçi tworzy idealny plan zwiedzania.",
+  "hadriansGate_paragraph": "Brama Hadriana, triumfalny łuk zbudowany na cześć wizyty cesarza rzymskiego Hadriana w 130 r. n.e., znajduje się przy północnej granicy parku. Ten doskonale zachowany zabytek z trzema łukami i wieżami to jedna z głównych bram do dzielnicy Kaleiçi.",
+  "marina_paragraph": "Stara Marina to malownicze miejsce na posiłek lub napój po wizycie w parku. Restauracje i kawiarnie nad brzegiem portu oferują piękne widoki na morze i możliwość obserwowania ruchu łodzi przez cały dzień.",
+  "itinerary_title": "Zaplanuj idealną wycieczkę po Antalyi",
+  "itinerary_paragraph": "Połącz wizytę w parku z innymi najważniejszymi atrakcjami Antalyi. Nasi eksperci mogą przygotować spersonalizowany plan zwiedzania obejmujący park, zabytki, plaże i lokalną gastronomię.",
+  "getItinerary_title": "Zamów indywidualny plan podróży",
+  "accessibility_paragraph": "Park Karaalioğlu jest otwarty dla publiczności przez całą dobę i całkowicie bezpłatny, co czyni go świetnym wyborem dla oszczędnych turystów. Można go bezpiecznie odwiedzać o każdej porze, choć najpopularniejsze są godziny dzienne i wczesno-wieczorne. Dogodna lokalizacja w pobliżu Kaleiçi sprawia, że park jest łatwo dostępny zarówno dla mieszkańców, jak i turystów.",
+  "accessibility_paragraph2": "W parku znajduje się kilka małych kawiarni i herbaciarni serwujących turecką herbatę, kawę i lekkie przekąski, a także czyste toalety dla wygody gości. Rodziny z dziećmi docenią dobrze wyposażone place zabaw oraz rozległe trawniki. Park oferuje także zachwycające widoki na Morze Śródziemne, urokliwe ścieżki spacerowe i mnóstwo miejsc na relaks.",
+  "faq_title": "Najczęściej zadawane pytania o Park Karaalioğlu",
+  "faq_question1": "Czy wejście do Parku Karaalioğlu jest płatne?",
+  "faq_answer1": "Nie, park jest całkowicie bezpłatny. Nie pobiera się żadnych opłat za wstęp, dzięki czemu to doskonała propozycja dla osób szukających niedrogich atrakcji w Antalyi. Jednak niektóre obiekty, np. muzea, mogą mieć własne bilety.",
+  "faq_question2": "Jakie są godziny otwarcia Parku Karaalioğlu?",
+  "faq_answer2": "Park jest otwarty przez całą dobę, jednak najwięcej osób odwiedza go od rana do późnego wieczora. Ze względów bezpieczeństwa najlepiej przychodzić w ciągu dnia lub wczesnym wieczorem. Najpiękniej wygląda o zachodzie słońca.",
+  "faq_question3": "Czy w parku są restauracje lub kawiarnie?",
+  "faq_answer3": "W parku i jego okolicy działa kilka małych kawiarni i herbaciarni, gdzie można kupić tradycyjną turecką herbatę, kawę czy przekąski. Większy wybór dań znajdziesz w pobliskiej dzielnicy Kaleiçi.",
+  "faq_question4": "Czy park jest odpowiedni dla dzieci?",
+  "faq_answer4": "Tak, park jest przyjazny rodzinom i oferuje wiele atrakcji dla najmłodszych — place zabaw, trawniki do biegania oraz dużo miejsca na zabawy. Rodzice powinni zachować czujność w pobliżu klifów.",
+  "faq_question5": "Jaka pora roku jest najlepsza na wizytę?",
+  "faq_answer5": "Park jest piękny przez cały rok, ale najprzyjemniejsze temperatury i najwięcej kolorów są wiosną (kwiecień–maj) oraz jesienią (wrzesień–październik). Latem bywa gorąco, ale morska bryza i cień dają ulgę. Zimą panuje łagodny klimat, a tłumy są mniejsze.",
+  "experience_title": "Poczuj magię Parku Karaalioğlu",
+  "experience_paragraph1": "Park Karaalioğlu to idealne połączenie naturalnego piękna, historycznego znaczenia i nowoczesnej przestrzeni rekreacyjnej. Niezależnie, czy robisz zdjęcia krajobrazów, odkrywasz starożytne rzymskie budowle, czy po prostu odpoczywasz wśród ogrodów, ten park jest oazą w samym centrum miasta.",
+  "experience_paragraph2": "Jako jedno z najbardziej lubianych miejsc zielonych w Antalyi, park zachwyca zarówno turystów, jak i mieszkańców. Łatwy dostęp, różnorodność atrakcji i malownicze widoki czynią go obowiązkowym punktem każdej wycieczki po Antalyi."
+},
+
+
+"oldHarbor": {
+  "oldHarbor": {
+    "title": "Odkrywanie Starego Portu w Antalyi: Ponadczasowa perła Kaleiçi",
+
+    "intro": "Położony w historycznym sercu dzielnicy Kaleiçi w Antalyi, Stary Port stanowi żywe świadectwo morskiego dziedzictwa miasta. Ten półksiężycowaty port, niegdyś gospodarcze serce antycznej Antalyi, przekształcił się w tętniący życiem cel turystyczny, gdzie historia spotyka się z nowoczesną rekreacją. Turkusowe wody, tradycyjne drewniane gulety i panoramiczne widoki na góry sprawiają, że Stary Port oferuje zwiedzającym idealne połączenie historycznego znaczenia i współczesnego uroku.",
+
+    "photoCaption1": "Zapierający dech w piersiach widok na Stary Port w Antalyi z tradycyjnymi łodziami i zabytkowymi murami",
+
+    "sectionHistoryTitle": "Historyczne tło Starego Portu w Antalyi",
+
+    "history_paragraph1": "Historia Starego Portu sięga około 150 r. p.n.e., kiedy król Attalos II z Pergamonu założył Antalyę jako bazę morską. Naturalny port szybko stał się fundamentem tożsamości i dobrobytu miasta. Przez wieki był kluczowym ogniwem łączącym Anatolię ze światem śródziemnomorskim.",
+
+    "photoCaption2": "Artystyczna wizja Starego Portu z czasów rzymskich, gdy był ważnym portem Morza Śródziemnego",
+
+    "history_paragraph2": "Za panowania Rzymian port rozkwitł jako główny ośrodek handlowy. Rzymianie wzmocnili fortyfikacje i udoskonalili infrastrukturę portową, czyniąc z Antalyi jeden z najważniejszych portów we wschodniej części Morza Śródziemnego. Znaleziska archeologiczne potwierdzają, że przez te wody przepływały towary z Egiptu, Cypru i Lewantu.",
+
+    "history_paragraph3": "W czasach bizantyjskich port nadal pełnił funkcję największej bazy morskiej południowego wybrzeża Anatolii. Był strategiczną bramą dla handlu do i z Cesarstwa Bizantyjskiego, a Cypr i inne terytoria egejskie korzystały z portu jako głównej drogi do imperium.",
+
+    "photoCaption3": "Starożytne mury miejskie i zabytkowe budynki otaczające port odzwierciedlają jego wielowarstwową historię",
+
+    "history_paragraph4": "Za czasów Seldżuków i Osmanów port pozostał centralnym punktem życia Antalyi. Osmanowie rozwijali infrastrukturę portową, wznosząc nowe budynki i utrzymując port jako ważne centrum handlowe aż do początku XX wieku.",
+
+    "history_paragraph5": "W latach 20. XX wieku port stracił dawne znaczenie i przekształcił się w mniejszą, lecz uroczą marinę, jaką znamy dziś. Ta metamorfoza z tętniącego życiem portu handlowego w miejsce rekreacyjne to nowy rozdział w bogatej historii portu.",
+
+    "sectionModernTitle": "Współczesny Stary Port: Co warto zobaczyć",
+
+    "modern_paragraph1": "Dziś odwiedzający Stary Port w Antalyi spotykają się z malowniczą mariną, która łączy zabytkowe elementy z nowoczesną infrastrukturą. Port został przekształcony z miejsca handlu w tętniące życiem centrum spotkań społecznych i kulturalnych, oddające ducha śródziemnomorskiego życia.",
+
+    "photoCaption4": "Współczesna atmosfera Starego Portu z kawiarniami, restauracjami i jachtami",
+
+    "modern_paragraph2": "Obecnie w porcie działa wiele kawiarni i restauracji, gdzie można wypić tradycyjną turecką herbatę, kawę lub zjeść posiłek, podziwiając niesamowite widoki. Lokale te — od casualowych kawiarni po ekskluzywne restauracje — łączy jedno: widok na turkusową wodę portu.",
+
+    "modern_paragraph3": "Zamiast statków handlowych port gości dziś prywatne jachty oraz tradycyjne drewniane gulety oferujące rejsy wzdłuż wybrzeża. Te wycieczki łodzią pozwalają spojrzeć na wybrzeże Antalyi i majestatyczne Góry Taurus z wyjątkowej perspektywy.",
+
+    "photoCaption5": "Tradycyjne gulety oferują rejsy po wybrzeżu z portu",
+
+    "modern_paragraph4": "Spacerując po okolicach portu, można zajrzeć do lokalnych sklepików z rękodziełem, antykami i pamiątkami. Wąskie uliczki prowadzące z portu do Kaleiçi pełne są butików z biżuterią czy tradycyjnymi tureckimi dywanami.",
+
+    "modern_paragraph5": "Atmosfera Starego Portu zmienia się w ciągu dnia: rano panuje tu spokój, a wieczorem miejsce zamienia się w tętniące życiem centrum spotkań zarówno dla mieszkańców, jak i turystów, którzy przychodzą podziwiać zachód słońca i nocne iluminacje historycznych budynków.",
+
+    "sectionExperienceTitle": "Poczuj magię Starego Portu",
+
+    "experience_paragraph1": "Chcesz zanurzyć się w bogatej historii i pięknie Starego Portu? Profesjonalni przewodnicy odkryją przed tobą ukryte historie i sekrety, których większość turystów nie zauważa.",
+
+    "experience_paragraph2": "Zarezerwuj wycieczkę z przewodnikiem po porcie",
+
+    "sectionFactsTitle": "Ciekawostki o Starym Porcie w Antalyi",
+
+    "facts_quote": "Port w Antalyi był świadkiem ponad dwóch tysiącleci historii Morza Śródziemnego — od statków starożytnych królów po dzisiejsze łodzie rekreacyjne.",
+
+    "fact_engineeringTitle": "Starorzymska inżynieria",
+    "fact_engineering_paragraph": "Oryginalny port powstał przy użyciu zaawansowanych technik inżynieryjnych swoich czasów. Inżynierowie rzymscy zbudowali falochrony z masywnych bloków kamiennych — niektóre wciąż można dostrzec pod wodą. Chroniły one statki przed otwartym morzem, zapewniając jednocześnie łatwy dostęp do portu.",
+    "photoCaption6": "Podwodne pozostałości starożytnych rzymskich konstrukcji portowych",
+
+    "fact_hadrianTitle": "Wizyta cesarza Hadriana",
+    "fact_hadrian_paragraph": "Cesarz Hadrian odwiedził port w 130 r. n.e. — wydarzenie tak istotne, że w mieście wzniesiono na jego cześć monumentalną bramę z trzema łukami. Ta budowla, znana dziś jako Brama Hadriana, stoi do dziś obok portu i jest jedną z najważniejszych atrakcji historycznych Antalyi.",
+    "photoCaption7": "Brama Hadriana zbudowana na pamiątkę wizyty cesarza w porcie",
+
+    "fact_byzantineTitle": "Bizantyjska baza morska",
+    "fact_byzantine_paragraph": "W czasach bizantyjskich Stary Port był najważniejszą bazą morską cesarstwa na południowym wybrzeżu Anatolii. Z dokumentów historycznych wynika, że w porcie stacjonowała znaczna flota chroniąca szlaki handlowe Bizancjum i odpierająca najazdy arabskiej marynarki.",
+    "photoCaption8": "Artystyczna rekonstrukcja portu z czasów bizantyjskich",
+
+    "fact_transformationTitle": "Metamorfoza portu",
+    "fact_transformation_paragraph": "W latach 70. XX wieku port przeszedł gruntowną renowację, która przekształciła go z zaniedbanego portu handlowego w turystyczną atrakcję. Konserwacja zabytkowych elementów i dodanie nowoczesnej infrastruktury pozwoliły zachować równowagę między historią a współczesnością.",
+    "photoCaption9": "Metamorfoza Starego Portu — od portu handlowego do atrakcji turystycznej",
+
+    "sectionGettingThereTitle": "Jak dotrzeć do Starego Portu w Antalyi",
+
+    "gettingThere_intro": "Stary Port jest położony w sercu historycznej dzielnicy Antalyi i łatwo do niego dotrzeć różnymi środkami transportu. Niezależnie od tego, czy nocujesz w centrum miasta, czy przyjeżdżasz z dalszych okolic, dotarcie do tej historycznej mariny jest proste.",
+
+    "gettingThere_mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.2612109591!2d30.70245371527305!3d36.88355197992895!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39009a1644927%3A0x97bd019ea3f28131!2sOld%20City%20Marina!5e0!3m2!1sen!2us!4v1650123456789!5m2!1sen!2us",
+
+    "photoCaption10": "Lokalizacja Starego Portu w dzielnicy Kaleiçi w Antalyi",
+
+    "gettingThere_publicTransportTitle": "Transport publiczny",
+
+    "gettingThere_tram": "Wysiądź z tramwaju AntRay na przystanku \"İskele\" — to zaledwie 5 minut spacerem od portu.",
+    "gettingThere_bus": "Wiele miejskich linii autobusowych zatrzymuje się w pobliżu Kalekapisi (Brama Miejska), skąd do portu jest ok. 10 minut spacerem w dół.",
+    "gettingThere_taxi": "Taksówki są łatwo dostępne w całej Antalyi i mogą dowieźć cię bezpośrednio do wejścia do portu.",
+
+    "gettingThere_walkingTitle": "Trasy piesze",
+
+    "gettingThere_walk_fromHadriansGate": "Od Bramy Hadriana: Malowniczy 10-minutowy spacer wąskimi uliczkami Kaleiçi.",
+    "gettingThere_walk_fromHadriansGate2": "Od Kalekapisi (Wieża Zegarowa): Około 15 minut spacerem w dół.",
+    "gettingThere_walk_fromHadriansGate3": "Od Placu Republiki: 20 minut pieszo Aleją Atatürka i przez Kaleiçi.",
+
+    "sectionVisitingTipsTitle": "Wskazówki praktyczne do zwiedzania Starego Portu",
+
+    "visitingTips_intro": "Skorzystaj z tych praktycznych porad, by jak najlepiej wykorzystać wizytę w tej historycznej marinie. Dowiedz się, kiedy najlepiej przyjść i gdzie robić zdjęcia — te wskazówki wzbogacą twoje doświadczenie.",
+
+    "visitingTips_bestTimeTitle": "Najlepszy czas na wizytę",
+
+    "visitingTips_1": "Poranek (7-9) oferuje spokojne widoki i doskonałe światło do fotografii. Zachód słońca (ok. 19-20 latem) daje magiczne, złote światło na wodzie i budynkach.",
+    "visitingTips_2": "Dni powszednie są mniej zatłoczone, zwłaszcza rano.",
+    "visitingTips_3": "Najlepsze miesiące to kwiecień-czerwiec i wrzesień-październik — wtedy jest mniej tłumów i przyjemniejsze temperatury.",
+
+    "photoCaption11": "Magiczny zachód słońca nad Starym Portem — jedna z najlepszych pór na wizytę",
+
+    "sectionPhotoSpotsTitle": "Najlepsze miejsca do fotografowania",
+    "photoSpots_intro": "Zrób niezapomniane zdjęcia w tych wyjątkowych punktach:",
+    "photoSpots_1": "Widok z góry: Tarasy kawiarni po wschodniej stronie portu oferują panoramę mariny.",
+    "photoSpots_2": "Odbicia: Rano, gdy woda jest spokojna, uzyskasz idealne odbicia łodzi i budynków.",
+    "photoSpots_3": "Kadrowanie: Kamienny łuk przy wejściu do portu stanowi doskonałą ramę dla zdjęć.",
+    "photoSpots_4": "Kontrast historyczny: Spróbuj uchwycić na jednym zdjęciu starożytne mury i nowoczesne jachty.",
+    "photoCaption12": "Kamienne łuki naturalnie kadrują port na zdjęciach",
+
+    "sectionNearbyAttractionsTitle": "Atrakcje w pobliżu portu",
+    "nearbyAttractions_intro": "Połącz wizytę w porcie z poniższymi miejscami w okolicy:",
+
+    "nearbyAttractions_hadriansGateTitle": "Brama Hadriana",
+    "nearbyAttractions_hadriansGate_desc": "Dobrze zachowany rzymski łuk triumfalny znajduje się zaledwie 10 minut spacerem od portu i pozwala poznać rzymską przeszłość Antalyi.",
+    "photoCaption13": "Wspaniała Brama Hadriana — kilka minut pieszo od portu",
+
+    "nearbyAttractions_yivliMinareTitle": "Yivli Minare (Żłobkowany Minaret)",
+    "nearbyAttractions_yivliMinare_desc": "Charakterystyczny seldżucki minaret z XIII wieku to symbol Antalyi i doskonały punkt widokowy na port.",
+    "photoCaption14": "Ikoniczny Żłobkowany Minaret — symbol miasta",
+
+    "nearbyAttractions_mermerliBeachTitle": "Plaża Mermerli",
+    "nearbyAttractions_mermerliBeach_desc": "Mała, ale urokliwa plaża tuż obok portu, idealna na relaks po zwiedzaniu.",
+    "photoCaption15": "Plaża Mermerli — świetne miejsce na odpoczynek tuż przy marinie",
+
+    "sectionDiscoverMoreTitle": "Odkryj więcej skarbów Kaleiçi",
+    "discoverMore_paragraph": "Stary Port to tylko jeden z historycznych klejnotów Starego Miasta. Odkrywaj wąskie uliczki, zabytkowe budowle i ukryte dziedzińce z lokalnym przewodnikiem.",
+    "discoverMore_tourCta": "Zarezerwuj wycieczkę po porcie i Starym Mieście",
+
+    "sectionPracticalInfoTitle": "Praktyczne informacje dla odwiedzających",
+    "practicalInfo_openingHoursTitle": "Godziny otwarcia i opłaty",
+    "practicalInfo_openingHours": "Stary Port jest otwarty dla zwiedzających przez całą dobę, przez cały rok. Wstęp do samego portu jest bezpłatny.",
+    "practicalInfo_establishments": "Lokale w porcie mają własne godziny otwarcia — najczęściej od 9:00 do późnego wieczora, szczególnie w sezonie letnim.",
+
+    "sectionExperienceFinalTitle": "Poczuj magię Starego Portu w Antalyi",
+
+    "experienceFinal_paragraph1": "Stary Port jest idealnym przykładem połączenia bogatej historii miasta z nowoczesnością. Od czasów antycznych po współczesną marinę, port wciąż jest sercem dzielnicy Kaleiçi.",
+
+    "experienceFinal_paragraph2": "Niezależnie, czy podziwiasz widok z kawiarni nad wodą, spacerujesz po historycznych uliczkach, czy wyruszasz w rejs guletem — port łączy przeszłość i teraźniejszość tego niezwykłego miasta.",
+
+    "photoCaption16": "Magiczna wieczorna atmosfera w Starym Porcie",
+
+    "experienceFinal_paragraph3": "Planując wizytę w Antalyi, zaplanuj czas na odwiedzenie Starego Portu o różnych porach dnia. Rano obserwuj powracających rybaków, po południu poczuj atmosferę wśród odpływających łodzi, a o zachodzie słońca podziwiaj widoki, które zachwycają gości od pokoleń.",
+
+    "sectionReadyToExploreTitle": "Gotowy na odkrycie Starego Portu i okolic?",
+
+    "readyToExplore_paragraph": "Poznaj w pełni historię i piękno Starego Portu i dzielnicy Kaleiçi z lokalnymi przewodnikami, którzy ożywią opowieści tego miejsca.",
+
+    "readyToExplore_cta": "Zarezerwuj wycieczkę już dziś"
+  }
+},
+
+
+"traditionalBazaar": {
+  "title": "Odkrywanie Tradycyjnych Bazarków Kaleici w Antalyi: Przewodnik dla podróżników",
+  "intro": "Położone w historycznym sercu Antalyi tradycyjne bazary Kaleici oferują podróżnym fascynującą podróż przez wieki tureckiego handlu i kultury. Te tętniące życiem targowiska, ukryte pomiędzy antycznymi murami miejskimi i osmańskimi budynkami, tworzą labirynt, w którym zapachy przypraw, blask ręcznie wykonanej biżuterii i żywe kolory tkanin łączą się w autentyczne tureckie doświadczenie zakupowe.",
+  
+  "historyTitle": "Historia Bazarków Kaleici",
+  "historyParagraph1": "Bazary Kaleici sięgają II wieku p.n.e., kiedy Antalya (wówczas Attaleia) stała się ważnym portem łączącym Morze Śródziemne z szlakami lądowymi Anatolii. Kupcy z całego antycznego świata zjeżdżali do Antalyi, a fundamenty tradycyjnych targów Kaleici były budowane już wtedy. W okresie bizantyjskim rynek się rozrastał, pojawiały się specjalistyczne działy dla różnych towarów, co podkreślało rosnące znaczenie handlowe dzielnicy. Te dawne targowiska nie tylko napędzały handel, ale także współtworzyły dynamiczne życie miejskie, które trwa w Kaleici po dziś dzień.",
+  "historyParagraph2": "W czasach osmańskich, od XV do początków XX wieku, bazary Kaleici rozkwitły, zyskując swoje charakterystyczne cechy architektoniczne i organizacyjne. Samo słowo 'bazaar' pochodzi z języka perskiego, co wskazuje na multikulturowe wpływy. Osmanowie zorganizowali rynki w sekcje zwane 'hanami' lub 'bedestenami', gdzie różne rzemiosła były zgrupowane razem. W przeciwieństwie do wielkich, zadaszonych bazarów Stambułu, targowiska Kaleici rozwijały się organicznie, dostosowując się do pagórkowatego terenu i krętych uliczek starego miasta. To wyjątkowe rozplanowanie i autentyczny lokalny charakter stanowią o uroku bazarów Kaleici do dziś.",
+  "historyParagraph3": "Wiele budynków, w których mieszczą się dzisiejsze sklepy na bazarze Kaleici, pochodzi z XVIII i XIX wieku, choć elementy architektoniczne wcześniejszych epok są nadal widoczne w całej dzielnicy. Prace restauracyjne, które rozpoczęły się w latach 80. XX wieku, zachowały historyczny charakter obszaru, jednocześnie przystosowując go do współczesnego handlu. Dziś bazar Kaleici to żywe muzeum historii tureckiego handlu, gdzie tradycyjne rzemiosło, współczesne pamiątki i codzienny handel istnieją obok siebie. To miejsce odzwierciedla wieki handlu, wymiany kulturowej i bogatego dziedzictwa starego miasta Antalyi.",
+
+  "atmosphereTitle": "Wyjątkowa atmosfera targowisk",
+  "atmosphereParagraph1": "Spacer po tradycyjnych bazarach Kaleici w Antalyi to prawdziwie immersyjne doświadczenie. Wąskie, kręte brukowane uliczki tworzą intymny klimat, gdzie przestrzenie zamknięte i otwarte mieszają się ze sobą, zacienione kolorowymi markizami i bujnymi winoroślami. Żywy krajobraz dźwiękowy — nawoływania sprzedawców, stukot szklanek z herbatą, targowanie się i tradycyjna turecka muzyka — tworzą autentyczną atmosferę, która wyróżnia te rynki spośród zabytkowych dzielnic Turcji.",
+  "atmosphereParagraph2": "W przeciwieństwie do zatłoczonego Wielkiego Bazaru w Stambule, targi Kaleici mają spokojniejsze i bardziej gościnne tempo. Sprzedawcy są znani z prawdziwej gościnności i często zapraszają turystów na jabłkową herbatę i rozmowę. Ta serdeczność, w połączeniu z organicznym układem bazaru podążającym za konturami historycznego miasta, pozwala na naturalne punkty widokowe z których można podziwiać błękit Morza Śródziemnego za murami Antalyi.",
+  "atmosphereParagraph3": "Charakter bazaru zmienia się w ciągu dnia i pór roku. Rano lokalni mieszkańcy robią codzienne zakupy, w południe bazar przyciąga turystów oraz szeroką gamę pamiątek i rękodzieła. Wieczorem miękkie światła i rozgrzane kamienie tworzą przytulną atmosferę. Latem tłum i wystawy na zewnątrz tętnią życiem, zimą bazar odsłania bardziej autentyczne, spokojne oblicze lokalnego życia.",
+
+  "shoppingTipsTitle": "Porady zakupowe dla odwiedzających",
+  "shoppingTipsParagraph1": "Targowanie się to nieodłączna i przyjemna część zakupów na bazarach Kaleici. Zacznij od okazania szczerego zainteresowania przed zapytaniem o cenę, następnie zaproponuj około 40-50% mniej jako pierwszą kontrpropozycję. Większość transakcji kończy się przyjacielskim negocjowaniem. Najlepsze pory na zakupy to wczesny ranek i późne popołudnie, kiedy atmosfera jest spokojniejsza, a południe bywa gorące i tłoczne, szczególnie latem.",
+  "shoppingTipsParagraph2": "Zawsze porównuj jakość produktów w kilku sklepach — przyjrzyj się dywanom pod kątem gęstości splotu i równych wzorów, a ceramice pod kątem gładkości szkliwa. Zapytaj o możliwość międzynarodowej wysyłki większych zakupów i poproś o szczegóły na piśmie. Wielu sprzedawców preferuje gotówkę (liry tureckie), ale większe sklepy akceptują karty. Warto wypłacić gotówkę przed wejściem na teren bazaru.",
+  "shoppingTipsParagraph3": "Rób zdjęcia przedmiotów, które rozważasz — ułatwi to porównanie później, ale zawsze poproś o zgodę sprzedawcy. Naucz się kilku tureckich zwrotów przydatnych przy zakupach, np. 'Ne kadar?' (Ile kosztuje?) czy 'Biraz indirim yapabilir misiniz?' (Czy może Pan/Pani trochę obniżyć cenę?). Uważaj na samozwańczych przewodników oferujących pokazanie 'najlepszych sklepów' — mogą pobierać prowizję, co zwykle kończy się wyższą ceną. Przed zakupem produktów spożywczych sprawdź przepisy dotyczące importu w swoim kraju.",
+
+  "faqTitle": "Najczęściej zadawane pytania",
+  "faq1Question": "Czy na bazarach Kaleici można się targować?",
+  "faq1Answer": "Tak, targowanie się jest oczekiwane w większości sklepów na tradycyjnych bazarach Kaleici w Antalyi. Zacznij od oferty stanowiącej około 40-50% ceny wywoławczej i negocjuj uprzejmie, aż osiągniesz satysfakcjonującą cenę.",
+  "faq2Question": "Czym bazary Kaleici różnią się od Wielkiego Bazaru w Stambule?",
+  "faq2Answer": "Bazary Kaleici to otwarte rynki splecione z zabytkową dzielnicą Antalyi, z luźniejszą atmosferą i mniej natarczywymi sprzedawcami niż w Stambule. Oferują lokalne rzemiosło i pamiątki śródziemnomorskie w bardziej kameralnej scenerii.",
+  "faq3Question": "Jak rozpoznać autentyczne tureckie rękodzieło na bazarze?",
+  "faq3Answer": "Prawdziwe tureckie rzemiosło rozpoznasz po ręcznej pracy i unikalnych detalach, np. pojedynczych supłach w dywanach lub ręcznie malowanych wzorach na ceramice. Pytaj sprzedawców o pochodzenie i proces wytwarzania — renomowane sklepy chętnie udzielają informacji i mogą wystawić certyfikat wartościowych przedmiotów.",
+
+  "conclusionTitle": "Podsumowanie",
+  "conclusionParagraph1": "Tradycyjne bazary Kaleici w Antalyi to nie tylko miejsce zakupów — to zanurzenie w turecką kulturę, rzemiosło i gościnność. Każda wizyta to okazja, by nawiązać kontakt z lokalnymi rzemieślnikami i doświadczyć tradycji przekazywanych przez pokolenia.",
+  "conclusionParagraph2": "Niezależnie czy targujesz się o ręcznie tkany dywan, wybierasz unikalną biżuterię czy pijesz herbatę z kupcem — każde takie spotkanie tworzy niezapomniane wspomnienia, wykraczające poza zwykłą turystykę.",
+  "conclusionParagraph3": "Opuszczając historyczne targi Antalyi, zabierasz do domu nie tylko pamiątki, ale i głębsze zrozumienie tureckiej kreatywności i tradycji. Bazary Kaleici pozostają żywym centrum handlu i wymiany kulturowej, zachowując prawdziwego ducha tureckiego dziedzictwa.",
+
+  "practicalInfoTitle": "Informacje praktyczne dla turystów",
+  "practicalInfoParagraph1": "Tradycyjne bazary Kaleici znajdują się w centrum starego miasta Antalyi, a główne wejście jest blisko Bramy Hadriana. Zwiedzający mogą łatwo dotrzeć na bazar pieszo, transportem publicznym lub taksówką. Sklepy zwykle otwierają się o 9:00 i są czynne do 19:00, a w sezonie letnim często dłużej. Większość otwarta jest w piątki, choć niektóre zamykają się na czas modlitwy.",
+  "practicalInfoParagraph2": "Wąskie, przyjazne pieszym uliczki bazaru umożliwiają bezpieczne zwiedzanie, choć od czasu do czasu pojawiają się motory dostawcze. Kieszonkostwo jest rzadkie, ale możliwe w tłumie — trzymaj torby blisko siebie. Większość sklepów akceptuje karty kredytowe, ale mniejsi sprzedawcy wolą gotówkę (liry tureckie). Toalety są ograniczone, ale znajdują się w pobliżu Bramy Hadriana, mariny i w kawiarniach.",
+  "practicalInfoParagraph3": "Bądź świadomy, że bazary Kaleici mają nierówną nawierzchnię, schody i strome fragmenty z powodu historycznego, pagórkowatego terenu. Główne ulice są dostępne, ale niektóre zaułki mogą być trudne dla osób na wózkach lub z ograniczoną mobilnością.",
+  "toursTitle":"Zwiedzaj bazary Kaleici z lokalnym przewodnikiem",
+  "toursText":"Odkryj ukryte skarby i naucz się sztuki targowania pod okiem eksperta, który doskonale zna miejscowy rynek."
+},
+
+
+"authentic-streets": {
+  "title": "Odkrywanie Autentycznych Uliczek Kaleici: Historyczne Serce Antalyi",
+  "intro": "W samym środku nowoczesnego zgiełku Antalyi kryje się Kaleici – labirynt wąskich brukowanych uliczek, które szepczą opowieści z minionych wieków. Ta historyczna dzielnica, której nazwa oznacza „wewnątrz murów”, oferuje podróżnym autentyczny wgląd w bogate osmańskie dziedzictwo Turcji. Wędrując jej krętymi ścieżkami, odkryjesz żywą bugenwillę oplatającą starożytne kamienne mury, tradycyjne drewniane domy z rzeźbionymi drzwiami i łagodny rytm lokalnego życia, który pozostał niemal niezmieniony przez pokolenia. W przeciwieństwie do pełnych kurortów wybrzeży, z których słynie Antalya, autentyczne uliczki Kaleici zapraszają, by zwolnić i poczuć głębszy kontakt z turecką kulturą.",
+  "historyTitle": "Podróż przez wieki: Historyczne tło Kaleici",
+  "history": {
+    "p": "Historia Kaleici zaczyna się w II wieku p.n.e., kiedy region został założony przez króla Attalosa II z Pergamonu, który nadał mu nazwę „Attaleia” na swoją cześć. To starożytne miasto portowe stało się później kluczowym portem rzymskim, o czym świadczy okazała Brama Hadriana, która do dziś stoi jako główne wejście do starego miasta. Przechodząc przez ten triumfalny łuk zbudowany w 130 r. n.e. na cześć wizyty cesarza Hadriana, dosłownie podążasz śladami rzymskich dostojników, którzy przechodzili tymi samymi kamiennymi portalami niemal dwa tysiące lat temu.",
+    "p1": "Na przestrzeni wieków Kaleici przekształcało się pod panowaniem Bizantyjczyków, Seldżuków, a wreszcie Osmanów, z których każda cywilizacja pozostawiła po sobie unikalny ślad architektoniczny. Największy wpływ miał okres osmański (od XV do początku XX wieku), kształtując dzisiejszy charakter Kaleici – drewniane domy z wystającymi piętrami i wewnętrznymi dziedzińcami, które zapewniały prywatność i komfort w śródziemnomorskim klimacie. To właśnie ta warstwowa historia, widoczna od starożytnych murów po karbowany minaret meczetu Yivli Minare, czyni autentyczne uliczki Kaleici tak wyjątkowymi.",
+    "p2": "Ostatnie dziesięciolecia przyniosły szeroko zakrojone prace restauracyjne, które przekształciły niegdyś zaniedbaną okolicę w jedną z najurokliwszych zabytkowych dzielnic Turcji. Lokalne władze zadbały o zachowanie autentycznego charakteru, jednocześnie umożliwiając rozwój butikowych hoteli, restauracji i sklepów, które dziś wnoszą nową energię ekonomiczną w te starożytne uliczki."
+  },
+  "streetsTitle": "Zgubić się w labiryncie: Najważniejsze uliczki Kaleici",
+  "streetsIntro": "Urok Kaleici kryje się w sieci wąskich, krętych uliczek, które jakby zostały zaprojektowane, by sprawić przyjemność błądzenia. Każda z nich ma własny charakter, historię i skarby czekające na odkrycie. Oto niektóre z najbardziej charakterystycznych uliczek oddających autentyczną esencję tej historycznej dzielnicy:",
+  "streets": {
+    "hesapci": {
+      "title": "Hesapçı Sokak",
+      "text": "Często uważana za główną arterię Kaleici, Hesapçı Sokak tętni życiem od rana do późnego wieczora. Przy tej ulicy znajdują się jedne z najlepiej zachowanych osmańskich domów, z których wiele zostało przekształconych w butikowe hotele i restauracje. Nazwa oznacza „Ulica Księgowych”, co podkreśla jej dawną rolę centrum handlowego. Dziś to idealne miejsce, by usiąść w kawiarni pod gołym niebem, napić się tureckiej herbaty i obserwować życie miasta."
+    },
+    "uzun-carsi": {
+      "title": "Uzun Çarşı Sokak",
+      "text": "Nazwa oznacza „Długą Ulicę Bazarową” i rzeczywiście ta ruchliwa arteria od wieków służy jako miejsce zakupów. Znajdziesz tu wszystko – od wyrobów skórzanych i tradycyjnych dywanów po miedziane tygielki i amulety przeciw złemu oku. Szczególny urok tej ulicy to kontynuacja starożytnych rzemiosł – w niektórych warsztatach do dziś stosuje się techniki przekazywane z pokolenia na pokolenie, co pozwala podejrzeć tradycyjne metody produkcji rzadko spotykane w masowej produkcji."
+    },
+    "mermerli": {
+      "title": "Mermerli Sokak",
+      "text": "Ta malownicza uliczka prowadzi w dół w stronę plaży Mermerli i starego portu, oferując zapierające dech widoki na Morze Śródziemne. Łagodny spadek ozdobiony jest najbardziej fotogenicznymi budynkami Kaleici, których drewniane balkony oplatają kwiaty. Na końcu ulicy czeka niewielka, ale urokliwa plaża Mermerli – idealna na ochłodę po zwiedzaniu nasłonecznionych uliczek."
+    }
+  },
+  "conclusion": "To, co czyni te uliczki wyjątkowymi, to nie tylko ich historyczne znaczenie czy piękno architektury, ale fakt, że nadal są żywą częścią miasta. W przeciwieństwie do niektórych zbyt wyrestaurowanych zabytkowych dzielnic, które przypominają skanseny, autentyczne uliczki Kaleici są zamieszkane przez mieszkańców, tworząc atmosferę, w której historia i współczesność współistnieją w niezwykłej harmonii.",
+
+  "nearbyTitle": "Co warto zobaczyć przy uliczkach Kaleici",
+  "nearbyText": "Choć najlepszą strategią jest swobodne błądzenie, niektórych zabytków nie można pominąć zwiedzając autentyczne uliczki Kaleici. Te historyczne skarby pomagają zrozumieć bogatą przeszłość tej okolicy:",
+  "toursTitle": "Chcesz odkryć ukryte historie?",
+  "toursText": "Dla tych, którzy wolą zwiedzanie z przewodnikiem, lokalne piesze wycieczki odkrywają historię i legendy Kaleici, które łatwo przegapić samemu. Prowadzone przez mieszkańców, trwają zwykle 2-3 godziny i można je zamówić z wyprzedzeniem lub przez hotel."
+}
+}
+
+

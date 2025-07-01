@@ -467,12 +467,46 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/traditional-bazaar' },
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'canonical', href: 'https://example.com/traditional-bazaar' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/traditional-bazaars' },
+
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
+
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Traditional Bazaars",
+        "description": "Stroll through lively markets where local artisans sell handcrafted goods, spices, textiles, and souvenirs.",
+        "image": "https://example.com/images/traditional-bazaars.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Antalya",
+          "addressCountry": "TR"
+        },
+        "url": "https://example.com/traditional-bazaars"
+      })
+    }
+  ]
+})
+
+
+
+
 </script>
 

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <!-- Home -->
+  <url>
+    <loc>https://example.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/" />
+  </url>
+
+  <!-- Attractions -->
+  <url>
+    <loc>https://example.com/attractions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/attractions" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/attractions" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/attractions" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/attractions" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/attractions" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/attractions" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/attractions" />
+  </url>
+
+  <!-- Tours -->
+  <url>
+    <loc>https://example.com/tours</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/tours" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/tours" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/tours" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/tours" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/tours" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/tours" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/tours" />
+  </url>
+
+  <!-- Travel Tips -->
+  <url>
+    <loc>https://example.com/travel-tips</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/travel-tips" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/travel-tips" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/travel-tips" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/travel-tips" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/travel-tips" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/travel-tips" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/travel-tips" />
+  </url>
+
+  <!-- Old Harbor -->
+  <url>
+    <loc>https://example.com/old-harbor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/old-harbor" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/old-harbor" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/old-harbor" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/old-harbor" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/old-harbor" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/old-harbor" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/old-harbor" />
+  </url>
+
+  <!-- Karaalioglu Park -->
+  <url>
+    <loc>https://example.com/karaalioglu-park</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/karaalioglu-park" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/karaalioglu-park" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/karaalioglu-park" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/karaalioglu-park" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/karaalioglu-park" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/karaalioglu-park" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/karaalioglu-park" />
+  </url>
+
+  <!-- Traditional Bazaars -->
+  <url>
+    <loc>https://example.com/traditional-bazaars</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/traditional-bazaars" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/traditional-bazaars" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/traditional-bazaars" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/traditional-bazaars" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/traditional-bazaars" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/traditional-bazaars" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/traditional-bazaars" />
+  </url>
+
+  <!-- Hadrian's Gate -->
+  <url>
+    <loc>https://example.com/hadrians-gate</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/hadrians-gate" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/hadrians-gate" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/hadrians-gate" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/hadrians-gate" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/hadrians-gate" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/hadrians-gate" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/hadrians-gate" />
+  </url>
+
+  <!-- Hidirlik Tower -->
+  <url>
+    <loc>https://example.com/hidirlik-tower</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/hidirlik-tower" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://example.com/ru/hidirlik-tower" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/tr/hidirlik-tower" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/hidirlik-tower" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://example.com/ua/hidirlik-tower" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/hidirlik-tower" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://example.com/pl/hidirlik-tower" />
+  </url>
+
+</urlset>

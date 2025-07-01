@@ -3,7 +3,7 @@
   "navigation": {
     "home": "Home",
     "attractions": "Attractions",
-    "travel-tips": "Travel Tips",
+    "": "Travel Tips",
     "tours": "Tours & Guides"
   },
   "footer": {
@@ -177,7 +177,7 @@
     "taxi": "Taxis are widely available and can drop you off directly at Kaleiçi's gates."
   },
 
-    "tours": {
+    "toursHome": {
       "title": "Ready to Explore the Magic of Antalya Old Town?",
       "subtitle": "Discover the perfect balance of history, culture, and Mediterranean charm with our expertly guided tours.",
       "description": "From hidden courtyards to panoramic viewpoints, experience the authentic heart of Kaleici with knowledgeable local guides who bring its stories to life.",

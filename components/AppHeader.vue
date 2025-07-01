@@ -1,15 +1,13 @@
 <template>
   <header
     ref="header"
-    class="fixed top-0 left-0 right-0 h-16 transition-all duration-300 z-50 flex items-center"
-    :class="[
-      isHeaderVisible ? 'translate-y-0' : '-translate-y-full'
-    ]"
+    class="fixed top-0 left-0 right-0 h-16 transition-all duration-300 z-50 flex items-center bg-transparent"
+    :class="[{ 'translate-y-0': isHeaderVisible, '-translate-y-full': !isHeaderVisible }]"
     @mouseenter="isHeaderHovered = true"
     @mouseleave="isHeaderHovered = false"
   >
     <div class="container mx-auto px-4 flex items-center justify-between relative">
-      <!-- Logo / Home -->
+      <!-- Logo -->
       <NuxtLink
         :to="localePath('/')"
         class="text-2xl font-serif font-semibold tracking-tight italic transition-all duration-300 relative z-10 px-4 py-1.5 rounded-full bg-[#f5ede1]/95 text-[#3e2b1c] hover:text-amber-800"
@@ -17,28 +15,27 @@
         Kaleiçi
       </NuxtLink>
 
-      <!-- Navigation (center) -->
-      <div class="absolute left-1/2 -translate-x-1/2 transition-all duration-300">
-        <nav class="hidden md:flex bg-[#f5ede1]/95 rounded-full px-6 py-1.5">
-          <NuxtLink
-            v-for="item in navigation"
-            :key="item.name"
-            :to="localePath(item.path)"
-            class="px-3 py-1 text-[#3e2b1c] hover:text-amber-800 transition-colors duration-300 font-sans font-medium"
-            :class="isActive(item.path) ? 'text-amber-800' : ''"
-          >
-            {{ $t(`navigation.${item.name}`) }}
-          </NuxtLink>
-        </nav>
-      </div>
+      <!-- Desktop Navigation -->
+      <nav class="absolute left-1/2 -translate-x-1/2 transition-all duration-300 hidden md:flex bg-[#f5ede1]/95 rounded-full px-6 py-1.5">
+        <NuxtLink
+          v-for="item in navigation"
+          :key="item.name"
+          :to="localePath(item.path)"
+          class="px-3 py-1 text-[#3e2b1c] hover:text-amber-800 transition-colors duration-300 font-sans font-medium"
+          :class="isActive(item.path) ? 'text-amber-800' : ''"
+        >
+          {{ $t(`navigation.${item.name}`) }}
+        </NuxtLink>
+      </nav>
 
-      <!-- Language switcher and mobile menu -->
+      <!-- Language Switcher and Hamburger -->
       <div class="flex items-center relative z-10">
         <div class="hidden md:block">
-          <LanguageSwitcher :is-header-visible="isHeaderVisible" :is-at-top="isAtTop" />
+          <LanguageSwitcher />
         </div>
+        <!-- Мобильный бургер -->
         <button
-          @click="isMobileMenuOpen = !isMobileMenuOpen"
+          @click="isMobileMenuOpen = true"
           class="md:hidden ml-4 focus:outline-none transition-colors duration-300 text-[#3e2b1c]"
         >
           <span class="sr-only">Open menu</span>
@@ -51,40 +48,23 @@
       </div>
     </div>
 
-    <!-- Mobile Menu -->
-    <div
-      v-show="isMobileMenuOpen"
-      class="md:hidden absolute top-full left-0 right-0 bg-[#f5ede1]/95 shadow-lg transition-all duration-300"
-    >
-      <div class="container mx-auto px-4 py-4">
-        <nav class="flex flex-col space-y-4">
-          <NuxtLink
-            v-for="item in navigation"
-            :key="item.name"
-            :to="localePath(item.path)"
-            class="text-[#3e2b1c] hover:text-amber-800 transition-colors py-2"
-            @click="isMobileMenuOpen = false"
-            :class="isActive(item.path) ? 'font-bold underline' : ''"
-          >
-            {{ $t(`navigation.${item.name}`) }}
-          </NuxtLink>
-          <div class="pt-2 border-t border-[#3e2b1c]/10">
-            <LanguageSwitcher :is-header-visible="true" :is-at-top="false" />
-          </div>
-        </nav>
-      </div>
-    </div>
+    <!-- Мобильное меню через отдельный компонент -->
+    <MobileSideBar
+      :open="isMobileMenuOpen"
+      :navigation="navigation"
+      @close="isMobileMenuOpen = false"
+    />
   </header>
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useWindowScroll } from '@vueuse/core'
 import { useRoute } from 'vue-router'
 import { useLocalePath } from '#imports'
 import LanguageSwitcher from '~/components/LanguageSwitcher.vue'
+import MobileSideBar from '~/components/MobileSidebar.vue' // путь укажи свой, если лежит в другом месте
 
-// Три страницы по твоему пожеланию
 const navigation = [
   { name: 'home', path: '/' },
   { name: 'attractions', path: '/attractions' },
@@ -93,8 +73,6 @@ const navigation = [
 
 const localePath = useLocalePath()
 const route = useRoute()
-
-// Scroll/visibility logic (анимация появления/скрытия)
 const isHeaderVisible = ref(true)
 const isHeaderHovered = ref(false)
 const isMobileMenuOpen = ref(false)
@@ -102,12 +80,7 @@ const { y: scrollY } = useWindowScroll()
 let lastScrollY = 0
 let mouseAtTop = false
 
-const isAtTop = computed(() => scrollY.value < 50)
-
-const isActive = (path) => {
-  // Простая проверка на активность (можешь заменить на более сложную, если нужны вложенные роуты)
-  return route.path === localePath(path)
-}
+const isActive = (path) => route.path === localePath(path)
 
 const handleScroll = () => {
   const currentScrollY = scrollY.value
@@ -124,9 +97,7 @@ const handleScroll = () => {
 
 const handleMouseMove = (e) => {
   mouseAtTop = e.clientY <= 60
-  if (mouseAtTop) {
-    isHeaderVisible.value = true
-  }
+  if (mouseAtTop) isHeaderVisible.value = true
 }
 
 onMounted(() => {
@@ -138,3 +109,14 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
 </script>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

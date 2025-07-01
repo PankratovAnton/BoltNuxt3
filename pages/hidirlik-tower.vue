@@ -463,11 +463,50 @@ useSeoMeta({
 })
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/hidirlik-tower' },
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'canonical', href: 'https://example.com/hidirlik-tower' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/hidirlik-tower' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/hidirlik-tower' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/hidirlik-tower' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/hidirlik-tower' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/hidirlik-tower' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/hidirlik-tower' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/hidirlik-tower' },
+
+
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
+
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Hidirlik Tower",
+        "description": "A historic Roman tower offering panoramic views of the Mediterranean Sea and Antalya's old city walls.",
+        "image": "https://example.com/images/hidirlik-tower.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Antalya",
+          "addressCountry": "TR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 36.8822,
+          "longitude": 30.6986
+        },
+        "url": "https://example.com/hidirlik-tower"
+      })
+    }
+  ]
+})
+
+
+
 </script>

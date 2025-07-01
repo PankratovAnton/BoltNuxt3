@@ -4,7 +4,7 @@
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
       <img
         src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg"
-        :alt="$t('alt.authentic-streets')"
+        :alt="$t('alt.streets')"
         class="w-full h-full object-cover"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -34,7 +34,7 @@
           <div>
             <InteractiveImage
               src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
-              :alt="$t('alt.authentic-streets')"
+              :alt="$t('alt.streets')"
               class="rounded-lg max-h-[800px] full-h object-cover object-center shadow-lg"
             />
           </div>
@@ -303,21 +303,54 @@ const handleMouseLeave = () => {
 
 // SEO: адаптируй под нужный тебе тайтл, дескрипшн и canonical
 useSeoMeta({
-  title: t('seo.old-harbor.title'),
-  description: t('seo.old-harbor.description'),
-  ogTitle: t('seo.old-harbor.ogTitle'),
-  ogDescription: t('seo.old-harbor.ogDescription'),
-  ogImage: t('seo.old-harbor.ogImage'),
+  title: t('seo.streets.title'),
+  description: t('seo.streets.description'),
+  ogTitle: t('seo.streets.ogTitle'),
+  ogDescription: t('seo.streets.ogDescription'),
+  ogImage: t('seo.streets.ogImage'),
   twitterCard: 'summary_large_image'
 })
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/old-harbor' },
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'canonical', href: 'https://example.com/authentic-streets' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/authentic-streets' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/authentic-streets' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/authentic-streets' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/authentic-streets' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/authentic-streets' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/authentic-streets' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/authentic-streets' },
+
+
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
+
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Authentic Streets of Kaleiçi",
+        "description": "Explore the charming narrow lanes and historic architecture of Kaleiçi's most picturesque streets in Antalya.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Antalya",
+          "addressCountry": "TR"
+        },
+        "url": "https://example.com/authentic-streets"
+      })
+    }
+  ]
+})
+
+
+
 </script>

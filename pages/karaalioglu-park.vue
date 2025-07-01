@@ -365,7 +365,7 @@
               :alt="$t('alt.karaalioglu-park')"
               class="rounded-xl"
             />
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1338.4432856255482!2d30.70457326103492!3d36.879622960741045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3900f46848d4f%3A0x329e0281ef97aba1!2z0J_QsNGA0Log0JrQsNGA0LDQsNC70LjQvtCz0LvRgw!5e1!3m2!1sru!2str!4v1751183864601!5m2!1sru!2str" width="100%" height="400" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.447220963181!2d30.702305276272497!3d36.879648163216324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3900f46848d4f%3A0x329e0281ef97aba1!2z0J_QsNGA0Log0JrQsNGA0LDQsNC70LjQvtCz0LvRgw!5e0!3m2!1sru!2str!4v1751374183940!5m2!1sru!2str" width="100%" height="400" style="border: 0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
@@ -389,7 +389,7 @@
   </div>
       </section>
 
-      
+
     </div>
   </article>
 </template>
@@ -461,11 +461,51 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/karaalioglu-park' },
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'canonical', href: 'https://example.com/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/karaalioglu-park' },
+  
+
+
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
+
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Karaalioglu Park",
+        "description": "A stunning seaside park offering breathtaking views of the Mediterranean Sea and the Taurus Mountains.",
+        "image": "https://example.com/images/karaalioglu-park.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Antalya",
+          "addressCountry": "TR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 36.8833,
+          "longitude": 30.7045
+        },
+        "url": "https://example.com/karaalioglu-park"
+      })
+    }
+  ]
+})
+
+
+
 </script>
