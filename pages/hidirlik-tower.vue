@@ -128,6 +128,25 @@
         </div>
       </section>
 
+      <!-- Tours Widget -->
+      <section class="content-section mb-8 py-5 bg-stone-100">
+  <div class="container mx-auto px-4">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+          <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
+            {{ $t('hidirlikTower.enhance_visit_title') }}
+          </h2>
+          <p class="text-center text-lg mb-8">{{ $t('hidirlikTower.enhance_visit_paragraph1') }}</p>
+          <div class="gyg-widget-container">
+            <GetYourGuide
+              widgettype="activities"
+              partner="kaleici_guide"
+              q="hadrians gate antalya"
+            />
+          </div>
+        </div>
+  </div>
+      </section>
+
       <!-- FAQ Section -->
       <section ref="FAQSection" class="content-section py-10">
         <div class="container mx-auto px-4">
@@ -136,7 +155,7 @@
               <InteractiveImage 
                 src="/images/hidirlik-tower-entrance-roman-architecture-in-antalya-kaleici-old-town-turkey.jpg"
                 :alt="$t('alt.hidirlik-tower')"
-                class=" h-[850px] w-[700px] object-cover rounded-xl"
+                class=" w-full max-w-[800px] h-[850px] object-cover transition-all duration-300 ease-out will-change-transform rounded-xl shadow-lg"
               />
             </div>
             <div class="bg-[#f5ede1] p-8 rounded-xl shadow-lg">
@@ -153,6 +172,51 @@
           </div>
         </div>
       </section>
+
+    </div>
+       <!-- Where to Stay Section Nuxt3 — адаптив и центрирование -->
+<section class="relative bg-white overflow-hidden min-h-[500px] md:min-h-[600px] max-h-[900px]">
+  <!-- BG IMAGE -->
+  <img
+    src="/images/text-decorations-in-antalya-kaleici-old-town-turkey-1.jpg"
+    :alt="$t('alt.hadrian-gate')"
+    class="absolute inset-0 w-full h-full object-cover object-center opacity-70 pointer-events-none select-none"
+    aria-hidden="true"
+    draggable="false"
+  />
+  <!-- Затемнение для мобильных -->
+  <div class="md:hidden absolute inset-0 bg-black/50 z-0"></div>
+
+  <!-- Контент: строго по центру, на всех экранах -->
+  <div class="relative z-10 container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-center gap-8 py-8 min-h-[500px] md:min-h-[600px]">
+    <!-- Фото -->
+    <div class="w-full md:w-[44%] flex justify-center items-center">
+      <InteractiveImage
+        src="/images/text-decorations-in-antalya-kaleici-old-town-turkey-1.jpg"
+        :alt="$t('alt.hadrian-gate')"
+        class="w-full h-[300px] md:h-[520px] max-h-[600px] md:w-[420px] object-cover object-center rounded-xl shadow-xl md:my-6"
+      />
+    </div>
+    <!-- Текстовый блок -->
+    <div
+      class="w-full md:w-[44%] max-w-lg bg-white/90 rounded-xl shadow-lg p-6 md:p-8 mb-6 md:mb-10 flex flex-col items-center"
+      style="backdrop-filter: blur(2px);"
+    >
+      <h2 class="text-2xl font-sans font-bold text-kaleici-800 mb-4 text-center">{{ $t('home.stay.title') }}</h2>
+      <p class="text-kaleici-700 font-sans mb-3 ">{{ $t('home.stay.intro') }}</p>
+      <p class="text-kaleici-700 font-sans mb-6 ">{{ $t('home.stay.details') }}</p>
+      <NuxtLink
+        :to="localePath('/attractions')"
+        class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-sans font-semibold px-6 py-3 rounded-lg shadow transition text-base"
+      >
+        {{ $t('home.stay.cta') }}
+      </NuxtLink>
+    </div>
+  </div>
+</section>
+
+<div class="container mx-auto px-4 py-12">
+
 
       <!-- Conclusion -->
       <section class="content-section mb-16">
@@ -312,15 +376,25 @@
 
 
       <!-- Tours Widget -->
-      <section class="content-section">
+      <section class="content-section mb-8 py-5 bg-stone-100">
+  <div class="container mx-auto px-4">
         <div class="bg-white rounded-lg shadow-lg p-8">
-          <h2 class="text-3xl text-center font-bold text-kaleici-800 mb-6">{{ $t('hidirlikTower.discoverMore_title') }}</h2>
-          <p class="text-lg text-kaleici-700 mb-8">{{ $t('hidirlikTower.discoverMore_text') }}</p>
+          <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
+            {{ $t('hidirlikTower.enhance_visit_title') }}
+          </h2>
+          <p class="text-center text-lg mb-8">{{ $t('hidirlikTower.enhance_visit_paragraph1') }}</p>
           <div class="gyg-widget-container">
-            <GetYourGuide widgettype="activities" partner="kaleici_guide" q="hidirlik tower antalya" />
+            <GetYourGuide
+              widgettype="activities"
+              partner="kaleici_guide"
+              q="hadrians gate antalya"
+            />
           </div>
         </div>
+  </div>
       </section>
+
+      
     </div>
   </article>
 </template>

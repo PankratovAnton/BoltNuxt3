@@ -19,7 +19,7 @@
       "description": "Discover Antalya's Kaleiçi Old Town — attractions, history, travel tips, and the best places to visit in the heart of Antalya, Turkey."
     },
     "home": {
-      "title": "Kaleici Home | Kaleiçi Guide",
+      "title": "Visit Kaleici | Kaleiçi Guide",
       "description": "Explore Antalya's historic Kaleiçi Old Town. Find top attractions, walking tours, hidden gems, and insider travel tips for your visit.",
       "ogTitle": "Kaleiçi Guide - Explore Antalya's Old Town",
       "ogDescription": "Discover the culture, history, and unique atmosphere of Antalya's famous Kaleiçi district. Your guide to the best sights, tours, and experiences.",
@@ -740,11 +740,46 @@
   "practicalInfoTitle": "Practical Information for Tourists",
   "practicalInfoParagraph1": "Kaleici's traditional bazaars are centrally located in Antalya's old town, with the main entrance near Hadrian's Gate. Visitors can easily access the bazaar area on foot, by public transport, or taxi. Shops typically open from 9:00 AM to 7:00 PM, with longer hours in summer. Most remain open on Fridays, though some may briefly close for prayers.",
   "practicalInfoParagraph2": "The bazaar's narrow, pedestrian-friendly streets make exploring safe and pleasant, but watch for occasional delivery motorcycles. Petty theft is rare but possible in crowded areas, so keep bags secure. Most shops accept credit cards, but smaller vendors prefer cash (Turkish lira). Restrooms are limited, but facilities are available near Hadrian's Gate, the marina, and in cafes.",
-  "practicalInfoParagraph3": "Be aware that Kaleici's bazaars feature uneven cobblestone streets, steps, and slopes due to the historic, hilly terrain. While main streets are accessible, some charming alleys may be difficult for wheelchair users or those with limited mobility."
+  "practicalInfoParagraph3": "Be aware that Kaleici's bazaars feature uneven cobblestone streets, steps, and slopes due to the historic, hilly terrain. While main streets are accessible, some charming alleys may be difficult for wheelchair users or those with limited mobility.",
+  "toursTitle":"Experience Kaleici's Bazaars with a Local Guide",
+  "toursText":"Discover hidden gems and learn the art of bargaining with an expert who knows the markets inside out."
+
+},
 
 
-}
+"authentic-streets": {
+    "title": "Exploring the Authentic Streets of Kaleici: Antalya's Historic Heart",
+    "intro": "Nestled within the modern bustle of Antalya lies Kaleici, a labyrinth of narrow cobblestone streets that whispers tales from centuries past. This historic quarter, whose name translates to \"within the walls,\" offers travelers an authentic glimpse into Turkey's rich Ottoman heritage. As you wander through its winding pathways, you'll discover vibrant bougainvillea cascading over ancient stone walls, traditional wooden houses with ornately carved doors, and the gentle rhythm of local life that has continued largely unchanged for generations. Unlike the resort-filled coastline that Antalya is famous for, the authentic streets of Kaleici invite you to slow down and savor a more intimate connection with Turkish culture.",
+    "historyTitle": "A Journey Through Time: The Historical Background of Kaleici",
+    "history": {
+      "p" :"The story of Kaleici begins in the 2nd century BC when the region was founded by King Attalos II of Pergamon, who named the settlement \"Attaleia\" in his honor. This ancient harbor city would later become a crucial Roman port, evidenced by the magnificent Hadrian's Gate that still stands as the grand entrance to the old town. As you step through this triumphal arch built in 130 AD to commemorate Emperor Hadrian's visit, you're literally walking in the footsteps of Roman dignitaries who passed through these same stone portals nearly two millennia ago.",
+      "p1": "Through the centuries, Kaleici transformed under Byzantine, Seljuk, and finally Ottoman rule, with each civilization leaving its distinctive architectural imprint. The Ottoman period (from the 15th to early 20th century) most significantly shaped the character of today's Kaleici, with its distinctive wooden houses featuring overhanging upper floors and internal courtyards designed for privacy and comfort in the Mediterranean climate. What makes the authentic streets of Kaleici, Antalya so special is this layered history, visible in everything from the ancient city walls to the fluted minaret of Yivli Minare Mosque.",
+      "p2":"Recent decades have seen extensive restoration efforts throughout Kaleici, transforming what was once a neglected neighborhood into one of Turkey's most charming historic districts. The local government has worked to preserve the authentic character while allowing for sensitive development of boutique hotels, restaurants, and shops that now breathe new economic life into these ancient streets."
+    },
+    "streetsTitle": "Wandering the Maze: Notable Streets in Kaleici",
+    "streetsIntro": "The heart of Kaleici's charm lies in its network of narrow, winding streets that seem designed to make you pleasantly lost. Each lane has its own character, stories, and hidden treasures waiting to be discovered. Here are some of the most distinctive pathways that capture the authentic essence of this historic quarter:",
+    "streets": {
+      "hesapci": {
+        "title": "Hesapçı Sokak",
+        "text": "Often considered the main artery of Kaleici, Hesapçı Sokak pulses with energy from morning until late evening. This vibrant street is lined with some of the area's best-preserved Ottoman houses, many now converted into boutique hotels and restaurants. The name translates roughly to \"Accountant's Street,\" hinting at its historical importance as a commercial center. Today, it's the perfect place to sit at an outdoor café, sip Turkish tea, and watch the world go by."
+      },
+      "uzun-carsi": {
+        "title": "Uzun Çarşı Sokak",
+        "text": "The name means \"Long Market Street,\" and true to its name, this bustling thoroughfare has been a shopping destination for centuries. Here you'll find everything from handcrafted leather goods and traditional Turkish carpets to copper coffee pots and evil eye amulets. What makes this street special is the continuation of ancient craftsmanship – some workshops still use techniques passed down through generations, offering a glimpse into traditional production methods rarely seen in our mass-manufactured world."
+      },
+      "mermerli": {
+        "title": "Mermerli Sokak",
+        "text": "This picturesque street winds its way down toward Mermerli Beach and the old harbor, offering breathtaking views of the Mediterranean Sea as you descend. The gentle slope is lined with some of Kaleici's most photogenic buildings, their wooden balconies adorned with cascading flowers. At the bottom, you'll find Mermerli Beach, a small but charming cove where you can cool off after exploring the sun-drenched streets above."
+      }
+    },
+    "conclusion": "What makes these streets truly special isn't just their historical significance or architectural beauty, but the way they continue to function as living, breathing parts of the city. Unlike some over-restored historic districts that feel like open-air museums, the authentic streets of Kaleici, Antalya remain home to actual residents, creating an atmosphere where history and contemporary life coexist in remarkable harmony.",
 
+    "nearbyTitle":"Must-See Sights Along Kaleici's Streets",
+    "nearbyText":"While wandering without an agenda is part of Kaleici's charm, certain landmarks shouldn't be missed during your exploration of the authentic streets of Kaleici, Antalya. These historical treasures provide context for understanding the area's rich past:",
+
+    "toursTitle":"Want to Discover Hidden Stories?",
+    "toursText":"For those who prefer guided exploration, local walking tours offer insights into Kaleici's history and legends that you might miss on your own. Led by knowledgeable residents, these tours typically last 2-3 hours and can be booked in advance or arranged through your hotel."
+  }
 
 
 

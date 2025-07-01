@@ -48,7 +48,7 @@
 
 
 <!-- Discover Section -->
-<section ref="discoverSection" class="py-16 bg-white">
+<section ref="discoverSection" class="py-16 ">
   <div class="container mx-auto px-4">
     <h2 class="text-3xl md:text-4xl font-bold text-kaleici-800 text-center mb-14 tracking-tight leading-snug">
       {{ $t('home.discover.title') }}
@@ -124,7 +124,7 @@
 </section>
 
 <!-- Nearby Attractions -->
-<section class="content-section mb-18 py-10 ">
+<section class="content-section mb-0 py-10 ">
   <div class="container mx-auto px-4">
     <div class="bg-[#fdedd8] rounded-2xl p-10 shadow-xl">
       <h2 class="text-3xl font-sans font-bold text-kaleici-800 text-center mb-4">
@@ -172,7 +172,7 @@
 </section>
 
 <!-- Conclusion -->
-<section class="py-16 ">
+<section class="py-10 ">
   <div class="container mx-auto px-4">
     <h2 class="text-3xl md:text-4xl text-center font-bold text-kaleici-800 mb-10">
       {{ $t('home.experiences.title') }}
@@ -262,6 +262,25 @@
 
 </section>
 
+<!-- Tours Widget -->
+      <section class="content-section mb-0 py-5 bg-stone-100">
+  <div class="container mx-auto px-4">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+          <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
+            {{ $t('home.tours.title') }}
+          </h2>
+          <p class="text-center text-lg mb-8">{{ $t('home.tours.subtitle') }}</p>
+          <div class="gyg-widget-container">
+            <GetYourGuide
+              widgettype="activities"
+              partner="kaleici_guide"
+              q="hadrians gate antalya"
+            />
+          </div>
+        </div>
+  </div>
+      </section>
+
 <!-- FAQ Section -->
 <section class="content-section mb-18 py-10 bg-stone-100">
   <div class="container mx-auto px-4">
@@ -285,7 +304,7 @@
         <InteractiveImage 
           src="/images/other-in-antalya-kaleici-old-town-turkey-1.jpg"
           :alt="$t('alt.hadrian-gate')"
-          class=" w-[600px] object-cover rounded-xl"
+          class=" w-full max-w-[800px] h-[900px] object-cover transition-all duration-300 ease-out will-change-transform rounded-xl shadow-lg"
         />
       </div>
     </div>
@@ -293,7 +312,7 @@
 </section>
 
 <!-- Practical Information --> 
-<section class="content-section mb-18 py-10 bg-stone-100">
+<section class="content-section mb-0 py-10 bg-stone-100">
   <div class="container mx-auto px-4">
     <div class="grid md:grid-cols-2 gap-8 items-stretch">
       <div class="flex flex-col justify-between space-y-8 h-full">
@@ -353,7 +372,24 @@
   </div>
 </section>
 
-
+<!-- Tours Widget -->
+      <section class="content-section mb-18 py-10 bg-stone-100">
+  <div class="container mx-auto px-4">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+          <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
+            {{ $t('home.tours.title') }}
+          </h2>
+          <p class="text-center text-lg mb-8">{{ $t('home.tours.subtitle') }}</p>
+          <div class="gyg-widget-container">
+            <GetYourGuide
+              widgettype="activities"
+              partner="kaleici_guide"
+              q="hadrians gate antalya"
+            />
+          </div>
+        </div>
+  </div>
+      </section>
 
   </div>
 </template>
