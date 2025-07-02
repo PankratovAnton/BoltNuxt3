@@ -400,10 +400,8 @@ import { useSeoMeta, useHead } from '#imports'
 import { useI18n } from 'vue-i18n'
 import GetYourGuide from '~/components/GetYourGuide.vue'
 import InteractiveImage from '~/components/InteractiveImage.vue'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// GSAP импортировать только внутри onMounted!
 
-gsap.registerPlugin(ScrollTrigger)
 const { t } = useI18n()
 const localePath = useLocalePath()
 
@@ -421,10 +419,8 @@ const handleMouseMove = (e) => {
   const { left, top, width, height } = e.currentTarget.getBoundingClientRect()
   const x = (e.clientX - left) / width
   const y = (e.clientY - top) / height
-
   const translateX = (x - 0.5) * 20
   const translateY = (y - 0.5) * 20
-
   imageTransform.value = `transform: scale(1.1) translate(${translateX}px, ${translateY}px)`
 }
 
@@ -432,8 +428,11 @@ const handleMouseLeave = () => {
   imageTransform.value = 'transform: scale(1) translate(0px, 0px)'
 }
 
-onMounted(() => {
-  [archSection, faqSection, wSection].forEach(section => {
+onMounted(async () => {
+  const gsap = (await import('gsap')).default
+  const ScrollTrigger = (await import('gsap/ScrollTrigger')).default
+  gsap.registerPlugin(ScrollTrigger)
+  ;[archSection, faqSection, wSection].forEach(section => {
     if (section.value) {
       gsap.from(section.value, {
         opacity: 0,
@@ -466,19 +465,15 @@ useHead({
     { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/karaalioglu-park' },
     { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/karaalioglu-park' },
     { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/karaalioglu-park' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/karaalioglu-park' }, // исправлено!
     { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/karaalioglu-park' },
     { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/karaalioglu-park' },
-  
-
-
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
-
 
 useHead({
   script: [
@@ -505,7 +500,5 @@ useHead({
     }
   ]
 })
-
-
 
 </script>

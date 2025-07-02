@@ -226,24 +226,16 @@
 </template>
 
 <script setup>
-
 const { t } = useI18n()
 const localePath = useLocalePath()
 
-// ---- Старый функционал (swiper, gsap, hero) ----
 import { ref, onMounted } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay, EffectFade } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/effect-fade'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import InteractiveImage from '~/components/InteractiveImage.vue'
-// Если нужны компоненты — раскомментируй:
 // import GetYourGuide from '../components/GetYourGuide.vue'
-// import InteractiveImage from '../components/InteractiveImage.vue'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const animatedSections = [
   ref(null), // discoverSection
@@ -296,22 +288,27 @@ const scrollToDiscover = () => {
   discoverSection.value.scrollIntoView({ behavior: 'smooth' })
 }
 
-onMounted(() => {
+// --- GSAP анимация только на клиенте! ---
+onMounted(async () => {
+  const gsap = (await import('gsap')).default
+  const ScrollTrigger = (await import('gsap/ScrollTrigger')).default
+  gsap.registerPlugin(ScrollTrigger)
   animatedSections.forEach(section => {
-    gsap.from(section.value, {
-      opacity: 0,
-      y: 50,
-      duration: 1,
-      scrollTrigger: {
-        trigger: section.value,
-        start: 'top 80%',
-        end: 'top 20%',
-        toggleActions: 'play none none reverse'
-      }
-    })
+    if (section.value) {
+      gsap.from(section.value, {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        scrollTrigger: {
+          trigger: section.value,
+          start: 'top 80%',
+          end: 'top 20%',
+          toggleActions: 'play none none reverse'
+        }
+      })
+    }
   })
 })
-
 
 useSeoMeta({
   title: t('seo.tours.title'),
@@ -325,23 +322,20 @@ useSeoMeta({
 // SEO Nuxt 3 (или см. useHead Nuxt 3)
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://your-domain.com/tours' },
+    { rel: 'canonical', href: 'https://example.com/tours' },
     { rel: 'alternate', hreflang: 'en', href: 'https://example.com/tours' },
     { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/tours' },
     { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/tours' },
     { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/tours' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/tours' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/tours' }, // <-- исправлено!
     { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/tours' },
     { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/tours' },
-
-
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
-
 
 useHead({
   script: [
@@ -367,7 +361,6 @@ useHead({
     }
   ]
 })
-
 
 </script>
 

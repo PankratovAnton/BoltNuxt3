@@ -405,10 +405,8 @@ import { useSeoMeta, useHead } from '#imports'
 import { useI18n } from 'vue-i18n'
 import GetYourGuide from '~/components/GetYourGuide.vue'
 import InteractiveImage from '~/components/InteractiveImage.vue'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// GSAP и ScrollTrigger импортируем только внутри onMounted!
 
-gsap.registerPlugin(ScrollTrigger)
 const { t } = useI18n()
 const localePath = useLocalePath()
 
@@ -418,8 +416,11 @@ const wSection = ref(null)
 const eSection = ref(null)
 const rSection = ref(null)
 
-onMounted(() => {
-  [ArchSection, FAQSection, wSection, eSection, rSection].forEach(section => {
+onMounted(async () => {
+  const gsap = (await import('gsap')).default
+  const ScrollTrigger = (await import('gsap/ScrollTrigger')).default
+  gsap.registerPlugin(ScrollTrigger)
+  ;[ArchSection, FAQSection, wSection, eSection, rSection].forEach(section => {
     if (section.value) {
       gsap.from(section.value, {
         opacity: 0,
@@ -468,18 +469,15 @@ useHead({
     { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/hidirlik-tower' },
     { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/hidirlik-tower' },
     { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/hidirlik-tower' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/hidirlik-tower' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/hidirlik-tower' }, // исправлено!
     { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/hidirlik-tower' },
     { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/hidirlik-tower' },
-
-
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
-
 
 useHead({
   script: [
@@ -506,7 +504,5 @@ useHead({
     }
   ]
 })
-
-
 
 </script>

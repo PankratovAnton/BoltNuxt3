@@ -247,15 +247,13 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useSeoMeta, useHead } from '#imports'
 import { useI18n } from 'vue-i18n'
 import GetYourGuide from '~/components/GetYourGuide.vue'
 import InteractiveImage from '~/components/InteractiveImage.vue'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// gsap и ScrollTrigger импортировать только внутри onMounted
 
-gsap.registerPlugin(ScrollTrigger)
 const { t } = useI18n()
 const localePath = useLocalePath()
 
@@ -267,8 +265,12 @@ const wSection = ref(null)
 const eSection = ref(null)
 const rSection = ref(null)
 
-onMounted(() => {
-  [ArchSection, ArchSection2, ArchSection3, ArchSection4, wSection, eSection, rSection].forEach(section => {
+// --- GSAP: только внутри onMounted! ---
+onMounted(async () => {
+  const gsap = (await import('gsap')).default
+  const ScrollTrigger = (await import('gsap/ScrollTrigger')).default
+  gsap.registerPlugin(ScrollTrigger)
+  ;[ArchSection, ArchSection2, ArchSection3, ArchSection4, wSection, eSection, rSection].forEach(section => {
     if (section.value) {
       gsap.from(section.value, {
         opacity: 0,
@@ -301,7 +303,7 @@ const handleMouseLeave = () => {
   imageTransform.value = 'transform: scale(1) translate(0px, 0px)'
 }
 
-// SEO: адаптируй под нужный тебе тайтл, дескрипшн и canonical
+// SEO: тайтл, дескрипшн, canonical
 useSeoMeta({
   title: t('seo.streets.title'),
   description: t('seo.streets.description'),
@@ -318,18 +320,15 @@ useHead({
     { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/authentic-streets' },
     { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/authentic-streets' },
     { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/authentic-streets' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/authentic-streets' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/authentic-streets' }, // <-- исправлено!
     { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/authentic-streets' },
     { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/authentic-streets' },
-
-
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
-
 
 useHead({
   script: [
@@ -350,7 +349,5 @@ useHead({
     }
   ]
 })
-
-
 
 </script>

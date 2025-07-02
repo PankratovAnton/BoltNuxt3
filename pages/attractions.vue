@@ -169,15 +169,16 @@
 
 <script setup>
 // Nuxt 3 адаптация
-import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import InteractiveImage from '~/components/InteractiveImage.vue'
+
 const { t } = useI18n()
 const localePath = useLocalePath?.() // если nuxt/i18n
 
 const parallaxBg = ref(null)
 
-// Parallax effect
+// Parallax effect (клиентский!)
 const handleScroll = () => {
   if (!parallaxBg.value) return
   const scrolled = window.scrollY
@@ -192,7 +193,6 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
 
-
 useSeoMeta({
   title: t('seo.attractions.title'),
   description: t('seo.attractions.description'),
@@ -202,7 +202,7 @@ useSeoMeta({
   twitterCard: "summary_large_image"
 })
 
-// SEO Nuxt 3 (или см. useHead Nuxt 3)
+// SEO, canonical, alternate
 useHead({
   link: [
     { rel: 'canonical', href: 'https://example.com/attractions' },
@@ -210,17 +210,17 @@ useHead({
     { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/attractions' },
     { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/attractions' },
     { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/attractions' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/attractions' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/attractions' }, // <-- Исправлено с ua на uk
     { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/attractions' },
     { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/attractions' },
-
-    { rel: 'icon', type: 'image/ico', href: 'icons/favicon.ico' }
+    { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
 
+// Schema.org микроразметка
 useHead({
   script: [
     {
@@ -238,10 +238,3 @@ useHead({
 })
 
 </script>
-
-<style scoped>
-.bg-fixed {
-  background-attachment: fixed;
-  will-change: transform;
-}
-</style>

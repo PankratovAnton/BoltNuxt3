@@ -395,20 +395,16 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useSeoMeta, useHead } from '#imports'
 import { useI18n } from 'vue-i18n'
 import { useLocalePath } from 'vue-i18n-routing'
 import GetYourGuide from '~/components/GetYourGuide.vue'
 import InteractiveImage from '~/components/InteractiveImage.vue'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollTrigger)
+// gsap импортировать только в onMounted
 
 const { t } = useI18n()
 const localePath = useLocalePath()
-
 
 const animatedSections = [
   ref(null), // ArchSection
@@ -425,19 +421,24 @@ const eSection = animatedSections[3]
 const rSection = animatedSections[4]
 const tSection = animatedSections[5]
 
-onMounted(() => {
+onMounted(async () => {
+  const gsap = (await import('gsap')).default
+  const ScrollTrigger = (await import('gsap/ScrollTrigger')).default
+  gsap.registerPlugin(ScrollTrigger)
   animatedSections.forEach(section => {
-    gsap.from(section.value, {
-      opacity: 0,
-      y: 50,
-      duration: 1,
-      scrollTrigger: {
-        trigger: section.value,
-        start: 'top 80%',
-        end: 'top 20%',
-        toggleActions: 'play none none reverse',
-      },
-    })
+    if (section.value) {
+      gsap.from(section.value, {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        scrollTrigger: {
+          trigger: section.value,
+          start: 'top 80%',
+          end: 'top 20%',
+          toggleActions: 'play none none reverse',
+        },
+      })
+    }
   })
 })
 
@@ -467,22 +468,20 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://example.com/traditional-bazaar' },
+    { rel: 'canonical', href: 'https://example.com/traditional-bazaars' },
     { rel: 'alternate', hreflang: 'en', href: 'https://example.com/traditional-bazaars' },
     { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/traditional-bazaars' },
     { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/traditional-bazaars' },
     { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/traditional-bazaars' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/traditional-bazaars' }, // исправлено!
     { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/traditional-bazaars' },
     { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/traditional-bazaars' },
-
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
     { name: 'robots', content: 'index, follow' }
   ]
 })
-
 
 useHead({
   script: [
@@ -505,8 +504,4 @@ useHead({
   ]
 })
 
-
-
-
 </script>
-
