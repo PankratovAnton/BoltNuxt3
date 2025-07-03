@@ -95,12 +95,14 @@
       <h2 class="text-2xl font-sans font-bold text-kaleici-800 mb-4 text-center">{{ $t('home.stay.title') }}</h2>
       <p class="text-kaleici-700 font-sans mb-3 ">{{ $t('home.stay.intro') }}</p>
       <p class="text-kaleici-700 font-sans mb-6 ">{{ $t('home.stay.details') }}</p>
-      <NuxtLink
-        :to="localePath('/attractions')"
-        class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-sans font-semibold px-6 py-3 rounded-lg shadow transition text-base"
-      >
-        {{ $t('home.stay.cta') }}
-      </NuxtLink>
+      <a
+  href="https://www.booking.com/index.en-gb.html"
+  target="_blank"
+  rel="nofollow noopener"
+  class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-sans font-semibold px-6 py-3 rounded-lg shadow-lg transition"
+>
+  {{ $t('home.stay.cta') }}
+</a>
     </div>
   </div>
 </section>
@@ -227,21 +229,67 @@
 
 
       <!-- Tours Widget -->
-      <section class="content-section">
+      <section class="content-section mb-8 py-10 ">
+  <div class="container mx-auto px-4">
         <div class="bg-white rounded-lg shadow-lg p-8">
           <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
-            {{ $t('authentic-streets.toursTitle') }}
+            {{ $t('home.toursHome.title') }}
           </h2>
-          <p class="text-lg mb-8">{{ $t('authentic-streets.toursText') }}</p>
+          <p class="text-center text-lg mb-8">{{ $t('home.toursHome.subtitle') }}</p>
+          <!-- Add Widgets -->
           <div class="gyg-widget-container">
-            <GetYourGuide
-              widgettype="activities"
-              partner="kaleici_guide"
-              q="hadrians gate antalya"
-            />
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+          
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+        </div>
           </div>
         </div>
+  </div>
       </section>
+
+
     </div>
   </article>
 </template>
@@ -250,7 +298,6 @@
 import { ref, onMounted } from 'vue'
 import { useSeoMeta, useHead } from '#imports'
 import { useI18n } from 'vue-i18n'
-import GetYourGuide from '~/components/GetYourGuide.vue'
 import InteractiveImage from '~/components/InteractiveImage.vue'
 // gsap и ScrollTrigger импортировать только внутри onMounted
 
@@ -315,14 +362,14 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://example.com/authentic-streets' },
-    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/authentic-streets' },
-    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/authentic-streets' },
-    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/authentic-streets' },
-    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/authentic-streets' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/authentic-streets' }, // <-- исправлено!
-    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/authentic-streets' },
-    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/authentic-streets' },
+    { rel: 'canonical', href: 'https://exploreantalyakaleici.com/en/authentic-streets' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://exploreantalyakaleici.com/en/authentic-streets' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://exploreantalyakaleici.com/ru/authentic-streets' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://exploreantalyakaleici.com/tr/authentic-streets' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://exploreantalyakaleici.com/de/authentic-streets' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://exploreantalyakaleici.com/ua/authentic-streets' }, // <-- исправлено!
+    { rel: 'alternate', hreflang: 'es', href: 'https://exploreantalyakaleici.com/es/authentic-streets' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://exploreantalyakaleici.com/pl/authentic-streets' },
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
@@ -339,12 +386,14 @@ useHead({
         "@type": "TouristAttraction",
         "name": "Authentic Streets of Kaleiçi",
         "description": "Explore the charming narrow lanes and historic architecture of Kaleiçi's most picturesque streets in Antalya.",
+        "image": "/images/street-scenes-in-antalya-kaleici-old-town-turkey-5.jpg",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Antalya",
           "addressCountry": "TR"
         },
-        "url": "https://example.com/authentic-streets"
+        "url": "https://exploreantalyakaleici.com/en/authentic-streets",
+        "inLanguage": ["en", "ru", "tr", "de", "uk", "es", "pl"]
       })
     }
   ]

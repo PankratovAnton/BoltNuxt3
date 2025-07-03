@@ -12,6 +12,7 @@
   "dependencies": {
     "@intlify/vue-i18n-bridge": "^1.1.0",
     "@nuxt/image": "^1.10.0",
+    "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/i18n": "8.0.0",
     "@tailwindcss/typography": "0.5.16",
     "@vueuse/core": "13.4.0",

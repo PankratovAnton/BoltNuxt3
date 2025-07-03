@@ -151,19 +151,61 @@
       </section>
 
       <!-- Tours Widget -->
-      <section class="content-section mb-8 py-5 bg-stone-100">
+      <section class="content-section mb-8 py-10 ">
   <div class="container mx-auto px-4">
         <div class="bg-white rounded-lg shadow-lg p-8">
           <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
-            {{ $t('karaaliogluPark.guidedTour_title') }}
+            {{ $t('home.toursHome.title') }}
           </h2>
-          <p class="text-center text-lg mb-8">{{ $t('karaaliogluPark.guidedTour_paragraph') }}</p>
+          <p class="text-center text-lg mb-8">{{ $t('home.toursHome.subtitle') }}</p>
+          <!-- Add Widgets -->
           <div class="gyg-widget-container">
-            <GetYourGuide
-              widgettype="activities"
-              partner="kaleici_guide"
-              q="hadrians gate antalya"
-            />
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+          
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+        </div>
           </div>
         </div>
   </div>
@@ -224,12 +266,14 @@
       <h2 class="text-2xl font-sans font-bold text-kaleici-800 mb-4 text-center">{{ $t('home.stay.title') }}</h2>
       <p class="text-kaleici-700 font-sans mb-3 ">{{ $t('home.stay.intro') }}</p>
       <p class="text-kaleici-700 font-sans mb-6 ">{{ $t('home.stay.details') }}</p>
-      <NuxtLink
-        :to="localePath('/attractions')"
-        class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-sans font-semibold px-6 py-3 rounded-lg shadow transition text-base"
-      >
-        {{ $t('home.stay.cta') }}
-      </NuxtLink>
+      <a
+  href="https://www.booking.com/index.en-gb.html"
+  target="_blank"
+  rel="nofollow noopener"
+  class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-sans font-semibold px-6 py-3 rounded-lg shadow-lg transition"
+>
+  {{ $t('home.stay.cta') }}
+</a>
     </div>
   </div>
 </section>
@@ -371,19 +415,61 @@
       </section>
 
       <!-- Tours Widget -->
-      <section class="content-section mb-8 py-5 bg-stone-100">
+      <section class="content-section mb-8 py-10 ">
   <div class="container mx-auto px-4">
         <div class="bg-white rounded-lg shadow-lg p-8">
           <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
-            {{ $t('karaaliogluPark.guidedTour_title') }}
+            {{ $t('home.toursHome.title') }}
           </h2>
-          <p class="text-center text-lg mb-8">{{ $t('karaaliogluPark.guidedTour_paragraph') }}</p>
+          <p class="text-center text-lg mb-8">{{ $t('home.toursHome.subtitle') }}</p>
+          <!-- Add Widgets -->
           <div class="gyg-widget-container">
-            <GetYourGuide
-              widgettype="activities"
-              partner="kaleici_guide"
-              q="hadrians gate antalya"
-            />
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+          
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+        </div>
           </div>
         </div>
   </div>
@@ -398,7 +484,7 @@
 import { ref, onMounted } from 'vue'
 import { useSeoMeta, useHead } from '#imports'
 import { useI18n } from 'vue-i18n'
-import GetYourGuide from '~/components/GetYourGuide.vue'
+
 import InteractiveImage from '~/components/InteractiveImage.vue'
 // GSAP импортировать только внутри onMounted!
 
@@ -460,14 +546,14 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://example.com/karaalioglu-park' },
-    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/karaalioglu-park' },
-    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/karaalioglu-park' },
-    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/karaalioglu-park' },
-    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/karaalioglu-park' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/karaalioglu-park' }, // исправлено!
-    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/karaalioglu-park' },
-    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/karaalioglu-park' },
+    { rel: 'canonical', href: 'https://exploreantalyakaleici.com/en/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://exploreantalyakaleici.com/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://exploreantalyakaleici.com/ru/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://exploreantalyakaleici.com/tr/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://exploreantalyakaleici.com/de/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://exploreantalyakaleici.com/ua/karaalioglu-park' }, // исправлено!
+    { rel: 'alternate', hreflang: 'es', href: 'https://exploreantalyakaleici.com/es/karaalioglu-park' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://exploreantalyakaleici.com/pl/karaalioglu-park' },
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
@@ -484,7 +570,7 @@ useHead({
         "@type": "TouristAttraction",
         "name": "Karaalioglu Park",
         "description": "A stunning seaside park offering breathtaking views of the Mediterranean Sea and the Taurus Mountains.",
-        "image": "https://example.com/images/karaalioglu-park.jpg",
+        "image": "/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-1.jpg",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Antalya",
@@ -495,7 +581,8 @@ useHead({
           "latitude": 36.8833,
           "longitude": 30.7045
         },
-        "url": "https://example.com/karaalioglu-park"
+        "url": "https://exploreantalyakaleici.com/en/karaalioglu-park",
+        "inLanguage": ["en", "ru", "tr", "de", "uk", "es", "pl"]
       })
     }
   ]

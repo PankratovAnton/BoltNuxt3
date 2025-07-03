@@ -204,12 +204,14 @@
       <h2 class="text-2xl font-sans font-bold text-kaleici-800 mb-4 text-center">{{ $t('home.stay.title') }}</h2>
       <p class="text-kaleici-700 font-sans mb-3 ">{{ $t('home.stay.intro') }}</p>
       <p class="text-kaleici-700 font-sans mb-6 ">{{ $t('home.stay.details') }}</p>
-      <NuxtLink
-        :to="localePath('/attractions')"
-        class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-sans font-semibold px-6 py-3 rounded-lg shadow transition text-base"
-      >
-        {{ $t('home.stay.cta') }}
-      </NuxtLink>
+      <a
+  href="https://www.booking.com/index.en-gb.html"
+  target="_blank"
+  rel="nofollow noopener"
+  class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-sans font-semibold px-6 py-3 rounded-lg shadow-lg transition"
+>
+  {{ $t('home.stay.cta') }}
+</a>
     </div>
   </div>
 </section>
@@ -255,19 +257,61 @@
 
 
       <!-- Tours Widget -->
-      <section class="content-section mb-8 py-5 bg-stone-100">
+      <section class="content-section mb-8 py-10 ">
   <div class="container mx-auto px-4">
         <div class="bg-white rounded-lg shadow-lg p-8">
           <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
-            {{ $t('traditionalBazaar.toursTitle') }}
+            {{ $t('home.toursHome.title') }}
           </h2>
-          <p class="text-center text-lg mb-8">{{ $t('traditionalBazaar.toursText') }}</p>
+          <p class="text-center text-lg mb-8">{{ $t('home.toursHome.subtitle') }}</p>
+          <!-- Add Widgets -->
           <div class="gyg-widget-container">
-            <GetYourGuide
-              widgettype="activities"
-              partner="kaleici_guide"
-              q="hadrians gate antalya"
-            />
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+          
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+        </div>
           </div>
         </div>
   </div>
@@ -371,19 +415,61 @@
 
 
       <!-- Tours Widget -->
-      <section class="content-section mb-8 py-5 bg-stone-100">
+      <section class="content-section mb-8 py-10 ">
   <div class="container mx-auto px-4">
         <div class="bg-white rounded-lg shadow-lg p-8">
           <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
-            {{ $t('traditionalBazaar.toursTitle') }}
+            {{ $t('home.toursHome.title') }}
           </h2>
-          <p class="text-center text-lg mb-8">{{ $t('traditionalBazaar.toursText') }}</p>
+          <p class="text-center text-lg mb-8">{{ $t('home.toursHome.subtitle') }}</p>
+          <!-- Add Widgets -->
           <div class="gyg-widget-container">
-            <GetYourGuide
-              widgettype="activities"
-              partner="kaleici_guide"
-              q="hadrians gate antalya"
-            />
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+          
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+        </div>
           </div>
         </div>
   </div>
@@ -399,7 +485,6 @@ import { ref, onMounted } from 'vue'
 import { useSeoMeta, useHead } from '#imports'
 import { useI18n } from 'vue-i18n'
 import { useLocalePath } from 'vue-i18n-routing'
-import GetYourGuide from '~/components/GetYourGuide.vue'
 import InteractiveImage from '~/components/InteractiveImage.vue'
 // gsap импортировать только в onMounted
 
@@ -468,14 +553,14 @@ useSeoMeta({
 
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://example.com/traditional-bazaars' },
-    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/traditional-bazaars' },
-    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/traditional-bazaars' },
-    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/traditional-bazaars' },
-    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/traditional-bazaars' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/traditional-bazaars' }, // исправлено!
-    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/traditional-bazaars' },
-    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/traditional-bazaars' },
+    { rel: 'canonical', href: 'https://exploreantalyakaleici.com/en/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://exploreantalyakaleici.com/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://exploreantalyakaleici.com/ru/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://exploreantalyakaleici.com/tr/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://exploreantalyakaleici.com/de/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://exploreantalyakaleici.com/ua/traditional-bazaars' }, // исправлено!
+    { rel: 'alternate', hreflang: 'es', href: 'https://exploreantalyakaleici.com/es/traditional-bazaars' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://exploreantalyakaleici.com/pl/traditional-bazaars' },
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
@@ -492,13 +577,14 @@ useHead({
         "@type": "TouristAttraction",
         "name": "Traditional Bazaars",
         "description": "Stroll through lively markets where local artisans sell handcrafted goods, spices, textiles, and souvenirs.",
-        "image": "https://example.com/images/traditional-bazaars.jpg",
+        "image": "/images/traditional-bazaar-handmade-carpets-souvenirs-in-antalya-kaleici-old-town-turkey.jpg",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Antalya",
           "addressCountry": "TR"
         },
-        "url": "https://example.com/traditional-bazaars"
+        "url": "https://exploreantalyakaleici.com/en/traditional-bazaars",
+        "inLanguage": ["en", "ru", "tr", "de", "uk", "es", "pl"]
       })
     }
   ]

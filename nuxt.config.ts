@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   // Add Tailwind CSS and i18n modules
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/image'],
   
+
   // Configure CSS
   css: ['~/assets/css/main.css'],
   
@@ -67,7 +68,31 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Discover amazing attractions around the world' }
+      ],
+      script: [
+        // GetYourGuide
+        {
+          src: 'https://widget.getyourguide.com/dist/pa.umd.production.min.js',
+          async: true,
+          defer: true,
+          'data-gyg-partner-id': 'RO6AILQ'
+        },
+        // Booking.com
+        {
+          src: 'https://aff.bstatic.com/static/affiliate_base/js/flexiproduct.js',
+          async: true
+        },
+        // TripAdvisor (пример — конкретный скрипт для виджета)
+        {
+          src: 'https://www.jscache.com/wejs',
+          async: true
+        },
+        {
+          src: "https://www.anrdoezrs.net/am/101481970/impressions/page/am.js"
+        }
       ]
     }
   }
+  
+
 })

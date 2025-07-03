@@ -21,7 +21,7 @@
     </div>
 
     <div class="bg-[#f5ede1]">
-      <div class="container mx-auto px-4 py-16 ">
+      <div class="container mx-auto px-4 py-10 ">
         <!-- Attractions Grid -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
@@ -150,7 +150,7 @@
                 class="w-full h-full object-cover"
               />
             </div>
-            <div class="p-6">
+            <div class="p-3">
               <h3 class="text-2xl font-semibold text-center text-kaleici-800 mb-2">
                 {{ $t('attractions.authentic-streets.title') }}
               </h3>
@@ -160,11 +160,78 @@
             </div>
           </NuxtLink>
 
+          
 
+    </div>
         </div>
       </div>
-    </div>
+
+
+      <!-- Tours Widget -->
+      <section class="content-section mb-8 py-10 bg-[#f5ede1]">
+  <div class="container mx-auto px-4">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+          <h2 class="text-3xl font-bold text-center text-kaleici-800 mb-6">
+            {{ $t('home.toursHome.title') }}
+          </h2>
+          <p class="text-center text-lg mb-8">{{ $t('home.toursHome.subtitle') }}</p>
+          <!-- Add Widgets -->
+          <div class="gyg-widget-container">
+            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+          
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+data-gyg-href="https://widget.getyourguide.com/default/activities.frame" 
+data-gyg-locale-code="en-US" 
+data-gyg-widget="activities" 
+data-gyg-number-of-items="1" 
+data-gyg-cmp="Kaleici" 
+data-gyg-partner-id="RO6AILQ" 
+data-gyg-q="Kaleici Old Town"><span>Powered by
+   <a 
+   target="_blank" 
+   rel="sponsored" 
+   href="https://www.getyourguide.com/-t759113">GetYourGuide</a>
+  </span>
+</div>
+        </div>
+          </div>
+        </div>
   </div>
+      </section>
+
+
+
+
+    </div>
 </template>
 
 <script setup>
@@ -205,14 +272,14 @@ useSeoMeta({
 // SEO, canonical, alternate
 useHead({
   link: [
-    { rel: 'canonical', href: 'https://example.com/attractions' },
-    { rel: 'alternate', hreflang: 'en', href: 'https://example.com/attractions' },
-    { rel: 'alternate', hreflang: 'ru', href: 'https://example.com/ru/attractions' },
-    { rel: 'alternate', hreflang: 'tr', href: 'https://example.com/tr/attractions' },
-    { rel: 'alternate', hreflang: 'de', href: 'https://example.com/de/attractions' },
-    { rel: 'alternate', hreflang: 'ua', href: 'https://example.com/ua/attractions' }, // <-- Исправлено с ua на uk
-    { rel: 'alternate', hreflang: 'es', href: 'https://example.com/es/attractions' },
-    { rel: 'alternate', hreflang: 'pl', href: 'https://example.com/pl/attractions' },
+    { rel: 'canonical', href: 'https://exploreantalyakaleici.com/en/attractions' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://exploreantalyakaleici.com/attractions' },
+    { rel: 'alternate', hreflang: 'ru', href: 'https://exploreantalyakaleici.com/ru/attractions' },
+    { rel: 'alternate', hreflang: 'tr', href: 'https://exploreantalyakaleici.com/tr/attractions' },
+    { rel: 'alternate', hreflang: 'de', href: 'https://exploreantalyakaleici.com/de/attractions' },
+    { rel: 'alternate', hreflang: 'ua', href: 'https://exploreantalyakaleici.com/ua/attractions' }, // <-- Исправлено с ua на uk
+    { rel: 'alternate', hreflang: 'es', href: 'https://exploreantalyakaleici.com/es/attractions' },
+    { rel: 'alternate', hreflang: 'pl', href: 'https://exploreantalyakaleici.com/pl/attractions' },
     { rel: 'icon', type: 'image/ico', href: '/icons/favicon.ico' }
   ],
   meta: [
@@ -229,8 +296,9 @@ useHead({
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Attractions in Kaleiçi",
-        "url": "https://example.com/attractions",
+        "url": "https://exploreantalyakaleici.com/en/attractions",
         "description": "Overview of the main attractions in Kaleiçi, Antalya. Find historical sites, beautiful landmarks, and unique places to visit.",
+        "image": "/images/hadrians-gate-in-antalya-kaleici-old-town-turkey-3.jpg",
         "inLanguage": ["en", "ru", "tr", "de", "uk", "es", "pl"]
       })
     }
