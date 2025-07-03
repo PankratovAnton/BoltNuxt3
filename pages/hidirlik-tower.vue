@@ -94,7 +94,7 @@
           <!-- Karalioglu park -->
           <NuxtLink :to="localePath('/karaalioglu-park')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
             <div class="h-48 overflow-hidden">
-              <img src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hidirlik-tower')" class="w-full h-full object-cover">
+              <img src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.hidirlik-tower')" class="w-full h-full object-cover">
             </div>
             <div class="p-6">
               <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.karaaliogluPark.title') }}</h3>
@@ -104,7 +104,7 @@
           <!-- Authentic Streets -->
           <NuxtLink :to="localePath('/authentic-streets')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
             <div class="h-48 overflow-hidden">
-              <img src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hidirlik-tower')" class="w-full h-full object-cover" />
+              <img src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.hidirlik-tower')" class="w-full h-full object-cover" />
             </div>
             <div class="p-5">
               <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
@@ -118,7 +118,7 @@
           <!-- Hadrians Gate -->
           <NuxtLink :to="localePath('/hadrians-gate')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
             <div class="h-48 overflow-hidden">
-              <img src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hidirlik-tower')" class="w-full h-full object-cover">
+              <img src="/images/hadrian-gate-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.hidirlik-tower')" class="w-full h-full object-cover">
             </div>
             <div class="p-6">
               <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-3">{{ $t('nearbyAttractions.hadriansGate.title') }}</h3>
@@ -276,7 +276,7 @@
         <div class="grid md:grid-cols-2 gap-6 items-stretch">
           <div>
             <InteractiveImage
-              src="/images/hidirlik-tower-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+              src="/images/hidirlik-tower-in-antalya-kaleici-old-town-turkey-1.jpg"
               :alt="$t('alt.hidirlik-tower')"
               class="rounded-lg object-cover shadow-lg w-full"
             />
@@ -483,7 +483,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "TouristAttraction",
         "name": "Hidirlik Tower",

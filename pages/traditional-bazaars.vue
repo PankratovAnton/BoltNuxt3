@@ -33,7 +33,7 @@
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <InteractiveImage
-              src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
+              src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-6.jpg"
               :alt="$t('alt.traditional-bazaar')"
               class="rounded-lg h-[650px] object-cover object-center shadow-lg"
             />
@@ -78,7 +78,7 @@
           >
             <img
               ref="interactiveImage"
-              src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+              src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-3.jpg"
               :alt="$t('alt.traditional-bazaar')"
               class="w-full h-full object-cover max-h-[500px] transition-all duration-300 ease-out will-change-transform"
               :style="imageTransform"
@@ -113,7 +113,7 @@
           <!-- Old Harbor -->
           <NuxtLink :to="localePath('/old-harbor')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
             <div class="h-48 overflow-hidden">
-              <img src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.traditional-bazaar')" class="w-full h-full object-cover" />
+              <img src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.traditional-bazaar')" class="w-full h-full object-cover" />
             </div>
             <div class="p-5">
               <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-2">
@@ -245,7 +245,7 @@
           <!-- Image block -->
           <div class="relative h-full">
             <InteractiveImage
-              src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+              src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-1.jpg"
               :alt="$t('alt.traditional-bazaar')"
               class="w-full object-cover h-[600px] rounded-xl shadow-lg"
             />
@@ -280,7 +280,7 @@
           <!-- Image block -->
           <div class="relative h-full">
             <InteractiveImage
-              src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
+              src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-4.jpg"
               :alt="$t('alt.traditional-bazaar')"
               class="w-full h-full object-cover max-h-[650px] rounded-xl shadow-lg"
             />
@@ -352,7 +352,7 @@
         {{ $t('traditionalBazaar.practicalInfoTitle') }}
       </h2>
       <InteractiveImage
-        src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg"
+        src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-5.jpg"
         class="rounded-xl"
         :alt="$t('alt.traditional-bazaar')"
       />
@@ -487,7 +487,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "TouristAttraction",
         "name": "Traditional Bazaars",

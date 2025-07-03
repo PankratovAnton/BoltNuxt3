@@ -249,13 +249,13 @@
 
     <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
-        <InteractiveImage src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+        <InteractiveImage src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-3.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
       </div>
       <div>
-        <InteractiveImage src="/images/text-decorations-in-Antalya-Kaleici-Old-Town-Turkey-2.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+        <InteractiveImage src="/images/text-decorations-in-antalya-kaleici-old-town-turkey-2.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
       </div>
       <div>
-        <InteractiveImage src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
+        <InteractiveImage src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-5.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-80 object-cover rounded-2xl shadow-md" />
       </div>
     </div>
     <!-- конец блока с фото -->
@@ -433,15 +433,15 @@ const IconMSection = animatedSections[5]
 const isActiveSlide = ref({})
 const heroImages = [
   {
-    url: '/images/viewpoints-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg',
+    url: '/images/viewpoints-in-antalya-kaleici-old-town-turkey-1.jpg',
     altKey: 'alt.old-harbor'
   },
   {
-    url: '/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg',
+    url: '/images/old-harbor-in-antalya-kaleici-old-town-turkey-1.jpg',
     altKey: 'alt.old-harbor'
   },
   {
-    url: '/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg',
+    url: '/images/hadrians-gate-in-antalya-kaleici-old-town-turkey-1.jpg',
     altKey: 'alt.old-harbor'
   }
 ]
@@ -517,7 +517,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Kaleiçi Guide",

@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
       <img
-        src="/images/main-page-carousel-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+        src="/images/main-page-carousel-in-antalya-kaleici-old-town-turkey-1.jpg"
         :alt="$t('alt.old-harbor')"
         class="w-full h-full object-cover"
       />
@@ -33,7 +33,7 @@
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <InteractiveImage
-              src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-7.jpg"
+              src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-7.jpg"
               :alt="$t('alt.old-harbor')"
               class="rounded-lg max-h-[600px] object-cover object-center shadow-lg"
             />
@@ -82,7 +82,7 @@
           >
             <img
               ref="interactiveImage"
-              src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-9.jpg"
+              src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-9.jpg"
               :alt="$t('alt.old-harbor')"
               class="w-full h-full object-cover max-h-[500px] transition-all duration-300 ease-out will-change-transform"
               :style="imageTransform"
@@ -110,7 +110,7 @@
           >
             <div class="h-48 overflow-hidden">
               <img
-                src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+                src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-3.jpg"
                 :alt="$t('alt.old-harbor')"
                 class="w-full h-full object-cover"
               />
@@ -131,7 +131,7 @@
           >
             <div class="h-48 overflow-hidden">
               <img
-                src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+                src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-1.jpg"
                 :alt="$t('alt.old-harbor')"
                 class="w-full h-full object-cover"
               />
@@ -152,7 +152,7 @@
           >
             <div class="h-48 overflow-hidden">
               <img
-                src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+                src="/images/hadrian-gate-in-antalya-kaleici-old-town-turkey-1.jpg"
                 :alt="$t('alt.old-harbor')"
                 class="w-full h-full object-cover"
               />
@@ -209,7 +209,7 @@
       <section class="content-section mb-8">
         <div class="mb-8 rounded-lg overflow-hidden shadow-lg">
           <InteractiveImage
-            src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-10.jpg"
+            src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-10.jpg"
             :alt="$t('alt.old-harbor')"
             class="w-full h-64 object-cover"
           />
@@ -294,7 +294,7 @@
           <!-- Image block -->
           <div class="relative h-full">
             <InteractiveImage 
-              src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-2.webp"
+              src="/images/hadrians-gate-in-antalya-kaleici-old-town-turkey-2.webp"
               :alt="$t('alt.hadrian-gate')"
               class="w-full h-full object-cover rounded-xl shadow-lg"
             />
@@ -338,7 +338,7 @@
           <!-- Image block -->
           <div class="relative h-full">
             <InteractiveImage
-              src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
+              src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-6.jpg"
               :alt="$t('alt.old-harbor')"
               class="w-full object-cover max-h-[800px] rounded-xl shadow-lg"
             />
@@ -392,7 +392,7 @@
           <!-- Image block -->
           <div class="relative h-full">
             <InteractiveImage
-              src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
+              src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-4.jpg"
               :alt="$t('alt.old-harbor')"
               class="w-full h-full object-cover max-h-[700px] rounded-xl shadow-lg"
             />
@@ -551,7 +551,7 @@
               {{ $t('oldHarbor.oldHarbor.sectionGettingThereTitle') }}
             </h2>
             <InteractiveImage
-              src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+              src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-3.jpg"
               class="rounded-xl"
               :alt="$t('alt.old-harbor')"
             />
@@ -677,7 +677,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "TouristAttraction",
         "name": "Old Harbor",

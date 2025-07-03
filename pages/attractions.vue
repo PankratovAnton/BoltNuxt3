@@ -4,7 +4,7 @@
     <div class="relative h-[500px] overflow-hidden">
       <div
         class="absolute inset-0 bg-fixed"
-        style="background-image: url('/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg'); background-size: cover; background-position: center; transform: translateY(var(--parallax-offset, 0));"
+        style="background-image: url('/images/hadrians-gate-in-antalya-kaleici-old-town-turkey-3.jpg'); background-size: cover; background-position: center; transform: translateY(var(--parallax-offset, 0));"
         ref="parallaxBg"
       ></div>
       <div class="absolute inset-0 bg-gradient-to-r from-black/50 to-black/30"></div>
@@ -33,7 +33,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+                src="/images/hadrian-gate-in-antalya-kaleici-old-town-turkey-1.jpg"
                 :alt="$t('alt.hadrian-gate')"
                 class="w-full h-full object-cover"
               />
@@ -56,7 +56,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
+                src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-6.jpg"
                 :alt="$t('alt.streets')"
                 class="w-full h-full object-cover"
               />
@@ -79,7 +79,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+                src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-1.jpg"
                 :alt="$t('alt.karaalioglu-park')"
                 class="w-full h-full object-cover"
               />
@@ -123,7 +123,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+                src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-3.jpg"
                 :alt="$t('alt.traditional-bazaar')"
                 class="w-full h-full object-cover"
               />
@@ -145,7 +145,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+                src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-1.jpg"
                 :alt="$t('alt.streets')"
                 class="w-full h-full object-cover"
               />
@@ -225,7 +225,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Attractions in Kaleiçi",

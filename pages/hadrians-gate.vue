@@ -2,7 +2,7 @@
   <article class="attraction-page">
     <!-- Hero Section -->
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
-      <img src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover">
+      <img src="/images/hadrians-gate-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover">
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
       <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
         <div class="container mx-auto">
@@ -27,7 +27,7 @@
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <InteractiveImage
-              src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+              src="/images/hadrians-gate-in-antalya-kaleici-old-town-turkey-3.jpg"
               :alt="$t('alt.hadrian-gate')"
               class="rounded-lg shadow-lg"
             />
@@ -94,7 +94,7 @@
     <!-- Old Harbor -->
     <NuxtLink :to="localePath('/old-harbor')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover">
+        <img src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-6.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover">
       </div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.oldHarbor.title') }}</h3>
@@ -104,7 +104,7 @@
     <!-- Authentic Streets -->
     <NuxtLink :to="localePath('/authentic-streets')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover" />
+        <img src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover" />
       </div>
       <div class="p-5">
         <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
@@ -118,7 +118,7 @@
     <!-- Hıdırlık Tower -->
     <NuxtLink :to="localePath('/hidirlik-tower')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/hidirlik-tower-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover" />
+        <img src="/images/hidirlik-tower-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.hadrian-gate')" class="w-full h-full object-cover" />
       </div>
       <div class="p-5">
         <h3 class="text-xl text-center font-semibold text-kaleici-800 mb-2">
@@ -249,7 +249,7 @@
           <!-- Image block -->
           <div class="relative h-full">
             <InteractiveImage 
-              src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-2.webp"
+              src="/images/hadrians-gate-in-antalya-kaleici-old-town-turkey-2.webp"
               :alt="$t('alt.hadrian-gate')"
               class="w-full h-full object-cover rounded-xl shadow-lg"
             />
@@ -263,7 +263,7 @@
           <div class="flex flex-col justify-between space-y-8 h-full">
             <h2 class="text-3xl font-sans text-center font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text6') }}</h2>
             <InteractiveImage 
-              src="/images/hadrians-gate-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
+              src="/images/hadrians-gate-in-antalya-kaleici-old-town-turkey-4.jpg"
               :alt="$t('alt.hadrian-gate')"
             />
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564.1336697113363!2d30.708982505630104!3d36.885038351263354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39127a10a816b%3A0xb3281b73313e753a!2z0JLQvtGA0L7RgtCwINCQ0LTRgNC40LDQvdCw!5e0!3m2!1sru!2str!4v1749070044496!5m2!1sru!2str" 
@@ -428,7 +428,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "TouristAttraction",
         "name": "Hadrian's Gate",

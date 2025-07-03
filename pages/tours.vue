@@ -59,7 +59,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
+                src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-6.jpg"
                 :alt="$t('alt.streets')"
                 class="w-full h-full object-cover"
               />
@@ -82,7 +82,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+                src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-1.jpg"
                 :alt="$t('alt.karaalioglu-park')"
                 class="w-full h-full object-cover"
               />
@@ -177,7 +177,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/traditional-bazaar-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+                src="/images/traditional-bazaar-in-antalya-kaleici-old-town-turkey-3.jpg"
                 :alt="$t('alt.traditional-bazaar')"
                 class="w-full h-full object-cover"
               />
@@ -199,7 +199,7 @@
           >
             <div class="relative h-64">
               <InteractiveImage
-                src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+                src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-1.jpg"
                 :alt="$t('alt.streets')"
                 class="w-full h-full object-cover"
               />
@@ -258,15 +258,15 @@ const IconMSection = animatedSections[5]
 const isActiveSlide = ref({})
 const heroImages = [
   {
-    url: '/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-9.jpg',
+    url: '/images/street-scenes-in-antalya-kaleici-old-town-turkey-9.jpg',
     altKey: 'alt.streets'
   },
   {
-    url: '/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg',
+    url: '/images/old-harbor-in-antalya-kaleici-old-town-turkey-3.jpg',
     altKey: 'alt.old-harbor'
   },
   {
-    url: '/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-10.jpg',
+    url: '/images/old-harbor-in-antalya-kaleici-old-town-turkey-10.jpg',
     altKey: 'alt.old-harbor'
   }
 ]
@@ -341,7 +341,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Service",
         "serviceType": "Tours & Guides",

@@ -2,7 +2,7 @@
   <article class="attraction-page">
     <!-- Hero Section -->
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
-      <img src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover">
+      <img src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover">
       <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
       <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
         <div class="container mx-auto">
@@ -27,7 +27,7 @@
         <div class="mx-auto">
           <div>
             <InteractiveImage
-              src="/images/karaalioglu-park-hand-sculpture-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
+              src="/images/karaalioglu-park-hand-sculpture-in-antalya-kaleici-old-town-turkey-4.jpg"
               :alt="$t('alt.karaalioglu-park')"
               class="float-left mr-8 mb-4 rounded-lg shadow-lg max-w-[640px] min-w-[420px] h-[400] md:w-4/5"
             />
@@ -68,7 +68,7 @@
           >
             <img
               ref="interactiveImage"
-              src="/images/karaalioglu-park-panorama-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg"
+              src="/images/karaalioglu-park-panorama-in-antalya-kaleici-old-town-turkey-5.jpg"
               :alt="$t('alt.karaalioglu-park')"
               class="w-full max-w-[800px] h-[500px] object-cover transition-all duration-300 ease-out will-change-transform"
               :style="imageTransform"
@@ -99,7 +99,7 @@
     <!-- Authentic Streets -->
     <NuxtLink :to="localePath('/authentic-streets')" class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover" />
+        <img src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover" />
       </div>
       <div class="p-5">
         <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-2">
@@ -113,7 +113,7 @@
     <!-- Hadrian's Gate -->
     <NuxtLink :to="localePath('/hadrians-gate')" class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300">
       <div class="h-48 overflow-hidden">
-        <img src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover">
+        <img src="/images/hadrian-gate-in-antalya-kaleici-old-town-turkey-1.jpg" :alt="$t('alt.karaalioglu-park')" class="w-full h-full object-cover">
       </div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-center text-kaleici-800 mb-3">{{ $t('nearbyAttractions.hadriansGate.title') }}</h3>
@@ -130,7 +130,7 @@
           <div class="grid md:grid-cols-2 gap-8">
             <div class="relative h-full">
               <InteractiveImage 
-                src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-6.webp"
+                src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-6.webp"
                 :alt="$t('alt.karaalioglu-park')"
                 class=" w-full max-w-[800px] h-[850px] object-cover transition-all duration-300 ease-out will-change-transform rounded-xl shadow-lg"
               />
@@ -184,7 +184,7 @@
           </div>
           <div class="relative h-full">
             <InteractiveImage
-              src="/images/karaalioglu-park-cat-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+              src="/images/karaalioglu-park-cat-in-antalya-kaleici-old-town-turkey-3.jpg"
               :alt="$t('alt.karaalioglu-park')"
               class="w-full h-full object-cover max-h-[700px] rounded-xl shadow-lg"
             />
@@ -282,7 +282,7 @@
           <!-- Image block -->
           <div class="relative h-full">
             <InteractiveImage
-              src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-4.jpg"
+              src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-4.jpg"
               :alt="$t('alt.karaalioglu-park')"
               class="w-full h-full object-cover max-h-[700px] rounded-xl shadow-lg"
             />
@@ -361,7 +361,7 @@
           <div class="flex flex-col justify-between space-y-8 h-full">
             <h2 class="text-3xl font-bold text-kaleici-800 mb-6">{{ $t('hadriansGate.h2Text6') }}</h2>
             <InteractiveImage
-              src="/images/karaalioglu-park-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+              src="/images/karaalioglu-park-in-antalya-kaleici-old-town-turkey-1.jpg"
               :alt="$t('alt.karaalioglu-park')"
               class="rounded-xl"
             />
@@ -479,7 +479,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "TouristAttraction",
         "name": "Karaalioglu Park",

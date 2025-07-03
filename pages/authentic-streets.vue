@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section class="hero relative h-[60vh] min-h-[400px] overflow-hidden">
       <img
-        src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-5.jpg"
+        src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-5.jpg"
         :alt="$t('alt.streets')"
         class="w-full h-full object-cover"
       />
@@ -33,7 +33,7 @@
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <InteractiveImage
-              src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-6.jpg"
+              src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-6.jpg"
               :alt="$t('alt.streets')"
               class="rounded-lg max-h-[800px] full-h object-cover object-center shadow-lg"
             />
@@ -138,7 +138,7 @@
           <!-- Image block -->
           <div class="relative h-full">
             <InteractiveImage
-              src="/images/street-scenes-in-Antalya-Kaleici-Old-Town-Turkey-8.jpg"
+              src="/images/street-scenes-in-antalya-kaleici-old-town-turkey-8.jpg"
               :alt="$t('alt.old-harbor')"
               class="w-full object-cover max-h-[1000px] rounded-xl shadow-lg"
             />
@@ -166,7 +166,7 @@
           >
             <div class="h-48 overflow-hidden">
               <img
-                src="/images/old-harbor-in-Antalya-Kaleici-Old-Town-Turkey-3.jpg"
+                src="/images/old-harbor-in-antalya-kaleici-old-town-turkey-3.jpg"
                 :alt="$t('alt.old-harbor')"
                 class="w-full h-full object-cover"
               />
@@ -208,7 +208,7 @@
           >
             <div class="h-48 overflow-hidden">
               <img
-                src="/images/hadrian-gate-in-Antalya-Kaleici-Old-Town-Turkey-1.jpg"
+                src="/images/hadrian-gate-in-antalya-kaleici-old-town-turkey-1.jpg"
                 :alt="$t('alt.old-harbor')"
                 class="w-full h-full object-cover"
               />
@@ -334,7 +334,7 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
+      children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "TouristAttraction",
         "name": "Authentic Streets of Kaleiçi",
